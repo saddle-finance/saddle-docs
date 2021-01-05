@@ -77,10 +77,6 @@ and [Open Zeppelin](https://openzeppelin.com/). Read the audits
 are doing a [guarded launch](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a)
 called Proof of Governance.
 
-## The Saddle Team
-
-TODO
-
 ## Keeping up with Saddle
 
 Find us on [Discord](https://discord.gg/hX8RZFBW9R),
