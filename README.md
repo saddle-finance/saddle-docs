@@ -1,13 +1,11 @@
-# About Saddle
-
-## Saddle 101
+# Introduction to Saddle
 
 Saddle is an automated market maker (AMM) designed to enable efficient trading
 between pegged value crypto assets. Saddle is launching with a tokenized
-bitcoin pool, allowing users to trade between and provide liquidity for renBTC,
+bitcoin pool, allowing users to trade between and provide liquidity for tBTC,
 WBTC, sBTC, and renBTC.
 
-Saddle is being spun out of Thesis, the crypto venture studio behind projects
+Saddle recently spun out of Thesis, the crypto venture studio behind projects
 like [tBTC](https://tbtc.network/), [Keep](https://keep.network/), and
 [Fold](https://foldapp.com/).
 
@@ -15,9 +13,19 @@ like [tBTC](https://tbtc.network/), [Keep](https://keep.network/), and
 
 ### What are pegged value crypto assets?
 
-Pegged value crypto assets retain the same value relative to one another
-regardless of market conditions. Some examples include tokenized bitcoin,
-tokenized ether, and stablecoins.
+Pegged value crypto assets are tokens that have their value pegged to an
+underlying asset by some means. For example, the value of a stablecoin or
+tokenized bitcoin is supposed to be $1 or 1 BTC, respectively.
+
+However, pegged value crypto assets fix this value using different mechanisms.
+Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically (in
+this case, via collateralization of SNX). Other assets maintain their peg by
+being backed by and redeemable for the actual underlying asset, either
+permissionlessly (e.g. tBTC) or through a centralized custodian (e.g. WBTC,
+USDC).
+
+These different approaches and the associated risks are why the prices of pegged
+value crypto assets of the same type can vary slightly.
 
 ### What’s the issue with pegged value crypto assets?
 

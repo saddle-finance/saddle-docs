@@ -1,10 +1,10 @@
-# Saddle FAQ
+# FAQ
 
-## Answers to your questions about AMMs, tokenized bitcoin, the Saddle app, and more.
+Answers to your questions about AMMs, tokenized bitcoin, the Saddle app, and more.
 
 Still have questions? [Join our Discord.](https://discord.gg/hX8RZFBW9R)
 
----
+## Questions
 
 ### What is Saddle?
 
@@ -31,7 +31,7 @@ However, pegged value crypto assets fix this value using different mechanisms.
 Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically (in
 this case, via collateralization of SNX). Other assets maintain their peg by
 being backed by and redeemable for the actual underlying asset, either
-permissionlessly (e.g. tBTC, DAI) or through a centralized custodian (eg WBTC,
+permissionlessly (e.g. tBTC) or through a centralized custodian (e.g. WBTC,
 USDC).
 
 These different approaches and the associated risks are why the prices of pegged
@@ -68,10 +68,14 @@ participation in one of the following ways:
 
 - On-chain voting or delegation (MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO)
 - Off-chain voting on [Snapshot](https://snapshot.page/) (all protocols)
-- Staking SNX and minting sUSD
+- Staking SNX and minting sUSD (>$20)
 
-A full list of eligible addresses is available here. PoG is temporary and will
-be phased out in the future.
+The cutoff date for all activity is October 1st, 2020, with the exception of
+UNI, which is January 1st, 2021.
+
+A full list of eligible addresses is available
+[here](https://github.com/saddle-finance/saddle-allowlist-addresses). PoG is
+temporary and will be phased out in the future.
 
 We are implementing this guarded launch to establish a more controlled
 environment that will allow us to ensure a stable launch and remain responsible
