@@ -1,94 +1,45 @@
-# Introduction to Saddle
+# 关于Saddle
 
-Saddle is an automated market maker (AMM) designed to enable efficient trading
-between pegged value crypto assets. Saddle is launching with a tokenized
-bitcoin pool, allowing users to trade between and provide liquidity for tBTC,
-WBTC, sBTC, and renBTC.
+Saddle是一个自动做市商（AMM），旨在实现固定价值加密资产之间的高效交易。Saddle上线的同时也推出了代币化比特币矿池，使其用户能在renBTC、WBTC、sBTC、和renBTC之间进行交易并提供流动性。
 
-Saddle recently spun out of Thesis, the crypto venture studio behind projects
-like [tBTC](https://tbtc.network/), [Keep](https://keep.network/), and
-[Fold](https://foldapp.com/).
+Saddle是从[Thesis](https://thesis.co/)分拆出来之子公司，而母公司Thesis则是[tBTC](https://tbtc.network/)、[Keep](https://keep.network/)和[Fold](https://foldapp.com/)等项目背后的加密风险投资公司。
 
-## Understanding pegged value crypto assets
+## 了解固定价值加密资产
 
-### What are pegged value crypto assets?
+### 什么是固定价值加密资产？
 
-Pegged value crypto assets are tokens that have their value pegged to an
-underlying asset by some means. For example, the value of a stablecoin or
-tokenized bitcoin is supposed to be $1 or 1 BTC, respectively.
+固定价值加密资产是指透过某种方式，将其价值与一基础资产挂钩。以稳定币或代币化比特币为例，这些货币的价值永远都分别是1美元。
 
-However, pegged value crypto assets fix this value using different mechanisms.
-Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically (in
-this case, via collateralization of SNX). Other assets maintain their peg by
-being backed by and redeemable for the actual underlying asset, either
-permissionlessly (e.g. tBTC) or through a centralized custodian (e.g. WBTC,
-USDC).
+目前固定价值加密资产能透过不同的机制来将其价值固定，某些资产，例如sBTC或sUSD，是运用综合的的方式来维持他们的挂钩（此例是透过抵押SNX）。还有一些资产则是透过实际基础资产的支持和可赎性，来维持其挂钩，而这个机制亦或不需要许可（例如tBTC），亦或需经过集中保管人（例如WBTC、USDC）。
 
-These different approaches and the associated risks are why the prices of pegged
-value crypto assets of the same type can vary slightly.
+这些不同的方式和相关的风险是为什么同一类型的固定价值加密资产会有轻微的价格波动。
 
-### What’s the issue with pegged value crypto assets?
+### 固定价值加密资产有什么问题？
 
-Trading among and in between these types of assets can be expensive and
-inefficient, resulting in lost capital due to high slippage and transaction
-fees.
+此类的资产交易可能成本高昂且效率低下，最后因为高滑点和交易手续费而导致资本损失。
 
-### How does Saddle solve it?
+### Saddle如何解决该问题？
 
-Saddle solves the pegged value crypto asset trading problem by offering an AMM
-specifically tailored to allow users to trade in between these assets with
-minimal slippage.
+为解决固定价值加密资产间交易的问题，Saddle对此提供一款经过专门设计改良的AMM，让用户能以最小滑点在这些资产之间进行交易。
 
-## Saddle’s Solution
+## Saddle的解决方案
 
-### Bitcoin as a First-class Citizen
+### 比特币为一等公民
 
-Bitcoin is the largest cryptocurrency by market capitalization, and the amount
-of tokenized BTC on Ethereum has been exploding - the supply has increased
-[~135X in 2020](https://btconethereum.com/). Despite this growth, tokenized
-BTC is often not a priority when it comes to features and support. We believe
-bitcoin deserves to be treated as a first-class citizen in DeFi.
+比特币是市值最大的加密货币，且以太坊（Ethereum）上代币化比特币的数量仍持续呈爆炸式的增长—2020年的供应量已增加了高达[135](https://btconethereum.com/)倍。但尽管如此，代币化比特币在功能与支持方面通常不会被优先考虑。我们深信比特币应被视为DeFi中的一等公民。
 
-### Virtual Synth Support
+### Virtual Synth功能支持
 
-Virtual Synths are a new Synthetix feature introduced in
-[SIP-89](https://sips.synthetix.io/sips/sip-89). SNX founder Kain Warwick
-provides a great overview of their potential in his post "[Virtual Synths and
-where to find them](https://blog.synthetix.io/virtual-synths/)". In short,
-Virtual Synths will enable large, low slippage trades between any asset
-supported by Saddle. We are actively working on this integration and will have
-more details to share in the near future. Virtual Synths are the key to
-achieving our mission of unlocking deep on-chain liquidity between pegged value
-crypto assets, and we aim to become the premier on/off-ramp for the Synthetix
-ecosystem.
+Virtual Synths是[SIP-89](https://sips.synthetix.io/sips/sip-89)所引入的一个Synthetix新特性。在“[关于Virtual Synths以及何处寻找他们](https://blog.synthetix.io/virtual-synths/)”一文中，SNX创始人Kain Warwick完整的概述了其潜在的发展。简而言之，Virtual Synths能够使Saddle平台上的任何资产实现大型、低滑点的交易。我们正积极的进行此项整合，并会在不久的将来分享更多相关细节。Virtual Synths是开启固定价值加密资产之间深层链上流动性的关键，而我们的目标是成为Synthetix生态系统的首要出入通道。
 
-### Incentivized LP Retention
+### 奖励机制留住LP
 
-DeFi protocols are still iterating on how to properly incentivize and retain
-liquidity providers (LPs). One common approach has been to add a fixed
-percentage fee to withdrawals (e.g. Yearn Vaults). However, this mechanism
-doesn’t reward long-term liquidity providers. Saddle fixes this by
-implementing a configurable withdrawal fee that linearly decays to 0 over one
-month. This fee will be disabled at launch until further notice. We are
-presently working on several other ways to incentivize LPs, stay tuned!
+DeFi协议仍在不停探讨如何适当的激励及留住流动性提供者（LPs）。其中一种常见的机制是取款时的固定百分比费用（例如Yearn Vaults）。但是这种机制无法奖励长期的流动性提供者。为解决此问题，Saddle重新配置了取款费用，使该费用在一个月内减少至0。在另行通知前，此费用将于上线后暂时取消。我们现正努力研商更多其他的方式来激励LP，敬请保持关注！
 
-### Security
+### 安全性
 
-The security of user funds is our top priority. Saddle is built on [our new
-Solidity implementation](https://github.com/saddle-finance/saddle-contract) of
-the [StableSwap](https://www.curve.fi/stableswap-paper.pdf) algorithm.
-Deploying new code that deals with money requires extra care and scrutiny,
-which is why we conducted three back-to-back smart contract audits with
-[Certik](https://certik.foundation/), [Quantstamp](https://quantstamp.com/),
-and [Open Zeppelin](https://openzeppelin.com/). Read the audits
-[here](https://github.com/saddle-finance/saddle-audits). This is also why we
-are doing a [guarded launch](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a)
-called Proof of Governance.
+保障用户资金的安全性是我们的首要之务。Saddle[运用Solidity](https://github.com/saddle-finance/saddle-contract)来实现[StableSwap](https://www.curve.fi/stableswap-paper.pdf)算法。使用任何涉及资金的代码皆需要格外的谨慎和详尽的审查，这也是为什么我们透过[Certik](https://certik.foundation/)、[Quantstamp](https://quantstamp.com/)、和[Open Zeppelin](https://openzeppelin.com/)，连续进行了三次智能合约审计。[点击这里阅读审计报告](https://github.com/saddle-finance/saddle-audits)。除此之外，我们还执行了名为“治理证明”（Proof of Governance）的[受保护启动](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a)，下面将有更多细节。
 
-## Keeping up with Saddle
+## 关注Saddle最新消息
 
-Find us on [Discord](https://discord.gg/hX8RZFBW9R),
-[Twitter](https://twitter.com/saddlefinance),
-[Telegram](https://t.me/saddle_finance),
-[Github](https://github.com/saddle-finance), and
-[Medium](https://medium.com/saddle).
+请到[Discord](https://discord.gg/hX8RZFBW9R)、[Twitter](https://twitter.com/saddlefinance)、[Telegram](https://t.me/saddle_finance)、[Github](https://github.com/saddle-finance)、和[Medium](https://medium.com/saddle)上关注我们。

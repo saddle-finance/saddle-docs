@@ -21,10 +21,5 @@
   "homepage": "https://docs.saddle.community",
   "devDependencies": {
     "husky": "^4.3.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:fix"
-    }
   }
 }
