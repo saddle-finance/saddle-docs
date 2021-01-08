@@ -139,9 +139,11 @@ falls to 0bps over the course of a month after you first provide liquidity.
 
 Saddle is built by DeFi natives with prior years of developer experience at
 Web2 companies like Uber, Amazon, and Square. You might have interacted with
-our founder Sunil (aka [devops199fan](https://twitter.com/devops199fan)) in the
-YFI community (he’s a multisig signer), or used tools created by members of our
-team, like [yieldfarming.info](https://yieldfarming.info/) by John (aka
+our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka
+[devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a
+multisig signer), or used tools created by members of our team, like
+[yieldfarming.info](https://yieldfarming.info/) by
+[John](https://www.linkedin.com/in/jongseunglim/) (aka
 [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)).
 
 ### Is Saddle safe?
