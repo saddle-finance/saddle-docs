@@ -1,4 +1,4 @@
-# Introduction to Saddle
+# About Saddle
 
 Saddle is an automated market maker (AMM) designed to enable efficient trading
 between pegged value crypto assets. Saddle is launching with a tokenized
