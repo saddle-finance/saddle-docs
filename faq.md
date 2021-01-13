@@ -151,6 +151,23 @@ multisig signer), or used tools created by members of our team, like
 Saddle has been audited by Certik, Quantstamp, and Open Zeppelin. Read the
 audits [here](https://github.com/saddle-finance/saddle-audits).
 
+### Who controls Saddle's admin keys?
+
+Saddle's admin keys are controlled by a [3/5 Gnosis Safe multisig](https://etherscan.io/address/0x3F8E527aF4e0c6e763e8f368AC679c44C45626aE).
+The signers are Mariano Conti, Kain Warwick, DegenSpartan, Klim K, and Damir
+Bandalo. This multisig has capabilities to pause new deposits and trades in
+case of technical emergencies. Users will always be able to withdraw their
+funds regardless of new deposits being paused. The multisig can also change the
+swap/withdrawal fees and the per pool/account deposit limits.
+
+| Name                                              | ENS               | Address                                    |
+| ------------------------------------------------- | ----------------- | ------------------------------------------ |
+| [Mariano Conti](https://twitter.com/nanexcool)    |                   | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
+| [Kain Warwick](https://twitter.com/kaiynne)       | Kain.eth          | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
+| [DegenSpartan](https://twitter.com/DegenSpartan)  | degenspartan.eth  | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
+| [Klim K](https://twitter.com/milkyklim)           | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
+| [Damir Bandalo](https://twitter.com/damirbandalo) |                   | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
+
 ### How can I keep up with Saddle?
 
 [Discord](https://discord.gg/hX8RZFBW9R)!
