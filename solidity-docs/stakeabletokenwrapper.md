@@ -1,68 +1,66 @@
-# StakeableTokenWrapper
+A wrapper for an ERC-20 that can be staked and withdrawn.
 
-In this contract, staked tokens don't do anything- instead other contracts can inherit from this one to add functionality. / c
+In this contract, staked tokens don't do anything- instead other
+contracts can inherit from this one to add functionality.
+/
+c
 
-## Functions:
+# Functions:
 
-* [`constructor(contract IERC20 _stakedToken)`](stakeabletokenwrapper.md#StakeableTokenWrapper-constructor-contract-IERC20-)
-* [`balanceOf(address account)`](stakeabletokenwrapper.md#StakeableTokenWrapper-balanceOf-address-)
-* [`stake(uint256 amount)`](stakeabletokenwrapper.md#StakeableTokenWrapper-stake-uint256-)
-* [`withdraw(uint256 amount)`](stakeabletokenwrapper.md#StakeableTokenWrapper-withdraw-uint256-)
+- [`constructor(contract IERC20 _stakedToken)`](#StakeableTokenWrapper-constructor-contract-IERC20-)
+- [`balanceOf(address account)`](#StakeableTokenWrapper-balanceOf-address-)
+- [`stake(uint256 amount)`](#StakeableTokenWrapper-stake-uint256-)
+- [`withdraw(uint256 amount)`](#StakeableTokenWrapper-withdraw-uint256-)
 
-## Events:
+# Events:
 
-* [`Staked(address user, uint256 amount)`](stakeabletokenwrapper.md#StakeableTokenWrapper-Staked-address-uint256-)
-* [`Withdrawn(address user, uint256 amount)`](stakeabletokenwrapper.md#StakeableTokenWrapper-Withdrawn-address-uint256-)
+- [`Staked(address user, uint256 amount)`](#StakeableTokenWrapper-Staked-address-uint256-)
+- [`Withdrawn(address user, uint256 amount)`](#StakeableTokenWrapper-Withdrawn-address-uint256-)
 
-## Function `constructor(contract IERC20 _stakedToken)` <a id="StakeableTokenWrapper-constructor-contract-IERC20-"></a>
+# Function `constructor(contract IERC20 _stakedToken)` {#StakeableTokenWrapper-constructor-contract-IERC20-}
 
-No description
+Creates a new StakeableTokenWrapper with given `_stakedToken` address
 
-### Parameters:
+## Parameters:
 
-* `_stakedToken`: address of a token that will be used to stake
-
+- `_stakedToken`: address of a token that will be used to stake
   /
 
-## Function `balanceOf(address account) → uint256` <a id="StakeableTokenWrapper-balanceOf-address-"></a>
+# Function `balanceOf(address account) → uint256` {#StakeableTokenWrapper-balanceOf-address-}
 
-No description
+Read how much `account` has staked in this contract
 
-### Parameters:
+## Parameters:
 
-* `account`: address of an account
+- `account`: address of an account
 
-### Return Values:
+## Return Values:
 
-* amount of total staked ERC20\(this.stakedToken\) by `account`
-
+- amount of total staked ERC20(this.stakedToken) by `account`
   /
 
-## Function `stake(uint256 amount)` <a id="StakeableTokenWrapper-stake-uint256-"></a>
+# Function `stake(uint256 amount)` {#StakeableTokenWrapper-stake-uint256-}
 
-No description
+Stakes given `amount` in this contract
 
-### Parameters:
+## Parameters:
 
-* `amount`: amount of ERC20\(this.stakedToken\) to stake
-
+- `amount`: amount of ERC20(this.stakedToken) to stake
   /
 
-## Function `withdraw(uint256 amount)` <a id="StakeableTokenWrapper-withdraw-uint256-"></a>
+# Function `withdraw(uint256 amount)` {#StakeableTokenWrapper-withdraw-uint256-}
 
-No description
+Withdraws given `amount` from this contract
 
-### Parameters:
+## Parameters:
 
-* `amount`: amount of ERC20\(this.stakedToken\) to withdraw
-
+- `amount`: amount of ERC20(this.stakedToken) to withdraw
   /
 
-## Event `Staked(address user, uint256 amount)` <a id="StakeableTokenWrapper-Staked-address-uint256-"></a>
+# Event `Staked(address user, uint256 amount)` {#StakeableTokenWrapper-Staked-address-uint256-}
 
 No description
 
-## Event `Withdrawn(address user, uint256 amount)` <a id="StakeableTokenWrapper-Withdrawn-address-uint256-"></a>
+# Event `Withdrawn(address user, uint256 amount)` {#StakeableTokenWrapper-Withdrawn-address-uint256-}
 
 No description
-

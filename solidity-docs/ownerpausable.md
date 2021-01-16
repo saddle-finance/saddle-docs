@@ -1,17 +1,17 @@
-# OwnerPausable
+An ownable contract allows the owner to pause and unpause the
+contract without a delay.
 
 Only methods using the provided modifiers will be paused.
 
-## Functions:
+# Functions:
 
-* [`pause()`](ownerpausable.md#OwnerPausable-pause--)
-* [`unpause()`](ownerpausable.md#OwnerPausable-unpause--)
+- [`pause()`](#OwnerPausable-pause--)
+- [`unpause()`](#OwnerPausable-unpause--)
 
-## Function `pause()` <a id="OwnerPausable-pause--"></a>
+# Function `pause()` {#OwnerPausable-pause--}
 
-No description
+Pause the contract. Revert if already paused.
 
-## Function `unpause()` <a id="OwnerPausable-unpause--"></a>
+# Function `unpause()` {#OwnerPausable-unpause--}
 
-No description
-
+Unpause the contract. Revert if already unpaused.
