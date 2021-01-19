@@ -2,6 +2,7 @@
 
 - [About Saddle](README.md)
 - [FAQ](faq.md)
+- [Contract Addresses](contracts.md)
 - [Solidity Docs](solidity-docs/README.md)
   - [StakeableTokenWrapper](solidity-docs/stakeabletokenwrapper.md)
   - [MathUtils](solidity-docs/mathutils.md)
