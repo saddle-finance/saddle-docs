@@ -38,7 +38,7 @@ DeFi protocols are still iterating on how to properly incentivize and retain liq
 
 ### Security
 
-The security of user funds is our top priority. Saddle is built on [our new Solidity implementation](https://github.com/saddle-finance/saddle-contract) of the [StableSwap](https://www.curve.fi/stableswap-paper.pdf) algorithm. Deploying new code that deals with money requires extra care and scrutiny, which is why we conducted three back-to-back smart contract audits with [Certik](https://certik.foundation/), [Quantstamp](https://quantstamp.com/), and [Open Zeppelin](https://openzeppelin.com/). Read the audits [here](https://github.com/saddle-finance/saddle-audits). This is also why we are doing a [guarded launch](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a) called Proof of Governance.
+The security of user funds is our top priority. Saddle is built on [our new Solidity implementation](https://github.com/saddle-finance/saddle-contract) of the [StableSwap](https://www.curve.fi/stableswap-paper.pdf) algorithm. Deploying new code that deals with money requires extra care and scrutiny, which is why we conducted three back-to-back smart contract audits with [Certik](https://certik.foundation/), [Quantstamp](https://quantstamp.com/), and [OpenZeppelin](https://openzeppelin.com/). Read the audits [here](https://github.com/saddle-finance/saddle-audits). This is also why we are doing a [guarded launch](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a) called Proof of Governance.
 
 ## Keeping up with Saddle
 

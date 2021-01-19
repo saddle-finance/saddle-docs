@@ -90,7 +90,7 @@ Saddle is built by DeFi natives with prior years of developer experience at Web2
 
 ### Is Saddle safe?
 
-Saddle has been audited by Certik, Quantstamp, and Open Zeppelin. Read the audits [here](https://github.com/saddle-finance/saddle-audits).
+Saddle has been audited by Certik, Quantstamp, and OpenZeppelin. Read the audits [here](https://github.com/saddle-finance/saddle-audits).
 
 ### Who controls Saddle's admin keys?
 
