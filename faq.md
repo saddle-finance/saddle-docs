@@ -68,7 +68,7 @@ Head to the [Saddle App](https://saddle.exchange) and start using it now!
 
 ### What are Saddle’s liquidity provider rewards?
 
-The Keep Network team has committed 125,000 KEEP a week as reward incentives for liquidity providers. At the TVL cap, that means LPs will be earning up to ~30% APY on their deposits! [Learn more](https://keep.network/) about the Keep network, KEEP, and your opportunities to stake KEEP for additional APY.
+The Keep Network team has committed 250,000 KEEP a week as reward incentives for liquidity providers. At the TVL cap, that means LPs will be earning up to ~30% APY on their deposits! [Learn more](https://keep.network/) about the Keep network, KEEP, and your opportunities to stake KEEP for additional APY.
 
 ### What is tBTC?
 
