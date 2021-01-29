@@ -67,7 +67,7 @@ Saddle的启动使用了名为治理证明（PoG）的受保护启动。若您�
 
 ### Saddle的流动性提供者可获得什么奖励？
 
-Keep Network团队已承诺每周提供125,000 KEEP作为流动性提供者的奖赏。这意味着若达到TVL上限，LP能获得高达~30%的年度百分比收益率（APY）！[点击这里](https://keep.network/)了解更多关于Keep Network、KEEP、和抵押KEEP以增加APY的机会。
+Keep Network团队已承诺每周提供250,000 KEEP作为流动性提供者的奖赏。这意味着若达到TVL上限，LP能获得高达~30%的年度百分比收益率（APY）！[点击这里](https://keep.network/)了解更多关于Keep Network、KEEP、和抵押KEEP以增加APY的机会。
 
 ### 什么是tBTC？
 
