@@ -22,6 +22,16 @@ However, pegged value crypto assets fix this value using different mechanisms. S
 
 These different approaches and the associated risks are why the prices of pegged value crypto assets of the same type can vary slightly.
 
+### What is price impact?
+
+Price impact is the difference between the current market price and estimated execution price due to order size.
+
+### What is max slippage?
+
+Max slippage is the maximum percentage the execution price can change unfavorably by, if exceeded your transaction will revert.
+
+Slippage occurs when other trades change the price during the window between when your transaction is submitted and actually executed.
+
 ### Why is Saddle launching with tokenized bitcoin?
 
 Bitcoin is the largest cryptocurrency by market capitalization, and the amount of tokenized BTC on Ethereum has been exploding - the supply has increased ~135X in 2020. Despite this growth, tokenized BTC is often [not a priority](https://github.com/Uniswap/uniswap-interface/pull/1144) when it comes to features and support. We believe bitcoin deserves to be treated as a first-class citizen in DeFi.
