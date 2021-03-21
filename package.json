@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Saddle GitBook docs",
   "dependencies": {
-    "prettier": "^2.1.1"
+    "prettier": "^2.2.1"
   },
   "scripts": {
     "lint": "prettier --list-different '**/*.md'",
     "lint:fix": "prettier --write '**/*.md'",
-    "lint:check": "prettier --check **/*.md"
+    "lint:check": "prettier --check **/*.md",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   },
   "homepage": "https://docs.saddle.community",
   "devDependencies": {
-    "husky": "^4.3.0"
+    "husky": "^5.1.3"
   },
   "husky": {
     "hooks": {
