@@ -1,37 +1,37 @@
-A library to be used in conjunction with SafeMath. Contains functions for calculating
-differences between two uint256.
+# MathUtils
 
-# Functions:
+A library to be used in conjunction with SafeMath. Contains functions for calculating differences between two uint256.
 
-- [`within1(uint256 a, uint256 b)`](#MathUtils-within1-uint256-uint256-)
-- [`difference(uint256 a, uint256 b)`](#MathUtils-difference-uint256-uint256-)
+## Functions:
 
-# Function `within1(uint256 a, uint256 b) → bool` {#MathUtils-within1-uint256-uint256-}
+* [`within1(uint256 a, uint256 b)`](mathutils.md#MathUtils-within1-uint256-uint256-)
+* [`difference(uint256 a, uint256 b)`](mathutils.md#MathUtils-difference-uint256-uint256-)
 
-Compares a and b and returns true if the difference between a and b
-is less than 1 or equal to each other.
+## Function `within1(uint256 a, uint256 b) → bool` <a id="MathUtils-within1-uint256-uint256-"></a>
 
-## Parameters:
+Compares a and b and returns true if the difference between a and b is less than 1 or equal to each other.
 
-- `a`: uint256 to compare with
+### Parameters:
 
-- `b`: uint256 to compare with
+* `a`: uint256 to compare with
+* `b`: uint256 to compare with
 
-## Return Values:
+### Return Values:
 
-- True if the difference between a and b is less than 1 or equal,
+* True if the difference between a and b is less than 1 or equal,
+
   otherwise return false
 
-# Function `difference(uint256 a, uint256 b) → uint256` {#MathUtils-difference-uint256-uint256-}
+## Function `difference(uint256 a, uint256 b) → uint256` <a id="MathUtils-difference-uint256-uint256-"></a>
 
 Calculates absolute difference between a and b
 
-## Parameters:
+### Parameters:
 
-- `a`: uint256 to compare with
+* `a`: uint256 to compare with
+* `b`: uint256 to compare with
 
-- `b`: uint256 to compare with
+### Return Values:
 
-## Return Values:
+* Difference between a and b
 
-- Difference between a and b

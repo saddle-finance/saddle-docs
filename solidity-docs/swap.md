@@ -1,480 +1,410 @@
-This contract is responsible for custody of closely pegged assets (eg. group of stablecoins)
-and automatic market making system. Users become an LP (Liquidity Provider) by depositing their tokens
-in desired ratios for an exchange of the pool token that represents their share of the pool.
-Users can burn pool tokens and withdraw their share of token(s).
+# Swap
 
-Each time a swap between the pooled tokens happens, a set fee incurs which effectively gets
-distributed to the LPs.
+This contract is responsible for custody of closely pegged assets \(eg. group of stablecoins\) and automatic market making system. Users become an LP \(Liquidity Provider\) by depositing their tokens in desired ratios for an exchange of the pool token that represents their share of the pool. Users can burn pool tokens and withdraw their share of token\(s\).
 
-In case of emergencies, admin can pause additional deposits, swaps, or single-asset withdraws - which
-stops the ratio of the tokens in the pool from changing.
-Users can always withdraw their tokens via multi-asset withdraws.
+Each time a swap between the pooled tokens happens, a set fee incurs which effectively gets distributed to the LPs.
 
-Most of the logic is stored as a library `SwapUtils` for the sake of reducing contract's
-deployment size.
+In case of emergencies, admin can pause additional deposits, swaps, or single-asset withdraws - which stops the ratio of the tokens in the pool from changing. Users can always withdraw their tokens via multi-asset withdraws.
 
-# Functions:
+Most of the logic is stored as a library `SwapUtils` for the sake of reducing contract's deployment size.
 
-- [`constructor(contract IERC20[] _pooledTokens, uint8[] decimals, string lpTokenName, string lpTokenSymbol, uint256 _a, uint256 _fee, uint256 _adminFee, uint256 _withdrawFee, contract IAllowlist _allowlist)`](#Swap-constructor-contract-IERC20---uint8---string-string-uint256-uint256-uint256-uint256-contract-IAllowlist-)
-- [`getA()`](#Swap-getA--)
-- [`getAPrecise()`](#Swap-getAPrecise--)
-- [`getToken(uint8 index)`](#Swap-getToken-uint8-)
-- [`getTokenIndex(address tokenAddress)`](#Swap-getTokenIndex-address-)
-- [`getAllowlist()`](#Swap-getAllowlist--)
-- [`getDepositTimestamp(address user)`](#Swap-getDepositTimestamp-address-)
-- [`getTokenBalance(uint8 index)`](#Swap-getTokenBalance-uint8-)
-- [`getVirtualPrice()`](#Swap-getVirtualPrice--)
-- [`calculateSwap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx)`](#Swap-calculateSwap-uint8-uint8-uint256-)
-- [`calculateTokenAmount(address account, uint256[] amounts, bool deposit)`](#Swap-calculateTokenAmount-address-uint256---bool-)
-- [`calculateRemoveLiquidity(address account, uint256 amount)`](#Swap-calculateRemoveLiquidity-address-uint256-)
-- [`calculateRemoveLiquidityOneToken(address account, uint256 tokenAmount, uint8 tokenIndex)`](#Swap-calculateRemoveLiquidityOneToken-address-uint256-uint8-)
-- [`calculateCurrentWithdrawFee(address user)`](#Swap-calculateCurrentWithdrawFee-address-)
-- [`getAdminBalance(uint256 index)`](#Swap-getAdminBalance-uint256-)
-- [`swap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx, uint256 minDy, uint256 deadline)`](#Swap-swap-uint8-uint8-uint256-uint256-uint256-)
-- [`addLiquidity(uint256[] amounts, uint256 minToMint, uint256 deadline, bytes32[] merkleProof)`](#Swap-addLiquidity-uint256---uint256-uint256-bytes32---)
-- [`removeLiquidity(uint256 amount, uint256[] minAmounts, uint256 deadline)`](#Swap-removeLiquidity-uint256-uint256---uint256-)
-- [`removeLiquidityOneToken(uint256 tokenAmount, uint8 tokenIndex, uint256 minAmount, uint256 deadline)`](#Swap-removeLiquidityOneToken-uint256-uint8-uint256-uint256-)
-- [`removeLiquidityImbalance(uint256[] amounts, uint256 maxBurnAmount, uint256 deadline)`](#Swap-removeLiquidityImbalance-uint256---uint256-uint256-)
-- [`updateUserWithdrawFee(address recipient, uint256 transferAmount)`](#Swap-updateUserWithdrawFee-address-uint256-)
-- [`withdrawAdminFees()`](#Swap-withdrawAdminFees--)
-- [`setAdminFee(uint256 newAdminFee)`](#Swap-setAdminFee-uint256-)
-- [`setSwapFee(uint256 newSwapFee)`](#Swap-setSwapFee-uint256-)
-- [`setDefaultWithdrawFee(uint256 newWithdrawFee)`](#Swap-setDefaultWithdrawFee-uint256-)
-- [`rampA(uint256 futureA, uint256 futureTime)`](#Swap-rampA-uint256-uint256-)
-- [`stopRampA()`](#Swap-stopRampA--)
-- [`disableGuard()`](#Swap-disableGuard--)
-- [`isGuarded()`](#Swap-isGuarded--)
+## Functions:
 
-# Events:
+* [`constructor(contract IERC20[] _pooledTokens, uint8[] decimals, string lpTokenName, string lpTokenSymbol, uint256 _a, uint256 _fee, uint256 _adminFee, uint256 _withdrawFee, contract IAllowlist _allowlist)`](swap.md#Swap-constructor-contract-IERC20---uint8---string-string-uint256-uint256-uint256-uint256-contract-IAllowlist-)
+* [`getA()`](swap.md#Swap-getA--)
+* [`getAPrecise()`](swap.md#Swap-getAPrecise--)
+* [`getToken(uint8 index)`](swap.md#Swap-getToken-uint8-)
+* [`getTokenIndex(address tokenAddress)`](swap.md#Swap-getTokenIndex-address-)
+* [`getAllowlist()`](swap.md#Swap-getAllowlist--)
+* [`getDepositTimestamp(address user)`](swap.md#Swap-getDepositTimestamp-address-)
+* [`getTokenBalance(uint8 index)`](swap.md#Swap-getTokenBalance-uint8-)
+* [`getVirtualPrice()`](swap.md#Swap-getVirtualPrice--)
+* [`calculateSwap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx)`](swap.md#Swap-calculateSwap-uint8-uint8-uint256-)
+* [`calculateTokenAmount(address account, uint256[] amounts, bool deposit)`](swap.md#Swap-calculateTokenAmount-address-uint256---bool-)
+* [`calculateRemoveLiquidity(address account, uint256 amount)`](swap.md#Swap-calculateRemoveLiquidity-address-uint256-)
+* [`calculateRemoveLiquidityOneToken(address account, uint256 tokenAmount, uint8 tokenIndex)`](swap.md#Swap-calculateRemoveLiquidityOneToken-address-uint256-uint8-)
+* [`calculateCurrentWithdrawFee(address user)`](swap.md#Swap-calculateCurrentWithdrawFee-address-)
+* [`getAdminBalance(uint256 index)`](swap.md#Swap-getAdminBalance-uint256-)
+* [`swap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx, uint256 minDy, uint256 deadline)`](swap.md#Swap-swap-uint8-uint8-uint256-uint256-uint256-)
+* [`addLiquidity(uint256[] amounts, uint256 minToMint, uint256 deadline, bytes32[] merkleProof)`](swap.md#Swap-addLiquidity-uint256---uint256-uint256-bytes32---)
+* [`removeLiquidity(uint256 amount, uint256[] minAmounts, uint256 deadline)`](swap.md#Swap-removeLiquidity-uint256-uint256---uint256-)
+* [`removeLiquidityOneToken(uint256 tokenAmount, uint8 tokenIndex, uint256 minAmount, uint256 deadline)`](swap.md#Swap-removeLiquidityOneToken-uint256-uint8-uint256-uint256-)
+* [`removeLiquidityImbalance(uint256[] amounts, uint256 maxBurnAmount, uint256 deadline)`](swap.md#Swap-removeLiquidityImbalance-uint256---uint256-uint256-)
+* [`updateUserWithdrawFee(address recipient, uint256 transferAmount)`](swap.md#Swap-updateUserWithdrawFee-address-uint256-)
+* [`withdrawAdminFees()`](swap.md#Swap-withdrawAdminFees--)
+* [`setAdminFee(uint256 newAdminFee)`](swap.md#Swap-setAdminFee-uint256-)
+* [`setSwapFee(uint256 newSwapFee)`](swap.md#Swap-setSwapFee-uint256-)
+* [`setDefaultWithdrawFee(uint256 newWithdrawFee)`](swap.md#Swap-setDefaultWithdrawFee-uint256-)
+* [`rampA(uint256 futureA, uint256 futureTime)`](swap.md#Swap-rampA-uint256-uint256-)
+* [`stopRampA()`](swap.md#Swap-stopRampA--)
+* [`disableGuard()`](swap.md#Swap-disableGuard--)
+* [`isGuarded()`](swap.md#Swap-isGuarded--)
 
-- [`TokenSwap(address buyer, uint256 tokensSold, uint256 tokensBought, uint128 soldId, uint128 boughtId)`](#Swap-TokenSwap-address-uint256-uint256-uint128-uint128-)
-- [`AddLiquidity(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)`](#Swap-AddLiquidity-address-uint256---uint256---uint256-uint256-)
-- [`RemoveLiquidity(address provider, uint256[] tokenAmounts, uint256 lpTokenSupply)`](#Swap-RemoveLiquidity-address-uint256---uint256-)
-- [`RemoveLiquidityOne(address provider, uint256 lpTokenAmount, uint256 lpTokenSupply, uint256 boughtId, uint256 tokensBought)`](#Swap-RemoveLiquidityOne-address-uint256-uint256-uint256-uint256-)
-- [`RemoveLiquidityImbalance(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)`](#Swap-RemoveLiquidityImbalance-address-uint256---uint256---uint256-uint256-)
-- [`NewAdminFee(uint256 newAdminFee)`](#Swap-NewAdminFee-uint256-)
-- [`NewSwapFee(uint256 newSwapFee)`](#Swap-NewSwapFee-uint256-)
-- [`NewWithdrawFee(uint256 newWithdrawFee)`](#Swap-NewWithdrawFee-uint256-)
-- [`RampA(uint256 oldA, uint256 newA, uint256 initialTime, uint256 futureTime)`](#Swap-RampA-uint256-uint256-uint256-uint256-)
-- [`StopRampA(uint256 currentA, uint256 time)`](#Swap-StopRampA-uint256-uint256-)
+## Events:
 
-# Function `constructor(contract IERC20[] _pooledTokens, uint8[] decimals, string lpTokenName, string lpTokenSymbol, uint256 _a, uint256 _fee, uint256 _adminFee, uint256 _withdrawFee, contract IAllowlist _allowlist)` {#Swap-constructor-contract-IERC20---uint8---string-string-uint256-uint256-uint256-uint256-contract-IAllowlist-}
+* [`TokenSwap(address buyer, uint256 tokensSold, uint256 tokensBought, uint128 soldId, uint128 boughtId)`](swap.md#Swap-TokenSwap-address-uint256-uint256-uint128-uint128-)
+* [`AddLiquidity(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)`](swap.md#Swap-AddLiquidity-address-uint256---uint256---uint256-uint256-)
+* [`RemoveLiquidity(address provider, uint256[] tokenAmounts, uint256 lpTokenSupply)`](swap.md#Swap-RemoveLiquidity-address-uint256---uint256-)
+* [`RemoveLiquidityOne(address provider, uint256 lpTokenAmount, uint256 lpTokenSupply, uint256 boughtId, uint256 tokensBought)`](swap.md#Swap-RemoveLiquidityOne-address-uint256-uint256-uint256-uint256-)
+* [`RemoveLiquidityImbalance(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)`](swap.md#Swap-RemoveLiquidityImbalance-address-uint256---uint256---uint256-uint256-)
+* [`NewAdminFee(uint256 newAdminFee)`](swap.md#Swap-NewAdminFee-uint256-)
+* [`NewSwapFee(uint256 newSwapFee)`](swap.md#Swap-NewSwapFee-uint256-)
+* [`NewWithdrawFee(uint256 newWithdrawFee)`](swap.md#Swap-NewWithdrawFee-uint256-)
+* [`RampA(uint256 oldA, uint256 newA, uint256 initialTime, uint256 futureTime)`](swap.md#Swap-RampA-uint256-uint256-uint256-uint256-)
+* [`StopRampA(uint256 currentA, uint256 time)`](swap.md#Swap-StopRampA-uint256-uint256-)
 
-Deploys this Swap contract with given parameters as default
-values. This will also deploy a LPToken that represents users
-LP position. The owner of LPToken will be this contract - which means
-only this contract is allowed to mint new tokens.
+## Function `constructor(contract IERC20[] _pooledTokens, uint8[] decimals, string lpTokenName, string lpTokenSymbol, uint256 _a, uint256 _fee, uint256 _adminFee, uint256 _withdrawFee, contract IAllowlist _allowlist)` <a id="Swap-constructor-contract-IERC20---uint8---string-string-uint256-uint256-uint256-uint256-contract-IAllowlist-"></a>
 
-## Parameters:
+Deploys this Swap contract with given parameters as default values. This will also deploy a LPToken that represents users LP position. The owner of LPToken will be this contract - which means only this contract is allowed to mint new tokens.
 
-- `_pooledTokens`: an array of ERC20s this pool will accept
+### Parameters:
 
-- `decimals`: the decimals to use for each pooled token,
-  eg 8 for WBTC. Cannot be larger than POOL_PRECISION_DECIMALS
+* `_pooledTokens`: an array of ERC20s this pool will accept
+* `decimals`: the decimals to use for each pooled token, eg 8 for WBTC. Cannot be larger than POOL\_PRECISION\_DECIMALS
+* `lpTokenName`: the long-form name of the token to be deployed
+* `lpTokenSymbol`: the short symbol for the token to be deployed
+* `_a`: the amplification coefficient  _n_  \(n - 1\). See the StableSwap paper for details
+* `_fee`: default swap fee to be initialized with
+* `_adminFee`: default adminFee to be initialized with
+* `_withdrawFee`: default withdrawFee to be initliazed with
+* `_allowlist`: address of allowlist contract for guarded launch
 
-- `lpTokenName`: the long-form name of the token to be deployed
+## Function `getA() → uint256` <a id="Swap-getA--"></a>
 
-- `lpTokenSymbol`: the short symbol for the token to be deployed
-
-- `_a`: the amplification coefficient _ n _ (n - 1). See the
-  StableSwap paper for details
-
-- `_fee`: default swap fee to be initialized with
-
-- `_adminFee`: default adminFee to be initialized with
-
-- `_withdrawFee`: default withdrawFee to be initliazed with
-
-- `_allowlist`: address of allowlist contract for guarded launch
-
-# Function `getA() → uint256` {#Swap-getA--}
-
-Return A, the amplification coefficient _ n _ (n - 1)
+Return A, the amplification coefficient  _n_  \(n - 1\)
 
 See the StableSwap paper for details
 
-## Return Values:
+### Return Values:
 
-- A parameter
+* A parameter
 
-# Function `getAPrecise() → uint256` {#Swap-getAPrecise--}
+## Function `getAPrecise() → uint256` <a id="Swap-getAPrecise--"></a>
 
 Return A in its raw precision form
 
 See the StableSwap paper for details
 
-## Return Values:
+### Return Values:
 
-- A parameter in its raw precision form
+* A parameter in its raw precision form
 
-# Function `getToken(uint8 index) → contract IERC20` {#Swap-getToken-uint8-}
+## Function `getToken(uint8 index) → contract IERC20` <a id="Swap-getToken-uint8-"></a>
 
 Return address of the pooled token at given index. Reverts if tokenIndex is out of range.
 
-## Parameters:
+### Parameters:
 
-- `index`: the index of the token
+* `index`: the index of the token
 
-## Return Values:
+### Return Values:
 
-- address of the token at given index
+* address of the token at given index
 
-# Function `getTokenIndex(address tokenAddress) → uint8` {#Swap-getTokenIndex-address-}
+## Function `getTokenIndex(address tokenAddress) → uint8` <a id="Swap-getTokenIndex-address-"></a>
 
-Return the index of the given token address. Reverts if no matching
-token is found.
+Return the index of the given token address. Reverts if no matching token is found.
 
-## Parameters:
+### Parameters:
 
-- `tokenAddress`: address of the token
+* `tokenAddress`: address of the token
 
-## Return Values:
+### Return Values:
 
-- the index of the given token address
+* the index of the given token address
 
-# Function `getAllowlist() → contract IAllowlist` {#Swap-getAllowlist--}
+## Function `getAllowlist() → contract IAllowlist` <a id="Swap-getAllowlist--"></a>
 
 Reads and returns the address of the allowlist that is set during deployment of this contract
 
-## Return Values:
+### Return Values:
 
-- the address of the allowlist contract casted to the IAllowlist interface
+* the address of the allowlist contract casted to the IAllowlist interface
 
-# Function `getDepositTimestamp(address user) → uint256` {#Swap-getDepositTimestamp-address-}
+## Function `getDepositTimestamp(address user) → uint256` <a id="Swap-getDepositTimestamp-address-"></a>
 
 Return timestamp of last deposit of given address
 
-## Return Values:
+### Return Values:
 
-- timestamp of the last deposit made by the given address
+* timestamp of the last deposit made by the given address
 
-# Function `getTokenBalance(uint8 index) → uint256` {#Swap-getTokenBalance-uint8-}
+## Function `getTokenBalance(uint8 index) → uint256` <a id="Swap-getTokenBalance-uint8-"></a>
 
 Return current balance of the pooled token at given index
 
-## Parameters:
+### Parameters:
 
-- `index`: the index of the token
+* `index`: the index of the token
 
-## Return Values:
+### Return Values:
 
-- current balance of the pooled token at given index with token's native precision
+* current balance of the pooled token at given index with token's native precision
 
-# Function `getVirtualPrice() → uint256` {#Swap-getVirtualPrice--}
+## Function `getVirtualPrice() → uint256` <a id="Swap-getVirtualPrice--"></a>
 
 Get the virtual price, to help calculate profit
 
-## Return Values:
+### Return Values:
 
-- the virtual price, scaled to the POOL_PRECISION_DECIMALS
+* the virtual price, scaled to the POOL\_PRECISION\_DECIMALS
 
-# Function `calculateSwap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx) → uint256` {#Swap-calculateSwap-uint8-uint8-uint256-}
+## Function `calculateSwap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx) → uint256` <a id="Swap-calculateSwap-uint8-uint8-uint256-"></a>
 
 Calculate amount of tokens you receive on swap
 
-## Parameters:
+### Parameters:
 
-- `tokenIndexFrom`: the token the user wants to sell
+* `tokenIndexFrom`: the token the user wants to sell
+* `tokenIndexTo`: the token the user wants to buy
+* `dx`: the amount of tokens the user wants to sell. If the token charges a fee on transfers, use the amount that gets transferred after the fee.
 
-- `tokenIndexTo`: the token the user wants to buy
+### Return Values:
 
-- `dx`: the amount of tokens the user wants to sell. If the token charges
-  a fee on transfers, use the amount that gets transferred after the fee.
+* amount of tokens the user will receive
 
-## Return Values:
+## Function `calculateTokenAmount(address account, uint256[] amounts, bool deposit) → uint256` <a id="Swap-calculateTokenAmount-address-uint256---bool-"></a>
 
-- amount of tokens the user will receive
-
-# Function `calculateTokenAmount(address account, uint256[] amounts, bool deposit) → uint256` {#Swap-calculateTokenAmount-address-uint256---bool-}
-
-A simple method to calculate prices from deposits or
-withdrawals, excluding fees but including slippage. This is
-helpful as an input into the various "min" parameters on calls
-to fight front-running
+A simple method to calculate prices from deposits or withdrawals, excluding fees but including slippage. This is helpful as an input into the various "min" parameters on calls to fight front-running
 
 This shouldn't be used outside frontends for user estimates.
 
-## Parameters:
+### Parameters:
 
-- `account`: address that is depositing or withdrawing tokens
+* `account`: address that is depositing or withdrawing tokens
+* `amounts`: an array of token amounts to deposit or withdrawal, corresponding to pooledTokens. The amount should be in each pooled token's native precision. If a token charges a fee on transfers, use the amount that gets transferred after the fee.
+* `deposit`: whether this is a deposit or a withdrawal
 
-- `amounts`: an array of token amounts to deposit or withdrawal,
-  corresponding to pooledTokens. The amount should be in each
-  pooled token's native precision. If a token charges a fee on transfers,
-  use the amount that gets transferred after the fee.
+### Return Values:
 
-- `deposit`: whether this is a deposit or a withdrawal
+* token amount the user will receive
 
-## Return Values:
+## Function `calculateRemoveLiquidity(address account, uint256 amount) → uint256[]` <a id="Swap-calculateRemoveLiquidity-address-uint256-"></a>
 
-- token amount the user will receive
+A simple method to calculate amount of each underlying tokens that is returned upon burning given amount of LP tokens
 
-# Function `calculateRemoveLiquidity(address account, uint256 amount) → uint256[]` {#Swap-calculateRemoveLiquidity-address-uint256-}
+### Parameters:
 
-A simple method to calculate amount of each underlying
-tokens that is returned upon burning given amount of LP tokens
+* `account`: the address that is withdrawing tokens
+* `amount`: the amount of LP tokens that would be burned on withdrawal
 
-## Parameters:
+### Return Values:
 
-- `account`: the address that is withdrawing tokens
+* array of token balances that the user will receive
 
-- `amount`: the amount of LP tokens that would be burned on withdrawal
+## Function `calculateRemoveLiquidityOneToken(address account, uint256 tokenAmount, uint8 tokenIndex) → uint256 availableTokenAmount` <a id="Swap-calculateRemoveLiquidityOneToken-address-uint256-uint8-"></a>
 
-## Return Values:
+Calculate the amount of underlying token available to withdraw when withdrawing via only single token
 
-- array of token balances that the user will receive
+### Parameters:
 
-# Function `calculateRemoveLiquidityOneToken(address account, uint256 tokenAmount, uint8 tokenIndex) → uint256 availableTokenAmount` {#Swap-calculateRemoveLiquidityOneToken-address-uint256-uint8-}
+* `account`: the address that is withdrawing tokens
+* `tokenAmount`: the amount of LP token to burn
+* `tokenIndex`: index of which token will be withdrawn
 
-Calculate the amount of underlying token available to withdraw
-when withdrawing via only single token
+### Return Values:
 
-## Parameters:
+* availableTokenAmount calculated amount of underlying token
 
-- `account`: the address that is withdrawing tokens
-
-- `tokenAmount`: the amount of LP token to burn
-
-- `tokenIndex`: index of which token will be withdrawn
-
-## Return Values:
-
-- availableTokenAmount calculated amount of underlying token
   available to withdraw
 
-# Function `calculateCurrentWithdrawFee(address user) → uint256` {#Swap-calculateCurrentWithdrawFee-address-}
+## Function `calculateCurrentWithdrawFee(address user) → uint256` <a id="Swap-calculateCurrentWithdrawFee-address-"></a>
 
-Calculate the fee that is applied when the given user withdraws. The withdraw fee
-decays linearly over period of 4 weeks. For example, depositing and withdrawing right away
-will charge you the full amount of withdraw fee. But withdrawing after 4 weeks will charge you
-no additional fees.
+Calculate the fee that is applied when the given user withdraws. The withdraw fee decays linearly over period of 4 weeks. For example, depositing and withdrawing right away will charge you the full amount of withdraw fee. But withdrawing after 4 weeks will charge you no additional fees.
 
-returned value should be divided by FEE_DENOMINATOR to convert to correct decimals
+returned value should be divided by FEE\_DENOMINATOR to convert to correct decimals
 
-## Parameters:
+### Parameters:
 
-- `user`: address you want to calculate withdraw fee of
+* `user`: address you want to calculate withdraw fee of
 
-## Return Values:
+### Return Values:
 
-- current withdraw fee of the user
+* current withdraw fee of the user
 
-# Function `getAdminBalance(uint256 index) → uint256` {#Swap-getAdminBalance-uint256-}
+## Function `getAdminBalance(uint256 index) → uint256` <a id="Swap-getAdminBalance-uint256-"></a>
 
 This function reads the accumulated amount of admin fees of the token with given index
 
-## Parameters:
+### Parameters:
 
-- `index`: Index of the pooled token
+* `index`: Index of the pooled token
 
-## Return Values:
+### Return Values:
 
-- s token balance in the token's precision
+* s token balance in the token's precision
 
-# Function `swap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx, uint256 minDy, uint256 deadline) → uint256` {#Swap-swap-uint8-uint8-uint256-uint256-uint256-}
+## Function `swap(uint8 tokenIndexFrom, uint8 tokenIndexTo, uint256 dx, uint256 minDy, uint256 deadline) → uint256` <a id="Swap-swap-uint8-uint8-uint256-uint256-uint256-"></a>
 
 Swap two tokens using this pool
 
-## Parameters:
+### Parameters:
 
-- `tokenIndexFrom`: the token the user wants to swap from
+* `tokenIndexFrom`: the token the user wants to swap from
+* `tokenIndexTo`: the token the user wants to swap to
+* `dx`: the amount of tokens the user wants to swap from
+* `minDy`: the min amount the user would like to receive, or revert.
+* `deadline`: latest timestamp to accept this transaction
 
-- `tokenIndexTo`: the token the user wants to swap to
+## Function `addLiquidity(uint256[] amounts, uint256 minToMint, uint256 deadline, bytes32[] merkleProof) → uint256` <a id="Swap-addLiquidity-uint256---uint256-uint256-bytes32---"></a>
 
-- `dx`: the amount of tokens the user wants to swap from
+Add liquidity to the pool with given amounts during guarded launch phase. Only users with valid address and proof can successfully call this function. When this function is called after the guarded release phase is over, the merkleProof is ignored.
 
-- `minDy`: the min amount the user would like to receive, or revert.
+### Parameters:
 
-- `deadline`: latest timestamp to accept this transaction
+* `amounts`: the amounts of each token to add, in their native precision
+* `minToMint`: the minimum LP tokens adding this amount of liquidity should mint, otherwise revert. Handy for front-running mitigation
+* `deadline`: latest timestamp to accept this transaction
+* `merkleProof`: data generated when constructing the allowlist merkle tree. Users can get this data off chain. Even if the address is in the allowlist, users must include a valid proof for this call to succeed. If the pool is no longer in the guarded release phase, this parameter is ignored.
 
-# Function `addLiquidity(uint256[] amounts, uint256 minToMint, uint256 deadline, bytes32[] merkleProof) → uint256` {#Swap-addLiquidity-uint256---uint256-uint256-bytes32---}
+### Return Values:
 
-Add liquidity to the pool with given amounts during guarded launch phase. Only users
-with valid address and proof can successfully call this function. When this function is called
-after the guarded release phase is over, the merkleProof is ignored.
+* amount of LP token user minted and received
 
-## Parameters:
+## Function `removeLiquidity(uint256 amount, uint256[] minAmounts, uint256 deadline) → uint256[]` <a id="Swap-removeLiquidity-uint256-uint256---uint256-"></a>
 
-- `amounts`: the amounts of each token to add, in their native precision
-
-- `minToMint`: the minimum LP tokens adding this amount of liquidity
-  should mint, otherwise revert. Handy for front-running mitigation
-
-- `deadline`: latest timestamp to accept this transaction
-
-- `merkleProof`: data generated when constructing the allowlist merkle tree. Users can
-  get this data off chain. Even if the address is in the allowlist, users must include
-  a valid proof for this call to succeed. If the pool is no longer in the guarded release phase,
-  this parameter is ignored.
-
-## Return Values:
-
-- amount of LP token user minted and received
-
-# Function `removeLiquidity(uint256 amount, uint256[] minAmounts, uint256 deadline) → uint256[]` {#Swap-removeLiquidity-uint256-uint256---uint256-}
-
-Burn LP tokens to remove liquidity from the pool. Withdraw fee that decays linearly
-over period of 4 weeks since last deposit will apply.
+Burn LP tokens to remove liquidity from the pool. Withdraw fee that decays linearly over period of 4 weeks since last deposit will apply.
 
 Liquidity can always be removed, even when the pool is paused.
 
-## Parameters:
+### Parameters:
 
-- `amount`: the amount of LP tokens to burn
+* `amount`: the amount of LP tokens to burn
+* `minAmounts`: the minimum amounts of each token in the pool acceptable for this burn. Useful as a front-running mitigation
+* `deadline`: latest timestamp to accept this transaction
 
-- `minAmounts`: the minimum amounts of each token in the pool
-  acceptable for this burn. Useful as a front-running mitigation
+### Return Values:
 
-- `deadline`: latest timestamp to accept this transaction
+* amounts of tokens user received
 
-## Return Values:
+## Function `removeLiquidityOneToken(uint256 tokenAmount, uint8 tokenIndex, uint256 minAmount, uint256 deadline) → uint256` <a id="Swap-removeLiquidityOneToken-uint256-uint8-uint256-uint256-"></a>
 
-- amounts of tokens user received
+Remove liquidity from the pool all in one token. Withdraw fee that decays linearly over period of 4 weeks since last deposit will apply.
 
-# Function `removeLiquidityOneToken(uint256 tokenAmount, uint8 tokenIndex, uint256 minAmount, uint256 deadline) → uint256` {#Swap-removeLiquidityOneToken-uint256-uint8-uint256-uint256-}
+### Parameters:
 
-Remove liquidity from the pool all in one token. Withdraw fee that decays linearly
-over period of 4 weeks since last deposit will apply.
+* `tokenAmount`: the amount of the token you want to receive
+* `tokenIndex`: the index of the token you want to receive
+* `minAmount`: the minimum amount to withdraw, otherwise revert
+* `deadline`: latest timestamp to accept this transaction
 
-## Parameters:
+### Return Values:
 
-- `tokenAmount`: the amount of the token you want to receive
+* amount of chosen token user received
 
-- `tokenIndex`: the index of the token you want to receive
+## Function `removeLiquidityImbalance(uint256[] amounts, uint256 maxBurnAmount, uint256 deadline) → uint256` <a id="Swap-removeLiquidityImbalance-uint256---uint256-uint256-"></a>
 
-- `minAmount`: the minimum amount to withdraw, otherwise revert
+Remove liquidity from the pool, weighted differently than the pool's current balances. Withdraw fee that decays linearly over period of 4 weeks since last deposit will apply.
 
-- `deadline`: latest timestamp to accept this transaction
+### Parameters:
 
-## Return Values:
+* `amounts`: how much of each token to withdraw
+* `maxBurnAmount`: the max LP token provider is willing to pay to remove liquidity. Useful as a front-running mitigation.
+* `deadline`: latest timestamp to accept this transaction
 
-- amount of chosen token user received
+### Return Values:
 
-# Function `removeLiquidityImbalance(uint256[] amounts, uint256 maxBurnAmount, uint256 deadline) → uint256` {#Swap-removeLiquidityImbalance-uint256---uint256-uint256-}
+* amount of LP tokens burned
 
-Remove liquidity from the pool, weighted differently than the
-pool's current balances. Withdraw fee that decays linearly
-over period of 4 weeks since last deposit will apply.
+## Function `updateUserWithdrawFee(address recipient, uint256 transferAmount)` <a id="Swap-updateUserWithdrawFee-address-uint256-"></a>
 
-## Parameters:
+Updates the user withdraw fee. This function can only be called by the pool token. Should be used to update the withdraw fee on transfer of pool tokens. Transferring your pool token will reset the 4 weeks period. If the recipient is already holding some pool tokens, the withdraw fee will be discounted in respective amounts.
 
-- `amounts`: how much of each token to withdraw
+### Parameters:
 
-- `maxBurnAmount`: the max LP token provider is willing to pay to
-  remove liquidity. Useful as a front-running mitigation.
+* `recipient`: address of the recipient of pool token
+* `transferAmount`: amount of pool token to transfer
 
-- `deadline`: latest timestamp to accept this transaction
-
-## Return Values:
-
-- amount of LP tokens burned
-
-# Function `updateUserWithdrawFee(address recipient, uint256 transferAmount)` {#Swap-updateUserWithdrawFee-address-uint256-}
-
-Updates the user withdraw fee. This function can only be called by
-the pool token. Should be used to update the withdraw fee on transfer of pool tokens.
-Transferring your pool token will reset the 4 weeks period. If the recipient is already
-holding some pool tokens, the withdraw fee will be discounted in respective amounts.
-
-## Parameters:
-
-- `recipient`: address of the recipient of pool token
-
-- `transferAmount`: amount of pool token to transfer
-
-# Function `withdrawAdminFees()` {#Swap-withdrawAdminFees--}
+## Function `withdrawAdminFees()` <a id="Swap-withdrawAdminFees--"></a>
 
 Withdraw all admin fees to the contract owner
 
-# Function `setAdminFee(uint256 newAdminFee)` {#Swap-setAdminFee-uint256-}
+## Function `setAdminFee(uint256 newAdminFee)` <a id="Swap-setAdminFee-uint256-"></a>
 
 Update the admin fee. Admin fee takes portion of the swap fee.
 
-## Parameters:
+### Parameters:
 
-- `newAdminFee`: new admin fee to be applied on future transactions
+* `newAdminFee`: new admin fee to be applied on future transactions
 
-# Function `setSwapFee(uint256 newSwapFee)` {#Swap-setSwapFee-uint256-}
+## Function `setSwapFee(uint256 newSwapFee)` <a id="Swap-setSwapFee-uint256-"></a>
 
 Update the swap fee to be applied on swaps
 
-## Parameters:
+### Parameters:
 
-- `newSwapFee`: new swap fee to be applied on future transactions
+* `newSwapFee`: new swap fee to be applied on future transactions
 
-# Function `setDefaultWithdrawFee(uint256 newWithdrawFee)` {#Swap-setDefaultWithdrawFee-uint256-}
+## Function `setDefaultWithdrawFee(uint256 newWithdrawFee)` <a id="Swap-setDefaultWithdrawFee-uint256-"></a>
 
-Update the withdraw fee. This fee decays linearly over 4 weeks since
-user's last deposit.
+Update the withdraw fee. This fee decays linearly over 4 weeks since user's last deposit.
 
-## Parameters:
+### Parameters:
 
-- `newWithdrawFee`: new withdraw fee to be applied on future deposits
+* `newWithdrawFee`: new withdraw fee to be applied on future deposits
 
-# Function `rampA(uint256 futureA, uint256 futureTime)` {#Swap-rampA-uint256-uint256-}
+## Function `rampA(uint256 futureA, uint256 futureTime)` <a id="Swap-rampA-uint256-uint256-"></a>
 
-Start ramping up or down A parameter towards given futureA and futureTime
-Checks if the change is too rapid, and commits the new A value only when it falls under
-the limit range.
+Start ramping up or down A parameter towards given futureA and futureTime Checks if the change is too rapid, and commits the new A value only when it falls under the limit range.
 
-## Parameters:
+### Parameters:
 
-- `futureA`: the new A to ramp towards
+* `futureA`: the new A to ramp towards
+* `futureTime`: timestamp when the new A should be reached
 
-- `futureTime`: timestamp when the new A should be reached
-
-# Function `stopRampA()` {#Swap-stopRampA--}
+## Function `stopRampA()` <a id="Swap-stopRampA--"></a>
 
 Stop ramping A immediately. Reverts if ramp A is already stopped.
 
-# Function `disableGuard()` {#Swap-disableGuard--}
+## Function `disableGuard()` <a id="Swap-disableGuard--"></a>
 
 Disables the guarded launch phase, removing any limits on deposit amounts and addresses
 
-# Function `isGuarded() → bool` {#Swap-isGuarded--}
+## Function `isGuarded() → bool` <a id="Swap-isGuarded--"></a>
 
 Reads and returns current guarded status of the pool
 
-## Return Values:
+### Return Values:
 
-- guarded\_ boolean value indicating whether the deposits should be guarded
+* guarded\_ boolean value indicating whether the deposits should be guarded
 
-# Event `TokenSwap(address buyer, uint256 tokensSold, uint256 tokensBought, uint128 soldId, uint128 boughtId)` {#Swap-TokenSwap-address-uint256-uint256-uint128-uint128-}
-
-No description
-
-# Event `AddLiquidity(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)` {#Swap-AddLiquidity-address-uint256---uint256---uint256-uint256-}
+## Event `TokenSwap(address buyer, uint256 tokensSold, uint256 tokensBought, uint128 soldId, uint128 boughtId)` <a id="Swap-TokenSwap-address-uint256-uint256-uint128-uint128-"></a>
 
 No description
 
-# Event `RemoveLiquidity(address provider, uint256[] tokenAmounts, uint256 lpTokenSupply)` {#Swap-RemoveLiquidity-address-uint256---uint256-}
+## Event `AddLiquidity(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)` <a id="Swap-AddLiquidity-address-uint256---uint256---uint256-uint256-"></a>
 
 No description
 
-# Event `RemoveLiquidityOne(address provider, uint256 lpTokenAmount, uint256 lpTokenSupply, uint256 boughtId, uint256 tokensBought)` {#Swap-RemoveLiquidityOne-address-uint256-uint256-uint256-uint256-}
+## Event `RemoveLiquidity(address provider, uint256[] tokenAmounts, uint256 lpTokenSupply)` <a id="Swap-RemoveLiquidity-address-uint256---uint256-"></a>
 
 No description
 
-# Event `RemoveLiquidityImbalance(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)` {#Swap-RemoveLiquidityImbalance-address-uint256---uint256---uint256-uint256-}
+## Event `RemoveLiquidityOne(address provider, uint256 lpTokenAmount, uint256 lpTokenSupply, uint256 boughtId, uint256 tokensBought)` <a id="Swap-RemoveLiquidityOne-address-uint256-uint256-uint256-uint256-"></a>
 
 No description
 
-# Event `NewAdminFee(uint256 newAdminFee)` {#Swap-NewAdminFee-uint256-}
+## Event `RemoveLiquidityImbalance(address provider, uint256[] tokenAmounts, uint256[] fees, uint256 invariant, uint256 lpTokenSupply)` <a id="Swap-RemoveLiquidityImbalance-address-uint256---uint256---uint256-uint256-"></a>
 
 No description
 
-# Event `NewSwapFee(uint256 newSwapFee)` {#Swap-NewSwapFee-uint256-}
+## Event `NewAdminFee(uint256 newAdminFee)` <a id="Swap-NewAdminFee-uint256-"></a>
 
 No description
 
-# Event `NewWithdrawFee(uint256 newWithdrawFee)` {#Swap-NewWithdrawFee-uint256-}
+## Event `NewSwapFee(uint256 newSwapFee)` <a id="Swap-NewSwapFee-uint256-"></a>
 
 No description
 
-# Event `RampA(uint256 oldA, uint256 newA, uint256 initialTime, uint256 futureTime)` {#Swap-RampA-uint256-uint256-uint256-uint256-}
+## Event `NewWithdrawFee(uint256 newWithdrawFee)` <a id="Swap-NewWithdrawFee-uint256-"></a>
 
 No description
 
-# Event `StopRampA(uint256 currentA, uint256 time)` {#Swap-StopRampA-uint256-uint256-}
+## Event `RampA(uint256 oldA, uint256 newA, uint256 initialTime, uint256 futureTime)` <a id="Swap-RampA-uint256-uint256-uint256-uint256-"></a>
 
 No description
+
+## Event `StopRampA(uint256 currentA, uint256 time)` <a id="Swap-StopRampA-uint256-uint256-"></a>
+
+No description
+

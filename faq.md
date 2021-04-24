@@ -50,9 +50,9 @@ Saddle is launching with Proof of Governance to protect our users with certain l
 
 For LPs to qualify for PoG, an address must have demonstrated active network participation in one of the following ways:
 
-- On-chain voting or delegation \(MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO\)
-- Off-chain voting on [Snapshot](https://snapshot.page/) \(all protocols\)
-- Staking SNX and minting sUSD \(&gt;$20\)
+* On-chain voting or delegation \(MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO\)
+* Off-chain voting on [Snapshot](https://snapshot.page/) \(all protocols\)
+* Staking SNX and minting sUSD \(&gt;$20\)
 
 The cutoff date for all activity is October 1st, 2020, with the exception of UNI, which is January 1st, 2021.
 
@@ -96,7 +96,7 @@ At launch, there is no fee to withdraw your liquidity from Saddle pools. Eventua
 
 ### Who built Saddle?
 
-Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) \(aka [devops199fan](https://twitter.com/devops199fan)\) in the YFI community \(he’s a multisig signer\), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info/) by [John](https://www.linkedin.com/in/jongseunglim/) \(aka [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)\).
+Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) \(aka [devops199fan](https://twitter.com/devops199fan)\) in the YFI community \(he’s a multisig signer\), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info/) by [John](https://www.linkedin.com/in/jongseunglim/) \(aka [Weeb\_Mcgee](https://twitter.com/Weeb_Mcgee)\).
 
 ### Is Saddle safe?
 
@@ -106,14 +106,15 @@ Saddle has been audited by Certik, Quantstamp, and OpenZeppelin. Read the audits
 
 Saddle's admin keys are controlled by a [3/5 Gnosis Safe multisig](https://etherscan.io/address/0x3F8E527aF4e0c6e763e8f368AC679c44C45626aE). The signers are Mariano Conti, Kain Warwick, DegenSpartan, Klim K, and Damir Bandalo. This multisig has capabilities to pause new deposits and trades in case of technical emergencies. Users will always be able to withdraw their funds regardless of new deposits being paused. The multisig can also change the swap/withdrawal fees and the per pool/account deposit limits.
 
-| Name                                              | ENS               | Address                                    |
-| :------------------------------------------------ | :---------------- | :----------------------------------------- |
-| [Mariano Conti](https://twitter.com/nanexcool)    |                   | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
-| [Kain Warwick](https://twitter.com/kaiynne)       | Kain.eth          | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
-| [DegenSpartan](https://twitter.com/DegenSpartan)  | degenspartan.eth  | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
-| [Klim K](https://twitter.com/milkyklim)           | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
-| [Damir Bandalo](https://twitter.com/damirbandalo) |                   | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
+| Name | ENS | Address |
+| :--- | :--- | :--- |
+| [Mariano Conti](https://twitter.com/nanexcool) |  | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
+| [Kain Warwick](https://twitter.com/kaiynne) | Kain.eth | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
+| [DegenSpartan](https://twitter.com/DegenSpartan) | degenspartan.eth | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
+| [Klim K](https://twitter.com/milkyklim) | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
+| [Damir Bandalo](https://twitter.com/damirbandalo) |  | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
 
 ### How can I keep up with Saddle?
 
 [Discord](https://discord.gg/hX8RZFBW9R)! [Twitter](https://twitter.com/saddlefinance)! [Telegram](https://t.me/saddle_finance)! [Github](https://github.com/saddle-finance)! [Medium](https://medium.com/saddle)!
+

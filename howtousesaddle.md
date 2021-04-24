@@ -7,31 +7,23 @@ Head to [saddle.exchange](https://saddle.exchange/) to get started!
 ## Swap on Saddle
 
 1. Step 1: Select “Swap” on the top navigation bar.
-
 2. Step 2: Select the currency you’re exchanging, and the one you want to receive.
-
 3. Step 3: Enter the amount you’d like to exchange.
-
 4. Step 4: Click “Advanced” to select options like slippage, gas, or transaction deadline.
-
 5. Step 5: Click “Swap”, review the details, and confirm the transaction.
 
-https://user-images.githubusercontent.com/11672986/115934452-be1cb200-a42c-11eb-977a-61516dd29e71.mp4
+{% embed url="https://youtu.be/8XE5ErpfhQo" %}
 
 ## Deposit on Saddle
 
 1. Step 1: Select “Deposit” on the top navigation bar.
-
-2. Step 2: Enter the amount(s) you’d like to deposit of one or more of the assets listed on the Saddle BTC pool. (Tip: deposit underweight assets to get an LP token bonus).
-
+2. Step 2: Enter the amount\(s\) you’d like to deposit of one or more of the assets listed on the Saddle BTC pool. \(Tip: deposit underweight assets to get an LP token bonus\).
 3. Step 3: Click “Advanced” to select options like slippage and gas.
-
 4. Step 4: Click “Deposit” review the details, and confirm the transaction.
-
 5. Step 5: After the transaction is confirmed, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to start earning KEEP rewards.
-
 6. Step 6: Keep track of your rewards!
 
-https://user-images.githubusercontent.com/11672986/115934526-e99f9c80-a42c-11eb-8560-eaa1e59fda80.mp4
+{% embed url="https://youtu.be/RCsBinGAZEg" %}
 
 Giddy up! Head to [saddle.exchange](http://saddle.exchange) to get started 🤠
+
