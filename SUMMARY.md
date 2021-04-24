@@ -1,6 +1,7 @@
 # Table of contents
 
 - [About Saddle](README.md)
+- [How to Use Saddle](howtousesaddle.md)
 - [FAQ](faq.md)
 - [Contract Addresses](contracts.md)
 - [Solidity Docs](solidity-docs/README.md)
