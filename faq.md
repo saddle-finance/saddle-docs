@@ -40,9 +40,9 @@ Saddle上线时启用了治理证明（PoG），借此实施一定的限制来�
 
 若LP欲符合PoG资格，该地址必须透过下列任一方式来证明其积极的网路参与：
 
-- 链上投票或委托 (MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO)
-- [Snapshot](https://snapshot.page/)链下投票（所有协议）
-- 抵押SNX和铸造sUSD (>$20)
+* 链上投票或委托 \(MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO\)
+* [Snapshot](https://snapshot.page/)链下投票（所有协议）
+* 抵押SNX和铸造sUSD \(&gt;$20\)
 
 [这里提供了完整的合格地址清单](https://github.com/saddle-finance/saddle-allowlist-addresses)。PoG只是暂时的，并会在将来被逐步淘汰。
 
@@ -58,8 +58,7 @@ Saddle的启动使用了名为治理证明（PoG）的受保护启动。若您�
 
 在启动时，**每个人都**可以使用Saddle的AMM在代币化比特币配对之间进行交易。
 
-然而在启动时，欲在Saddle上成为流动性提供者的用户必须参与过特定的治理过程，
-您可参考“Saddle的受保护启动，‘治理证明’，是什么？…”问题来了解更多细节。
+然而在启动时，欲在Saddle上成为流动性提供者的用户必须参与过特定的治理过程， 您可参考“Saddle的受保护启动，‘治理证明’，是什么？…”问题来了解更多细节。
 
 ### 如何使用Saddle？
 
@@ -85,7 +84,7 @@ tBTC是第一个真正去中心化、具安全性的代币化比特币，其安�
 
 ### 是谁创建了Saddle？
 
-Saddle是由一群DeFi专家所创建，他们皆具有在Uber、Amazon、和Square等Web2公司多年的开发经验。您可能已经在YFI社区中与我们的创始人[Sunil](https://www.linkedin.com/in/sunilsrivatsa/)（亦称为[devops199fan](https://twitter.com/devops199fan)，是位多重签名的持有者）有过互动，或者已使用过我们团队成员所创建的工具，例如[John](https://www.linkedin.com/in/jongseunglim/)（亦称为[Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)）的[yieldfarming.info](https://yieldfarming.info/)。
+Saddle是由一群DeFi专家所创建，他们皆具有在Uber、Amazon、和Square等Web2公司多年的开发经验。您可能已经在YFI社区中与我们的创始人[Sunil](https://www.linkedin.com/in/sunilsrivatsa/)（亦称为[devops199fan](https://twitter.com/devops199fan)，是位多重签名的持有者）有过互动，或者已使用过我们团队成员所创建的工具，例如[John](https://www.linkedin.com/in/jongseunglim/)（亦称为[Weeb\_Mcgee](https://twitter.com/Weeb_Mcgee)）的[yieldfarming.info](https://yieldfarming.info/)。
 
 ### Saddle安全吗？
 
@@ -93,8 +92,5 @@ Saddle已经过Certik、Quantstamp、和Open Zeppelin等公司的审计。[点�
 
 ### 如何关注Saddle?
 
-[Discord](https://discord.gg/hX8RZFBW9R)!
-[Twitter](https://twitter.com/saddlefinance)!
-[Telegram](https://t.me/saddle_finance)!
-[Github](https://github.com/saddle-finance)!
-[Medium](https://medium.com/saddle)!
+[Discord](https://discord.gg/hX8RZFBW9R)! [Twitter](https://twitter.com/saddlefinance)! [Telegram](https://t.me/saddle_finance)! [Github](https://github.com/saddle-finance)! [Medium](https://medium.com/saddle)!
+
