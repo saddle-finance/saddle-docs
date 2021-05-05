@@ -32,6 +32,76 @@ Max slippage is the maximum percentage the execution price can change unfavorabl
 
 Slippage occurs when other trades change the price during the window between when your transaction is submitted and actually executed.
 
+### What is the A parameter \(amplification coefficient\)?
+
+The A parameter, or amplification coefficient, is a configurable setting that determines how flat the liquidity curve for each pool is.  For example, consider A = 1 vs. A = 10:
+
+![](.gitbook/assets/image.png)
+
+Pools with more volatile assets will use lower A values.
+
+### What tokens does Saddle currently support?
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Token</th>
+      <th style="text-align:left">Homepage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">tBTC</td>
+      <td style="text-align:left"><a href="https://tbtc.network/">https://tbtc.network/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">WBTC</td>
+      <td style="text-align:left"><a href="https://wbtc.network/">https://wbtc.network/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">renBTC</td>
+      <td style="text-align:left"><a href="https://renproject.io/">https://renproject.io/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sBTC</td>
+      <td style="text-align:left"><a href="https://synthetix.io/">https://synthetix.io/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DAI</td>
+      <td style="text-align:left"><a href="https://makerdao.com/">https://makerdao.com/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">USDC</td>
+      <td style="text-align:left"><a href="https://www.centre.io/usdc">https://www.centre.io/usdc</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">USDT</td>
+      <td style="text-align:left"><a href="https://tether.to/">https://tether.to/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">WETH</td>
+      <td style="text-align:left"><a href="https://weth.io/">https://weth.io/</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">vETH2</td>
+      <td style="text-align:left">
+        <p><a href="https://www.sharedstake.org/">https://www.sharedstake.org/</a>
+        </p>
+        <p><a href="https://docs.sharedstake.org/contracts-explained/veth2">https://docs.sharedstake.org/contracts-explained/veth2</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Why is Saddle launching with tokenized bitcoin?
 
 Bitcoin is the largest cryptocurrency by market capitalization, and the amount of tokenized BTC on Ethereum has been exploding - the supply has increased ~135X in 2020. Despite this growth, tokenized BTC is often [not a priority](https://github.com/Uniswap/uniswap-interface/pull/1144) when it comes to features and support. We believe bitcoin deserves to be treated as a first-class citizen in DeFi.
