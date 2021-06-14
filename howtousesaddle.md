@@ -26,4 +26,3 @@ Head to [saddle.exchange](https://saddle.exchange/) to get started!
 {% embed url="https://youtu.be/RCsBinGAZEg" %}
 
 Giddy up! Head to [saddle.exchange](http://saddle.exchange) to get started 🤠
-
