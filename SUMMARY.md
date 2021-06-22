@@ -2,6 +2,7 @@
 
 - [About Saddle](README.md)
 - [How to Use Saddle](howtousesaddle.md)
+- [How to Flash-loan Assets from Saddle](howtoflashloan.md)
 - [FAQ](faq.md)
 - [Contract Addresses](contracts.md)
 - [Solidity Docs](solidity-docs/README.md)

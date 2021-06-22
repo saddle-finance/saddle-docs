@@ -116,6 +116,8 @@ Saddle does not currently have a token.
 
 ### What is Saddle’s guarded launch, "Proof of Governance"? Who can participate?
 
+_The guarded launch has been successful and as of 6/22/2021 we have disabled the guard. Anyone can become a liquidity provider in Saddle's pools._ 
+
 Saddle is launching with Proof of Governance to protect our users with certain limits and discourage sybil attacks. Initially, there will be a pool TVL cap of 150 BTC and a per-address deposit limit of 1 BTC. These limits will be raised every 1-2 weeks.
 
 For LPs to qualify for PoG, an address must have demonstrated active network participation in one of the following ways:
@@ -148,21 +150,28 @@ Head to the [Saddle App](https://saddle.exchange) and start using it now!
 
 ### What are Saddle’s liquidity provider rewards?
 
-The Keep Network team has committed 250,000 KEEP a week as reward incentives for liquidity providers. At the TVL cap, that means LPs will be earning up to ~30% APY on their deposits! [Learn more](https://keep.network/) about the Keep network, KEEP, and your opportunities to stake KEEP for additional APY.
+#### tBTC pool
+The Keep Network team has committed weekly reward incentives for liquidity providers. [Learn more](https://keep.network/) about the Keep network, KEEP, and your opportunities to stake KEEP for additional APY.
+
+You can access Keep Network's [staking dashboard](https://dashboard.keep.network/liquidity) to stake your LP tokens.
+
+#### vETH2 pool
+The SharedStake team has an ongoing reward program for those who are providing liquidity in Saddle.
+
+You can access the SharedStake's [staking dashboard](https://www.sharedstake.org/earn) to stake your vETH2 pool LP tokens.
+
+#### alETH pool
+The Alchemix team has an ongoing reward program for those who are providing liquidity in Saddle.
+
+You can access Alchemix's [staking dashboard](https://app.alchemix.fi/farms) to stake your alETH pool LP tokens.
 
 ### What is tBTC?
 
 tBTC is the first truly decentralized, secure tokenized bitcoin solution. tBTC is secured by the Keep network, a blockchain solution to privacy. The Keep network stores the keys of minted tBTC in decentralized “keeps”, thus eliminating centralized weak points.
 
-### I can’t provide liquidity to Saddle because of the guarded launch. When will I be able to start using Saddle?
-
-The guarded launch will be phased out over time, at which point anyone will be able to provide liquidity to Saddle pools.
-
-In the meantime, anyone can use the Saddle AMM to trade in between tokenized bitcoin types.
-
 ### What are the fees for using Saddle?
 
-At launch, there is no fee to withdraw your liquidity from Saddle pools. Eventually, we will implement diminishing fees. With diminishing fees, your fee falls to 0bps over the course of a month after you first provide liquidity.
+There is no fee to withdraw your liquidity from Saddle pools. Initial versions of our contracts contained a withdrawal fee feature, but we have decided to remove this from all future pools.
 
 ### Who built Saddle?
 
