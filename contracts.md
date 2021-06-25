@@ -46,3 +46,10 @@
 | `SwapFlashLoan`          | [0xc68BF77e33F1DF59D8247dd564da4c8C81519db6](https://etherscan.io/address/0xc68BF77e33F1DF59D8247dd564da4c8C81519db6#code) |
 | `SaddleALETHPool`        | [0xa6018520EAACC06C30fF2e1B3ee2c7c22e64196a](https://etherscan.io/address/0xa6018520EAACC06C30fF2e1B3ee2c7c22e64196a#code) |
 | `SaddleALETHPoolLPToken` | [0xc9da65931ABf0Ed1b74Ce5ad8c041C4220940368](https://etherscan.io/address/0xc9da65931ABf0Ed1b74Ce5ad8c041C4220940368#code) |
+
+### D4 Pool
+
+| Contract Name         | Contract Address                                                                                                           |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleD4Pool`        | [0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6](https://etherscan.io/address/0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6#code) |
+| `SaddleD4PoolLPToken` | [0xd48cF4D7FB0824CC8bAe055dF3092584d0a1726A](https://etherscan.io/address/0xd48cF4D7FB0824CC8bAe055dF3092584d0a1726A#code) |
