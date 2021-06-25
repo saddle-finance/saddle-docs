@@ -116,7 +116,7 @@ Saddle does not currently have a token.
 
 ### What is Saddle’s guarded launch, "Proof of Governance"? Who can participate?
 
-_The guarded launch has been successful and as of 6/22/2021 we have disabled the guard. Anyone can become a liquidity provider in Saddle's pools._ 
+_The guarded launch has been successful and as of 6/22/2021 we have disabled the guard. Anyone can become a liquidity provider in Saddle's pools._
 
 Saddle is launching with Proof of Governance to protect our users with certain limits and discourage sybil attacks. Initially, there will be a pool TVL cap of 150 BTC and a per-address deposit limit of 1 BTC. These limits will be raised every 1-2 weeks.
 
@@ -151,16 +151,19 @@ Head to the [Saddle App](https://saddle.exchange) and start using it now!
 ### What are Saddle’s liquidity provider rewards?
 
 #### tBTC pool
+
 The Keep Network team has committed weekly reward incentives for liquidity providers. [Learn more](https://keep.network/) about the Keep network, KEEP, and your opportunities to stake KEEP for additional APY.
 
 You can access Keep Network's [staking dashboard](https://dashboard.keep.network/liquidity) to stake your LP tokens.
 
 #### vETH2 pool
+
 The SharedStake team has an ongoing reward program for those who are providing liquidity in Saddle.
 
 You can access the SharedStake's [staking dashboard](https://www.sharedstake.org/earn) to stake your vETH2 pool LP tokens.
 
 #### alETH pool
+
 The Alchemix team has an ongoing reward program for those who are providing liquidity in Saddle.
 
 You can access Alchemix's [staking dashboard](https://app.alchemix.fi/farms) to stake your alETH pool LP tokens.
