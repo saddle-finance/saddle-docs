@@ -53,3 +53,11 @@
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleD4Pool`        | [0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6](https://etherscan.io/address/0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6#code) |
 | `SaddleD4PoolLPToken` | [0xd48cF4D7FB0824CC8bAe055dF3092584d0a1726A](https://etherscan.io/address/0xd48cF4D7FB0824CC8bAe055dF3092584d0a1726A#code) |
+
+### USD Pool V2
+
+| Contract Name            | Contract Address                                                                                                           |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleUSDPoolV2`        | [0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7](https://etherscan.io/address/0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7#code) |
+| `SaddleUSDPoolV2LPToken` | [0x5f86558387293b6009d7896A61fcc86C17808D62](https://etherscan.io/address/0x5f86558387293b6009d7896A61fcc86C17808D62#code) |
+| `SwapMigrator`           | [0x9cDeF6e33687F438808766fC133b2E9d1A16AD57](https://etherscan.io/address/0x9cDeF6e33687F438808766fC133b2E9d1A16AD57#code) |
