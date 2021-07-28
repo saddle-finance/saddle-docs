@@ -61,3 +61,11 @@
 | `SaddleUSDPoolV2`        | [0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7](https://etherscan.io/address/0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7#code) |
 | `SaddleUSDPoolV2LPToken` | [0x5f86558387293b6009d7896A61fcc86C17808D62](https://etherscan.io/address/0x5f86558387293b6009d7896A61fcc86C17808D62#code) |
 | `SwapMigrator`           | [0x9cDeF6e33687F438808766fC133b2E9d1A16AD57](https://etherscan.io/address/0x9cDeF6e33687F438808766fC133b2E9d1A16AD57#code) |
+
+### sUSD Metapool
+
+| Contract Name               | Contract Address                                                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleSUSDMetaPool`        | [0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314](https://etherscan.io/address/0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314#code) |
+| `SaddleSUSDMetaPoolLPToken` | [0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c](https://etherscan.io/address/0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c#code) |
+| `SaddleSUSDMetaPoolDeposit` | [0xe280EFE654328a3325fc5A9EAb8E998D418C86FB](https://etherscan.io/address/0xe280EFE654328a3325fc5A9EAb8E998D418C86FB#code) |
