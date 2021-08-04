@@ -68,4 +68,4 @@
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleSUSDMetaPool`        | [0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314](https://etherscan.io/address/0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314#code) |
 | `SaddleSUSDMetaPoolLPToken` | [0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c](https://etherscan.io/address/0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c#code) |
-| `SaddleSUSDMetaPoolDeposit` | [0xe280EFE654328a3325fc5A9EAb8E998D418C86FB](https://etherscan.io/address/0xe280EFE654328a3325fc5A9EAb8E998D418C86FB#code) |
+| `SaddleSUSDMetaPoolDeposit` | [0x1e35ebF875f8A2185EDf22da02e7dBCa0F5558aB](https://etherscan.io/address/0x1e35ebF875f8A2185EDf22da02e7dBCa0F5558aB#code) |
