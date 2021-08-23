@@ -69,3 +69,10 @@
 | `SaddleSUSDMetaPool`        | [0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314](https://etherscan.io/address/0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314#code) |
 | `SaddleSUSDMetaPoolLPToken` | [0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c](https://etherscan.io/address/0x8Fa31c1b33De16bf05c38AF20329f22D544aD64c#code) |
 | `SaddleSUSDMetaPoolDeposit` | [0x1e35ebF875f8A2185EDf22da02e7dBCa0F5558aB](https://etherscan.io/address/0x1e35ebF875f8A2185EDf22da02e7dBCa0F5558aB#code) |
+
+### BTC Pool V2
+
+| Contract Name            | Contract Address                                                                                                           |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleBTCPoolV2`        | [0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2](https://etherscan.io/address/0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2#code) |
+| `SaddleBTCPoolV2LPToken` | [0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3](https://etherscan.io/address/0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3#code) |
