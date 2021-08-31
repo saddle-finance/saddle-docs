@@ -76,3 +76,12 @@
 | :----------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleBTCPoolV2`        | [0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2](https://etherscan.io/address/0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2#code) |
 | `SaddleBTCPoolV2LPToken` | [0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3](https://etherscan.io/address/0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3#code) |
+
+### tBTC v2 Metapool
+
+| Contract Name               | Contract Address                                                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SwapDeployer`              | [0xF6C2e0aDc659007Ba7c48446F5A4e4E94dfe08b5](https://etherscan.io/address/0xF6C2e0aDc659007Ba7c48446F5A4e4E94dfe08b5#code) |
+| `SaddleTBTCMetaPool`        | [0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5](https://etherscan.io/address/0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5#code) |
+| `SaddleTBTCMetaPoolLPToken` | [0x122Eca07139EB368245A29FB702c9ff11E9693B7](https://etherscan.io/address/0x122Eca07139EB368245A29FB702c9ff11E9693B7#code) |
+| `SaddleTBTCMetaPoolDeposit` | [0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1](https://etherscan.io/address/0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1#code) |
