@@ -85,3 +85,11 @@
 | `SaddleTBTCMetaPool`        | [0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5](https://etherscan.io/address/0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5#code) |
 | `SaddleTBTCMetaPoolLPToken` | [0x122Eca07139EB368245A29FB702c9ff11E9693B7](https://etherscan.io/address/0x122Eca07139EB368245A29FB702c9ff11E9693B7#code) |
 | `SaddleTBTCMetaPoolDeposit` | [0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1](https://etherscan.io/address/0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1#code) |
+
+### wCUSD Metapool
+
+| Contract Name                | Contract Address                                                                                                           |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleWCUSDMetaPool`        | [0x3F1d224557afA4365155ea77cE4BC32D5Dae2174](https://etherscan.io/address/0x3F1d224557afA4365155ea77cE4BC32D5Dae2174#code) |
+| `SaddleWCUSDMetaPoolLPToken` | [0x78179d49C13c4ECa14C69545ec172Ba0179EAE6B](https://etherscan.io/address/0x78179d49C13c4ECa14C69545ec172Ba0179EAE6B#code) |
+| `SaddleWCUSDMetaPoolDeposit` | [0x401AFbc31ad2A3Bc0eD8960d63eFcDEA749b4849](https://etherscan.io/address/0x401AFbc31ad2A3Bc0eD8960d63eFcDEA749b4849#code) |
