@@ -93,3 +93,10 @@
 | `SaddleWCUSDMetaPool`        | [0x3F1d224557afA4365155ea77cE4BC32D5Dae2174](https://etherscan.io/address/0x3F1d224557afA4365155ea77cE4BC32D5Dae2174#code) |
 | `SaddleWCUSDMetaPoolLPToken` | [0x78179d49C13c4ECa14C69545ec172Ba0179EAE6B](https://etherscan.io/address/0x78179d49C13c4ECa14C69545ec172Ba0179EAE6B#code) |
 | `SaddleWCUSDMetaPoolDeposit` | [0x401AFbc31ad2A3Bc0eD8960d63eFcDEA749b4849](https://etherscan.io/address/0x401AFbc31ad2A3Bc0eD8960d63eFcDEA749b4849#code) |
+
+### Virtual Swaps
+
+| Contract Name  | Contract Address                                                                                                           |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SynthSwapper` | [0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3](https://etherscan.io/address/0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3#code) |
+| `Bridge`       | [0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706](https://etherscan.io/address/0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706#code) |
