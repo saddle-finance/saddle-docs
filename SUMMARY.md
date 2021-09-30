@@ -29,10 +29,3 @@
     * [IAllowlist](solidity-docs/interfaces/iallowlist.md)
   * [LPToken](solidity-docs/lptoken.md)
 
-## New Documents \(DRAFT\) <a id="new-documents"></a>
-
----
-
-* [How to Use Saddle](howtousesaddle.md)
-* [FAQ](faq.md)
-
