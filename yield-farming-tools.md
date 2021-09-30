@@ -6,7 +6,7 @@ description: >-
 
 # Yield Farming Tools
 
-[Liquidity pools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-saddle-pool) are becoming integral to decentralized finance. With continuous innovation, it may become complicated to keep track of everything that’s essential. [Yield farm](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-yield-farming)/ asset management and rewards management tools provide DeFi data in one convenient place. Many tools are available to track liquidity, prices, interest rates, yields, and rewards.
+[Liquidity pools](https://docs.saddle.finance/saddle-faq#what-is-a-saddle-pool) are becoming integral to decentralized finance. With continuous innovation, it may become complicated to keep track of everything that’s essential. [Yield farm](https://docs.saddle.finance/saddle-faq#what-is-yield-farming)/ asset management and rewards management tools provide DeFi data in one convenient place. Many tools are available to track liquidity, prices, interest rates, yields, and rewards.
 
 In this section, we’ll highlight key tools which offer convenient information about Saddle pools and your liquidity.
 
