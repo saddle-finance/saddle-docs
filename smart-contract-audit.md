@@ -22,7 +22,7 @@ _**Disclaimer**:_ Security audits don’t eliminate all risks. Using Saddle as a
 
 Founded in 2018 by professors at Yale University and Columbia University, CertiK is a pioneer in blockchain security, using best-in-class AI technology to secure and monitor blockchain protocols and smart contracts. CertiK’s mission is to secure the cyber world. Starting with blockchain, CertiK applies innovations from academia into enterprise, enabling mission-critical applications to be built with security and correctness.
 
-![](../.gitbook/assets/0%20%285%29.png)
+![](.gitbook/assets/0%20%285%29.png)
 
 CERTIX AUDIT REPORT FOR SADDLE PROTOCOL - 29 OCT 2020
 
@@ -30,11 +30,11 @@ CERTIX AUDIT REPORT FOR SADDLE PROTOCOL - 29 OCT 2020
 
 Quantstamp is the leader in blockchain security, having performed over 200 audits and secured over $100 billion in value. Their top team of PhDs and security professionals have a combined total of over 1,000 Google Scholar citations. They have audited many blockchain systems, including Ethereum 2.0, Binance Smart Chain, Flow, Cardano, and Avalanche and have secured successful innovative applications such as Maker, Compound, and NBA Top Shot.
 
-![](../.gitbook/assets/1%20%285%29.png)
+![](.gitbook/assets/1%20%285%29.png)
 
 QUANTSTAMP AUDIT REPORT FOR SADDLE PROTOCOL - 10 DEC 2020
 
-![](../.gitbook/assets/2%20%282%29.png)
+![](.gitbook/assets/2%20%282%29.png)
 
 QUANTSTAMP AUDIT REPORT FOR SADDLE VIRTUAL SWAP – 31 MAR 2021
 
@@ -42,7 +42,7 @@ QUANTSTAMP AUDIT REPORT FOR SADDLE VIRTUAL SWAP – 31 MAR 2021
 
 Founded in 2015, OpenZeppelin has set industry standards for building secure distributed systems. OpenZeppelin builds developer tools and performs security audits for distributed systems that power multimillion-dollar economies. OpenZeppelin verifies the distributed systems work as intended by performing an audit. Their engineers fully review the system's architecture and codebase and then write a thorough report that includes actionable feedback for every issue found.
 
-![](../.gitbook/assets/3%20%287%29.png)
+![](.gitbook/assets/3%20%287%29.png)
 
 OPENZEPPLIN AUDIT REPORT FOR SADDLE PROTOCOL - 11 DEC 2020
 

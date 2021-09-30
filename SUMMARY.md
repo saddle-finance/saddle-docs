@@ -1,9 +1,17 @@
 # Table of contents
 
 * [About Saddle](README.md)
-* [How to Use Saddle](howtousesaddle.md)
+* [Automated Market Makers](automated-market-makers.md)
+* [Saddle Pools](saddle-pools.md)
+* [Saddle Incentives](saddle-incentives.md)
+* [Saddle Protocol Stats](saddle-protocol-stats.md)
+* [Yield Farming Tools](yield-farming-tools.md)
+* [Build With Saddle](build-with-saddle.md)
+* [Smart Contract Security](smart-contract-audit.md)
+* [Asset Specific Risks](asset-specific-risks.md)
+* [Saddle FAQ](saddle-faq.md)
+* [Glossary](glossary.md)
 * [How to Flash-loan Assets from Saddle](howtoflashloan.md)
-* [FAQ](faq.md)
 * [Contract Addresses](contracts.md)
 * [Solidity Docs](solidity-docs/README.md)
   * [StakeableTokenWrapper](solidity-docs/stakeabletokenwrapper.md)
@@ -23,14 +31,8 @@
 
 ## New Documents \(DRAFT\) <a id="new-documents"></a>
 
-* [Automated Market Makers](new-documents/automated-market-makers.md)
-* [Saddle Pools](new-documents/saddle-pools.md)
-* [Saddle Incentives](new-documents/saddle-incentives.md)
-* [Saddle Protocol Stats](new-documents/saddle-protocol-stats.md)
-* [Yield Farming Tools](new-documents/yield-farming-tools.md)
-* [Build With Saddle](new-documents/build-with-saddle.md)
-* [Smart Contract Security](new-documents/smart-contract-audit.md)
-* [Asset Specific Risks](new-documents/asset-specific-risks.md)
-* [Saddle FAQ](new-documents/saddle-faq.md)
-* [Glossary](new-documents/glossary.md)
+---
+
+* [How to Use Saddle](howtousesaddle.md)
+* [FAQ](faq.md)
 

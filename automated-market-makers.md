@@ -50,7 +50,7 @@ The early version of the cryptocurrency exchanges used the order book model, lik
 
 In the illustration below, the seller's Ask is $20.50 and the buyer's Bids are not closer to the Ask. This results in a liquidity challenge. Market makers, therefore, step in to keep the market functioning by actively buying and selling assets - i.e., transacting on both sides to keep the market functioning. The market makers carry the risk of a price variation during Buy-Hold-Sell cycle.
 
-![](../.gitbook/assets/0%20%284%29.png)
+![](.gitbook/assets/0%20%284%29.png)
 
 The main issue is related to high slippages and volatility due to low volumes of trade. The absence of market makers round the clock further constrained the liquidity. Automated Market Makers \(AMM\), therefore, emerged as a solution to the order book challenge.
 
@@ -68,7 +68,7 @@ _**Algorithm**_: AMMs use an [algorithm ](https://app.gitbook.com/@saddlefinance
 
 _**Yield Farming**_: [Yield farming](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-yield-farming) is an incentive mechanism to put an individual’s cryptocurrency assets to work and generate high returns. Liquidity providers, in yield farming protocols, stake or lock up their assets to earn rewards and higher interests.
 
-![](../.gitbook/assets/1%20%282%29.png)
+![](.gitbook/assets/1%20%282%29.png)
 
 _**Impermanent Loss**_: Though the AMM model offers better stability and returns, there is a risk of impermanent loss – a temporary loss experienced by liquidity providers because of volatility in the liquidity pool assets. In simple terms, if the liquidity provider had held onto the asset, without providing it as a liquidity to the pool, the individuals would have had more money/value. But impermanent loss is a temporary situation as the AMMs regulate the price closer to market, eventually.
 
@@ -111,7 +111,7 @@ Uniswap first implemented the constant product formula and Balancer refined it w
 
 The constant product formula determines the price when someone trades against the liquidity pool. As we see from the chart below, we calculate the price as a ratio of the tokens in the pool. The pricing curve has a hyperbola when plotted against two tokens. When someone withdraws, say Token\#1, the proportionate Token\#2 to be deposited, to maintain the constant product, varies.
 
-![](../.gitbook/assets/2%20%287%29.png)
+![](.gitbook/assets/2%20%287%29.png)
 
 Given the volatile nature of cryptocurrency, the market price of the tokens also fluctuates. The constant product formula _does not update_ the price of the tokens in the pool with the market movement. In certain cases, the price update is a simple [off-chain observation](https://docs.uniswap.org/protocol/V2/concepts/advanced-topics/pricing). This resulted in the risk of higher slippages.
 
@@ -127,7 +127,7 @@ where **x** is the amount of Token\#1 in the liquidity pool, **y** is the amount
 
 While the constant sum formula solves the slippage problem, it provides only _fixed liquidity_. For markets to function well, they need a constant supply of liquidity and hence this model didn’t suit the purpose well.
 
-![](../.gitbook/assets/3%20%282%29.png)
+![](.gitbook/assets/3%20%282%29.png)
 
 ### **Stableswap Algorithm**
 
@@ -135,7 +135,7 @@ The innovation into AMMs mathematical formula continued to find a solution to th
 
 First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hybrid algorithm. The Stableswap hybrid combines both Constant Product and Constant Sum models, and the following chart shows the Stableswap algorithm in relation to constant product and constant sum invariants.
 
-![](../.gitbook/assets/4.png)
+![](.gitbook/assets/4.png)
 
 * **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
 * **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.

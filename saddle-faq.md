@@ -91,7 +91,7 @@ _**Admin fee**:_ The admin fee is included as a % of the trading fee. Currently 
 
 _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. The gas fee varies depending on the speed of confirmation time required and represented in gwei \(1 gwei = 10-9 ETH\).
 
-![Example of Saddle Fees](../.gitbook/assets/2%20%283%29.png)
+![Example of Saddle Fees](.gitbook/assets/2%20%283%29.png)
 
 **Note:** There is no fee to withdraw your liquidity from Saddle pools. Initial versions of our contracts contained a withdrawal fee feature, but we have removed this from all future pools.
 
@@ -360,17 +360,17 @@ You can provide liquidity to a metapool in two ways - as individual assets or as
 * **Step 1:** Go to [https://saddle.exchange/\#/pools](https://saddle.exchange/#/pools)
 * **Step 2:** Choose the metapool from the list of pools available
 
-![](../.gitbook/assets/3%20%281%29.png)
+![](.gitbook/assets/3%20%281%29.png)
 
 * **Step 3:** Click on _Deposit_
 
 **Option 1 :** Deposit individual assets
 
-![](../.gitbook/assets/4%20%281%29.png)
+![](.gitbook/assets/4%20%281%29.png)
 
 **Option 2** : Deposit LP tokens from the base pool
 
-![](../.gitbook/assets/5.png)
+![](.gitbook/assets/5.png)
 
 ### **What is Front-Running?**
 
@@ -395,11 +395,11 @@ Virtual swaps are a new feature in Saddle pools leveraging Synthetix’s vSynths
 
 **Saddle Synths: Version 1**
 
-![](../.gitbook/assets/6%20%283%29.png)
+![](.gitbook/assets/6%20%283%29.png)
 
 **Saddle Synths: Version 2**
 
-![](../.gitbook/assets/7%20%281%29.png)
+![](.gitbook/assets/7%20%281%29.png)
 
 ### **Where can I find Saddle’s Contract Addresses?**
 
@@ -421,7 +421,7 @@ With max slippage setting, you can specify the maximum % of price movement you c
 
 ![Graphical user interface, application
 
-Description automatically generated](../.gitbook/assets/8%20%287%29.png)
+Description automatically generated](.gitbook/assets/8%20%287%29.png)
 
 ### **What is Price Impact?**
 
@@ -442,7 +442,7 @@ When:
 
 For example, consider A = 1 vs. A = 10:
 
-![A Parameter](../.gitbook/assets/9.png)
+![A Parameter](.gitbook/assets/9.png)
 
 The A parameter gives the flexibility to the fund managers to balance the pool stability by changing the amplification coefficient. Pools with more volatile assets will use lower A values.
 
@@ -452,7 +452,7 @@ The A parameter gives the flexibility to the fund managers to balance the pool s
 
 Gas fees are paid in Ethereum's native currency, ether \(ETH\). Gas prices are denoted in gwei, which itself is a denomination of ETH - each gwei is equal to 0.000000001 ETH \(10-9 ETH\). For example, instead of saying that your gas costs 0.000000001 ether, you can say your gas costs 1 gwei. The word 'gwei' itself means 'giga-wei', and it is equal to 1,000,000,000 wei.
 
-![](../.gitbook/assets/10%20%289%29.png)
+![](.gitbook/assets/10%20%289%29.png)
 
 ### **Why is Gas so expensive?**
 
@@ -468,7 +468,7 @@ Additionally, here are a few [other ways](https://blog.makerdao.com/four-ways-de
 
 The total value locked \(TVL\) details and stats are available alongside the Saddle Pools.
 
-![](../.gitbook/assets/11%20%281%29.png)
+![](.gitbook/assets/11%20%281%29.png)
 
 For more stats and analytics, you can check out the [DeFi analytics tools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-protocol-stats).
 
@@ -485,14 +485,14 @@ If at any point you want to withdraw your assets, head out to [https://saddle.ex
 
 ![Graphical user interface
 
-Description automatically generated with low confidence](../.gitbook/assets/12%20%287%29.png)
+Description automatically generated with low confidence](.gitbook/assets/12%20%287%29.png)
 
 * **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool.
 * **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
 ![Graphical user interface
 
-Description automatically generated](../.gitbook/assets/13%20%284%29.png)
+Description automatically generated](.gitbook/assets/13%20%284%29.png)
 
 * **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
 
@@ -514,7 +514,7 @@ The first thing you need to do when a transaction’s [stuck](https://medium.com
 
 The liquidity providers fees come in two forms - trading fees and flash loan fees \(where applicable\). You can see the fees in the trading window of the pools.
 
-![](../.gitbook/assets/14.png)
+![](.gitbook/assets/14.png)
 
 For real-time view on the trading fees over a period, you can check out the stats here: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
@@ -561,7 +561,7 @@ Depending on the liquidity pool, the rewards structure varies. Refer to the [inc
 
 Depending on the liquidity pool, the staking/unstaking process varies. The typical process is as shown below:
 
-![](../.gitbook/assets/15%20%287%29.png)
+![](.gitbook/assets/15%20%287%29.png)
 
 | **Saddle Pool** | **Rewards** | **Link** |
 | :--- | :--- | :--- |

@@ -14,7 +14,7 @@ Total value locked is the funds \(assets\) currently locked \(staked\) in Saddle
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![](../.gitbook/assets/0%20%288%29.png)
+![](.gitbook/assets/0%20%288%29.png)
 
 ### **Trading Volume \(TV\)**
 
@@ -22,7 +22,7 @@ Trading volume is the number of units traded in the market during a time. For in
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![](../.gitbook/assets/1%20%284%29.png)
+![](.gitbook/assets/1%20%284%29.png)
 
 ### **Total Revenue \(Trading Fees\)**
 
@@ -30,7 +30,7 @@ Total revenue is a measure of the trading fees paid by the traders over a specif
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![](../.gitbook/assets/2%20%2811%29.png)
+![](.gitbook/assets/2%20%2811%29.png)
 
 ### **Supply-Side Revenue**
 
@@ -38,7 +38,7 @@ Supply-side revenue is the share of trading fees which go to the liquidity provi
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![](../.gitbook/assets/3%20%286%29.png)
+![](.gitbook/assets/3%20%286%29.png)
 
 ### **Revenue Composition**
 
@@ -46,7 +46,7 @@ A chart on asset vs revenue comparison – which asset contributes most to the r
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![](../.gitbook/assets/4%20%286%29.png)
+![](.gitbook/assets/4%20%286%29.png)
 
 ### **Liquidity By Asset**
 
@@ -54,7 +54,7 @@ Liquidity refers to how easily and quickly assets are bought or sold _without_ a
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![](../.gitbook/assets/5%20%289%29.png)
+![](.gitbook/assets/5%20%289%29.png)
 
 ### **LP Tokens Staked**
 
@@ -62,7 +62,7 @@ Saddle rewards LP tokens for contributing to the liquidity pools. Liquidity prov
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![](../.gitbook/assets/6.png)
+![](.gitbook/assets/6.png)
 
 ## **SADDLE POOL STATS**
 
@@ -74,7 +74,7 @@ The unique deposit address denotes the liquidity providers of Saddle. A wide spr
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![](../.gitbook/assets/7%20%284%29.png)
+![](.gitbook/assets/7%20%284%29.png)
 
 ### **Smart Contract Stats**
 
@@ -89,7 +89,7 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 3:** Enter the smart contract address in the search box. Click _Search_.
 * **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
-![](../.gitbook/assets/8%20%286%29.png)
+![](.gitbook/assets/8%20%286%29.png)
 
 **Blockchair.com Block Explorer**
 
@@ -98,7 +98,7 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 3:** Enter the smart contract address in the search box. Click _Search_.
 * **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
-![](../.gitbook/assets/9%20%289%29.png)
+![](.gitbook/assets/9%20%289%29.png)
 
 ### **Visualizing Smart Contracts**
 
@@ -113,7 +113,7 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 3:** Enter the smart contract address in the search box. Click _Search_.
 * **Step 4**: Click on Ethereum Mainnet in the results shown
 
-![](../.gitbook/assets/10%20%287%29.png)
+![](.gitbook/assets/10%20%287%29.png)
 
-![](../.gitbook/assets/11%20%284%29.png)
+![](.gitbook/assets/11%20%284%29.png)
 

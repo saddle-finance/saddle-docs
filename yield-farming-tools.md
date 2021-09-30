@@ -18,7 +18,7 @@ Vfat.tools is a calculator for yield farming. With a minimalist dashboard, vfat.
 
 You can access the Saddle farming calculator from the URL: [https://vfat.tools/saddle/](https://vfat.tools/saddle/).
 
-![](../.gitbook/assets/0%20%2810%29.png)
+![](.gitbook/assets/0%20%2810%29.png)
 
 ### **ZAPPER.FI**
 
@@ -28,11 +28,11 @@ You can access Saddle farming dashboard from the URL: [https://zapper.fi/farm](h
 
 **Go to Zapper.fi/farm 🡪 search for Saddle tokens**
 
-![](../.gitbook/assets/1%20%281%29.png)
+![](.gitbook/assets/1%20%281%29.png)
 
 **Choose Saddle tokens 🡪 Stake or Unstake**
 
-![](../.gitbook/assets/2%20%2812%29.png)
+![](.gitbook/assets/2%20%2812%29.png)
 
 ## **REWARDS MANAGEMENT TOOLS**
 
@@ -42,7 +42,7 @@ Track the different yields you can get on tBTC token.
 
 You can access the Saddle pool information from the URL: [https://www.tbtcfarm.info/pool/saddle](https://www.tbtcfarm.info/pool/saddle)
 
-![](../.gitbook/assets/3%20%2811%29.png)
+![](.gitbook/assets/3%20%2811%29.png)
 
 ### **KEEP REWARDS**
 
@@ -52,7 +52,7 @@ You can access the Saddle pool information from the URL: [https://dashboard.keep
 
 ![Graphical user interface, application, Teams
 
-Description automatically generated](../.gitbook/assets/4%20%282%29.png)
+Description automatically generated](.gitbook/assets/4%20%282%29.png)
 
 ### **ALCX REWARDS**
 
@@ -62,7 +62,7 @@ You can access the Saddle pool information from the URL: [https://app.alchemix.f
 
 ![Graphical user interface
 
-Description automatically generated](../.gitbook/assets/5%20%283%29.png)
+Description automatically generated](.gitbook/assets/5%20%283%29.png)
 
 ### **FRAX REWARDS**
 
@@ -72,5 +72,5 @@ You can access the Saddle pool information from the URL: [https://app.frax.finan
 
 ![A picture containing text, monitor, screen, indoor
 
-Description automatically generated](../.gitbook/assets/6%20%289%29.png)
+Description automatically generated](.gitbook/assets/6%20%289%29.png)
 

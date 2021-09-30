@@ -22,7 +22,7 @@ _**Admin fee**:_ The admin fee is included as a % of the trading fee. Currently 
 
 _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. The [gas fee](https://www.gasnow.org/) varies depending on the speed of confirmation time required and represented in gwei \(1 gwei = 10`-9` ETH\).
 
-![](../.gitbook/assets/0%20%287%29.png)
+![](.gitbook/assets/0%20%287%29.png)
 
 ### **Rewards**
 
@@ -43,16 +43,16 @@ Depositing assets into a pool on Saddle allows users to take part in the protoco
 * **Step 1:** Choose the pool on the top navigation bar
 * **Step 2:** Click on _Deposit_
 
-![](../.gitbook/assets/1%20%287%29.png)
+![](.gitbook/assets/1%20%287%29.png)
 
 * **Step 3:** Enter the amount\(s\) you would like to deposit on one or more of the assets listed in the Saddle pool. \(_Tip: deposit underweight assets to get an LP token bonus_\).
 * **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
-![](../.gitbook/assets/2%20%2810%29.png)
+![](.gitbook/assets/2%20%2810%29.png)
 
 * **Step 5:** Click _Deposit_ and review the details and confirm the transaction. _\(Tip: If you are depositing into a_ [_Metapool_](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-base-pool-and-metapool)_, you have the **option** of depositing individual assets or depositing LP tokens from the_ [_base pool_](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-base-pool-and-metapool)_\)_
 
-![](../.gitbook/assets/3.png)
+![](.gitbook/assets/3.png)
 
 * **Step 6:** After the transaction confirms, stake your LP tokens to earn rewards \(details under pool section\).
 * **Step 7:** Keep track of your rewards!
@@ -77,12 +77,12 @@ After unstaking your LP Tokens \(where applicable\), return to [Saddle Pools](ht
 * **Step 1:** Choose the pool on the top navigation bar
 * **Step 2:** Click on _Withdraw_
 
-![](../.gitbook/assets/5%20%282%29.png)
+![](.gitbook/assets/5%20%282%29.png)
 
 * **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool. \(_Tip: withdraw overweight assets to get a bonus_\).
 * **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
-![](../.gitbook/assets/6%20%288%29.png)
+![](.gitbook/assets/6%20%288%29.png)
 
 * **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
 
@@ -94,7 +94,7 @@ Saddle supports a [wide range](https://app.gitbook.com/@saddlefinance/s/saddle/~
 
 Broadly, there are three types of pools to select from – BTC, ETH, and USD.
 
-![](../.gitbook/assets/7%20%285%29.png)
+![](.gitbook/assets/7%20%285%29.png)
 
 ### **Base Pool & Metapool**
 
@@ -253,7 +253,7 @@ The BTC pool currently supports four wrapped variants of Bitcoin, enabling Bitco
 * _tBTC_: Like Ren, tBTC is backed 1:1 by Bitcoin and truly decentralized.
 * _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
 
-![](../.gitbook/assets/8.png)
+![](.gitbook/assets/8.png)
 
 **Rewards**
 
@@ -261,7 +261,7 @@ Saddle rewards you in two ways for the BTC pool – trading fees and as KEEP inc
 
 The Keep Network team has committed weekly reward incentives for liquidity providers. After the transaction confirms, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to earn KEEP rewards. Check [KEEP](https://dashboard.keep.network/liquidity) to know the current APY for the deposits.
 
-![](../.gitbook/assets/9%20%281%29.png)
+![](.gitbook/assets/9%20%281%29.png)
 
 ### **BTC Pool V2**
 
@@ -271,7 +271,7 @@ The BTC pool V2 currently supports three wrapped variants of Bitcoin, enabling B
 * _renBTC_: Like wBTC, renBTC is an ERC20 token backed 1:1 by Bitcoin. Ren also decentralizes the custody of the BTC.
 * _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
 
-![](../.gitbook/assets/10%20%288%29.png)
+![](.gitbook/assets/10%20%288%29.png)
 
 **Rewards**
 
@@ -284,7 +284,7 @@ The Saddle tBTC Pool is a metapool. In this pool, we pooled the single token tBT
 * _tBTCv2_: tBTC is backed 1:1 by Bitcoin and truly decentralized.
 * _saddleBTC-V2_: A base pool \(BTC Pool V2\) on Saddle comprising the pegged assets wBTC, renBTC, and sBTC.
 
-![](../.gitbook/assets/11%20%282%29.png)
+![](.gitbook/assets/11%20%282%29.png)
 
 **Rewards**
 
@@ -298,13 +298,13 @@ The ETH pool on Saddle is of alETH – a synthetic ETH backed asset by Alchemix.
 * _alETH_: Like WETH, alETH is an ERC20 token, but backed 4:1 by ETH.
 * _sETH_: sETH is a short position built through the dYdX protocol and can be traded like any ERC20 token. sETH is tied to USD-backed stablecoin DAI.
 
-![](../.gitbook/assets/12%20%283%29.png)
+![](.gitbook/assets/12%20%283%29.png)
 
 **Rewards**
 
 Saddle rewards you trading fees, flash loan fees, and ALCX tokens every time you provide liquidity to the alETH pool. After the transaction confirms, stake your LP tokens on the [Alchemix Staking Dashboard](https://app.alchemix.fi/farms) to earn rewards. Check [ALCX](https://app.alchemix.fi/farms) to know the current APY for the deposits.
 
-![](../.gitbook/assets/13%20%288%29.png)
+![](.gitbook/assets/13%20%288%29.png)
 
 ### **Stablecoin Pool V2**
 
@@ -318,7 +318,7 @@ The Stablecoin pool contains three stablecoins, unlocking deep on-chain liquidit
 
 Follow [this guide](https://medium.com/saddle/launching-v2-of-the-saddle-3pool-bc82f0bcd700) to migrate your liquidity to V2.
 
-![](../.gitbook/assets/14%20%286%29.png)
+![](.gitbook/assets/14%20%286%29.png)
 
 **Rewards**
 
@@ -335,13 +335,13 @@ In contrast, the Saddle D4 pool, currently composed of four permissionless stabl
 * _FRAX_: A fractional-algorithmic stablecoin that is partially backed by collateral and partially stabilized algorithmically.
 * _LUSD_: The USD-pegged stablecoin of the Liquity decentralized borrowing protocol.
 
-![](../.gitbook/assets/15%20%283%29.png)
+![](.gitbook/assets/15%20%283%29.png)
 
 **Rewards**
 
 Saddle rewards you in three ways for the D4 decentralized pool – trading fees, flash loan fees, and as four rewards \(TRIBE, FXS, LQTY, and ALCX tokens\) every time you provide liquidity to the D4 pool. After the transaction confirms, stake your LP tokens on the [Frax Finance](https://app.frax.finance/staking#Saddle_alUSD_FEI_FRAX_LUSD) dashboard to earn rewards. Check [Frax](https://app.frax.finance/staking#Saddle_alUSD_FEI_FRAX_LUSD) to know the current APR for the deposits.
 
-![](../.gitbook/assets/16%20%283%29.png)
+![](.gitbook/assets/16%20%283%29.png)
 
 ### **sUSD Pool**
 
@@ -350,7 +350,7 @@ The Saddle sUSD Pool is a metapool. In this pool, we pooled the single token sUS
 * _sUSD_: A synthetic stablecoin on the Synthetix platform, whose value tracks the US Dollar.
 * _saddleUSD-V2_: A base pool \(Stablecoin Pool V2\) on Saddle comprising the stablecoins USDT, USDC, and DAI.
 
-![](../.gitbook/assets/17.png)
+![](.gitbook/assets/17.png)
 
 **Rewards**
 
@@ -363,7 +363,7 @@ The Saddle wCUSD Pool is a metapool. In this pool, we pooled the single token CU
 * _wCUSD_: Wrapped Celo Dollar \(wCUSD\) is an ERC20 token, representing a 1:1 share of Celo Dollar \(CUSD\).
 * _saddleUSD-V2_: A base pool \(Stablecoin Pool V2\) on Saddle comprising the stablecoins USDT, USDC, and DAI.
 
-![](../.gitbook/assets/18%20%282%29.png)
+![](.gitbook/assets/18%20%282%29.png)
 
 **Rewards**
 
