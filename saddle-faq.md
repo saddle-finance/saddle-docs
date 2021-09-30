@@ -12,7 +12,7 @@ Frequently asked questions and answers regarding Saddle Finance. Still have ques
 
 ### **What is Saddle?**
 
-Saddle is an automated market maker \([AMM](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm)\) for [**pegged value crypto assets**](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). Saddle enables anyone holding a pegged value crypto asset to trade in between other pegged assets with [**minimal slippage**](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-slippage). By using a tailored AMM with minimal slippage, Saddle ensures users minimize value loss while trading.
+Saddle is an automated market maker \([AMM](https://docs.saddle.finance/automated-market-makers)\) for [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). Saddle enables anyone holding a pegged value crypto asset to trade in between other pegged assets with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). By using a tailored AMM with minimal slippage, Saddle ensures users minimize value loss while trading.
 
 ### **Why Saddle?**
 
@@ -20,7 +20,7 @@ _**Saddle stands for DeFi**_: We commit ourselves to [open-source software](http
 
 _**Saddle is safe & legit**_: Saddle protocol is audited and secured by leading blockchain security firms like Certik, Quantstamp, and OpenZeppelin. Read the audits [here](https://github.com/saddle-finance/saddle-audits).
 
-_**Saddle is collaborative and fun to work with**_: We root our ethos in the desire to [support ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle)the DeFi ecosystem and partner with like-minded protocols. Just try out and you’ll find Saddlers’ as fun-loving and nice people.
+_**Saddle is collaborative and fun to work with**_: We root our ethos in the desire to [support ](https://docs.saddle.finance/build-with-saddle)the DeFi ecosystem and partner with like-minded protocols. Just try out and you’ll find Saddlers’ as fun-loving and nice people.
 
 ### **Who built Saddle?**
 
@@ -32,7 +32,7 @@ You might have interacted with our founder [Sunil](https://www.linkedin.com/in/s
 
 Saddle is an automated market maker \(AMM\) enabling trading between pegged value crypto assets. Saddle liquidity pools implement the StableSwap mathematical formula to reduce slippage and keep the market liquid. First introduced by [Curve](https://curve.fi/whitepaper), Stableswap is a hybrid algorithm. The Stableswap hybrid combines both Constant Product and Constant Sum models.
 
-For more on AMMs and Stableswap check out the [AMM section](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm).
+For more on AMMs and Stableswap check out the [AMM section](https://docs.saddle.finance/automated-market-makers).
 
 ### **Does Saddle have a token?**
 
@@ -97,7 +97,7 @@ _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. 
 
 ### **Is Saddle safe?**
 
-Saddle has been [audited ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/smart-contract-audit)by Certik, Quantstamp, and OpenZeppelin. We have passed security auditing on all Saddle smart contracts, from the following auditors.
+Saddle has been [audited ](https://docs.saddle.finance/smart-contract-audit)by Certik, Quantstamp, and OpenZeppelin. We have passed security auditing on all Saddle smart contracts, from the following auditors.
 
 | **AUDITOR** | **PROTOCOL AUDIT** | **VIRTUAL SWAP AUDIT** |
 | :--- | :--- | :--- |
@@ -105,7 +105,7 @@ Saddle has been [audited ](https://app.gitbook.com/@saddlefinance/s/saddle/~/dra
 | [Quantstamp](https://quantstamp.com/) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) |
 | [OpenZepplin](https://openzeppelin.com/) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/) | N/A |
 
-_**Disclaimer**:_ Investing in cryptocurrencies is risky. Using Saddle as an exchange should be significantly less risky, but keep in mind there are still risks. Refer to the [risks section](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/asset-specific-risks) for more details.
+_**Disclaimer**:_ Investing in cryptocurrencies is risky. Using Saddle as an exchange should be significantly less risky, but keep in mind there are still risks. Refer to the [risks section](https://docs.saddle.finance/asset-specific-risks) for more details.
 
 ### **Who controls Saddle's admin keys?**
 
@@ -123,7 +123,7 @@ This 3/5 multisig has capabilities to pause new deposits and trades in case of t
 
 ### **What institutional investments did Saddle get?**
 
-Refer to the [_Our Investors_](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle#our-investors) section in Build with Saddle. The section contains a list of the institutional investors supporting Saddle.
+Refer to the [Our Investors](https://docs.saddle.finance/build-with-saddle#our-investors) section in Build with Saddle. The section contains a list of the institutional investors supporting Saddle.
 
 ### **Did you copy Curve?**
 
@@ -135,13 +135,13 @@ The comparison of Curve and Saddle is rooted in the algorithm used. Saddle’s t
 
 ### **Why support Saddle over Curve?**
 
-**Principally**, Saddle is built on the values of open-source and collaboration, while Curve operates on a restrictive license. We welcome anyone who wants to build on top of Saddle or bring stablecoin / pegged asset DEX/AMM to another chain. Check out [Build with Saddle](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle) on ways to collaborate.
+**Principally**, Saddle is built on the values of open-source and collaboration, while Curve operates on a restrictive license. We welcome anyone who wants to build on top of Saddle or bring stablecoin / pegged asset DEX/AMM to another chain. Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on ways to collaborate.
 
 **Technically**, Saddle is implemented in Solidity, while Curve is implemented using Vyper. Here’s a [research paper](https://www.researchgate.net/publication/334626679_Data_Protection_with_Ethereum_Blockchain) comparing the two languages.
 
 ### **How do I work with Saddle?**
 
-Check out [Build with Saddle](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle) on ways to collaborate.
+Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on ways to collaborate.
 
 ### **What is Saddle’s "Proof of Governance"?**
 
@@ -266,7 +266,7 @@ Currently, these are the pegged assets we support. Our support for pegged value 
 
 ### **Will Saddle support other assets? When?**
 
-Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged value crypto assets. We keep adding [partners ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle)and assets to realise our mission.
+Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged value crypto assets. We keep adding [partners ](https://docs.saddle.finance/build-with-saddle)and assets to realise our mission.
 
 **Follow us**, if you haven’t already, for the latest updates on new assets and pools.
 
@@ -274,17 +274,17 @@ Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged 
 | :--- | :--- | :--- | :--- | :--- |
 
 
-**Collaborate with us** if you are working on an exciting DeFi project. Check out the [Build with Saddle](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle) section for details.
+**Collaborate with us** if you are working on an exciting DeFi project. Check out the [Build with Saddle](https://docs.saddle.finance/build-with-saddle) section for details.
 
 ### **What are the risks with Pegged Value Crypto Assets?**
 
-Investing in cryptocurrencies is risky. The cryptocurrency assets in the various Saddle protocols are an integral part of the Saddle ecosystem. Any risks to the assets have a cascading effect on Saddle. Before we accept a cryptocurrency for the liquidity pools, we evaluate the [underlying risks](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/asset-specific-risks) for the assets and operations of the asset. If one or more risks are significant, we don’t accept the cryptocurrency for the Saddle pools. The three main risk evaluation parameters are:
+Investing in cryptocurrencies is risky. The cryptocurrency assets in the various Saddle protocols are an integral part of the Saddle ecosystem. Any risks to the assets have a cascading effect on Saddle. Before we accept a cryptocurrency for the liquidity pools, we evaluate the [underlying risks](https://docs.saddle.finance/asset-specific-risks) for the assets and operations of the asset. If one or more risks are significant, we don’t accept the cryptocurrency for the Saddle pools. The three main risk evaluation parameters are:
 
 * Smart-contract risks
 * Counter-party risks
 * Market risks
 
-Check out the [asset specific risk](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/asset-specific-risks) section to know more.
+Check out the [asset specific risk](https://docs.saddle.finance/asset-specific-risks) section to know more.
 
 ## **LIQUIDITY POOLS & SWAPS**
 
@@ -299,11 +299,11 @@ Saddle is a decentralized exchange. A cryptocurrency exchange is a marketplace f
 
 ### **What is an Automated Market Maker?**
 
-Market makers are essential in an exchange to provide liquidity, control spreads, and maintain slippages. Since cryptocurrency exchanges work 24x7, the need for automated market makers rose. [AMMs ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm)democratized cryptocurrency trading by doing away with order books and institutional market makers. Instead, AMMs execute trade automatically using algorithms and liquidity pools.
+Market makers are essential in an exchange to provide liquidity, control spreads, and maintain slippages. Since cryptocurrency exchanges work 24x7, the need for automated market makers rose. [AMMs ](https://docs.saddle.finance/automated-market-makers)democratized cryptocurrency trading by doing away with order books and institutional market makers. Instead, AMMs execute trade automatically using algorithms and liquidity pools.
 
 ### **What is the Constant Product Formula?**
 
-[Constant product formula](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm#constant-product-formula) is probably the simplest and the earliest AMM algorithm to come into the market. Uniswap popularized the mathematical formula:
+[Constant product formula](https://docs.saddle.finance/automated-market-makers#constant-product-formula) is probably the simplest and the earliest AMM algorithm to come into the market. Uniswap popularized the mathematical formula:
 
                                               **x \* y = k**
 
@@ -313,7 +313,7 @@ Given the volatile nature of cryptocurrency, the market price of the tokens also
 
 ### **What is the Constant Sum Formula?**
 
-To address the slippage issue, AMMs explored the constant sum formula as an option. [Constant sum formula](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm#constant-sum-formula) solves for the equation:
+To address the slippage issue, AMMs explored the constant sum formula as an option. [Constant sum formula](https://docs.saddle.finance/automated-market-makers#constant-sum-formula) solves for the equation:
 
                                           **x + y = k**
 
@@ -323,7 +323,7 @@ While the constant sum formula solves the slippage problem, it provides only _fi
 
 ### **What is the StableSwap Formula?**
 
-First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hybrid algorithm. The [Stableswap ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm#stableswap-algorithm)hybrid combines both Constant Product and Constant Sum models:
+First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hybrid algorithm. The [Stableswap ](https://docs.saddle.finance/automated-market-makers#stableswap-algorithm)hybrid combines both Constant Product and Constant Sum models:
 
 * **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**.
 * **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**.
@@ -336,7 +336,7 @@ Dynamic pegs will bring the benefits of Stableswaps to cryptocurrency assets, wh
 
 ### **What is a Saddle Pool?**
 
-Instead of an order book, AMMs use [liquidity pools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-pools) to facilitate trade. Liquidity pool, a smart contract, is a fund of tokens \(or coins\).
+Instead of an order book, AMMs use [liquidity pools](https://docs.saddle.finance/saddle-pools) to facilitate trade. Liquidity pool, a smart contract, is a fund of tokens \(or coins\).
 
 In AMMs, traders interact with the smart contracts, to enable liquidity and price discovery. Because of the permissionless nature, AMMs allow anyone to provide liquidity to the liquidity pool. The liquidity pool smart contract holds two or more tokens and allows anyone to deposit and withdraw funds from them, but only according to specific mathematical rules.
 
@@ -344,7 +344,7 @@ In AMMs, traders interact with the smart contracts, to enable liquidity and pric
 
 Liquidity providers \(LPs\) contribute assets \(cryptocurrency tokens and coins\) to liquidity pools.
 
-In exchange for providing the tokens, the LPs normally earn a [fee](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives). Now, when a trade executes on an AMM, the trade executes against the liquidity pool. This eliminates the need for an order book and for the buyer and seller to be present at that moment in time.
+In exchange for providing the tokens, the LPs normally earn a [fee](https://docs.saddle.finance/saddle-incentives). Now, when a trade executes on an AMM, the trade executes against the liquidity pool. This eliminates the need for an order book and for the buyer and seller to be present at that moment in time.
 
 ### **What is a Base Pool and Metapool?**
 
@@ -448,7 +448,7 @@ The A parameter gives the flexibility to the fund managers to balance the pool s
 
 ### **What is the Gas Fee?**
 
-[**Gas**](https://www.gasnow.org/) refers to the unit that measures the amount of computational effort required to execute specific operations on the [Ethereum network](https://ethereum.org/en/developers/docs/gas/). Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to successfully conduct a transaction on Ethereum.
+[Gas](https://www.gasnow.org/) refers to the unit that measures the amount of computational effort required to execute specific operations on the [Ethereum network](https://ethereum.org/en/developers/docs/gas/). Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to successfully conduct a transaction on Ethereum.
 
 Gas fees are paid in Ethereum's native currency, ether \(ETH\). Gas prices are denoted in gwei, which itself is a denomination of ETH - each gwei is equal to 0.000000001 ETH \(10-9 ETH\). For example, instead of saying that your gas costs 0.000000001 ether, you can say your gas costs 1 gwei. The word 'gwei' itself means 'giga-wei', and it is equal to 1,000,000,000 wei.
 
@@ -470,7 +470,7 @@ The total value locked \(TVL\) details and stats are available alongside the Sad
 
 ![](.gitbook/assets/11%20%281%29.png)
 
-For more stats and analytics, you can check out the [DeFi analytics tools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-protocol-stats).
+For more stats and analytics, you can check out the [DeFi analytics tools](https://docs.saddle.finance/saddle-protocol-stats).
 
 ### **Should I deposit into a pool if the assets are imbalanced?**
 
@@ -498,7 +498,7 @@ Description automatically generated](.gitbook/assets/13%20%284%29.png)
 
 ### **What risks are there to depositing in Saddle’s pools?**
 
-As with any investment, traditional or DeFi, providing liquidity to the pools carries a risk. Typically, the risks include risk of smart contracts, risks associated with the tokens/Stablecoins in the liquidity pools, and/or the risks associated with the AMMs. We outline the risks in the Saddle pool risk [section](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-pools#saddle-pool-risks).
+As with any investment, traditional or DeFi, providing liquidity to the pools carries a risk. Typically, the risks include risk of smart contracts, risks associated with the tokens/Stablecoins in the liquidity pools, and/or the risks associated with the AMMs. We outline the risks in the Saddle pool risk [section](https://docs.saddle.finance/saddle-pools#saddle-pool-risks).
 
 ### **Why is my approval/transaction stuck?**
 
@@ -524,11 +524,11 @@ Frequently asked questions and answers regarding Saddle rewards and incentives. 
 
 ### **What is Yield Farming?**
 
-[Yield farming](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/yield-farming-tools) is an incentive mechanism to put an individual’s cryptocurrency assets to work and generate high returns. Liquidity providers, in yield farming protocols, stake or lock up their assets to earn rewards and higher interests.
+[Yield farming](https://docs.saddle.finance/yield-farming-tools) is an incentive mechanism to put an individual’s cryptocurrency assets to work and generate high returns. Liquidity providers, in yield farming protocols, stake or lock up their assets to earn rewards and higher interests.
 
 ### **What are Saddle’s liquidity provider rewards?**
 
-Saddle rewards the liquidity providers for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies. There are many ways to earn rewards – interest from trading fees, interest from lending, and pool specific incentives. Refer to the [incentives ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives)section for details.
+Saddle rewards the liquidity providers for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies. There are many ways to earn rewards – interest from trading fees, interest from lending, and pool specific incentives. Refer to the [incentives ](https://docs.saddle.finance/saddle-incentives)section for details.
 
 ### **What are LP Tokens?**
 
@@ -536,7 +536,7 @@ Liquidity provider tokens \(LP tokens\) are tokens issued to liquidity providers
 
 ### **What is the difference between APR and APY?**
 
-Both [APY and APR](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives#apy-and-apr) refer to yield or interest rates.
+Both [APY and APR](https://docs.saddle.finance/saddle-incentives#apy-and-apr) refer to yield or interest rates.
 
 * **Annual Percentage Yield \(APY\):** APY refers to the amount of interest a liquidity provider earns over one year. APY is like an interest rate, but the biggest benefit of APY is the _compounding_.
 * **Annual Percentage Rate \(APR\):** APR does not factor compounding and represents the annual interest rate.
@@ -551,11 +551,11 @@ Let’s take a scenario of 1% interest each month. Therefore,
 
 ### **How much will I earn for LPing Saddle’s pools?**
 
-Depending on the liquidity pool, the rewards structure varies. Refer to the [incentives ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives)section for details.
+Depending on the liquidity pool, the rewards structure varies. Refer to the [incentives ](https://docs.saddle.finance/saddle-incentives)section for details.
 
 ### **What additional rewards can I get for LPing Saddle’s pools?**
 
-Depending on the liquidity pool, the rewards structure varies. Refer to the [incentives ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives)section for details.
+Depending on the liquidity pool, the rewards structure varies. Refer to the [incentives ](https://docs.saddle.finance/saddle-incentives)section for details.
 
 ### **Where do I go to Stake/Unstake?**
 
@@ -569,5 +569,5 @@ Depending on the liquidity pool, the staking/unstaking process varies. The typic
 | alETH Pool | ALCX Rewards | [Alchemix Staking Dashboard](https://app.alchemix.fi/farms) |
 | D4 Pool | ALCX/FXS/LQTY/TRIBE Rewards | [FRAX Staking Dashboard](about:blank) |
 
-For further details, refer to the [incentives ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives)section.
+For further details, refer to the [incentives ](https://docs.saddle.finance/saddle-incentives)section.
 
