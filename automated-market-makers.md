@@ -64,9 +64,9 @@ _**Liquidity Pools**_: Instead of an order book, AMMs use liquidity pools to fac
 
 _**Liquidity Providers**_: Liquidity providers contribute assets \(cryptocurrency tokens and coins\) to liquidity pools. In exchange for providing the tokens, the LPs normally earn a fee. Now, when a trade executes on an AMM, the trade executes against the liquidity pool. This eliminates the need for an order book and for the buyer and seller to be present at that moment in time.
 
-_**Algorithm**_: AMMs use an [algorithm ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm#amm-swap-algorithms)\(mathematical formula\) for pricing the assets, thus replacing the order book mechanism. There are variations of the pricing formula deployed currently, which we will cover later.
+_**Algorithm**_: AMMs use an [algorithm ](https://docs.saddle.finance/automated-market-makers#amm-swap-algorithms)\(mathematical formula\) for pricing the assets, thus replacing the order book mechanism. There are variations of the pricing formula deployed currently, which we will cover later.
 
-_**Yield Farming**_: [Yield farming](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-yield-farming) is an incentive mechanism to put an individual’s cryptocurrency assets to work and generate high returns. Liquidity providers, in yield farming protocols, stake or lock up their assets to earn rewards and higher interests.
+_**Yield Farming**_: [Yield farming](https://docs.saddle.finance/saddle-faq#what-is-yield-farming) is an incentive mechanism to put an individual’s cryptocurrency assets to work and generate high returns. Liquidity providers, in yield farming protocols, stake or lock up their assets to earn rewards and higher interests.
 
 ![](.gitbook/assets/1%20%282%29.png)
 
@@ -76,7 +76,7 @@ _**Impermanent Loss**_: Though the AMM model offers better stability and returns
 
 Having understood what AMMs are, let’s now deconstruct them. You can think of an AMM as a friendly and obedient market maker bot, always willing to quote a price, no matter the time of the day or day of the week.
 
-To quote you a price, the bot uses a mathematical formula \(used interchangeably with pricing algorithm or swap algorithm\) and works relentlessly in the background. The algorithm implemented varies from the simplex to the complex. We’ll look at the commonly used swap algorithms, including the [StableSwap algorithm](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm#stableswap-algorithm) used by Saddle.
+To quote you a price, the bot uses a mathematical formula \(used interchangeably with pricing algorithm or swap algorithm\) and works relentlessly in the background. The algorithm implemented varies from the simplex to the complex. We’ll look at the commonly used swap algorithms, including the [StableSwap algorithm](https://docs.saddle.finance/automated-market-makers#stableswap-algorithm) used by Saddle.
 
 ### **Constant Product Formula**
 
@@ -142,7 +142,7 @@ First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hy
 
 ## **PEGGED-VALUE ASSETS**
 
-Saddle liquidity pools implement the StableSwap mathematical formula to reduce slippage and keep the market liquid. Saddle facilitates trades of stablecoins, where the price is [pegged ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets)to an underlying asset, bringing in further stability. For example:
+Saddle liquidity pools implement the StableSwap mathematical formula to reduce slippage and keep the market liquid. Saddle facilitates trades of stablecoins, where the price is [pegged ](https://docs.saddle.finance/saddle-faq#pegged-value-assets)to an underlying asset, bringing in further stability. For example:
 
 _**USDT**_: A stablecoin pegged 1:1 to the USD fiat currency as the underlying asset.
 
