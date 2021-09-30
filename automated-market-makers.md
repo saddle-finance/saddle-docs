@@ -46,7 +46,7 @@ The DEX ecosystem is nascent and maturing. Despite few shortcomings, compared to
 
 ### **Order Book Challenges**
 
-The early version of the cryptocurrency exchanges used the order book model, like traditional exchanges. The order book model works well where the trade volumes and liquidity are high, resulting in lower [slippages](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-slippage). Leading cryptocurrencies, like Bitcoin and Ethereum, have high volumes of trade. While other cryptocurrencies and tokens, which don’t have high volumes, faced challenges with the order book model.
+The early version of the cryptocurrency exchanges used the order book model, like traditional exchanges. The order book model works well where the trade volumes and liquidity are high, resulting in lower [slippages](https://docs.saddle.finance/saddle-faq#what-is-max-slippage). Leading cryptocurrencies, like Bitcoin and Ethereum, have high volumes of trade. While other cryptocurrencies and tokens, which don’t have high volumes, faced challenges with the order book model.
 
 In the illustration below, the seller's Ask is $20.50 and the buyer's Bids are not closer to the Ask. This results in a liquidity challenge. Market makers, therefore, step in to keep the market functioning by actively buying and selling assets - i.e., transacting on both sides to keep the market functioning. The market makers carry the risk of a price variation during Buy-Hold-Sell cycle.
 
