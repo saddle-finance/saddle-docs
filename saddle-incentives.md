@@ -8,7 +8,7 @@ description: >-
 
 ## **SADDLE REWARDS**
 
-Saddle _does not_ have a token currently and offers no Saddle specific incentives. However, we offer incentives from other protocols. The [liquidity providers](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#who-is-a-liquidity-provider) are rewarded for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies.
+Saddle _does not_ have a token currently and offers no Saddle specific incentives. However, we offer incentives from other protocols. The [liquidity providers](https://docs.saddle.finance/saddle-faq#who-is-a-liquidity-provider) are rewarded for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies.
 
 ### **Terminologies**
 
@@ -38,7 +38,7 @@ Let’s take a scenario of 1% interest each month. Therefore,
 
 ### **Saddle APY & Reward APR**
 
-In Saddle both APY and APR are available as rewards to the liquidity providers. The prevailing rates are available in the [pool details](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-pools).
+In Saddle both APY and APR are available as rewards to the liquidity providers. The prevailing rates are available in the [pool details](https://docs.saddle.finance/saddle-pools).
 
 ![](.gitbook/assets/0%20%282%29.png)
 
@@ -219,11 +219,11 @@ Saddle rewards you with trading fees when you provide liquidity to the sUSD meta
 
 ## **BTC Pool V2**
 
-Saddle BTC pool V2 is [live](https://blog.saddle.finance/launching-v2-of-the-saddle-btc-pool/). Saddle rewards you with trading fees when you provide liquidity to the BTC Pool V2. For migrating incentives from BTC Pool v1, follow this [guide](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives#migrating-incentives-to-tbtc-metapool).
+Saddle BTC pool V2 is [live](https://blog.saddle.finance/launching-v2-of-the-saddle-btc-pool/). Saddle rewards you with trading fees when you provide liquidity to the BTC Pool V2. For migrating incentives from BTC Pool v1, follow this [guide](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool).
 
 ## **tBTC Metapool**
 
-Saddle tBTC Metapool is [live](https://saddle.exchange/#/pools/tbtc/deposit). For details on rewards and migrating rewards, refer to the [BTC Pool section](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives#btc-pool).  
+Saddle tBTC Metapool is [live](https://saddle.exchange/#/pools/tbtc/deposit). For details on rewards and migrating rewards, refer to the [BTC Pool section](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool).  
 
 ## **wCUSD Metapool**
 
