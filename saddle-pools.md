@@ -6,11 +6,11 @@ description: Saddle Pools are the liquidity pools in Saddle Finance.
 
 ## **LIQUIDITY POOLS**
 
-Traditional exchanges use order books to facilitate trade. The centrally managed order books represent the buy and sell orders placed by individuals, derive the price of an asset, and match buyers to sellers. The emergence of the decentralized finance \(DeFi\) ecosystem turned the concept of order book on its head with [Automated Market Makers](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm) \(AMM\).
+Traditional exchanges use order books to facilitate trade. The centrally managed order books represent the buy and sell orders placed by individuals, derive the price of an asset, and match buyers to sellers. The emergence of the decentralized finance \(DeFi\) ecosystem turned the concept of order book on its head with [Automated Market Makers](https://docs.saddle.finance/automated-market-makers) \(AMM\).
 
-AMMs in DeFi use algorithms to price assets and facilitate trade. Staying true to the philosophy of DeFi, AMMs are permissionless, automatic, and available 24/7. Therefore, there are no buyers and sellers \(in the traditional sense\) in AMMs. Instead, AMMs use [liquidity pools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-saddle-pool) for the trade.
+AMMs in DeFi use algorithms to price assets and facilitate trade. Staying true to the philosophy of DeFi, AMMs are permissionless, automatic, and available 24/7. Therefore, there are no buyers and sellers \(in the traditional sense\) in AMMs. Instead, AMMs use [liquidity pools](https://docs.saddle.finance/saddle-faq#what-is-a-saddle-pool) for the trade.
 
-Liquidity pool, a smart contract, is a fund of tokens. The liquidity providers deposit the tokens into the pool. Anyone with an internet connection and holding tokens can become a [liquidity provider](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#who-is-a-liquidity-provider) \(LP\). In exchange for providing the tokens, the LPs normally earn a fee. Now, when a trade executes on an AMM, the trade executes against the liquidity pool. This eliminates the need for an order book and for the buyer and seller to be present at that moment in time.
+Liquidity pool, a smart contract, is a fund of tokens. The liquidity providers deposit the tokens into the pool. Anyone with an internet connection and holding tokens can become a [liquidity provider](https://docs.saddle.finance/saddle-faq#who-is-a-liquidity-provider) \(LP\). In exchange for providing the tokens, the LPs normally earn a fee. Now, when a trade executes on an AMM, the trade executes against the liquidity pool. This eliminates the need for an order book and for the buyer and seller to be present at that moment in time.
 
 ### **Fees**
 
@@ -26,11 +26,11 @@ _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. 
 
 ### **Rewards**
 
-Saddle [rewards ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-incentives)the liquidity providers for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies. There are many ways to earn rewards – interest from trading fees, interest from lending, and pool specific incentives. We have covered the details of rewards under the liquidity pool sections below.
+Saddle [rewards ](https://docs.saddle.finance/saddle-incentives)the liquidity providers for their contribution to the liquidity pool. Depending on the liquidity pool, the rewards structure varies. There are many ways to earn rewards – interest from trading fees, interest from lending, and pool specific incentives. We have covered the details of rewards under the liquidity pool sections below.
 
 ### **Risks**
 
-As with any investment, traditional or DeFi, providing liquidity to the pools carries a risk. Typically, the risks include risk of smart contracts, risks associated with the tokens/Stablecoins in the liquidity pools, and/or the risks associated with the AMMs. We outline the risks in the [Saddle pool risk](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-pools#saddle-pool-risks) section.
+As with any investment, traditional or DeFi, providing liquidity to the pools carries a risk. Typically, the risks include risk of smart contracts, risks associated with the tokens/Stablecoins in the liquidity pools, and/or the risks associated with the AMMs. We outline the risks in the [Saddle pool risk](https://docs.saddle.finance/saddle-pools#saddle-pool-risks) section.
 
 ## **USING SADDLE POOLS**
 
@@ -50,7 +50,7 @@ Depositing assets into a pool on Saddle allows users to take part in the protoco
 
 ![](.gitbook/assets/2%20%2810%29.png)
 
-* **Step 5:** Click _Deposit_ and review the details and confirm the transaction. _\(Tip: If you are depositing into a_ [_Metapool_](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-base-pool-and-metapool)_, you have the **option** of depositing individual assets or depositing LP tokens from the_ [_base pool_](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-base-pool-and-metapool)_\)_
+* **Step 5:** Click _Deposit_ and review the details and confirm the transaction. _\(Tip: If you are depositing into a_ [_Metapool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_, you have the **option** of depositing individual assets or depositing LP tokens from the_ [_base pool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_\)_
 
 ![](.gitbook/assets/3.png)
 
@@ -88,9 +88,9 @@ After unstaking your LP Tokens \(where applicable\), return to [Saddle Pools](ht
 
 ## **CHOOSING A SADDLE POOL**
 
-[Stablecoins ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-are-stablecoins)are becoming popular because of the stability they bring to the volatile crypto world. Stablecoins also come in various flavors – backed by assets \(e.g., fiat currency, gold\), cryptocurrencies, and algorithmically stabilized.
+[Stablecoins ](https://docs.saddle.finance/saddle-faq#what-are-stablecoins)are becoming popular because of the stability they bring to the volatile crypto world. Stablecoins also come in various flavors – backed by assets \(e.g., fiat currency, gold\), cryptocurrencies, and algorithmically stabilized.
 
-Saddle supports a [wide range](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-tokens-are-currently-supported-by-saddle) of Stablecoins, giving users the flexibility to choose and move between Stablecoins of their choice. Therefore, the list of Stablecoins supported by Saddle keeps growing. In this section, we will explain how you can choose various Stablecoin pools, the rewards and risks specific to the pools.
+Saddle supports a [wide range](https://docs.saddle.finance/saddle-faq#what-tokens-are-currently-supported-by-saddle) of Stablecoins, giving users the flexibility to choose and move between Stablecoins of their choice. Therefore, the list of Stablecoins supported by Saddle keeps growing. In this section, we will explain how you can choose various Stablecoin pools, the rewards and risks specific to the pools.
 
 Broadly, there are three types of pools to select from – BTC, ETH, and USD.
 
@@ -425,7 +425,7 @@ _**User abandonment:**_ DeFi and AMMs are complex technologies and concepts. A r
 
 ### **Risks Per Pool**
 
-Stablecoins are at the heart of the Saddle DeFi ecosystem. Whilst all stablecoin investments are risky, some carry higher risks. Therefore, the risk of Saddle pools varies from [pool to pool](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/asset-specific-risks). In this section, we’ve highlighted the _key risk indices_ for various pools.
+Stablecoins are at the heart of the Saddle DeFi ecosystem. Whilst all stablecoin investments are risky, some carry higher risks. Therefore, the risk of Saddle pools varies from [pool to pool](https://docs.saddle.finance/asset-specific-risks). In this section, we’ve highlighted the _key risk indices_ for various pools.
 
 ### **Assets Reference**
 
