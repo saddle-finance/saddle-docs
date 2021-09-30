@@ -4,14 +4,14 @@ description: We welcome an opportunity to work with you.
 
 # Build With Saddle
 
-Saddle combines the best of three worlds – Bitcoin, Pegged Value Assets, and Ethereum DeFi. Saddle is an [automated market maker](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/automated-market-makers-amm) \(AMM\) enabling trading between [pegged value crypto assets](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). We solve the [slippage problem](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-slippage) with a tailored AMM allowing users to trade with minimal slippage.
+Saddle combines the best of three worlds – Bitcoin, Pegged Value Assets, and Ethereum DeFi. Saddle is an [automated market maker](https://docs.saddle.finance/automated-market-makers) \(AMM\) enabling trading between [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). We solve the [slippage problem](https://docs.saddle.finance/saddle-faq#what-is-a-slippage) with a tailored AMM allowing users to trade with minimal slippage.
 
 ### **Our Values**
 
 Saddle stands for DeFi, for financial Lego blocks.
 
 * We commit ourselves to [open-source software](https://github.com/saddle-finance) and collaboration.
-* We [support ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/build-with-saddle#featured-projects)all projects that want on top of our code
+* We support all projects that want on top of our code
 * We’ll work with you if you want to bring stablecoin swap to another chain.
 
 ### **Collaborate With Saddle**
