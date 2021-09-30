@@ -56,7 +56,7 @@ The main issue is related to high slippages and volatility due to low volumes of
 
 ## **AUTOMATED MARKET MAKER \(AMM\)**
 
-Market makers are essential in an exchange to provide liquidity, control spreads, and maintain slippages. Since cryptocurrency exchanges work 24x7, the need for automated market makers rose. AMMs democratized cryptocurrency trading by doing away with order books and institutional market makers. Instead, AMMs execute trade automatically using [algorithms ](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#how-does-saddle-work)and [liquidity pools](https://app.gitbook.com/@saddlefinance/s/saddle/~/drafts/-Mjcg_gZwS2c7qGJrDgU/new-documents/saddle-faq#what-is-a-saddle-pool). Let’s understand a few basic concepts first.
+Market makers are essential in an exchange to provide liquidity, control spreads, and maintain slippages. Since cryptocurrency exchanges work 24x7, the need for automated market makers rose. AMMs democratized cryptocurrency trading by doing away with order books and institutional market makers. Instead, AMMs execute trade automatically using [algorithms ](https://docs.saddle.finance/saddle-faq#how-does-saddle-work)and [liquidity pools](https://docs.saddle.finance/saddle-faq#what-is-a-saddle-pool). Let’s understand a few basic concepts first.
 
 _**Permissionless:**_ Unlike traditional exchanges, permission-less networks require no permission to join and interact with the blockchain network. Permission-less AMMs allow anyone with an internet connection to become a part of the market to trade.
 
