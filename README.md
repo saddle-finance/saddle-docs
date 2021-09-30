@@ -43,3 +43,4 @@ The security of user funds is our top priority. Saddle is built on [our new Soli
 ## Keeping up with Saddle
 
 Find us on [Discord](https://discord.gg/hX8RZFBW9R), [Twitter](https://twitter.com/saddlefinance), [Telegram](https://t.me/saddle_finance), [Github](https://github.com/saddle-finance), and [Medium](https://medium.com/saddle).
+

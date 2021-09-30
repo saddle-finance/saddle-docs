@@ -12,7 +12,7 @@ Head to [saddle.exchange](https://saddle.exchange/) to get started!
 4. Step 4: Click “Advanced” to select options like slippage, gas, or transaction deadline.
 5. Step 5: Click “Swap”, review the details, and confirm the transaction.
 
-{% embed url="https://youtu.be/8XE5ErpfhQo" %}
+{% embed url="https://youtu.be/8XE5ErpfhQo" caption="" %}
 
 ## Deposit on Saddle
 
@@ -23,6 +23,7 @@ Head to [saddle.exchange](https://saddle.exchange/) to get started!
 5. Step 5: After the transaction is confirmed, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to start earning KEEP rewards.
 6. Step 6: Keep track of your rewards!
 
-{% embed url="https://youtu.be/RCsBinGAZEg" %}
+{% embed url="https://youtu.be/RCsBinGAZEg" caption="" %}
 
 Giddy up! Head to [saddle.exchange](http://saddle.exchange) to get started 🤠
+
