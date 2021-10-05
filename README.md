@@ -1,46 +1,69 @@
+---
+description: >-
+  Saddle is an automated market maker (AMM) designed to enable efficient trading
+  between pegged value crypto assets.
+---
+
 # About Saddle
 
-Saddle is an automated market maker \(AMM\) designed to enable efficient trading between pegged value crypto assets. Saddle is launching with a tokenized bitcoin pool, allowing users to trade between and provide liquidity for tBTC, WBTC, sBTC, and renBTC.
+## **About Saddle**
 
-Saddle recently spun out of Thesis, the crypto venture studio behind projects like [tBTC](https://tbtc.network/), [Keep](https://keep.network/), and [Fold](https://foldapp.com/).
+Saddle is an automated market maker \([AMM](https://docs.saddle.finance/automated-market-makers)\) for [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). Saddle enables anyone holding a pegged value crypto asset to trade in between other pegged assets with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). By using a tailored AMM with minimal slippage, Saddle ensures users minimize value loss while trading.
 
-## Understanding pegged value crypto assets
+## **Why Saddle?**
 
-### What are pegged value crypto assets?
+**Saddle stands for DeFi**: We commit ourselves to [open-source software](https://github.com/saddle-finance) and collaboration to fulfil the promise of DeFi, of financial Lego blocks.
 
-Pegged value crypto assets are tokens that have their value pegged to an underlying asset by some means. For example, the value of a stablecoin or tokenized bitcoin is supposed to be $1 or 1 BTC, respectively.
+**Saddle is safe & legit**: Saddle protocol is audited and secured by leading blockchain security firms like Certik, Quantstamp, and OpenZeppelin. Read the audits [here](https://github.com/saddle-finance/saddle-audits).
 
-However, pegged value crypto assets fix this value using different mechanisms. Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically \(in this case, via collateralization of SNX\). Other assets maintain their peg by being backed by and redeemable for the actual underlying asset, either permissionlessly \(e.g. tBTC\) or through a centralized custodian \(e.g. WBTC, USDC\).
+**Saddle is collaborative and fun to work with**: We root our ethos in the desire to [support](https://docs.saddle.finance/build-with-saddle) the DeFi ecosystem and partner with like-minded protocols. Just try out and you’ll find Saddlers’ as fun-loving and nice people.
 
-These different approaches and the associated risks are why the prices of pegged value crypto assets of the same type can vary slightly.
+## **How do I know more about Saddle?**
 
-### What’s the issue with pegged value crypto assets?
+To get an introduction to the features and ecosystem of Saddle, follow these links.
 
-Trading among and in between these types of assets can be expensive and inefficient, resulting in lost capital due to high slippage and transaction fees.
+| Section | Description |
+| :--- | :--- |
+| [Automated Market Makers](https://docs.saddle.finance/automated-market-makers) | AMMs democratized cryptocurrency trading by doing away with order books and institutional market makers. Learn about the fundamentals and various swap algorithms. |
+| [Saddle Pools](https://docs.saddle.finance/saddle-pools) | Saddle Pools are the liquidity pools in Saddle Finance. Learn about various liquidity pools, how to deposit and withdraw, fees, rewards, and risks. |
+| [Saddle Incentives](https://docs.saddle.finance/saddle-incentives) | Saddle rewards the liquidity providers for their contribution to the liquidity pools. Learn about terminologies, rewards available, and staking LP token to earn incentives. |
+| [Saddle Protocol Stats](https://docs.saddle.finance/saddle-protocol-stats) | Learn about the key stats and the analytics tools available to interpret Saddle protocol. |
+| [Yield Farming Tools](https://docs.saddle.finance/yield-farming-tools) | Yield farming is an incentive mechanism to put your assets to work and generate high returns. Learn about the tools which offer convenient information about Saddle pools and your liquidity. |
+| [Build With Saddle](https://docs.saddle.finance/build-with-saddle) | We welcome an opportunity to work with you. Learn about our values, support for growing the DeFi ecosystem, and ways to collaborate with us. |
+| [Smart Contract Security](https://docs.saddle.finance/smart-contract-audit) | We hire well reputed external agencies to audit our smart contract codes. Learn about the certifications for Saddle’s smart contracts. |
+| [Asset Specific Risks](https://docs.saddle.finance/asset-specific-risks) | Before we accept a cryptocurrency for the Saddle pools, we evaluate the underlying risks for the assets and operations of the asset. |
+| [Saddle FAQ](https://docs.saddle.finance/saddle-faq) | Frequently asked questions on Saddle Finance, Liquidity Pools, Pegged Assets, Rewards and Incentives. |
+| [Glossary](https://docs.saddle.finance/glossary) | This Glossary consists of terms and definitions used across Saddle. |
+| [Contract Addresses](https://docs.saddle.finance/contracts) | The Saddle’s Contract Addresses are listed here. |
+| [Solidity Docs](https://docs.saddle.finance/solidity-docs) | Developer documents for Saddle protocol and how to interact with it. |
 
-### How does Saddle solve it?
+Cannot find what you are looking for? You can use the search and navigation options available.
 
-Saddle solves the pegged value crypto asset trading problem by offering an AMM specifically tailored to allow users to trade in between these assets with minimal slippage.
+![Navigation &amp; Search Panels](.gitbook/assets/0%20%2811%29.png)
 
-## Saddle’s Solution
+## **Who Built Saddle?**
 
-### Bitcoin as a First-class Citizen
+Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. As regular DeFi users ourselves, we’ve seen first-hand how important an active and vibrant community is for a project’s success. We know Web2, but we know Web3 better.
 
-Bitcoin is the largest cryptocurrency by market capitalization, and the amount of tokenized BTC on Ethereum has been exploding - the supply has increased [~135X in 2020](https://btconethereum.com/). Despite this growth, tokenized BTC is often not a priority when it comes to features and support. We believe bitcoin deserves to be treated as a first-class citizen in DeFi.
+You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) \(aka [devops199fan](https://twitter.com/devops199fan)\) in the YFI community \(he’s a multisig signer\), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info/) by [John](https://www.linkedin.com/in/jongseunglim/) \(aka [Weeb\_Mcgee](https://twitter.com/Weeb_Mcgee)\).
 
-### Virtual Synth Support
+## **How do I trade on Saddle?**
 
-Virtual Synths are a new Synthetix feature introduced in [SIP-89](https://sips.synthetix.io/sips/sip-89). SNX founder Kain Warwick provides a great overview of their potential in his post "[Virtual Synths and where to find them](https://blog.synthetix.io/virtual-synths/)". In short, Virtual Synths will enable large, low slippage trades between any asset supported by Saddle. We are actively working on this integration and will have more details to share in the near future. Virtual Synths are the key to achieving our mission of unlocking deep on-chain liquidity between pegged value crypto assets, and we aim to become the premier on/off-ramp for the Synthetix ecosystem.
+Visit [https://saddle.exchange/](https://saddle.exchange/) to start trading.
 
-### Incentivized LP Retention
+## **How do I work with Saddle?**
 
-DeFi protocols are still iterating on how to properly incentivize and retain liquidity providers \(LPs\). One common approach has been to add a fixed percentage fee to withdrawals \(e.g. Yearn Vaults\). However, this mechanism doesn’t reward long-term liquidity providers. Saddle fixes this by implementing a configurable withdrawal fee that linearly decays to 0 over one month. This fee will be disabled at launch until further notice. We are presently working on several other ways to incentivize LPs, stay tuned!
+Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on ways to collaborate.
 
-### Security
+## **How can I follow Saddle?**
 
-The security of user funds is our top priority. Saddle is built on [our new Solidity implementation](https://github.com/saddle-finance/saddle-contract) of the [StableSwap](https://www.curve.fi/stableswap-paper.pdf) algorithm. Deploying new code that deals with money requires extra care and scrutiny, which is why we conducted three back-to-back smart contract audits with [Certik](https://certik.foundation/), [Quantstamp](https://quantstamp.com/), and [OpenZeppelin](https://openzeppelin.com/). Read the audits [here](https://github.com/saddle-finance/saddle-audits). This is also why we are doing a [guarded launch](https://medium.com/electric-capital/derisking-defi-guarded-launches-2600ce730e0a) called Proof of Governance.
+You can keep up with us on any of these channels.
 
-## Keeping up with Saddle
-
-Find us on [Discord](https://discord.gg/hX8RZFBW9R), [Twitter](https://twitter.com/saddlefinance), [Telegram](https://t.me/saddle_finance), [Github](https://github.com/saddle-finance), and [Medium](https://medium.com/saddle).
+| Channel | Link |
+| :--- | :--- |
+| Saddle Blog | [https://blog.saddle.finance/](https://blog.saddle.finance/) |
+| Discord | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R) |
+| Twitter | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
+| GitHub | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
+| Telegram | [https://t.me/saddle\_finance](https://t.me/saddle_finance) |
 
