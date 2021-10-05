@@ -419,9 +419,7 @@ In case of large trades, we recommend the use of aggregators like [1inch](https:
 
 With max slippage setting, you can specify the maximum % of price movement you can accept for the trade. Your order will not execute if the slippage is beyond your maximum specified. The default for Saddle is 0.1%, but you can set it to any % you want.
 
-![Graphical user interface, application
-
-Description automatically generated](.gitbook/assets/8%20%287%29.png)
+![](.gitbook/assets/8%20%287%29.png)
 
 ### **What is Price Impact?**
 
@@ -483,16 +481,12 @@ If at any point you want to withdraw your assets, head out to [https://saddle.ex
 * **Step 1:** Choose the pool on the top navigation bar
 * **Step 2:** Click on _Withdraw_
 
-![Graphical user interface
-
-Description automatically generated with low confidence](.gitbook/assets/12%20%287%29.png)
+![](.gitbook/assets/12%20%287%29.png)
 
 * **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool.
 * **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
-![Graphical user interface
-
-Description automatically generated](.gitbook/assets/13%20%284%29.png)
+![](.gitbook/assets/13%20%284%29.png)
 
 * **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
 

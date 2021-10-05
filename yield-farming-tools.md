@@ -50,9 +50,7 @@ Stake, track, and unstake the KEEP LP \(liquidity pool\) tokens you can get on S
 
 You can access the Saddle pool information from the URL: [https://dashboard.keep.network/liquidity](https://dashboard.keep.network/liquidity)
 
-![Graphical user interface, application, Teams
-
-Description automatically generated](.gitbook/assets/4%20%282%29.png)
+![](.gitbook/assets/4%20%282%29.png)
 
 ### **ALCX REWARDS**
 
@@ -60,9 +58,7 @@ Stake, track, and unstake the ALCX LP \(liquidity pool\) tokens you can get on S
 
 You can access the Saddle pool information from the URL: [https://app.alchemix.fi/farms](https://app.alchemix.fi/farms)
 
-![Graphical user interface
-
-Description automatically generated](.gitbook/assets/5%20%283%29.png)
+![](.gitbook/assets/5%20%283%29.png)
 
 ### **FRAX REWARDS**
 
@@ -70,7 +66,5 @@ Stake, track, and unstake the four LP tokens \(ALCX, FXS, LQTY, and TRIBE\) you 
 
 You can access the Saddle pool information from the URL: [https://app.frax.finance/staking](https://app.frax.finance/staking)
 
-![A picture containing text, monitor, screen, indoor
-
-Description automatically generated](.gitbook/assets/6%20%289%29.png)
+![](.gitbook/assets/6%20%289%29.png)
 
