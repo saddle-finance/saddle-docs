@@ -12,7 +12,7 @@ Frequently asked questions and answers regarding Saddle Finance. Still have ques
 
 ### **What is Saddle?**
 
-Saddle is an automated market maker \([AMM](https://docs.saddle.finance/automated-market-makers)\) for [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets). Saddle enables anyone holding a pegged value crypto asset to trade in between other pegged assets with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). By using a tailored AMM with minimal slippage, Saddle ensures users minimize value loss while trading.
+Saddle is a decentralized automated market maker \([AMM](https://docs.saddle.finance/automated-market-makers)\) on the Ethereum blockchain, optimized for trading [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets) with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). Saddle enables cheap, efficient, swift, and low-slippage swaps for traders and high-yield pools for LPs. We believe in [collaboration](https://docs.saddle.finance/build-with-saddle), in building Saddle as a DeFi lego block, in helping DeFi teams bring AMMs to any blockchain.
 
 ### **Why Saddle?**
 
@@ -20,7 +20,7 @@ _**Saddle stands for DeFi**_: We commit ourselves to [open-source software](http
 
 _**Saddle is safe & legit**_: Saddle protocol is audited and secured by leading blockchain security firms like Certik, Quantstamp, and OpenZeppelin. Read the audits [here](https://github.com/saddle-finance/saddle-audits).
 
-_**Saddle is collaborative and fun to work with**_: We root our ethos in the desire to [support ](https://docs.saddle.finance/build-with-saddle)the DeFi ecosystem and partner with like-minded protocols. Just try out and you’ll find Saddlers’ as fun-loving and nice people.
+_**Saddle is collaborative and fun to work with**_: We root our ethos in the desire to [support ](https://docs.saddle.finance/build-with-saddle)the DeFi ecosystem and partner with like-minded protocols. 
 
 ### **Who built Saddle?**
 
