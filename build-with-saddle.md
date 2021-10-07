@@ -46,15 +46,15 @@ _**Partnership**_: SushiSwap’s AMM uses Saddle’s StableSwap implementation f
 
 _**Key People**_: SushiSwap was created in 2020 by a pseudonymous individual or group called [Chef Nomi](https://twitter.com/NomiChef), along with co-founders, Sushiswap and [0xMaki](https://twitter.com/0xMaki).
 
-### **Nerve Finance**
+### **Nerve Finance / Synapse**
 
-_**Project**_**:** [Nerve](https://nerve.fi/) is a StableSwap automated market maker optimized for trading between pegged value crypto assets with minimal slippage.
+_**Project**_**:** [Nerve](https://nerve.fi/) / [Synapse](https://synapseprotocol.com/) is a StableSwap automated market maker and trustless cross-chain bridge.
 
-_**Chain**_**:** Binance Smart Chain.
+_**Chain**_**:** Ethereum, Binance Smart Chain, Polygon, Avalanche, Arbitrum.
 
-_**Partnership**_: Nerve’s AMM uses Saddle’s StableSwap implementation for the pegged-assets pool.
+_**Partnership**_: Nerve/Synapse’s AMM uses Saddle’s StableSwap implementation for pegged-asset pools and Ethereum off-ramp.
 
-_**Key People**_: Nerve’s team stays [anonymous](https://docs.nerve.fi/faq#analytics). But you can follow the core team members via their twitter links [\(@AureliusBTC](https://twitter.com/AureliusBTC) and [@Socrates0x](https://twitter.com/Socrates0x)\).
+_**Key People**_: Nerve/Synapse's team stays [anonymous](https://docs.nerve.fi/faq#analytics). But you can follow the core team members via their twitter links [\(@AureliusBTC](https://twitter.com/AureliusBTC) and [@Socrates0x](https://twitter.com/Socrates0x)\).
 
 ### **Snowball**
 
@@ -80,7 +80,7 @@ _**Key People**_: The Iron Finance team is currently anonymous.
 
 _**Project**_**:** [Hop](https://hop.exchange/) is a scalable rollup-to-rollup general token bridge. It allows users to send tokens from one rollup or sidechain to another almost immediately without having to wait for the networks challenge period. It works by involving market makers \(referred to as Bonder\) who front the liquidity at the destination chain for a small fee. The Bonder extends this credit in the form of hTokens which are then swapped for their native token counterpart in an AMM. The result allows users to seamlessly transfer tokens from one network to the next.
 
-_**Chain**_**:** N/A
+_**Chain**_**:** Ethereum, Polygon, xDai, Optimism, Arbitrum.
 
 _**Partnership**_: Hop uses Saddle’s StableSwap as the AMM bridge.
 
