@@ -89,23 +89,23 @@ where **x** is the amount of Token\#1 in the liquidity pool, **y** is the amount
 Let’s look at a few critical aspects from the example below. An ETH-USDT liquidity pool is set-up with 100 ETH and 300,000 USDT, provided by the liquidity providers. As the pool is set-up, the initial conditions are:
 
 | **USDT: ETH PRICE** | **USDT Liquidity** | **ETH Liquidity** | **Constant Product** |
-| :--- | :--- | :--- | :--- |
-| 3000 : 1 | 300,000 | 100 | 30,000,000 |
-| **Initial price** | **x** | **y** | **k** |
+| :------------------ | :----------------- | :---------------- | :------------------- |
+| 3000 : 1            | 300,000            | 100               | 30,000,000           |
+| **Initial price**   | **x**              | **y**             | **k**                |
 
 When a trader wants to swap the tokens in the pool, the formula will try to achieve the constant product equilibrium. For example, if a trader wants to swap USDT for 1 ETH, then to maintain a constant product of 30,000,000 the price quoted for USDT will be 3,030.30 \(a premium of 1% over the initial setup price\) and the liquid pool composition after the swap will be:
 
 | **USDT: ETH PRICE** | **USDT Liquidity** | **ETH Liquidity** | **Constant Product** |
-| :--- | :--- | :--- | :--- |
-| 3030.30 : 1 | 303,030.30 | 99 | 30,000,000 |
-| **1% premium** | **x** | **y** | **k** |
+| :------------------ | :----------------- | :---------------- | :------------------- |
+| 3030.30 : 1         | 303,030.30         | 99                | 30,000,000           |
+| **1% premium**      | **x**              | **y**             | **k**                |
 
 Likewise, if a trader wants to swap USDT for 5 ETH, the price quoted by the algorithm will be 3,157.89 \(a premium of 5.3% over the initial setup price\) and the liquid pool composition after the swap will be:
 
 | **USDT: ETH PRICE** | **USDT Liquidity** | **ETH Liquidity** | **Constant Product** |
-| :--- | :--- | :--- | :--- |
-| 3157.89 : 1 | 315,789.47 | 95 | 30,000,000 |
-| **5.26% premium** | **x** | **y** | **k** |
+| :------------------ | :----------------- | :---------------- | :------------------- |
+| 3157.89 : 1         | 315,789.47         | 95                | 30,000,000           |
+| **5.26% premium**   | **x**              | **y**             | **k**                |
 
 Uniswap first implemented the constant product formula and Balancer refined it with a generalized formula. But there is a challenge.
 
@@ -137,8 +137,8 @@ First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hy
 
 ![](.gitbook/assets/4.png)
 
-* **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
-* **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.
+- **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
+- **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.
 
 ## **PEGGED-VALUE ASSETS**
 
@@ -159,4 +159,3 @@ _**alETH**_: An ERC20 token, but backed 4:1 by ETH.
 The Constant Product formula _does not update_ the price of the tokens in the pool with the market movement. The Stableswap formula motivates swaps around price ratio 1.0, well suited for stablecoins. Dynamic pegs are the next evolution of AMMs.
 
 Dynamic pegs will bring the benefits of Stableswaps to cryptocurrency assets which aren’t pegged to another asset. By using an automatic price change mechanism, the algorithm will move the price based on real-time profit margin calculations, to adjust for slippages. Thus, benefiting both the traders and the AMMs.
-

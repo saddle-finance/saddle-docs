@@ -10,11 +10,11 @@ We conduct our own internal security audit of the smart contract code we’ve wr
 
 As for now, we have passed security auditing on all Saddle smart contracts, from the following auditors, with no issues.
 
-| **AUDITOR** | **PROTOCOL AUDIT** | **VIRTUAL SWAP AUDIT** |
-| :--- | :--- | :--- |
-| [Certik](https://certik.io/) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf) | N/A |
-| [Quantstamp](https://quantstamp.com/) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) |
-| [OpenZepplin](https://openzeppelin.com/) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/) | N/A |
+| **AUDITOR**                              | **PROTOCOL AUDIT**                                                                              | **VIRTUAL SWAP AUDIT**                                                                                      |
+| :--------------------------------------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| [Certik](https://certik.io/)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf)     | N/A                                                                                                         |
+| [Quantstamp](https://quantstamp.com/)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) |
+| [OpenZepplin](https://openzeppelin.com/) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                 | N/A                                                                                                         |
 
 _**Disclaimer**:_ Security audits don’t eliminate all risks. Using Saddle as an exchange for a user should be significantly less risky, but please bear in mind there are still risks. Refer to the risks section for more details.
 
@@ -52,13 +52,13 @@ A [Gnosis Safe](https://gnosis-safe.io/) multisig secures Saddle’s admin keys.
 
 A [3/5 Gnosis Safe multisig](https://etherscan.io/address/0x3F8E527aF4e0c6e763e8f368AC679c44C45626aE) secures Saddle's admin keys. The signers are Mariano Conti, Kain Warwick, DegenSpartan, Klim K, and Damir Bandalo.
 
-| **NAME** | **ENS** | **ADDRESS** |
-| :--- | :--- | :--- |
-| [Mariano Conti](https://twitter.com/nanexcool) | - | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
-| [Kain Warwick](https://twitter.com/kaiynne) | Kain.eth | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
-| [DegenSpartan](https://twitter.com/DegenSpartan) | degenspartan.eth | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
-| [Klim K](https://twitter.com/milkyklim) | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
-| [Damir Bandalo](https://twitter.com/damirbandalo) | - | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
+| **NAME**                                          | **ENS**           | **ADDRESS**                                |
+| :------------------------------------------------ | :---------------- | :----------------------------------------- |
+| [Mariano Conti](https://twitter.com/nanexcool)    | -                 | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
+| [Kain Warwick](https://twitter.com/kaiynne)       | Kain.eth          | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
+| [DegenSpartan](https://twitter.com/DegenSpartan)  | degenspartan.eth  | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
+| [Klim K](https://twitter.com/milkyklim)           | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
+| [Damir Bandalo](https://twitter.com/damirbandalo) | -                 | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
 
 This 3/5 multisig has capabilities to pause new deposits and trades in case of technical emergencies. Users will always be able to withdraw their funds regardless of new deposits being paused. The multisig can also change the swap/withdrawal fees and the per pool/account deposit limits.
 
@@ -70,23 +70,22 @@ Our goal is to provide you with the safest Saddle protocol. We encourage the com
 
 Report bugs and issues for Saddle protocol by sending an e-mail to [security@saddle.finance](mailto:security@saddle.finance). Please include the following details in your email:
 
-* **Subject:** A subject field summarizing the bug/issue
-* **Description**: Provide detailed information in the email body - detailed information about the issue, steps to reproduce the bug, any other details needed to help identify and resolve the problem, etc.
-* **Attachments**: Supporting documents & attachments like screenshot, video, logs, etc\)
-* **Your name and e-mail**
-* **Your wallet address**: Please specify your network and wallet address
+- **Subject:** A subject field summarizing the bug/issue
+- **Description**: Provide detailed information in the email body - detailed information about the issue, steps to reproduce the bug, any other details needed to help identify and resolve the problem, etc.
+- **Attachments**: Supporting documents & attachments like screenshot, video, logs, etc\)
+- **Your name and e-mail**
+- **Your wallet address**: Please specify your network and wallet address
 
 ### **Report Via Other Channels**
 
 Report your findings via any one of these channels.
 
-| **REPORT HERE** | **LINK** |
-| :--- | :--- |
-| **Discord \(\#support channel\)** | [**https://discord.gg/hX8RZFBW9R**](https://discord.gg/hX8RZFBW9R) **** |
-| **Telegram** | [**https://t.me/saddle\_finance**](https://t.me/saddle_finance) **** |
-| **Immunify Bug Bounty** | \*\*\*\*[**https://immunefi.com/bounty/saddle/**](https://immunefi.com/bounty/saddle/) |
+| **REPORT HERE**                   | **LINK**                                                                               |
+| :-------------------------------- | :------------------------------------------------------------------------------------- |
+| **Discord \(\#support channel\)** | [**https://discord.gg/hX8RZFBW9R**](https://discord.gg/hX8RZFBW9R) \*\*\*\*            |
+| **Telegram**                      | [**https://t.me/saddle_finance**](https://t.me/saddle_finance) \*\*\*\*                |
+| **Immunify Bug Bounty**           | \*\*\*\*[**https://immunefi.com/bounty/saddle/**](https://immunefi.com/bounty/saddle/) |
 
 ### **Terms & Conditions**
 
 The [Terms and Conditions](https://immunefi.com/bounty/saddle/) cover your participation in the Bug Bounty Program. By submitting any vulnerabilities to Saddle Finance or otherwise participating in the Program in any manner, you accept these Terms.
-

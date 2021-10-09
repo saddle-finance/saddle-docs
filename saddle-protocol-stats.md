@@ -84,19 +84,19 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 
 **Etherscan.io Block Explorer**
 
-* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-* **Step 2:** Go to [https://etherscan.io/](https://etherscan.io/)
-* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-* **Step 4**: You’ll now see the stats of the D4 Saddle Pool
+- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+- **Step 2:** Go to [https://etherscan.io/](https://etherscan.io/)
+- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+- **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
 ![](.gitbook/assets/8%20%286%29.png)
 
 **Blockchair.com Block Explorer**
 
-* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-* **Step 2:** Go to [https://blockchair.com/](https://blockchair.com/)
-* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-* **Step 4**: You’ll now see the stats of the D4 Saddle Pool
+- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+- **Step 2:** Go to [https://blockchair.com/](https://blockchair.com/)
+- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+- **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
 ![](.gitbook/assets/9%20%289%29.png)
 
@@ -108,12 +108,11 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 
 **Bitquery.io Block Explorer**
 
-* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-* **Step 2:** Go to [https://explorer.bitquery.io/](https://explorer.bitquery.io/)
-* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-* **Step 4**: Click on Ethereum Mainnet in the results shown
+- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+- **Step 2:** Go to [https://explorer.bitquery.io/](https://explorer.bitquery.io/)
+- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+- **Step 4**: Click on Ethereum Mainnet in the results shown
 
 ![](.gitbook/assets/10%20%287%29.png)
 
 ![](.gitbook/assets/11%20%284%29.png)
-

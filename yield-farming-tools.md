@@ -67,4 +67,3 @@ Stake, track, and unstake the four LP tokens \(ALCX, FXS, LQTY, and TRIBE\) you 
 You can access the Saddle pool information from the URL: [https://app.frax.finance/staking](https://app.frax.finance/staking)
 
 ![](.gitbook/assets/6%20%289%29.png)
-

@@ -30,11 +30,11 @@ Before we cover the pool specific rewards, let’s understand the difference bet
 
 Let’s take a scenario of 1% interest each month. Therefore,
 
-| **APR at 1% interest per month** | **APY at 1% interest per month** |
-| :--- | :--- |
+| **APR at 1% interest per month**               | **APY at 1% interest per month**                    |
+| :--------------------------------------------- | :-------------------------------------------------- |
 | APR = Periodic Rate x No. of Periods in a Year | APY = \(1 + Periodic Rate\) `Number of periods` – 1 |
-| APR = 1% X 12 months | APY = \(1+1%\)`12`-1 |
-| 12.00% | 12.68% |
+| APR = 1% X 12 months                           | APY = \(1+1%\)`12`-1                                |
+| 12.00%                                         | 12.68%                                              |
 
 ### **Saddle APY & Reward APR**
 
@@ -66,17 +66,17 @@ When you provide liquidity to the BTC pool, we will show you the APY you are eli
 
 Once you provide liquidity to the BTC pool, you will receive KEEP tokens representing your share of the liquidity pool. Follow these steps to stake the KEEP LP tokens to earn rewards. Check [KEEP](https://dashboard.keep.network/liquidity) dashboard to know the current interest rates for the deposits.
 
-* **Step 1:** Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
-* **Step 2:** Connect your wallet
+- **Step 1:** Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
+- **Step 2:** Connect your wallet
 
 ![](.gitbook/assets/3%20%2810%29.png)
 
-* **Step 3:** Scroll down and select **TBTC + SADDLE** pool
-* **Step 4:** Enter the amount of KEEP tokens to stake and click DEPOSIT
+- **Step 3:** Scroll down and select **TBTC V2 + SADDLE** pool
+- **Step 4:** Enter the amount of KEEP tokens to stake and click DEPOSIT
 
 ![](.gitbook/assets/4%20%289%29.png)
 
-* **Step 5:** Start earning incentives
+- **Step 5:** Start earning incentives
 
 ### **Migrating incentives to tBTC Metapool**
 
@@ -88,42 +88,42 @@ The KEEP incentives will have to be moved from BTC Pool \(v1\) to the tBTC metap
 
 **1. Unstaking KEEP Incentives**
 
-* **Step 1:** Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
-* **Step 2:** Connect your wallet
-* **Step 3:** Scroll down and select **TBTC + SADDLE** pool
-* **Step 4:** Click WITHDRAW ALL to unstake your KEEP rewards
+- **Step 1:** Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
+- **Step 2:** Connect your wallet
+- **Step 3:** Scroll down and select **TBTC V2 + SADDLE** pool
+- **Step 4:** Click WITHDRAW ALL to unstake your KEEP rewards
 
 **2. Withdraw assets from BTC Pool \(v1\)**
 
-* **Step 1:** Go to [BTC Pool Withdraw](https://saddle.exchange/#/pools/btc/withdraw)
-* **Step 2:** Enter the amount you wish to withdraw
-* **Step 3:** Choose slippage and gas
-* **Step 4:** Click Withdraw
+- **Step 1:** Go to [BTC Pool Withdraw](https://saddle.exchange/#/pools/btc/withdraw)
+- **Step 2:** Enter the amount you wish to withdraw
+- **Step 3:** Choose slippage and gas
+- **Step 4:** Click Withdraw
 
 **3. Option 1 : Deposit assets into directly into tBTC Metapool**
 
-* **Step 1:** Go to [tBTC Pool Deposit](https://saddle.exchange/#/pools/tbtc/deposit)
-* **Step 2:** Enter the amount you wish to deposit
-* **Step 3:** Choose slippage and gas
-* **Step 4:** Click Deposit
-* **Step 5:** After the transaction confirms, stake your LP tokens to earn rewards
+- **Step 1:** Go to [tBTC Pool Deposit](https://saddle.exchange/#/pools/tbtc/deposit)
+- **Step 2:** Enter the amount you wish to deposit
+- **Step 3:** Choose slippage and gas
+- **Step 4:** Click Deposit
+- **Step 5:** After the transaction confirms, stake your LP tokens to earn rewards
 
 **3. Option 2 : Deposit assets into BTC Pool V2 and then into tBTC Metapool**
 
-* **Step 1:** Go to [BTC Pool V2 Deposit](https://saddle.exchange/#/pools/btcv2/deposit)
-* **Step 2:** Enter the amount you wish to deposit
-* **Step 3:** Choose slippage and gas
-* **Step 4:** Click Deposit
-* **Step 5:** Receive LP Tokens \(saddleBTC-V2\)
-* **Step 6:** Go to [tBTC Pool Deposit](https://saddle.exchange/#/pools/tbtc/deposit)
-* **Step 7:** Click on **Deposit Wrapped**
+- **Step 1:** Go to [BTC Pool V2 Deposit](https://saddle.exchange/#/pools/btcv2/deposit)
+- **Step 2:** Enter the amount you wish to deposit
+- **Step 3:** Choose slippage and gas
+- **Step 4:** Click Deposit
+- **Step 5:** Receive LP Tokens \(saddleBTC-V2\)
+- **Step 6:** Go to [tBTC Pool Deposit](https://saddle.exchange/#/pools/tbtc/deposit)
+- **Step 7:** Click on **Deposit Wrapped**
 
 ![](.gitbook/assets/6%20%281%29.png)
 
-* **Step 8:** Enter the amount you wish to deposit
-* **Step 9:** Choose slippage and gas
-* **Step 10:** Click Deposit
-* **Step 11:** After the transaction confirms, stake your LP tokens to earn rewards
+- **Step 8:** Enter the amount you wish to deposit
+- **Step 9:** Choose slippage and gas
+- **Step 10:** Click Deposit
+- **Step 11:** After the transaction confirms, stake your LP tokens to earn rewards
 
 **4. Staking LP tokens to earn incentives**
 
@@ -149,20 +149,20 @@ The alETH pool also supports flash loans, which will generate additional returns
 
 Once you provide liquidity to the alETH pool, you will receive alETH Saddle LP tokens representing your share of the liquidity pool. Follow these steps to stake the ALCX LP tokens to earn incentives. Check [Alchemix Staking Dashboard](https://app.alchemix.fi/farms) to know the current interest rates for the deposits.
 
-* **Step 1:** Go to [Alchemix Staking Dashboard](https://app.alchemix.fi/farms)
-* **Step 2:** Click on **Connect** to connect to your wallet
+- **Step 1:** Go to [Alchemix Staking Dashboard](https://app.alchemix.fi/farms)
+- **Step 2:** Click on **Connect** to connect to your wallet
 
 ![](.gitbook/assets/8%20%281%29.png)
 
-* **Step 3:** Once the wallet is connected, click on **alETH Saddle LP Pool**
+- **Step 3:** Once the wallet is connected, click on **alETH Saddle LP Pool**
 
 ![](.gitbook/assets/9%20%285%29.png)
 
-* **Step 4:** Enter the amount of LP token you wish to stake and click approve
+- **Step 4:** Enter the amount of LP token you wish to stake and click approve
 
 ![](.gitbook/assets/10%20%285%29.png)
 
-* **Step 5:** Start earning incentives
+- **Step 5:** Start earning incentives
 
 ## **Stablecoin Pool V2**
 
@@ -198,20 +198,20 @@ The D4 pool also supports flash loans, which will generate additional returns fo
 
 Once you provide liquidity to the D4 pool, you will receive four LP tokens \(ALCX, FXS, LQTY, and TRIBE\) representing your share of the liquidity pool. Follow these steps to stake the LP tokens to earn incentives. Even though you have four tokens, you’ll only need to use [FRAX Staking Dashboard](https://app.frax.finance/staking). The current interest rates for the deposits are available in the dashboard.
 
-* **Step 1:** Go to [FRAX Staking Dashboard](about:blank)
-* **Step 2:** Choose on **Staking** **🡪 Saddle alUSD/FEI/FRAX/USD**
+- **Step 1:** Go to [FRAX Staking Dashboard](about:blank)
+- **Step 2:** Choose on **Staking** **🡪 Saddle alUSD/FEI/FRAX/USD**
 
 ![](.gitbook/assets/13%20%283%29.png)
 
-* **Step 3**: Scroll down and click on **Connect Wallet**
+- **Step 3**: Scroll down and click on **Connect Wallet**
 
 ![](.gitbook/assets/14%20%283%29.png)
 
-* **Step 4**: Choose the **Amount** to stake, **Days** to stake, and click on **Stake**
+- **Step 4**: Choose the **Amount** to stake, **Days** to stake, and click on **Stake**
 
 ![](.gitbook/assets/15%20%281%29.png)
 
-* **Step 5:** Start earning incentives
+- **Step 5:** Start earning incentives
 
 ## **sUSD Metapool**
 
@@ -223,11 +223,10 @@ Saddle BTC pool V2 is [live](https://blog.saddle.finance/launching-v2-of-the-sad
 
 ## **tBTC Metapool**
 
-Saddle tBTC Metapool is [live](https://saddle.exchange/#/pools/tbtc/deposit). For details on rewards and migrating rewards, refer to the [BTC Pool section](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool).  
+Saddle tBTC Metapool is [live](https://saddle.exchange/#/pools/tbtc/deposit). For details on rewards and migrating rewards, refer to the [BTC Pool section](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool).
 
 ## **wCUSD Metapool**
 
 Saddle rewards you with trading fees when you provide liquidity to the wCUSD metapool. If you observe “-” in the Saddle dApp frontend, it means there has not been any trading volume over the last 24 hours to calculate the APY.
 
 \*\*\*\*
-

@@ -18,32 +18,32 @@ _**Market risks**_: We primarily relate fluctuations and liquidity to the market
 
 In this section, we will examine the risks for each asset in the Saddle pools composition. The information provided is as of the 3rd week of **Aug 2021**.
 
-| **Asset** | **Age** | **Transactions** | **Governance** | **Holders** | **MCAP \($\)** | **Supply** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **BTC Pool** |   |   |   |   |   |   |
-| renBTC | &gt; 1 year | 10k - 100k | Decentralized | 1k - 5k | $100m - $1b | &lt; 500k |
-| sBTC | &gt; 2 years | 10k - 100k | Decentralized | 1k - 5k | $100m - $1b | &lt; 500k |
-| tBTC | &gt; 1 year | &lt; 10,000 | Decentralized | &lt; 1,000 | $10m - 50m | &lt; 500k |
-| wBTC | &gt; 2 years | 100k - 500k | Decentralized | 10k - 100k | &gt; $5b | &lt; 500k |
-| **alETH Pool** |   |   |   |   |   |   |
-| alETH | &lt; 1 year | 10k - 100k | Decentralized | &lt; 1,000 | N/A | N/A |
-| sETH | &gt; 2 years | 10k - 100k | Decentralized | 1k - 5k | $100m - $1b | &lt; 500k |
-| WETH | &gt; 2 years | &gt; 1m | Decentralized | 100k - 1m | &gt; $1b | 1m - 10m |
-| **Stablecoin Pool V2** |   |   |   |   |   |   |
-| DAI | &gt; 1 year | &gt; 10m | Decentralized | 100k - 1m | &gt; $5b | &gt; 5b |
-| USDC | &gt; 2 years | &gt; 10m | Centralized | &gt; 1m | &gt; $5b | &gt; 5b |
-| USDT | &gt; 2 years | &gt; 10m | Centralized | &gt; 1m | &gt; $5b | &gt; 5b |
-| **D4 Pool** |   |   |   |   |   |   |
-| alUSD | &lt; 1 year | &lt; 10,000 | Decentralized | &lt; 1,000 | $100m - $1b | 100m - 1b |
-| FEI | &lt; 1 year | 10k - 100k | Decentralized | 1k - 5k | $100m - $1b | 100m - 1b |
-| FRAX | &lt; 1 year | 100k - 500k | Decentralized | 1k - 5k | $100m - $1b | N/A |
-| LUSD | &lt; 1 year | 100k - 500k | Decentralized | 1k - 5k | $100m - $1b | N/A |
-| **sUSD Pool** |   |   |   |   |   |   |
-| sUSD | &gt; 2 years | 500k - 1m | Decentralized | 10k - 100k | $100m - $1b | 100m - 1b |
-| saddleUSD-V2 | _Refer to Stablecoin Pool V2_ |   |   |   |   |   |
-| **wCUSD Pool** |   |   |   |   |   |   |
-| wCUSD | &lt; 1 year | &lt; 10,000 | Decentralized | &lt; 1,000 | $1m - $10m | 500k - 1m |
-| saddleUSD-V2 | _Refer to Stablecoin Pool V2_ |   |   |   |   |   |
+| **Asset**              | **Age**                       | **Transactions** | **Governance** | **Holders** | **MCAP \($\)** | **Supply** |
+| :--------------------- | :---------------------------- | :--------------- | :------------- | :---------- | :------------- | :--------- |
+| **BTC Pool**           |                               |                  |                |             |                |            |
+| renBTC                 | &gt; 1 year                   | 10k - 100k       | Decentralized  | 1k - 5k     | $100m - $1b    | &lt; 500k  |
+| sBTC                   | &gt; 2 years                  | 10k - 100k       | Decentralized  | 1k - 5k     | $100m - $1b    | &lt; 500k  |
+| tBTC                   | &gt; 1 year                   | &lt; 10,000      | Decentralized  | &lt; 1,000  | $10m - 50m     | &lt; 500k  |
+| wBTC                   | &gt; 2 years                  | 100k - 500k      | Decentralized  | 10k - 100k  | &gt; $5b       | &lt; 500k  |
+| **alETH Pool**         |                               |                  |                |             |                |            |
+| alETH                  | &lt; 1 year                   | 10k - 100k       | Decentralized  | &lt; 1,000  | N/A            | N/A        |
+| sETH                   | &gt; 2 years                  | 10k - 100k       | Decentralized  | 1k - 5k     | $100m - $1b    | &lt; 500k  |
+| WETH                   | &gt; 2 years                  | &gt; 1m          | Decentralized  | 100k - 1m   | &gt; $1b       | 1m - 10m   |
+| **Stablecoin Pool V2** |                               |                  |                |             |                |            |
+| DAI                    | &gt; 1 year                   | &gt; 10m         | Decentralized  | 100k - 1m   | &gt; $5b       | &gt; 5b    |
+| USDC                   | &gt; 2 years                  | &gt; 10m         | Centralized    | &gt; 1m     | &gt; $5b       | &gt; 5b    |
+| USDT                   | &gt; 2 years                  | &gt; 10m         | Centralized    | &gt; 1m     | &gt; $5b       | &gt; 5b    |
+| **D4 Pool**            |                               |                  |                |             |                |            |
+| alUSD                  | &lt; 1 year                   | &lt; 10,000      | Decentralized  | &lt; 1,000  | $100m - $1b    | 100m - 1b  |
+| FEI                    | &lt; 1 year                   | 10k - 100k       | Decentralized  | 1k - 5k     | $100m - $1b    | 100m - 1b  |
+| FRAX                   | &lt; 1 year                   | 100k - 500k      | Decentralized  | 1k - 5k     | $100m - $1b    | N/A        |
+| LUSD                   | &lt; 1 year                   | 100k - 500k      | Decentralized  | 1k - 5k     | $100m - $1b    | N/A        |
+| **sUSD Pool**          |                               |                  |                |             |                |            |
+| sUSD                   | &gt; 2 years                  | 500k - 1m        | Decentralized  | 10k - 100k  | $100m - $1b    | 100m - 1b  |
+| saddleUSD-V2           | _Refer to Stablecoin Pool V2_ |                  |                |             |                |            |
+| **wCUSD Pool**         |                               |                  |                |             |                |            |
+| wCUSD                  | &lt; 1 year                   | &lt; 10,000      | Decentralized  | &lt; 1,000  | $1m - $10m     | 500k - 1m  |
+| saddleUSD-V2           | _Refer to Stablecoin Pool V2_ |                  |                |             |                |            |
 
 ## **alETH**
 
@@ -57,7 +57,7 @@ _**Market risks**_: alETH is backed by ETH in the 4:1 ratio. At present, the [ma
 
 _**Notable incidents**_: The following incidents and/or bugs were observed relating to the protocol:
 
-* [Incident Report – 06162021](https://forum.alchemix.fi/public/d/137-incident-report-06162021) relating to a bug.
+- [Incident Report – 06162021](https://forum.alchemix.fi/public/d/137-incident-report-06162021) relating to a bug.
 
 ## **alUSD**
 
@@ -71,7 +71,7 @@ _**Market risks**_: alUSD is yield-backed by depositing the DAI stablecoin. At p
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **DAI**
 
@@ -85,7 +85,7 @@ _**Market risks**_: Users can generate DAI as debt by depositing equivalent coll
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Maker’s price feed oracle [stuck](https://defipulse.com/blog/defi-status-report-black-thursday/) resulting in a MKR debt [auction](https://blog.makerdao.com/mkr-debt-auction-announcement-and-details/).
+- Maker’s price feed oracle [stuck](https://defipulse.com/blog/defi-status-report-black-thursday/) resulting in a MKR debt [auction](https://blog.makerdao.com/mkr-debt-auction-announcement-and-details/).
 
 ## **FEI**
 
@@ -99,8 +99,8 @@ _**Market risks**_: Fei is a direct incentive stablecoin which is undercollatera
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* FEI pool becoming [unusable](https://cointelegraph.com/news/fei-protocol-struggles-with-a-bug-as-holders-are-mostly-unable-to-sell-the-token) for a time.
-* Bonding curve [bug](https://medium.com/fei-protocol/fei-bonding-curve-bug-post-mortem-98d2c6f271e9).
+- FEI pool becoming [unusable](https://cointelegraph.com/news/fei-protocol-struggles-with-a-bug-as-holders-are-mostly-unable-to-sell-the-token) for a time.
+- Bonding curve [bug](https://medium.com/fei-protocol/fei-bonding-curve-bug-post-mortem-98d2c6f271e9).
 
 ## **FRAX**
 
@@ -114,7 +114,7 @@ _**Market risks**_: Frax is open-source, permissionless, and entirely on-chain. 
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **LUSD**
 
@@ -128,7 +128,7 @@ _**Market risks**_: The loans are secured by a Stability Pool containing LUSD. A
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **renBTC**
 
@@ -142,7 +142,7 @@ _**Market risks**_: At present, the [market](https://www.coingecko.com/en/coins/
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **sBTC**
 
@@ -156,7 +156,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **sETH**
 
@@ -170,7 +170,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Synthetix Reverses [Oracle Error-Caused](https://cointelegraph.com/news/synthetix-reverses-oracle-error-caused-misplaced-seth-in-exchange-for-a-bug-bounty) Misplaced sETH.
+- Synthetix Reverses [Oracle Error-Caused](https://cointelegraph.com/news/synthetix-reverses-oracle-error-caused-misplaced-seth-in-exchange-for-a-bug-bounty) Misplaced sETH.
 
 ## **sUSD**
 
@@ -184,7 +184,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **tBTC**
 
@@ -198,7 +198,7 @@ _**Market risks**_: At present, the [market](https://www.coingecko.com/en/coins/
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* 10-day [emergency](https://www.theblockcrypto.com/post/65941/tbtc-post-mortem-describes-how-a-missed-smart-contract-bug-forced-the-developers-to-press-the-emergency-pause-button) pause for new deposits after identifying a smart contract bug.
+- 10-day [emergency](https://www.theblockcrypto.com/post/65941/tbtc-post-mortem-describes-how-a-missed-smart-contract-bug-forced-the-developers-to-press-the-emergency-pause-button) pause for new deposits after identifying a smart contract bug.
 
 ## **USDC**
 
@@ -212,7 +212,7 @@ _**Market risks**_: USDC has gained wide adoption since its inception because of
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **USDT**
 
@@ -226,7 +226,7 @@ _**Market risks**_: USDT is the most widely integrated digital-to- fiat currency
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **wBTC**
 
@@ -240,7 +240,7 @@ _**Market risks**_: Minting in the wrapped framework is started by a merchant an
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Price [manipulation](https://www.trustnodes.com/2020/02/17/flashloan-haxor-sent-wbtcs-price-to-4000-on-kyber) through flashloans.
+- Price [manipulation](https://www.trustnodes.com/2020/02/17/flashloan-haxor-sent-wbtcs-price-to-4000-on-kyber) through flashloans.
 
 ## **wCUSD**
 
@@ -268,5 +268,4 @@ _**Market risks**_: Users can verify that WBTC is fully-backed via on-chain proo
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
-
+- None at the time of writing.

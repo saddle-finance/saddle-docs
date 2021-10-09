@@ -29,7 +29,6 @@ We provide a [basic example of a flashloan borrower contract](https://github.com
 
 ## Flash-loan Supported Pools
 
-* vETH2 pool \(`0xdec2157831D6ABC3Ec328291119cc91B337272b5`\)
-* alETH pool \(`0xa6018520EAACC06C30fF2e1B3ee2c7c22e64196a`\)
-* D4 pool \(`0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6`\)
-
+- vETH2 pool \(`0xdec2157831D6ABC3Ec328291119cc91B337272b5`\)
+- alETH pool \(`0xa6018520EAACC06C30fF2e1B3ee2c7c22e64196a`\)
+- D4 pool \(`0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6`\)

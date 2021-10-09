@@ -167,4 +167,3 @@ _**KEEP Rewards**_: Once you provide liquidity to the BTC pool, you will receive
 _**ALCX Rewards**_: Once you provide liquidity to the alETH pool, you will receive ALCX LP tokens representing your share of the liquidity pool. You can further stake the ALCX LP tokens to earn rewards.
 
 _**ALCX/FXS/LQTY/TRIBE Rewards**_: Once you provide liquidity to the D4 pool, you will receive four LP tokens \(ALCX/FXS/LQTY/TRIBE\) representing your share of the liquidity pool. You can further stake the LP tokens to earn rewards.
-
