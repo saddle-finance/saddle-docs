@@ -147,7 +147,7 @@ Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on 
 
 Saddle launched with Proof of Governance \(PoG\) to protect our users with certain limits and discourage sybil attacks. Initially, there will be a pool TVL cap of 150 BTC and a per-address deposit limit of 1 BTC. These limits were raised every 1-2 weeks.
 
-**Note:** The guarded launch has been successful and as of 22nd June 2021, we have disabled the guard. Anyone can become a liquidity provider in Saddle's pools.
+**Note:** The guarded launch has been successful and as of 22nd February 2021, we have disabled the guard ([Etherscan transaction](https://etherscan.io/tx/0xedc38ea0b5f1cc740c6659cdecdc5b379bcd77b1eae59709d41e9811b92a4d66)). Anyone can become a liquidity provider in Saddle's pools.
 
 For LPs to qualify for PoG, an address must have demonstrated active network participation in one of the following ways:
 
