@@ -110,10 +110,6 @@ Saddle is backed by notable tech investors with a track record of working with s
 
 [Coinbase Ventures](https://ventures.coinbase.com/) invests in companies building the open financial system. Coinbase ventures provide financing to promising early-stage companies that have the teams and ideas that can move the space forward in a positive, meaningful way.
 
-### **Divergence**
-
-[Divergence](https://www.div.vc/) Ventures is a crypto operator fund. Based in San Francisco, California, Divergence invests in the information technology and financial services sectors.
-
 ### **Nascent**
 
 [Nascent](https://www.nascent.xyz/) is a global, multi-strategy investment firm focused on crypto & open finance.
