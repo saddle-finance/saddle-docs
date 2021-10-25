@@ -5,10 +5,10 @@ Only Swap contracts should initialize and own LPToken contracts.
 
 # Functions:
 
-- [`initialize(string name, string symbol)`](#LPToken-initialize-string-string-)
-- [`mint(address recipient, uint256 amount)`](#LPToken-mint-address-uint256-)
+- [`initialize(string name, string symbol)`](#LPTokenV1-initialize-string-string-)
+- [`mint(address recipient, uint256 amount)`](#LPTokenV1-mint-address-uint256-)
 
-# Function `initialize(string name, string symbol) → bool` {#LPToken-initialize-string-string-}
+# Function `initialize(string name, string symbol) → bool` {#LPTokenV1-initialize-string-string-}
 
 Initializes this LPToken contract with the given name and symbol
 
@@ -21,7 +21,7 @@ in its initializer function.
 
 - `symbol`: symbol of this token
 
-# Function `mint(address recipient, uint256 amount)` {#LPToken-mint-address-uint256-}
+# Function `mint(address recipient, uint256 amount)` {#LPTokenV1-mint-address-uint256-}
 
 Mints the given amount of LPToken to the recipient.
 

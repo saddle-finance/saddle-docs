@@ -5,13 +5,13 @@ Only methods using the provided modifiers will be paused.
 
 # Functions:
 
-- [`pause()`](#OwnerPausable-pause--)
-- [`unpause()`](#OwnerPausable-unpause--)
+- [`pause()`](#OwnerPausableUpgradeable-pause--)
+- [`unpause()`](#OwnerPausableUpgradeable-unpause--)
 
-# Function `pause()` {#OwnerPausable-pause--}
+# Function `pause()` {#OwnerPausableUpgradeable-pause--}
 
 Pause the contract. Revert if already paused.
 
-# Function `unpause()` {#OwnerPausable-unpause--}
+# Function `unpause()` {#OwnerPausableUpgradeable-unpause--}
 
 Unpause the contract. Revert if already unpaused.
