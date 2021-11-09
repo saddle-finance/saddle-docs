@@ -12,7 +12,7 @@ Saddle stands for DeFi, for financial Lego blocks.
 
 - We commit ourselves to [open-source software](https://github.com/saddle-finance) and collaboration.
 - We support all projects that want on top of our code
-- We’ll work with you if you want to bring stablecoin swap to another chain.
+- We’ll work with you if you want to bring pegged asset swap to another chain.
 
 ### **Collaborate With Saddle**
 
