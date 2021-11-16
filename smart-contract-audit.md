@@ -10,15 +10,15 @@ We conduct our own internal security audit of the smart contract code we’ve wr
 
 As for now, we have passed security auditing on all Saddle smart contracts, from the following auditors, with no issues.
 
-| **AUDITOR**                              | **PROTOCOL AUDIT**                                                                              | **VIRTUAL SWAP AUDIT**                                                                                      |
-| :--------------------------------------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| [Certik](https://certik.io/)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf)     | N/A                                                                                                         |
-| [Quantstamp](https://quantstamp.com/)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) |
-| [OpenZepplin](https://openzeppelin.com/) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                 | N/A                                                                                                         |
+| **AUDITOR**                              | **PROTOCOL AUDIT**                                                                              | **VIRTUAL SWAP AUDIT**                                                                                      | **TOKEN AUDIT**                                                                                       |
+| :--------------------------------------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| [Certik](https://certik.io/)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf)     | N/A                                                                                                         | N/A                                                                                                   |
+| [Quantstamp](https://quantstamp.com/)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-27-2021_Quantstamp_Token.pdf) |
+| [OpenZepplin](https://openzeppelin.com/) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                 | N/A                                                                                                         | N/A                                                                                                   |
 
 _**Disclaimer**:_ Security audits don’t eliminate all risks. Using Saddle as an exchange for a user should be significantly less risky, but please bear in mind there are still risks. Refer to the risks section for more details.
 
-### **Certix Audit Report**
+### **Certik Audit Report**
 
 Founded in 2018 by professors at Yale University and Columbia University, CertiK is a pioneer in blockchain security, using best-in-class AI technology to secure and monitor blockchain protocols and smart contracts. CertiK’s mission is to secure the cyber world. Starting with blockchain, CertiK applies innovations from academia into enterprise, enabling mission-critical applications to be built with security and correctness.
 

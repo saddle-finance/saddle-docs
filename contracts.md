@@ -101,6 +101,15 @@
 | `SynthSwapper` | [0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3](https://etherscan.io/address/0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3#code) |
 | `Bridge`       | [0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706](https://etherscan.io/address/0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706#code) |
 
+### Token
+
+| Contract Name        | Contract Address                                                                                                           |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `Vesting`            | [0xf8504e92428d65E56e495684A38f679C1B1DC30b](https://etherscan.io/address/0xf8504e92428d65E56e495684A38f679C1B1DC30b#code) |
+| `SDL`                | [0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871](https://etherscan.io/address/0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871#code) |
+| `RetroactiveVesting` | [0x5DCA270671935cf3dF78bd8373C22BE250198a03](https://etherscan.io/address/0x5DCA270671935cf3dF78bd8373C22BE250198a03#code) |
+| `MiniChefV2`         | [0x691ef79e40d909C715BE5e9e93738B3fF7D58534](https://etherscan.io/address/0x691ef79e40d909C715BE5e9e93738B3fF7D58534#code) |
+
 ## Arbitrum Mainnet
 
 ### ArbUSD Pool
@@ -113,3 +122,5 @@
 | `SwapUtils`               | [0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894](https://arbiscan.io/address/0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894#code) |
 | `SaddleArbUSDPool`        | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://arbiscan.io/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
 | `SaddleArbUSDPoolLPToken` | [0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08](https://arbiscan.io/address/0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08#code) |
+| `MiniChefV2`              | [0x2069043d7556B1207a505eb459D18d908DF29b55](https://arbiscan.io/address/0x2069043d7556B1207a505eb459D18d908DF29b55#code) |
+| `SDL`                     | [0x75c9bc761d88f70156daf83aa010e84680baf131](https://arbiscan.io/address/0x75c9bc761d88f70156daf83aa010e84680baf131#code) |
