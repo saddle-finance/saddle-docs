@@ -14,6 +14,8 @@ Total value locked is the funds (assets) currently locked (staked) in Saddle pro
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
+![](.gitbook/assets/TVL.png)
+
 ![](<.gitbook/assets/0 (8).png>)
 
 ### **Trading Volume (TV)**
@@ -21,6 +23,8 @@ Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](htt
 Trading volume is the number of units traded in the market during a time. For instance, a 24-hour trading volume shows the value of assets bought and sold over the course of a day.
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
+
+![ ](.gitbook/assets/TV.png)
 
 ![](<.gitbook/assets/1 (4) (1).png>)
 
@@ -30,6 +34,8 @@ Total revenue is a measure of the trading fees paid by the traders over a specif
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
+![ ](<.gitbook/assets/Trading Fee.png>)
+
 ![](<.gitbook/assets/2 (11).png>)
 
 ### **Supply-Side Revenue**
@@ -37,6 +43,8 @@ Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](htt
 Supply-side revenue is the share of trading fees which go to the liquidity providers (LPs) for their contribution to the liquidity pools.
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
+
+![ ](<.gitbook/assets/Supply Side Rev.png>)
 
 ![](<.gitbook/assets/3 (6).png>)
 
@@ -46,6 +54,8 @@ A chart on asset vs revenue comparison – which asset contributes most to the r
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
+![ ](<.gitbook/assets/Rev Comp.png>)
+
 ![](<.gitbook/assets/4 (6).png>)
 
 ### **Liquidity By Asset**
@@ -54,6 +64,8 @@ Liquidity refers to how easily and quickly assets are bought or sold _without_ a
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
+![ ](<.gitbook/assets/Asset Liquidity.png>)
+
 ![](<.gitbook/assets/5 (9).png>)
 
 ### **LP Tokens Staked**
@@ -61,6 +73,8 @@ Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Sad
 Saddle rewards LP tokens for contributing to the liquidity pools. Liquidity providers can further stake the LP tokens to earn additional rewards. This stat shows the LP tokens issued vs staked.
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
+
+![ ](<.gitbook/assets/LP Staked.png>)
 
 ![](.gitbook/assets/6.png)
 
@@ -73,6 +87,8 @@ Besides the protocol stats, many tools are available to understand the technical
 The unique deposit address denotes the liquidity providers of Saddle. A wide spread of unique addresses is a measure of the fair distribution and mass adoption of the Saddle ecosystem.
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
+
+![ ](<.gitbook/assets/Unique Dep Address.png>)
 
 ![](<.gitbook/assets/7 (4).png>)
 
@@ -89,6 +105,8 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 3:** Enter the smart contract address in the search box. Click _Search_.
 * **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
+![ ](.gitbook/assets/Explorer.png)
+
 ![](<.gitbook/assets/8 (6).png>)
 
 **Blockchair.com Block Explorer**
@@ -97,6 +115,8 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 2:** Go to [https://blockchair.com/](https://blockchair.com)
 * **Step 3:** Enter the smart contract address in the search box. Click _Search_.
 * **Step 4**: You’ll now see the stats of the D4 Saddle Pool
+
+![ ](<.gitbook/assets/Explorer 2.png>)
 
 ![](<.gitbook/assets/9 (9).png>)
 
@@ -114,5 +134,9 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 * **Step 4**: Click on Ethereum Mainnet in the results shown
 
 ![](<.gitbook/assets/10 (7).png>)
+
+![ ](<.gitbook/assets/Visual 1.png>)
+
+![ ](<.gitbook/assets/Visual 2.png>)
 
 ![](<.gitbook/assets/11 (4).png>)
