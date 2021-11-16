@@ -1,6 +1,6 @@
 # Contract Addresses
 
-## Mainnet
+## ETH Mainnet
 
 ### BTC Pool
 
@@ -100,3 +100,16 @@
 | :------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SynthSwapper` | [0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3](https://etherscan.io/address/0xdf815Ea6b066Ac9f3107d8863a6c19aA2a5d24d3#code) |
 | `Bridge`       | [0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706](https://etherscan.io/address/0xa5bD85ed9fA27ba23BfB702989e7218E44fd4706#code) |
+
+## Arbitrum Mainnet
+
+### ArbUSD Pool
+
+| Contract Name             | Contract Address                                                                                                          |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------ |
+| `AmplificationUtils`      | [0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e](https://arbiscan.io/address/0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e#code) |
+| `LPToken`                 | [0xc0409EC303b727Bc1F511d7F8C71FD5Ead96De1c](https://arbiscan.io/address/0xc0409EC303b727Bc1F511d7F8C71FD5Ead96De1c#code) |
+| `SwapFlashLoan`           | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://arbiscan.io/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
+| `SwapUtils`               | [0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894](https://arbiscan.io/address/0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894#code) |
+| `SaddleArbUSDPool`        | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://arbiscan.io/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
+| `SaddleArbUSDPoolLPToken` | [0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08](https://arbiscan.io/address/0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08#code) |
