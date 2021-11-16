@@ -77,7 +77,7 @@ Once you provide liquidity to the BTC pool, you will receive KEEP tokens represe
 * **Step 3:** Scroll down and select **TBTC V2 + SADDLE** pool
 * **Step 4:** Enter the amount of KEEP tokens to stake and click DEPOSIT
 
-![](<.gitbook/assets/4 (9).png>)
+![](<.gitbook/assets/Screen Shot 2021-11-16 at 2.45.34 PM.png>)
 
 * **Step 5:** Start earning incentives
 
@@ -132,7 +132,7 @@ The KEEP incentives will have to be moved from BTC Pool (v1) to the tBTC metapoo
 
 **Note 1**: tBTC has been upgraded to v2, learn more about it [here](https://blog.keep.network/keep-proposal-overview-shifting-incentives-towards-coverage-pools-and-tbtc-v2-6517a37625c2).
 
-**Note 2:** At the time of writing this, the staking UI for v2 tBTC on KEEP is not yet live, you can follow this [guide](https://forum.keep.network/t/how-to-stake-saddle-tbtc-lps-with-etherscan/335) to stake using Etherscan.
+**Note 2:** You can follow this [guide](https://forum.keep.network/t/how-to-stake-saddle-tbtc-lps-with-etherscan/335) to stake tBTC using Etherscan.
 
 ## **alETH Pool**
 
