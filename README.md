@@ -8,7 +8,7 @@ description: >-
 
 ## **About Saddle**
 
-Saddle is a decentralized automated market maker \([AMM](https://docs.saddle.finance/automated-market-makers)\) on the Ethereum blockchain, optimized for trading [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets) with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). Saddle enables cheap, efficient, swift, and low-slippage swaps for traders and high-yield pools for LPs. We believe in [collaboration](https://docs.saddle.finance/build-with-saddle), in building Saddle as a DeFi lego block, in helping DeFi teams bring AMMs to any blockchain.
+Saddle is a decentralized automated market maker ([AMM](https://docs.saddle.finance/automated-market-makers)) on the Ethereum blockchain, optimized for trading [pegged value crypto assets](https://docs.saddle.finance/saddle-faq#what-are-pegged-value-crypto-assets-pegged-assets) with [minimal slippage](https://docs.saddle.finance/saddle-faq#what-is-a-slippage). Saddle enables cheap, efficient, swift, and low-slippage swaps for traders and high-yield pools for LPs. We believe in [collaboration](https://docs.saddle.finance/build-with-saddle), in building Saddle as a DeFi lego block, in helping DeFi teams bring AMMs to any blockchain.
 
 ## **Why Saddle?**
 
@@ -23,7 +23,7 @@ Saddle is a decentralized automated market maker \([AMM](https://docs.saddle.fin
 To get an introduction to the features and ecosystem of Saddle, follow these links.
 
 | Section                                                                        | Description                                                                                                                                                                                   |
-| :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Automated Market Makers](https://docs.saddle.finance/automated-market-makers) | AMMs democratized cryptocurrency trading by doing away with order books and institutional market makers. Learn about the fundamentals and various swap algorithms.                            |
 | [Saddle Pools](https://docs.saddle.finance/saddle-pools)                       | Saddle Pools are the liquidity pools in Saddle Finance. Learn about various liquidity pools, how to deposit and withdraw, fees, rewards, and risks.                                           |
 | [Saddle Incentives](https://docs.saddle.finance/saddle-incentives)             | Saddle rewards the liquidity providers for their contribution to the liquidity pools. Learn about terminologies, rewards available, and staking LP token to earn incentives.                  |
@@ -39,17 +39,17 @@ To get an introduction to the features and ecosystem of Saddle, follow these lin
 
 Cannot find what you are looking for? You can use the search and navigation options available.
 
-![Navigation & Search Panels](.gitbook/assets/0%20%2811%29.png)
+![Navigation & Search Panels](<.gitbook/assets/0 (11).png>)
 
 ## **Who built Saddle?**
 
 Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. As regular DeFi users ourselves, we’ve seen first-hand how important an active and vibrant community is for a project’s success. We know Web2, but we know Web3 better.
 
-You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) \(aka [devops199fan](https://twitter.com/devops199fan)\) in the YFI community \(he’s a multisig signer\), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info/) by [John](https://www.linkedin.com/in/jongseunglim/) \(aka [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)\).
+You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb\_Mcgee](https://twitter.com/Weeb\_Mcgee)).
 
 ## **How do I trade on Saddle?**
 
-Visit [https://saddle.exchange/](https://saddle.exchange/) to start trading.
+Visit [https://saddle.exchange/](https://saddle.exchange) to start trading.
 
 ## **How do I work with Saddle?**
 
@@ -60,9 +60,13 @@ Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on 
 You can keep up with us on any of these channels.
 
 | Channel     | Link                                                                   |
-| :---------- | :--------------------------------------------------------------------- |
-| Saddle Blog | [https://blog.saddle.finance/](https://blog.saddle.finance/)           |
+| ----------- | ---------------------------------------------------------------------- |
+| Saddle Blog | [https://blog.saddle.finance/](https://blog.saddle.finance)            |
 | Discord     | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
 | Twitter     | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub      | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
-| Telegram    | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
+| Telegram    | [https://t.me/saddle\_finance](https://t.me/saddle\_finance)           |
+
+## **Logos & Media Kit**
+
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1\_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
