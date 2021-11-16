@@ -103,19 +103,19 @@ Saddle pools are of two types – base and metapools.
 * _**Base pools**_ contain two or more tokens and implement the StableSwap algorithm.
 * _**Metapools**_ contain one token to trade with another underlying Base pool. For example, in the sUSD Pool, we pool the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
-|              |                    |           |                          |                                                                                                     |                                                                                                  |
-| ------------ | ------------------ | --------- | ------------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| **CATEGORY** | **POOL**           | **TYPE**  | **TOKENS**               | **STATUS**                                                                                          | **REWARDS**                                                                                      |
-| BTC          | BTC Pool           | Base Pool | wBTC, renBTC, sBTC, tBTC | Live                                                                                                | <ul><li>Trading fees</li><li>KEEP incentives</li></ul>                                           |
-| BTC          | BTC Pool V2        | Base Pool | wBTC, renBTC, sBTC       | Live                                                                                                | <ul><li>Trading fees</li></ul>                                                                   |
-| BTC          | tBTC Pool          | Metapool  | tBTCv2, saddleBTC-V2     | Live                                                                                                | <ul><li>Trading fees</li></ul>                                                                   |
-| ETH          | alETH Pool         | Base Pool | WETH, alETH, sETH        | Live                                                                                                | <ul><li>Trading fees</li><li>ALCX incentives</li><li>Flash loan fees</li></ul>                   |
-| ETH          | vETH2 Pool         | Base Pool | WETH, VETH2              | Paused                                                                                              | N/A                                                                                              |
-| USD          | Stablecoin Pool    | Base Pool | DAI, USDC, USDT          | Outdated – [Migrate](https://medium.com/saddle/launching-v2-of-the-saddle-3pool-bc82f0bcd700) to V2 | N/A                                                                                              |
-| USD          | Stablecoin Pool V2 | Base Pool | DAI, USDC, USDT          | Live                                                                                                | <ul><li>Trading fees</li><li>Flash loan fees</li></ul>                                           |
-| USD          | D4 Pool            | Base Pool | alUSD, FEI, FRAX, LUSD   | Live                                                                                                | <ul><li>Trading fees</li><li>Flash loan fees</li><li>TRIBE, FXS, LQTY, ALCX incentives</li></ul> |
-| USD          | sUSD Pool          | Metapool  | sUSD, saddleUSD-V2       | Live                                                                                                | <ul><li>Trading fees</li><li>Flash loan fees</li></ul>                                           |
-| USD          | wCUSD Pool         | Metapool  | wCUSD, saddleUSD-V2      | Live                                                                                                | <ul><li>Trading fees</li></ul>                                                                   |
+|              |                    |           |                          |                                                                                                                            |                                                                                                  |
+| ------------ | ------------------ | --------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **CATEGORY** | **POOL**           | **TYPE**  | **TOKENS**               | **STATUS**                                                                                                                 | **REWARDS**                                                                                      |
+| BTC          | BTC Pool           | Base Pool | wBTC, renBTC, sBTC, tBTC | Outdated - [Migrate](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool) to tBTC Metapool | <ul><li>N/A</li></ul>                                                                            |
+| BTC          | BTC Pool V2        | Base Pool | wBTC, renBTC, sBTC       | Live                                                                                                                       | <ul><li>Trading fees</li></ul>                                                                   |
+| BTC          | tBTC Pool          | Metapool  | tBTCv2, saddleBTC-V2     | Live                                                                                                                       | <ul><li>Trading fees</li><li>KEEP Incentives</li></ul>                                           |
+| ETH          | alETH Pool         | Base Pool | WETH, alETH, sETH        | Live                                                                                                                       | <ul><li>Trading fees</li><li>ALCX incentives</li><li>Flash loan fees</li></ul>                   |
+| ETH          | vETH2 Pool         | Base Pool | WETH, VETH2              | Paused                                                                                                                     | N/A                                                                                              |
+| USD          | Stablecoin Pool    | Base Pool | DAI, USDC, USDT          | Outdated – [Migrate](https://medium.com/saddle/launching-v2-of-the-saddle-3pool-bc82f0bcd700) to V2                        | N/A                                                                                              |
+| USD          | Stablecoin Pool V2 | Base Pool | DAI, USDC, USDT          | Live                                                                                                                       | <ul><li>Trading fees</li><li>Flash loan fees</li></ul>                                           |
+| USD          | D4 Pool            | Base Pool | alUSD, FEI, FRAX, LUSD   | Live                                                                                                                       | <ul><li>Trading fees</li><li>Flash loan fees</li><li>TRIBE, FXS, LQTY, ALCX incentives</li></ul> |
+| USD          | sUSD Pool          | Metapool  | sUSD, saddleUSD-V2       | Live                                                                                                                       | <ul><li>Trading fees</li><li>Flash loan fees</li></ul>                                           |
+| USD          | wCUSD Pool         | Metapool  | wCUSD, saddleUSD-V2      | Live                                                                                                                       | <ul><li>Trading fees</li></ul>                                                                   |
 
 ### **BTC Pool**
 
@@ -129,6 +129,8 @@ The BTC pool currently supports four wrapped variants of Bitcoin, enabling Bitco
 ![](.gitbook/assets/8.png)
 
 **Rewards**
+
+**Note: BTC Pool is outdated. Follow the **[**migration**](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool)** guide to move your assets and KEEP incentives to the new tBTC Metapool.**
 
 Saddle rewards you in two ways for the BTC pool – trading fees and as KEEP incentives every time you provide liquidity to the BTC pool.
 
@@ -161,7 +163,11 @@ The Saddle tBTC Pool is a metapool. In this pool, we pooled the single token tBT
 
 **Rewards**
 
-Saddle rewards you with trading fees for the tBTC Pool.
+Saddle rewards you in two ways for the tBTC pool – trading fees and as KEEP incentives every time you provide liquidity to the tBTC pool.&#x20;
+
+After the transaction confirms, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to earn KEEP rewards. Check [KEEP ](https://dashboard.keep.network/liquidity)to know the current APY for the deposits.
+
+![](https://lh5.googleusercontent.com/YLb-mQ8N0Sw-CVM8LlqRAA32zU\_YIviHuvjQ8Kq-govkGMtixSItgPfRCi42Wm-KmvPEwe3PiDyeuwBsha\_KZ94Hn6etEku7K5ja5PYN91IyMa9CxQobaNQKHwcSkR9qnP5wNsQ)
 
 ### **alETH Pool**
 

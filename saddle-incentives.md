@@ -65,6 +65,8 @@ When you provide liquidity to the BTC pool, we will show you the APY you are eli
 
 ### **KEEP Incentives**
 
+**Note: BTC Pool is outdated. Follow the **[**migration**](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool)** guide to move your assets and KEEP incentives to the new tBTC Metapool.**
+
 Once you provide liquidity to the BTC pool, you will receive KEEP tokens representing your share of the liquidity pool. Follow these steps to stake the KEEP LP tokens to earn rewards. Check [KEEP](https://dashboard.keep.network/liquidity) dashboard to know the current interest rates for the deposits.
 
 * **Step 1:** Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
@@ -225,6 +227,34 @@ Saddle BTC pool V2 is [live](https://blog.saddle.finance/launching-v2-of-the-sad
 ## **tBTC Metapool**
 
 Saddle tBTC Metapool is [live](https://saddle.exchange/#/pools/tbtc/deposit). For details on rewards and migrating rewards, refer to the [BTC Pool section](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool).
+
+Saddle rewards you in two ways for the tBTC Metapool – trading fees and as KEEP incentives when you provide liquidity to the tBTC Metapool and stake the LP tokens respectively.
+
+![](https://lh5.googleusercontent.com/W-HDdIeYNYYsblQtJJkozIhLcPcDSCgQ5Nu6Ojf9hi7ssPLIg-eMtQEOm1j4TyxTqBQAPVpjYGa0Pk7qWL2ePNGag6pP\_z2aCdB9mUSxSpMHK1PdSKEfUhhTP3I4pIfVtFwUi60)
+
+### **Trading Fees**
+
+When you provide liquidity to the tBTC metapool, we will show you the APY you are eligible to receive. The trading fees compound automatically for every transaction and are paid when the liquidity providers withdraw their funds.
+
+### **KEEP Incentives**
+
+Once you provide liquidity to the BTC pool, you will receive KEEP tokens representing your share of the liquidity pool. Follow these steps to stake the KEEP LP tokens to earn rewards. Check [KEEP](https://dashboard.keep.network/liquidity) dashboard to know the current interest rates for the deposits.
+
+**Step 1: **Go to [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity)
+
+**Step 2: **Connect your wallet
+
+![](https://lh5.googleusercontent.com/5NMf0iiwGiO7CUv6WK4Eq8AOng9meiuA5166qw3Uoz-fya0dwxu2S\_Q6nsFBekGwz6OqFTLeYQ9Kf7GIqfd7tDQ6eVb\_jHxPRe5KTXMX00pAwpPaME8ALiC8WQnNLq3HhLNYFEQ)
+
+**Step 3: **Scroll down and select **TBTC V2 + SADDLE **pool
+
+**Step 4: **Enter the amount of KEEP tokens to stake and click DEPOSIT
+
+![](https://lh6.googleusercontent.com/38cpxpgO33vDyL26QTsGfRcwM1F884LQuzuTULstnyHOozsptRvyy-SY35MIEq-GNbS3v2X-JVq8tTRH9P8Zz7k-Dh-l\_v4l2WLHzlk3Ucelxw3N1k5TzxyUuHQoKIBKo3S\_6yY)
+
+**Step 5: **Start earning incentives
+
+**Note: If you are migrating from BTC Pool, you must manually migrate your KEEP rewards. Check out the migration **[**guide**](https://docs.saddle.finance/saddle-incentives#migrating-incentives-to-tbtc-metapool)**.**
 
 ## **wCUSD Metapool**
 

@@ -18,7 +18,7 @@ Vfat.tools is a calculator for yield farming. With a minimalist dashboard, vfat.
 
 You can access the Saddle farming calculator from the URL: [https://vfat.tools/saddle/](https://vfat.tools/saddle/).
 
-![](<.gitbook/assets/0 (10).png>)
+![](.gitbook/assets/0%20%2810%29.png)
 
 ### **ZAPPER.FI**
 
@@ -28,11 +28,11 @@ You can access Saddle farming dashboard from the URL: [https://zapper.fi/farm](h
 
 **Go to Zapper.fi/farm 🡪 search for Saddle tokens**
 
-![](<.gitbook/assets/1 (1) (1).png>)
+![](.gitbook/assets/1%20%281%29.png)
 
 **Choose Saddle tokens 🡪 Stake or Unstake**
 
-![](<.gitbook/assets/2 (12).png>)
+![](.gitbook/assets/2%20%2812%29.png)
 
 ## **REWARDS MANAGEMENT TOOLS**
 
@@ -42,28 +42,28 @@ Track the different yields you can get on tBTC token.
 
 You can access the Saddle pool information from the URL: [https://www.tbtcfarm.info/pool/saddle](https://www.tbtcfarm.info/pool/saddle)
 
-![](<.gitbook/assets/3 (11).png>)
+![](.gitbook/assets/3%20%2811%29.png)
 
 ### **KEEP REWARDS**
 
-Stake, track, and unstake the KEEP LP (liquidity pool) tokens you can get on Saddle BTC pool.
+Stake, track, and unstake the KEEP LP \(liquidity pool\) tokens you can get on Saddle BTC pool.
 
 You can access the Saddle pool information from the URL: [https://dashboard.keep.network/liquidity](https://dashboard.keep.network/liquidity)
 
-![](<.gitbook/assets/4 (2).png>)
+![](.gitbook/assets/4%20%282%29.png)
 
 ### **ALCX REWARDS**
 
-Stake, track, and unstake the ALCX LP (liquidity pool) tokens you can get on Saddle alETH pool.
+Stake, track, and unstake the ALCX LP \(liquidity pool\) tokens you can get on Saddle alETH pool.
 
 You can access the Saddle pool information from the URL: [https://app.alchemix.fi/farms](https://app.alchemix.fi/farms)
 
-![](<.gitbook/assets/5 (3) (1).png>)
+![](.gitbook/assets/5%20%283%29.png)
 
 ### **FRAX REWARDS**
 
-Stake, track, and unstake the four LP tokens (ALCX, FXS, LQTY, and TRIBE) you can get on Saddle D4 pool.
+Stake, track, and unstake the four LP tokens \(ALCX, FXS, LQTY, and TRIBE\) you can get on Saddle D4 pool.
 
 You can access the Saddle pool information from the URL: [https://app.frax.finance/staking](https://app.frax.finance/staking)
 
-![](<.gitbook/assets/6 (9).png>)
+![](.gitbook/assets/6%20%289%29.png)
