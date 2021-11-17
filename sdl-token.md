@@ -80,10 +80,10 @@ Liquidity mining will begin on 11/18/21 12:00 AM UTC. The remaining 3.75% of tok
 
 ### **bounties4bandits (b4b) Community Incentives Program** <a href="_toc87947033" id="_toc87947033"></a>
 
-0.75% (7,500,000 SDL) is allocated with no vesting to a community multisig for grants for community contributions through [bounties4bandits (b4b)](https://saddle.finance/b4b), a program run by our community members in collaboration with [Encode Club](https://www.encode.club). Encode Club is receiving a 0.25% grant over three years for their continued support.
+0.75% (7,500,000 SDL) is allocated with no vesting to a community multisig for grants for community contributions through [bounties4bandits (b4b)](https://saddle.finance/#/b4b), a program run by our community members in collaboration with [Encode Club](https://www.encode.club). Encode Club is receiving a 0.25% grant over three years for their continued support.
 
 \
-b4b is Saddle’s hackathon / grants program for Saddle community members to get involved and get rewarded, with several technical and non-technical tracks. Learn more about b4b [here](https://saddle.finance/b4b).
+b4b is Saddle’s hackathon / grants program for Saddle community members to get involved and get rewarded, with several technical and non-technical tracks. Learn more about b4b [here](https://saddle.finance/#/b4b).
 
 ### **GOVERNANCE TREASURY** <a href="_toc87947034" id="_toc87947034"></a>
 
