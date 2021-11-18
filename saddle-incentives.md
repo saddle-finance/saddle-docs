@@ -199,7 +199,7 @@ The D4 pool also supports flash loans, which will generate additional returns fo
 
 ### **ALCX/FXS/LQTY/TRIBE Incentives**
 
-Once you provide liquidity to the D4 pool, you will receive four LP tokens (ALCX, FXS, LQTY, and TRIBE) representing your share of the liquidity pool. Follow these steps to stake the LP tokens to earn incentives. Even though you have four tokens, you’ll only need to use [FRAX Staking Dashboard](https://app.frax.finance/staking). The current interest rates for the deposits are available in the dashboard.
+Once you provide liquidity to the D4 pool, you will receive LP tokens representing your share of the liquidity pool. Follow these steps to stake the LP tokens to earn incentives (ALCX, FXS, LQTY, and TRIBE), using the [FRAX Staking Dashboard](https://app.frax.finance/staking). The current interest rates for the deposits are available in the dashboard.
 
 * **Step 1:** Go to [FRAX Staking Dashboard](about:blank)
 * **Step 2:** Choose on **Staking** **🡪 Saddle alUSD/FEI/FRAX/USD**

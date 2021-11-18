@@ -40,7 +40,15 @@ For more on AMMs and Stableswap check out the [AMM section](https://docs.saddle.
 
 ### **Does Saddle have a token?**
 
-Saddle does not currently have a token.
+Yes, Saddle's token is the SDL token, you can learn more about it in the [SDL Token section](sdl-token.md).
+
+### Where can I trade SDL?
+
+SDL is non-transferrable for 3-12 months following launch (depending on governance). During the lockup period, SDL is not tradable.
+
+### **What is the price of SDL?**
+
+SDL is non-transferrable for 3-12 months following launch (depending on governance). During the lockup period, SDL is not tradable, so it does not have a price.
 
 ### **Who can use Saddle?**
 
