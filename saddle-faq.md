@@ -203,6 +203,36 @@ Our goal is to provide you with the safest Saddle protocol. We encourage the com
 
 The [Terms and Conditions](https://immunefi.com/bounty/saddle/) cover your participation in the Bug Bounty Program. By submitting any vulnerabilities to Saddle Finance or otherwise participating in the Program in any manner, you accept these Terms.
 
+## **SADDLE TOKEN (SDL)**
+
+Frequently asked questions and answers regarding Saddle governance token. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+
+### **What is** SDL token used for?
+
+SDL is the governance token for Saddle Finance. It is also used to reward and incentivize the Saddle community. Read all about the governance process [here](https://docs.saddle.finance/sdl-token#\_toc87947035).
+
+### How many SDL tokens are available?
+
+The max supply of 1 billion SDL has been minted at genesis and will become available over the course of 2-3 years. Check out the [tokenomics section](https://docs.saddle.finance/sdl-token#\_toc87947029) for the allocation and vesting details.
+
+### How do I get SDL tokens?
+
+The token is initially non-transferable for a period of between 3 to 12 months. During this lockup period, the only way to earn SDL is by LPing in Saddle’s incentivized pools or by participating in the bounties4bandits (b4b) program. Learn more [here](https://docs.saddle.finance/sdl-token#\_toc87947031).
+
+Once the lockup period ends, you'll be able to buy SDL on an exchange.
+
+### When does SDL token begin to vest?
+
+If you received SDL tokens in the airdrop, they have already began to vest. The vesting period is 2-3 years, further details are available [here](https://docs.saddle.finance/sdl-token#\_toc87947030).
+
+### Is there a deadline to claim SDL tokens after the vesting period?
+
+After the vesting period ends, users have 1 year to claim the SDL tokens. After 1 year, all unclaimed goes to the protocol treasury.
+
+### When can I trade SDL tokens?
+
+SDL tokens are initially non-transferable / non-tradable. Wallets that received the airdrop can vote with their tokens, but they cannot transfer between wallets or different users. If governance does not vote to make SDL transferable early (vote can happen as early as 3 months from now), then 12 months after token launch, SDL will automatically unlock. That means before the end of 2022, the SDL token will be unlocked and operate as typical (transferable) ERC-20.
+
 ## **PEGGED VALUE ASSETS**
 
 Frequently asked questions and answers regarding Saddle pegged value assets and tokens. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
@@ -429,7 +459,13 @@ The Saddle’s Contract Addresses are listed [here](https://docs.saddle.finance/
 
 Frequently asked questions and answers regarding working with Saddle pools, fees, and technical details. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
 
-### **What is a Slippage?**
+### **Can I** withdraw from a paused Saddle pool**?**
+
+You can withdraw your assets from the paused pool. When withdrawing, you need to withdraw proportionally all assets of the pool (combo).&#x20;
+
+Withdrawing a single asset is fundamentally a swap and therefore not allowed in the paused pools.
+
+### **What is Slippage?**
 
 Slippage is the difference between the expected price of a trade and the execution price. This happens as there is a time delay between the trade request and execution in the market. Slippage can occur at any time but is amplified during periods of high volatility and with large volume trades.
 
@@ -584,3 +620,4 @@ Depending on the liquidity pool, the staking/unstaking process varies. The typic
 | D4 Pool         | ALCX/FXS/LQTY/TRIBE Rewards | [FRAX Staking Dashboard](about:blank)                                        |
 
 For further details, refer to the [incentives ](https://docs.saddle.finance/saddle-incentives)section.
+
