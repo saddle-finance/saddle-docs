@@ -45,7 +45,7 @@ Cannot find what you are looking for? You can use the search and navigation opti
 
 Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. As regular DeFi users ourselves, we’ve seen first-hand how important an active and vibrant community is for a project’s success. We know Web2, but we know Web3 better.
 
-You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb\_Mcgee](https://twitter.com/Weeb\_Mcgee)).
+You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)).
 
 ## **How do I trade on Saddle?**
 
@@ -65,8 +65,8 @@ You can keep up with us on any of these channels.
 | Discord     | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
 | Twitter     | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub      | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
-| Telegram    | [https://t.me/saddle\_finance](https://t.me/saddle\_finance)           |
+| Telegram    | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
 
 ## **Logos & Media Kit**
 
-You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1\_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).

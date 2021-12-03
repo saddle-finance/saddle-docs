@@ -58,7 +58,7 @@ _**Market risks**_: alETH is backed by ETH in the 4:1 ratio. At present, the [ma
 
 _**Notable incidents**_: The following incidents and/or bugs were observed relating to the protocol:
 
-* [Incident Report – 06162021](https://forum.alchemix.fi/public/d/137-incident-report-06162021) relating to a bug.
+- [Incident Report – 06162021](https://forum.alchemix.fi/public/d/137-incident-report-06162021) relating to a bug.
 
 ## **alUSD**
 
@@ -72,7 +72,7 @@ _**Market risks**_: alUSD is yield-backed by depositing the DAI stablecoin. At p
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **DAI**
 
@@ -86,7 +86,7 @@ _**Market risks**_: Users can generate DAI as debt by depositing equivalent coll
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Maker’s price feed oracle [stuck](https://defipulse.com/blog/defi-status-report-black-thursday/) resulting in a MKR debt [auction](https://blog.makerdao.com/mkr-debt-auction-announcement-and-details/).
+- Maker’s price feed oracle [stuck](https://defipulse.com/blog/defi-status-report-black-thursday/) resulting in a MKR debt [auction](https://blog.makerdao.com/mkr-debt-auction-announcement-and-details/).
 
 ## **FEI**
 
@@ -100,8 +100,8 @@ _**Market risks**_: Fei is a direct incentive stablecoin which is undercollatera
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* FEI pool becoming [unusable](https://cointelegraph.com/news/fei-protocol-struggles-with-a-bug-as-holders-are-mostly-unable-to-sell-the-token) for a time.
-* Bonding curve [bug](https://medium.com/fei-protocol/fei-bonding-curve-bug-post-mortem-98d2c6f271e9).
+- FEI pool becoming [unusable](https://cointelegraph.com/news/fei-protocol-struggles-with-a-bug-as-holders-are-mostly-unable-to-sell-the-token) for a time.
+- Bonding curve [bug](https://medium.com/fei-protocol/fei-bonding-curve-bug-post-mortem-98d2c6f271e9).
 
 ## **FRAX**
 
@@ -115,7 +115,7 @@ _**Market risks**_: Frax is open-source, permissionless, and entirely on-chain. 
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **LUSD**
 
@@ -129,7 +129,7 @@ _**Market risks**_: The loans are secured by a Stability Pool containing LUSD. A
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **renBTC**
 
@@ -143,7 +143,7 @@ _**Market risks**_: At present, the [market](https://www.coingecko.com/en/coins/
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **sBTC**
 
@@ -157,7 +157,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **sETH**
 
@@ -171,7 +171,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Synthetix Reverses [Oracle Error-Caused](https://cointelegraph.com/news/synthetix-reverses-oracle-error-caused-misplaced-seth-in-exchange-for-a-bug-bounty) Misplaced sETH.
+- Synthetix Reverses [Oracle Error-Caused](https://cointelegraph.com/news/synthetix-reverses-oracle-error-caused-misplaced-seth-in-exchange-for-a-bug-bounty) Misplaced sETH.
 
 ## **sUSD**
 
@@ -185,7 +185,7 @@ _**Market risks**_: Synthetix is composed of a smart contract infrastructure and
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **tBTC**
 
@@ -199,7 +199,7 @@ _**Market risks**_: At present, the [market](https://www.coingecko.com/en/coins/
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* 10-day [emergency](https://www.theblockcrypto.com/post/65941/tbtc-post-mortem-describes-how-a-missed-smart-contract-bug-forced-the-developers-to-press-the-emergency-pause-button) pause for new deposits after identifying a smart contract bug.
+- 10-day [emergency](https://www.theblockcrypto.com/post/65941/tbtc-post-mortem-describes-how-a-missed-smart-contract-bug-forced-the-developers-to-press-the-emergency-pause-button) pause for new deposits after identifying a smart contract bug.
 
 ## **USDC**
 
@@ -207,13 +207,13 @@ USDC is an ERC20 token pegged 1:1 to the US dollars (USD). USDC is issued by reg
 
 _**Smart-contract risks**_: The USDC smart [contract](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) was launched in September 2018, making it a _mature contract_. The number of transactions since launch stands at over 24 million. The total [amount](https://explorer.bitquery.io/ethereum/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) transacted is over 1,5 trillion USDC, with a median of \~ 1,050 USDC.
 
-_**Counter-party risks**_: USDC is [governed](https://www.centre.io/hubfs/PDF/Centre\_Blacklisting\_Policy\_20200512.pdf?hsLang=en) by The Centre Consortium which could block transactions and blacklist addresses. There are over 1 million token [holders](https://etherscan.io/token/tokenholderchart/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) at the time of writing.
+_**Counter-party risks**_: USDC is [governed](https://www.centre.io/hubfs/PDF/Centre_Blacklisting_Policy_20200512.pdf?hsLang=en) by The Centre Consortium which could block transactions and blacklist addresses. There are over 1 million token [holders](https://etherscan.io/token/tokenholderchart/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) at the time of writing.
 
 _**Market risks**_: USDC has gained wide adoption since its inception because of its easy integration with all ERC-20 compatible wallets. At present, the [market](https://www.coingecko.com/en/coins/usd-coin) capitalization for USDC is \~ $27 billion and a circulation coin supply of \~ 27 billion.
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **USDT**
 
@@ -227,7 +227,7 @@ _**Market risks**_: USDT is the most widely integrated digital-to- fiat currency
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
 
 ## **wBTC**
 
@@ -241,7 +241,7 @@ _**Market risks**_: Minting in the wrapped framework is started by a merchant an
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* Price [manipulation](https://www.trustnodes.com/2020/02/17/flashloan-haxor-sent-wbtcs-price-to-4000-on-kyber) through flashloans.
+- Price [manipulation](https://www.trustnodes.com/2020/02/17/flashloan-haxor-sent-wbtcs-price-to-4000-on-kyber) through flashloans.
 
 ## **wCUSD**
 
@@ -269,4 +269,4 @@ _**Market risks**_: Users can verify that WBTC is fully-backed via on-chain proo
 
 _**Notable incidents**_: The following incidents and/or bugs were identified relating to the protocol:
 
-* None at the time of writing.
+- None at the time of writing.
