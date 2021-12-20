@@ -89,7 +89,6 @@
 
 | Contract Name               | Contract Address                                                                                                           |
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| `SwapDeployer`              | [0xF6C2e0aDc659007Ba7c48446F5A4e4E94dfe08b5](https://etherscan.io/address/0xF6C2e0aDc659007Ba7c48446F5A4e4E94dfe08b5#code) |
 | `SaddleTBTCMetaPool`        | [0xA0b4a2667dD60d5CdD7EcFF1084F0CeB8dD84326](https://etherscan.io/address/0xA0b4a2667dD60d5CdD7EcFF1084F0CeB8dD84326#code) |
 | `SaddleTBTCMetaPoolLPToken` | [0x3f2f811605bC6D701c3Ad6E501be13461c560320](https://etherscan.io/address/0x3f2f811605bC6D701c3Ad6E501be13461c560320#code) |
 | `SaddleTBTCMetaPoolDeposit` | [0x0B636ae06dE08dfe25a69d66291Bd0A600ca3CD7](https://etherscan.io/address/0x0B636ae06dE08dfe25a69d66291Bd0A600ca3CD7#code) |
