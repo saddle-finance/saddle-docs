@@ -148,3 +148,9 @@
 | `SaddleArbUSDPoolLPToken` | [0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08](https://arbiscan.io/address/0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08#code) |
 | `MiniChefV2`              | [0x2069043d7556B1207a505eb459D18d908DF29b55](https://arbiscan.io/address/0x2069043d7556B1207a505eb459D18d908DF29b55#code) |
 | `SDL`                     | [0x75c9bc761d88f70156daf83aa010e84680baf131](https://arbiscan.io/address/0x75c9bc761d88f70156daf83aa010e84680baf131#code) |
+
+### Other
+
+| Contract Name             | Contract Address                                                                                                           |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------- |
+| `GeneralizedSwapMigrator` | [0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840](https://etherscan.io/address/0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840#code) |
