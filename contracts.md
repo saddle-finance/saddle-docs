@@ -139,6 +139,7 @@
 | Contract Name             | Contract Address                                                                                                           |
 | :------------------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | `GeneralizedSwapMigrator` | [0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840](https://etherscan.io/address/0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840#code) |
+
 ## Arbitrum Mainnet
 
 ### ArbUSD Pool
