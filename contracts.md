@@ -154,3 +154,10 @@
 | `SaddleArbUSDPoolLPToken` | [0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08](https://arbiscan.io/address/0xc969dD0A7AB0F8a0C5A69C0839dB39b6C928bC08#code) |
 | `MiniChefV2`              | [0x2069043d7556B1207a505eb459D18d908DF29b55](https://arbiscan.io/address/0x2069043d7556B1207a505eb459D18d908DF29b55#code) |
 | `SDL`                     | [0x75c9bc761d88f70156daf83aa010e84680baf131](https://arbiscan.io/address/0x75c9bc761d88f70156daf83aa010e84680baf131#code) |
+
+### FRAX Pool
+
+| Contract Name               | Contract Address                                                                                                          |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| `SaddleArbUSDPoolV2`        | [0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0](https://arbiscan.io/address/0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0#code) |
+| `SaddleArbUSDPoolV2LPToken` | [0x0a20c2FFa10cD43F67D06170422505b7D6fC0953](https://arbiscan.io/address/0x0a20c2FFa10cD43F67D06170422505b7D6fC0953#code) |
