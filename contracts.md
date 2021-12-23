@@ -138,7 +138,7 @@
 
 | Contract Name             | Contract Address                                                                                                           |
 | :------------------------ | :------------------------------------------------------------------------------------------------------------------------- |
-| `GeneralizedSwapMigrator` | [0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840](https://etherscan.io/address/0x2d5D79753bB8e02ca1ce8EcE0aa55288F8c8d840#code) |
+| `GeneralizedSwapMigrator` | [0x46866D274E6D9015c5FDc098CE270803e11e3eF4](https://etherscan.io/address/0x46866D274E6D9015c5FDc098CE270803e11e3eF4#code) |
 
 ## Arbitrum Mainnet
 
