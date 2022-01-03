@@ -91,7 +91,7 @@
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleTBTCMetaPool`        | [0xA0b4a2667dD60d5CdD7EcFF1084F0CeB8dD84326](https://etherscan.io/address/0xA0b4a2667dD60d5CdD7EcFF1084F0CeB8dD84326#code) |
 | `SaddleTBTCMetaPoolLPToken` | [0x3f2f811605bC6D701c3Ad6E501be13461c560320](https://etherscan.io/address/0x3f2f811605bC6D701c3Ad6E501be13461c560320#code) |
-| `SaddleTBTCMetaPoolDeposit` | [0x0B636ae06dE08dfe25a69d66291Bd0A600ca3CD7](https://etherscan.io/address/0x0B636ae06dE08dfe25a69d66291Bd0A600ca3CD7#code) |
+| `SaddleTBTCMetaPoolDeposit` | [0x05383312655856E25b851c15fA856dB7e270F0cF](https://etherscan.io/address/0x05383312655856E25b851c15fA856dB7e270F0cF#code) |
 
 ### tBTCv2 Metapool V1
 
