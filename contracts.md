@@ -68,7 +68,7 @@
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleSUSDMetaPool`        | [0x824dcD7b044D60df2e89B1bB888e66D8BCf41491](https://etherscan.io/address/0x824dcD7b044D60df2e89B1bB888e66D8BCf41491#code) |
 | `SaddleSUSDMetaPoolLPToken` | [0xb6214a9d18f5Bf34A23a355114A03bE4f7D804fa](https://etherscan.io/address/0xb6214a9d18f5Bf34A23a355114A03bE4f7D804fa#code) |
-| `SaddleSUSDMetaPoolDeposit` | [0x30117eD3c82cC49B07BE49EE94436E928F8421b6](https://etherscan.io/address/0x30117eD3c82cC49B07BE49EE94436E928F8421b6#code) |
+| `SaddleSUSDMetaPoolDeposit` | [0xc66Ed5d7800579220c71f21B1cCa2006B3a95900](https://etherscan.io/address/0xc66Ed5d7800579220c71f21B1cCa2006B3a95900#code) |
 
 ### sUSD Metapool V1
 
@@ -108,7 +108,7 @@
 | :--------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | `SaddleWCUSDMetaPool`        | [0xc02D481B52Ae04Ebc76a8882441cfAED45eb8342](https://etherscan.io/address/0xc02D481B52Ae04Ebc76a8882441cfAED45eb8342#code) |
 | `SaddleWCUSDMetaPoolLPToken` | [0x5F7872490a9B405946376dd40fCbDeF521F13e3f](https://etherscan.io/address/0x5F7872490a9B405946376dd40fCbDeF521F13e3f#code) |
-| `SaddleWCUSDMetaPoolDeposit` | [0x91F3D09BD9B00BBD92CE60d10B5589274E9b2926](https://etherscan.io/address/0x91F3D09BD9B00BBD92CE60d10B5589274E9b2926#code) |
+| `SaddleWCUSDMetaPoolDeposit` | [0x9898D87368DE0Bf1f10bbea8dE46c00cC3a2F9F1](https://etherscan.io/address/0x9898D87368DE0Bf1f10bbea8dE46c00cC3a2F9F1#code) |
 
 ### wCUSD Metapool V1
 
