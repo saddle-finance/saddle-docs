@@ -19,7 +19,7 @@ description: SIP stands for Saddle Improvement Proposal.
 
 The chart below shows a high-level view of the Saddle governance process:
 
-![](https://lh5.googleusercontent.com/Piq4TjxlF\_KP1Bl16JJADfeAIOQ-n5i28lvOuI6-W6grEZXpQ3IpBgAYyHK50jiC1ENgWjSYe\_Mt8J7ft7Zm\_BLc0mnAAciTyyqq4qzUYpGJNKwbtvZv9ia6t4rpPA)
+![](<.gitbook/assets/image (3).png>)
 
 #### Stage 1: Gauge Interest
 
