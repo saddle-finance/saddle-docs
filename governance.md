@@ -8,7 +8,7 @@ description: SIP stands for Saddle Improvement Proposal.
 
 * [Saddle Improvement Proposals GitHub](https://github.com/saddle-finance/SIPS)
 * [Saddle Improvement Proposals](https://sips.saddle.community) (overview)
-* [Discourse](https://www.saddle.community)
+* [Discourse](https://www.saddle.community) (saddle.community)
 * [Snapshot](https://snapshot.org/#/saddlefinance.eth)
 
 ## Proposal Process
