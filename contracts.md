@@ -161,3 +161,26 @@
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
 | `SaddleArbUSDPoolV2`        | [0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0](https://arbiscan.io/address/0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0#code) |
 | `SaddleArbUSDPoolV2LPToken` | [0x0a20c2FFa10cD43F67D06170422505b7D6fC0953](https://arbiscan.io/address/0x0a20c2FFa10cD43F67D06170422505b7D6fC0953#code) |
+
+## Optimistic Mainnet
+
+### OptUSD Pool
+
+| Contract Name             | Contract Address                                                                                                                      |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------ |
+| `AmplificationUtils`      | [0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e](https://optimistic.etherscan.io/address/0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e#code) |
+| `LPToken`                 | [0x2b7A5a5923ECa5C00c6572Cf3E8e08384F563F93](https://optimistic.etherscan.io/address/0x2b7A5a5923ECa5C00c6572Cf3E8e08384F563F93#code) |
+| `SwapFlashLoan`           | [0x5847f8177221268d279Cf377D0E01aB3FD993628](https://optimistic.etherscan.io/address/0x5847f8177221268d279Cf377D0E01aB3FD993628#code) |
+| `SwapUtils`               | [0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894](https://optimistic.etherscan.io/address/0xcF70E2F3567ba396F3dd04822F78Ecd70Ba46894#code) |
+| `SaddleOptUSDPool`        | [0x5847f8177221268d279Cf377D0E01aB3FD993628](https://optimistic.etherscan.io/address/0x5847f8177221268d279Cf377D0E01aB3FD993628#code) |
+| `SaddleOptUSDPoolLPToken` | [0xcCf860874cbF2d615192a4C4455580B4d622D3B9](https://optimistic.etherscan.io/address/0xcCf860874cbF2d615192a4C4455580B4d622D3B9#code) |
+| `SDL`                     | [0xa29b548056c3fd0f68bad9d4829ec4e66f22f796](https://optimistic.etherscan.io/address/0xa29b548056c3fd0f68bad9d4829ec4e66f22f796#code) |
+
+### FRAX Metapool
+
+| Contract Name                  | Contract Address                                                                                                                      |
+| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| `MetaSwapUtils`                | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://optimistic.etherscan.io/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
+| `SaddleOptFRAXMetaPool`        | [0xc55E8C79e5A6c3216D4023769559D06fa9A7732e](https://optimistic.etherscan.io/address/0xc55E8C79e5A6c3216D4023769559D06fa9A7732e#code) |
+| `SaddleOptFRAXMetaPoolLPToken` | [0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A](https://optimistic.etherscan.io/address/0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A#code) |
+| `SaddleOptFRAXMetaPoolDeposit` | [0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17](https://optimistic.etherscan.io/address/0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17#code) |
