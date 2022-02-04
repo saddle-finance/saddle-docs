@@ -10,37 +10,41 @@ Saddle combines the best of three worlds – Bitcoin, Pegged Value Assets, and E
 
 Saddle stands for DeFi, for financial Lego blocks.
 
-- We commit ourselves to [open-source software](https://github.com/saddle-finance) and collaboration.
-- We support all projects that want on top of our code
-- We’ll work with you if you want to bring pegged asset swap to another chain.
+* We commit ourselves to [open-source software](https://github.com/saddle-finance) and collaboration.
+* We support all projects that want on top of our code
+* We’ll work with you if you want to bring pegged asset swap to another chain.
 
 ### **Collaborate With Saddle**
 
 We welcome an opportunity to work with you. Here are a few ways to collaborate:
 
-- Work together on implementing our code, provide engineering support, and answer questions
-- Feature you and your project in our upcoming AMA series
-- Promote your project across our social channels
-- Token swaps and joint projects
+* Work together on implementing our code, provide engineering support, and answer questions
+* Feature you and your project in our upcoming AMA series
+* Promote your project across our social channels
+* Token swaps and joint projects
 
 We have just a few asks in return – kindly give us credits on your social channels and include us in any token distributions :)
 
 ### **Logo & Media Kit**
 
-You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1\_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
 
 ### **Get in Touch**
 
 Want to work on something together?
 
-- Join our [Discord](https://discord.gg/hX8RZFBW9R) and send a DM to the admin, or
-- Tweet or DM to us on [Twitter](https://twitter.com/saddlefinance)
+* Join our [Discord](https://discord.gg/hX8RZFBW9R) and send a DM to the admin, or
+* Tweet or DM to us on [Twitter](https://twitter.com/saddlefinance)
 
 ## **FEATURED PROJECTS**
 
 The following projects have used Saddle’s protocol code, with varying degrees of collaboration and support.
 
-### **SushiSwap V2**
+{% hint style="info" %}
+Find the forked projects of Saddle [here](https://github.com/saddle-finance/saddle-contract/network/members)
+{% endhint %}
+
+### **SushiSwap V3**
 
 _**Project**_**:** [SushiSwap](https://sushi.com) is an automated market-making (AMM) decentralized exchange (DEX). Besides DEX, SushiSwap involves a collection of governance, operations and reward contracts that help grow the ecosystem and utilization.
 

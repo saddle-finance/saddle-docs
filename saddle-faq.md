@@ -26,11 +26,11 @@ _**Saddle is collaborative and fun to work with**_: We root our ethos in the des
 
 Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. As regular DeFi users ourselves, we’ve seen first-hand how important an active and vibrant community is for a project’s success. We know Web2, but we know Web3 better.
 
-You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)).
+You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb\_Mcgee](https://twitter.com/Weeb\_Mcgee)).
 
 ### **Where can I find Saddle's logo or brand assets?**
 
-You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1\_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
 
 ### **How does Saddle work?**
 
@@ -38,13 +38,25 @@ Saddle is an automated market maker (AMM) enabling trading between pegged value 
 
 For more on AMMs and Stableswap check out the [AMM section](https://docs.saddle.finance/automated-market-makers).
 
+{% hint style="info" %}
+Find Saddle's StableSwap implementation code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Swap.sol)
+{% endhint %}
+
 ### **Does Saddle have a token?**
 
 Yes, Saddle's token is the SDL token, you can learn more about it in the [SDL Token section](sdl-token.md).
 
+{% hint style="info" %}
+Find SDL token code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/SDL.sol) &#x20;
+{% endhint %}
+
 ### Where can I trade SDL?
 
 SDL is non-transferrable for 3-12 months following launch (depending on governance). During the lockup period, SDL is not tradable.
+
+{% hint style="info" %}
+Find SDL token vesting code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Vesting.sol)
+{% endhint %}
 
 ### **What is the price of SDL?**
 
@@ -58,11 +70,11 @@ Anyone and everyone. All you need to use Saddle is an internet connection and a 
 
 With Saddle, there are two general actions users can take: [swap assets](https://saddle.exchange/#/) or [provide liquidity](https://saddle.exchange/#/pools).
 
-- _**Swapping**_ between two assets on Saddle gives users efficient trading and low slippage.
+* _**Swapping**_ between two assets on Saddle gives users efficient trading and low slippage.
 
 {% embed url="https://www.youtube.com/embed/8XE5ErpfhQo?feature=oembed" %}
 
-- _**Providing liquidity**_ by depositing assets into a pool on Saddle allows users to take part in the protocol as liquidity providers and earn reward incentives.
+* _**Providing liquidity**_ by depositing assets into a pool on Saddle allows users to take part in the protocol as liquidity providers and earn reward incentives.
 
 {% embed url="https://www.youtube.com/embed/RCsBinGAZEg?feature=oembed" %}
 
@@ -107,15 +119,19 @@ _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. 
 
 **Note:** There is no fee to withdraw your liquidity from Saddle pools. Initial versions of our contracts contained a withdrawal fee feature, but we have removed this from all future pools.
 
+{% hint style="info" %}
+Find Saddle's fee calculation code [here](https://github.com/saddle-finance/saddle-contract/blob/38328fba920abd10bfe3ac9fde98e7c9cc50af9a/contracts/Swap.sol#L81)
+{% endhint %}
+
 ### **Is Saddle safe?**
 
 Saddle has been [audited ](https://docs.saddle.finance/smart-contract-audit)by Certik, Quantstamp, and OpenZeppelin. We have passed security auditing on all Saddle smart contracts, from the following auditors.
 
-| **AUDITOR**                             | **PROTOCOL AUDIT**                                                                              | **VIRTUAL SWAP AUDIT**                                                                                      |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Certik](https://certik.io)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf)     | N/A                                                                                                         |
-| [Quantstamp](https://quantstamp.com)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) |
-| [OpenZepplin](https://openzeppelin.com) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                 | N/A                                                                                                         |
+| **AUDITOR**                             | **PROTOCOL AUDIT**                                                                               | **VIRTUAL SWAP AUDIT**                                                                                        |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| [Certik](https://certik.io)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020\_Certik.pdf)     | N/A                                                                                                           |
+| [Quantstamp](https://quantstamp.com)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020\_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021\_Quantstamp\_VirtualSwap.pdf) |
+| [OpenZepplin](https://openzeppelin.com) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                  | N/A                                                                                                           |
 
 _**Disclaimer**:_ Investing in cryptocurrencies is risky. Using Saddle as an exchange should be significantly less risky, but keep in mind there are still risks. Refer to the [risks section](https://docs.saddle.finance/asset-specific-risks) for more details.
 
@@ -143,7 +159,7 @@ Refer to the [Our Investors](https://docs.saddle.finance/build-with-saddle#our-i
 
 Our original vision was to use Synthetix as a bridge across asset pools to facilitate large, low-slippage trades (alla virtual swap). In the ideal scenario, we would have just built on top of Curve’s [StableSwap](https://curve.fi/whitepaper), but they had a restrictive license, so we had to reimplement it.
 
-From the beginning, we’ve been open about using the StableSwap algorithm. StableSwap is a [Hybrid Function Market Maker](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714) based on the Constant Product Market Maker (implemented by Uniswap) and Constant Sum Market Maker. While the StableSwap algorithm was indeed developed by a member of the Curve team, it is nonetheless published in the public domain.
+From the beginning, we’ve been open about using the StableSwap algorithm. StableSwap is a [Hybrid Function Market Maker](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=3722714) based on the Constant Product Market Maker (implemented by Uniswap) and Constant Sum Market Maker. While the StableSwap algorithm was indeed developed by a member of the Curve team, it is nonetheless published in the public domain.
 
 The comparison of Curve and Saddle is rooted in the algorithm used. Saddle’s technical implementation (and perhaps equally important, our ethos) is different.
 
@@ -151,7 +167,11 @@ The comparison of Curve and Saddle is rooted in the algorithm used. Saddle’s t
 
 **Principally**, Saddle is built on the values of open-source and collaboration, while Curve operates on a restrictive license. We welcome anyone who wants to build on top of Saddle or bring stablecoin / pegged asset DEX/AMM to another chain. Check out [Build with Saddle](https://docs.saddle.finance/build-with-saddle) on ways to collaborate.
 
-**Technically**, Saddle is implemented in Solidity, while Curve is implemented using Vyper. Here’s a [research paper](https://www.researchgate.net/publication/334626679_Data_Protection_with_Ethereum_Blockchain) comparing the two languages.
+**Technically**, Saddle is implemented in Solidity, while Curve is implemented using Vyper. Here’s a [research paper](https://www.researchgate.net/publication/334626679\_Data\_Protection\_with\_Ethereum\_Blockchain) comparing the two languages.
+
+{% hint style="info" %}
+Find the forked projects of Saddle [here](https://github.com/saddle-finance/saddle-contract/network/members)
+{% endhint %}
 
 ### **How do I work with Saddle?**
 
@@ -165,9 +185,9 @@ Saddle launched with Proof of Governance (PoG) to protect our users with certain
 
 For LPs to qualify for PoG, an address must have demonstrated active network participation in one of the following ways:
 
-- On-chain voting or delegation (MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO)
-- Off-chain voting on Snapshot (all protocols)
-- Staking SNX and minting sUSD (>$20)
+* On-chain voting or delegation (MKR, COMP, YFI, YAM, CRV, UNI, UMA, Moloch DAO)
+* Off-chain voting on Snapshot (all protocols)
+* Staking SNX and minting sUSD (>$20)
 
 The cutoff date for all activity was 1st October 2020, except for UNI, which was 1st January 2021.
 
@@ -183,23 +203,18 @@ We implemented this guarded launch to establish a more controlled environment th
 | Discord                              | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
 | Twitter                              | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub                               | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
-| Telegram                             | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
+| Telegram                             | [https://t.me/saddle\_finance](https://t.me/saddle\_finance)           |
 
 ### **How do I report a bug?**
 
 Our goal is to provide you with the safest Saddle protocol. We encourage the community to help us find bugs or vulnerabilities in the protocol. The bounty reward is up to **US$ 50,000**. Report your findings via any one of these channels.
 
-| REPORT HERE                    | LINK                            |
-| ------------------------------ | ------------------------------- |
-| Discord (**#support** channel) | \[https://discord.gg/hX8RZFBW9R |
-
-]\(https://discord.gg/hX8RZFBW9R%20
-
-) | | Telegram | \[https://t.me/saddle\_finance
-
-]\(https://t.me/saddle\_finance%20
-
-) | | Email | [security@saddle.finance](mailto:security@saddle.finance) | | Immunify Bug Bounty | [https://immunefi.com/bounty/saddle/](https://immunefi.com/bounty/saddle/) |
+| REPORT HERE                    | LINK                                                                        |
+| ------------------------------ | --------------------------------------------------------------------------- |
+| Discord (**#support** channel) | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)              |
+| Telegram                       | [https://t.me/saddle\_finance](https://t.me/saddle\_finance)                |
+| Email                          | [security@saddle.finance](mailto:security@saddle.finance)                   |
+| Immunify Bug Bounty            | [https://immunefi.com/bounty/saddle/](https://immunefi.com/bounty/saddle/)  |
 
 The [Terms and Conditions](https://immunefi.com/bounty/saddle/) cover your participation in the Bug Bounty Program. By submitting any vulnerabilities to Saddle Finance or otherwise participating in the Program in any manner, you accept these Terms.
 
@@ -209,21 +224,38 @@ Frequently asked questions and answers regarding Saddle governance token. Still 
 
 ### **What is** SDL token used for?
 
-SDL is the governance token for Saddle Finance. It is also used to reward and incentivize the Saddle community. Read all about the governance process [here](https://docs.saddle.finance/sdl-token#_toc87947035).
+SDL is the governance token for Saddle Finance. It is also used to reward and incentivize the Saddle community. Read all about the governance process [here](https://docs.saddle.finance/sdl-token#\_toc87947035).
 
 ### How many SDL tokens are available?
 
-The max supply of 1 billion SDL has been minted at genesis and will become available over the course of 2-3 years. Check out the [tokenomics section](https://docs.saddle.finance/sdl-token#_toc87947029) for the allocation and vesting details.
+The max supply of 1 billion SDL has been minted at genesis and will become available over the course of 2-3 years. Check out the [tokenomics section](https://docs.saddle.finance/sdl-token#\_toc87947029) for the allocation and vesting details.
+
+{% hint style="info" %}
+Find SDL token code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/SDL.sol) &#x20;
+{% endhint %}
 
 ### How do I get SDL tokens?
 
-The token is initially non-transferable for a period of between 3 to 12 months. During this lockup period, the only way to earn SDL is by LPing in Saddle’s incentivized pools or by participating in the bounties4bandits (b4b) program. Learn more [here](https://docs.saddle.finance/sdl-token#_toc87947031).
+The token is initially non-transferable for a period of between 3 to 12 months. During this lockup period, the only way to earn SDL is by LPing in Saddle’s incentivized pools or by participating in the bounties4bandits (b4b) program. Learn more [here](https://docs.saddle.finance/sdl-token#\_toc87947031).
 
 Once the lockup period ends, you'll be able to buy SDL on an exchange.
 
+### Are there time locks on the SDL tokens?
+
+There are two time locks on the SDL Token:
+
+1. A non-transfer period of 3 to 12 months
+2. A vesting period of 2 to 3 years
+
+The reason for time lock is to allow community members to earn more and deter short-term profit-seekers and mercenaries. More details [here](https://docs.saddle.finance/sdl-token).&#x20;
+
 ### When does SDL token begin to vest?
 
-If you received SDL tokens in the airdrop, they have already began to vest. The vesting period is 2-3 years, further details are available [here](https://docs.saddle.finance/sdl-token#_toc87947030).
+If you received SDL tokens in the airdrop, they have already began to vest. The vesting period is 2-3 years, further details are available [here](https://docs.saddle.finance/sdl-token#\_toc87947030).
+
+{% hint style="info" %}
+Find SDL token vesting code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Vesting.sol)
+{% endhint %}
 
 ### Is there a deadline to claim SDL tokens after the vesting period?
 
@@ -233,9 +265,9 @@ After the vesting period ends, users have 1 year to claim the SDL tokens. After 
 
 SDL tokens are initially non-transferable / non-tradable. Wallets that received the airdrop can vote with their tokens, but they cannot transfer between wallets or different users. If governance does not vote to make SDL transferable early (vote can happen as early as 3 months from now), then 12 months after token launch, SDL will automatically unlock. That means before the end of 2022, the SDL token will be unlocked and operate as typical (transferable) ERC-20.
 
-### How do I claim my SDL? &#x20;
+### How do I claim my SDL?
 
-Go to [saddle.exchange](https://saddle.exchange) (set your network to Ethereum mainnet) and click the SDL icon (top right) to open the claim UI to view and claim there.&#x20;
+Go to [saddle.exchange](https://saddle.exchange) (set your network to Ethereum mainnet) and click the SDL icon (top right) to open the claim UI to view and claim there.
 
 ![Open the SDL claim UI by clicking the SDL icon on the top right](<.gitbook/assets/image (2).png>)
 
@@ -253,8 +285,8 @@ Pegged value crypto assets (pegged assets) are tokens having their value pegged 
 
 Pegged assets fix this value using different mechanisms:
 
-- Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically (in this case, via collateralization of Synthetix’s SNX tokens)
-- Other assets maintain their peg by being backed by and redeemable for the actual underlying asset, either permissionlessly (e.g., tBTC) or through a centralized custodian (e.g., WBTC, USDC).
+* Some assets, like Synthetix sBTC or sUSD, maintain their peg synthetically (in this case, via collateralization of Synthetix’s SNX tokens)
+* Other assets maintain their peg by being backed by and redeemable for the actual underlying asset, either permissionlessly (e.g., tBTC) or through a centralized custodian (e.g., WBTC, USDC).
 
 Because of the different approaches and the associated risks, the prices of pegged assets of the same type may vary slightly.
 
@@ -262,10 +294,10 @@ Because of the different approaches and the associated risks, the prices of pegg
 
 Stablecoins are cryptocurrencies whose value is pegged to another asset class to stabilize its price. The pegged asset can be a fiat currency like US$, or a real-world commodity like gold. Based on the pegging mechanism, stablecoins can be divided into several groups:
 
-- Fiat-collateralized stablecoins – E.g., USDC, USDT, BUSD
-- Commodity-collateralized stablecoins – E.g., DGX (backed by Gold), SRC (Real Estate)
-- Crypto-collateralized stablecoins – E.g., DAI
-- Algorithmic stablecoins – E.g., FRAX, AMPL
+* Fiat-collateralized stablecoins – E.g., USDC, USDT, BUSD
+* Commodity-collateralized stablecoins – E.g., DGX (backed by Gold), SRC (Real Estate)
+* Crypto-collateralized stablecoins – E.g., DAI
+* Algorithmic stablecoins – E.g., FRAX, AMPL
 
 ### **What is Tokenized Bitcoin?**
 
@@ -287,15 +319,11 @@ Some examples of wrapped tokens include wBTC, wETH, and wCUSD.
 
 Synthetix is a protocol for issuing and trading synthetic assets on the Ethereum blockchain. [Synths](https://www.synthetix.io/synths) are _ERC-20 tokens_, providing exposure to a range of assets. Each synth tracks the price of an external asset (fiat currency, cryptocurrency, commodities, etc). For example:
 
-- sBTC synth tracks the price of Bitcoin (BTC) through price feeds supplied by an oracle.
-- sUSD synth tracks the price of a single US Dollar (USD). This synth is always valued at $1 in the debt repayment mechanism of Synthetix.
-- sCHF tracks the price of the Swiss Franc (CHF) through price feeds supplied by an oracle.
+* sBTC synth tracks the price of Bitcoin (BTC) through price feeds supplied by an oracle.
+* sUSD synth tracks the price of a single US Dollar (USD). This synth is always valued at $1 in the debt repayment mechanism of Synthetix.
+* sCHF tracks the price of the Swiss Franc (CHF) through price feeds supplied by an oracle.
 
 Synths provide exposure to an asset (at a clear price) without holding the asset. With synths, traders can get exposure to assets which don’t exist on-chain.
-
-### **What are DeFi Oracles?**
-
-In many situations smart contracts require data which is not available on-chain. For example the real-time price of an asset like US$, Gold, or other Cryptocurrencies. DeFi oracles are 3rd party services which supply trusted data from outside to the smart contracts. [Chain Link](https://chain.link) is an example of an oracle.
 
 ### **What are Virtual Synths?**
 
@@ -327,8 +355,8 @@ Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged 
 
 **Follow us**, if you haven’t already, for the latest updates on new assets and pools.
 
-| [**BLOG**](https://blog.saddle.finance) | [**DISCORD**](https://discord.gg/hX8RZFBW9R) | [**TWITTER**](https://twitter.com/saddlefinance) | [**GITHUB**](https://github.com/saddle-finance) | [**TELEGRAM**](https://t.me/saddle_finance) |
-| --------------------------------------- | -------------------------------------------- | ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- |
+| [**BLOG**](https://blog.saddle.finance) | [**DISCORD**](https://discord.gg/hX8RZFBW9R) | [**TWITTER**](https://twitter.com/saddlefinance) | [**GITHUB**](https://github.com/saddle-finance) | [**TELEGRAM**](https://t.me/saddle\_finance) |
+| --------------------------------------- | -------------------------------------------- | ------------------------------------------------ | ----------------------------------------------- | -------------------------------------------- |
 
 **Collaborate with us** if you are working on an exciting DeFi project. Check out the [Build with Saddle](https://docs.saddle.finance/build-with-saddle) section for details.
 
@@ -336,9 +364,9 @@ Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged 
 
 Investing in cryptocurrencies is risky. The cryptocurrency assets in the various Saddle protocols are an integral part of the Saddle ecosystem. Any risks to the assets have a cascading effect on Saddle. Before we accept a cryptocurrency for the liquidity pools, we evaluate the [underlying risks](https://docs.saddle.finance/asset-specific-risks) for the assets and operations of the asset. If one or more risks are significant, we don’t accept the cryptocurrency for the Saddle pools. The three main risk evaluation parameters are:
 
-- Smart-contract risks
-- Counter-party risks
-- Market risks
+* Smart-contract risks
+* Counter-party risks
+* Market risks
 
 Check out the [asset specific risk](https://docs.saddle.finance/asset-specific-risks) section to know more.
 
@@ -350,8 +378,8 @@ Frequently asked questions and answers regarding Saddle Liquidity Pools and Sadd
 
 Saddle is a decentralized exchange. A cryptocurrency exchange is a marketplace for trading cryptocurrencies. Broadly, two types of cryptocurrency exchanges exist:
 
-- _**Centralized Exchanges (CEX)**_: A cryptocurrency exchange owned and governed by a 3rd party. E.g., Binance, Coinbase, and Bitfinex.
-- _**Decentralized Exchanges (DEX)**_: A cryptocurrency exchange, unlike CEX, is not owned or governed by a 3rd party. A DEX acts as a peer-to-peer (P2P) platform, facilitating trade with no central party. E.g., Saddle, Uniswap, Sushiswap, and Mdex.
+* _**Centralized Exchanges (CEX)**_: A cryptocurrency exchange owned and governed by a 3rd party. E.g., Binance, Coinbase, and Bitfinex.
+* _**Decentralized Exchanges (DEX)**_: A cryptocurrency exchange, unlike CEX, is not owned or governed by a 3rd party. A DEX acts as a peer-to-peer (P2P) platform, facilitating trade with no central party. E.g., Saddle, Uniswap, Sushiswap, and Mdex.
 
 ### **What is an Automated Market Maker?**
 
@@ -362,7 +390,7 @@ Market makers are essential in an exchange to provide liquidity, control spreads
 [Constant product formula](https://docs.saddle.finance/automated-market-makers#constant-product-formula) is probably the simplest and the earliest AMM algorithm to come into the market. Uniswap popularized the mathematical formula:
 
 ```
-                                          **x \* y = k**
+                                          x * y = k
 ```
 
 where **x** is the amount of Token#1 in the liquidity pool, **y** is the amount of Token#2 in the liquidity pool, and **k** is a fixed constant.
@@ -374,7 +402,7 @@ Given the volatile nature of cryptocurrency, the market price of the tokens also
 To address the slippage issue, AMMs explored the constant sum formula as an option. [Constant sum formula](https://docs.saddle.finance/automated-market-makers#constant-sum-formula) solves for the equation:
 
 ```
-                                      **x + y = k**
+                                      x + y = k
 ```
 
 where **x** is the amount of Token#1 in the liquidity pool, **y** is the amount of Token#2 in the liquidity pool, and **k** is a fixed constant.
@@ -385,8 +413,12 @@ While the constant sum formula solves the slippage problem, it provides only _fi
 
 First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hybrid algorithm. The [Stableswap ](https://docs.saddle.finance/automated-market-makers#stableswap-algorithm)hybrid combines both Constant Product and Constant Sum models:
 
-- **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**.
-- **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**.
+* **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**.
+* **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**.
+
+{% hint style="info" %}
+Find Saddle's StableSwap implementation code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Swap.sol)
+{% endhint %}
 
 ### **What are Dynamic Pegs?**
 
@@ -410,19 +442,19 @@ In exchange for providing the tokens, the LPs normally earn a [fee](https://docs
 
 Saddle pools are of two types – base and metapools.
 
-- _**Base pools**_ contain two or more tokens and implement the StableSwap algorithm.
-- _**Metapools**_ contain one token to trade with another underlying Base pool. Metapools provide the flexibility for liquidity providers to get exposure to the metapool asset for additional rewards. For example, in the sUSD Pool, we pool the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
+* _**Base pools**_ contain two or more tokens and implement the StableSwap algorithm.
+* _**Metapools**_ contain one token to trade with another underlying Base pool. Metapools provide the flexibility for liquidity providers to get exposure to the metapool asset for additional rewards. For example, in the sUSD Pool, we pool the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
 ### **How to provide Liquidity to a Metapool?**
 
 You can provide liquidity to a metapool in two ways - as individual assets or as LP tokens from the base pool .
 
-- **Step 1:** Go to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools)
-- **Step 2:** Choose the metapool from the list of pools available
+* **Step 1:** Go to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools)
+* **Step 2:** Choose the metapool from the list of pools available
 
 ![](<.gitbook/assets/3 (1) (2).png>)
 
-- **Step 3:** Click on _Deposit_
+* **Step 3:** Click on _Deposit_
 
 **Option 1 :** Deposit individual assets
 
@@ -440,8 +472,8 @@ While synths are great, they came with a limitation. Many decentralized exchange
 
 In DeFi, composability is the ability of open-source protocols to interact and combine creatively to form new products and services. There are two key aspects for composability to work:
 
-- _**Standardization**_: The ability of DeFi protocols to connect and communicate in a standardized and open way.
-- _**Atomicity**_: The need for the DeFi protocols to connect instantly within a single transaction.
+* _**Standardization**_: The ability of DeFi protocols to connect and communicate in a standardized and open way.
+* _**Atomicity**_: The need for the DeFi protocols to connect instantly within a single transaction.
 
 To overcome the front-running challenge, a [time delay](https://blog.synthetix.io/how-fee-reclamation-rebates-work/) was introduced before a trader gets the underlying asset. While the solution was successful in addressing the front-running issue, introducing rebate and reclamation presented significant friction because of a second transaction required to settle the exchange. The need for two transactions breaks down the property of composability (atomicity in particular).
 
@@ -469,11 +501,22 @@ The Saddle’s Contract Addresses are listed [here](https://docs.saddle.finance/
 
 Frequently asked questions and answers regarding working with Saddle pools, fees, and technical details. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
 
-### **Can I** withdraw from a paused Saddle pool\*\*?\*\*
+### **Can I** withdraw from a paused Saddle pool?
 
 You can withdraw your assets from the paused pool. When withdrawing, you need to withdraw proportionally all assets of the pool (combo).
 
 Withdrawing a single asset is fundamentally a swap and therefore not allowed in the paused pools.
+
+### **Why is the pool paused?**
+
+A pool can be paused for a variety of reasons, including, but not limited to:
+
+* One (or more) of the assets in a pool is [depegged](https://docs.saddle.finance/saddle-pools#market-risks)
+* One (or more) of the assets has a [vulnerability ](https://docs.saddle.finance/saddle-pools#technical-risks)that's open for exploitation
+* Smart contract [vulnerability](https://blog.saddle.finance/metapool-exploit-fix-is-live/)
+* &#x20;Suspicious activity going on (e.g., malicious bots)
+
+**Note**: The pause function of a pool can be triggered only by the [multisig](https://docs.saddle.finance/smart-contract-audit#saddle-admin-keys-security).
 
 ### **What is Slippage?**
 
@@ -501,14 +544,18 @@ A parameter, or amplification coefficient, is a configurable setting which deter
 
 When:
 
-- **A is small or 0**: The StableSwap algorithm functions as a Constant Product function
-- **A is large or infinite**: The StableSwap algorithm functions as a Constant Sum function
+* **A is small or 0**: The StableSwap algorithm functions as a Constant Product function
+* **A is large or infinite**: The StableSwap algorithm functions as a Constant Sum function
 
 For example, consider A = 1 vs. A = 10:
 
 ![A Parameter](.gitbook/assets/9.png)
 
 The A parameter gives the flexibility to the fund managers to balance the pool stability by changing the amplification coefficient. Pools with more volatile assets will use lower A values.
+
+{% hint style="info" %}
+Find Saddle's implementation of A parameter [here](https://github.com/saddle-finance/saddle-contract/blob/38328fba920abd10bfe3ac9fde98e7c9cc50af9a/contracts/AmplificationUtils.sol)
+{% endhint %}
 
 ### **What is the Gas Fee?**
 
@@ -524,9 +571,9 @@ Ethereum network is a popular destination for most decentralized apps (dApps). T
 
 Additionally, here are a few [other ways](https://blog.makerdao.com/four-ways-defi-users-can-pay-less-in-ethereum-gas-fees/) to keep control over the Gas fees:
 
-- Combine related transactions to save on gas
-- Plan ahead and process your transactions when Ethereum network is not at its peak
-- Choose a transaction speed (slow or fast) to minimize the gas fee
+* Combine related transactions to save on gas
+* Plan ahead and process your transactions when Ethereum network is not at its peak
+* Choose a transaction speed (slow or fast) to minimize the gas fee
 
 ### **Where can I see the TVL and Stats for Saddle’s pools?**
 
@@ -544,17 +591,17 @@ Yes, you may deposit into the pool if the assets are imbalanced. In fact, if you
 
 If at any point you want to withdraw your assets, head out to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools)
 
-- **Step 1:** Choose the pool on the top navigation bar
-- **Step 2:** Click on _Withdraw_
+* **Step 1:** Choose the pool on the top navigation bar
+* **Step 2:** Click on _Withdraw_
 
 ![](<.gitbook/assets/12 (7) (7).png>)
 
-- **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool.
-- **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
+* **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool.
+* **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
 ![](<.gitbook/assets/13 (4).png>)
 
-- **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
+* **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
 
 ### **What risks are there to depositing in Saddle’s pools?**
 
@@ -564,9 +611,9 @@ As with any investment, traditional or DeFi, providing liquidity to the pools ca
 
 The first thing you need to do when a transaction’s [stuck](https://medium.com/@jgm.orinoco/releasing-stuck-ethereum-transactions-1390149f297d) is to _not send any new transaction_. All new transactions will also get stuck until the pending old transactions are confirmed. Then you have the option to speed up or cancel the stuck transaction. The options for speeding up or cancelling are dependent on the wallet you use.
 
-- Metamask : [Instructions](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction)
-- Coinbase : [Instructions](https://help.coinbase.com/en/wallet/sending-and-receiving/adjusting-miner-fees)
-- Trust Wallet: [Instructions](https://www.publish0x.com/the-crypt/quick-guide-to-fixing-stuck-ethereum-transactions-xgdvgkv)
+* Metamask : [Instructions](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction)
+* Coinbase : [Instructions](https://help.coinbase.com/en/wallet/sending-and-receiving/adjusting-miner-fees)
+* Trust Wallet: [Instructions](https://www.publish0x.com/the-crypt/quick-guide-to-fixing-stuck-ethereum-transactions-xgdvgkv)
 
 **Note:** If you don’t find the options to speed up or cancel in your wallet, be sure to check with the wallet provider. In the event your wallet provider doesn’t support the speed or cancel feature, here are a few alternate options ([MEW](https://kb.myetherwallet.com/en/transactions/checking-or-replacing-a-tx-after-sending/), [MYCRYPTO](https://support.mycrypto.com/how-to/sending/checking-or-replacing-a-transaction-after-it-has-been-sent)) to explore.
 
@@ -598,8 +645,8 @@ Liquidity provider tokens (LP tokens) are tokens issued to liquidity providers. 
 
 Both [APY and APR](https://docs.saddle.finance/saddle-incentives#apy-and-apr) refer to yield or interest rates.
 
-- **Annual Percentage Yield (APY):** APY refers to the amount of interest a liquidity provider earns over one year. APY is like an interest rate, but the biggest benefit of APY is the _compounding_.
-- **Annual Percentage Rate (APR):** APR does not factor compounding and represents the annual interest rate.
+* **Annual Percentage Yield (APY):** APY refers to the amount of interest a liquidity provider earns over one year. APY is like an interest rate, but the biggest benefit of APY is the _compounding_.
+* **Annual Percentage Rate (APR):** APR does not factor compounding and represents the annual interest rate.
 
 Let’s take a scenario of 1% interest each month. Therefore,
 

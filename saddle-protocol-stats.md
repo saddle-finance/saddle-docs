@@ -16,17 +16,13 @@ Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](htt
 
 ![](.gitbook/assets/TVL.png)
 
-![](<.gitbook/assets/0 (8).png>)
-
 ### **Trading Volume (TV)**
 
 Trading volume is the number of units traded in the market during a time. For instance, a 24-hour trading volume shows the value of assets bought and sold over the course of a day.
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![ ](.gitbook/assets/TV.png)
-
-![](<.gitbook/assets/1 (4) (1).png>)
+![](.gitbook/assets/TV.png)
 
 ### **Total Revenue (Trading Fees)**
 
@@ -34,9 +30,7 @@ Total revenue is a measure of the trading fees paid by the traders over a specif
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![ ](<.gitbook/assets/Trading Fee.png>)
-
-![](<.gitbook/assets/2 (11).png>)
+![](<.gitbook/assets/Trading Fee.png>)
 
 ### **Supply-Side Revenue**
 
@@ -44,9 +38,7 @@ Supply-side revenue is the share of trading fees which go to the liquidity provi
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![ ](<.gitbook/assets/Supply Side Rev.png>)
-
-![](<.gitbook/assets/3 (6).png>)
+![](<.gitbook/assets/Supply Side Rev.png>)
 
 ### **Revenue Composition**
 
@@ -54,9 +46,7 @@ A chart on asset vs revenue comparison – which asset contributes most to the r
 
 Live Chart: [https://www.tokenterminal.com/terminal/projects/saddle-finance](https://www.tokenterminal.com/terminal/projects/saddle-finance)
 
-![ ](<.gitbook/assets/Rev Comp.png>)
-
-![](<.gitbook/assets/4 (6).png>)
+![](<.gitbook/assets/Rev Comp.png>)
 
 ### **Liquidity By Asset**
 
@@ -64,9 +54,7 @@ Liquidity refers to how easily and quickly assets are bought or sold _without_ a
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![ ](<.gitbook/assets/Asset Liquidity.png>)
-
-![](<.gitbook/assets/5 (9).png>)
+![](<.gitbook/assets/Asset Liquidity.png>)
 
 ### **LP Tokens Staked**
 
@@ -74,9 +62,7 @@ Saddle rewards LP tokens for contributing to the liquidity pools. Liquidity prov
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![ ](<.gitbook/assets/LP Staked.png>)
-
-![](.gitbook/assets/6.png)
+![](<.gitbook/assets/LP Staked.png>)
 
 ## **SADDLE POOL STATS**
 
@@ -88,9 +74,7 @@ The unique deposit address denotes the liquidity providers of Saddle. A wide spr
 
 Live Chart: [https://dune.xyz/alphast0rm/Saddle](https://dune.xyz/alphast0rm/Saddle)
 
-![ ](<.gitbook/assets/Unique Dep Address.png>)
-
-![](<.gitbook/assets/7 (4).png>)
+![](<.gitbook/assets/Unique Dep Address.png>)
 
 ### **Smart Contract Stats**
 
@@ -100,25 +84,21 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 
 **Etherscan.io Block Explorer**
 
-- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-- **Step 2:** Go to [https://etherscan.io/](https://etherscan.io)
-- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-- **Step 4**: You’ll now see the stats of the D4 Saddle Pool
+* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+* **Step 2:** Go to [https://etherscan.io/](https://etherscan.io)
+* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+* **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
-![ ](.gitbook/assets/Explorer.png)
-
-![](<.gitbook/assets/8 (6).png>)
+![](.gitbook/assets/Explorer.png)
 
 **Blockchair.com Block Explorer**
 
-- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-- **Step 2:** Go to [https://blockchair.com/](https://blockchair.com)
-- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-- **Step 4**: You’ll now see the stats of the D4 Saddle Pool
+* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+* **Step 2:** Go to [https://blockchair.com/](https://blockchair.com)
+* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+* **Step 4**: You’ll now see the stats of the D4 Saddle Pool
 
-![ ](<.gitbook/assets/Explorer 2.png>)
-
-![](<.gitbook/assets/9 (9).png>)
+![](<.gitbook/assets/Explorer 2.png>)
 
 ### **Visualizing Smart Contracts**
 
@@ -128,15 +108,11 @@ In this example, we’ll analyze the stats of the D4 Saddle Pool with the smart 
 
 **Bitquery.io Block Explorer**
 
-- **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
-- **Step 2:** Go to [https://explorer.bitquery.io/](https://explorer.bitquery.io)
-- **Step 3:** Enter the smart contract address in the search box. Click _Search_.
-- **Step 4**: Click on Ethereum Mainnet in the results shown
+* **Step 1:** Choose the pool and copy the smart contract address from [here](https://docs.saddle.finance/contracts)
+* **Step 2:** Go to [https://explorer.bitquery.io/](https://explorer.bitquery.io)
+* **Step 3:** Enter the smart contract address in the search box. Click _Search_.
+* **Step 4**: Click on Ethereum Mainnet in the results shown
 
-![](<.gitbook/assets/10 (7).png>)
+![](<.gitbook/assets/Visual 1.png>)
 
-![ ](<.gitbook/assets/Visual 1.png>)
-
-![ ](<.gitbook/assets/Visual 2.png>)
-
-![](<.gitbook/assets/11 (4).png>)
+![](<.gitbook/assets/Visual 2.png>)

@@ -78,6 +78,10 @@ Having understood what AMMs are, let’s now deconstruct them. You can think of 
 
 To quote you a price, the bot uses a mathematical formula (used interchangeably with pricing algorithm or swap algorithm) and works relentlessly in the background. The algorithm implemented varies from the simplex to the complex. We’ll look at the commonly used swap algorithms, including the [StableSwap algorithm](https://docs.saddle.finance/automated-market-makers#stableswap-algorithm) used by Saddle.
 
+{% hint style="info" %}
+Find Saddle's StableSwap implementation code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Swap.sol)
+{% endhint %}
+
 ### **Constant Product Formula**
 
 Constant product formula is probably the simplest and the earliest algorithm to come into the market. Uniswap popularized the mathematical formula:
@@ -140,8 +144,12 @@ First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hy
 
 ![](<.gitbook/assets/4 (1).png>)
 
-- **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
-- **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.
+* **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
+* **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.
+
+{% hint style="info" %}
+Find Saddle's StableSwap implementation in Solidity [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Swap.sol)
+{% endhint %}
 
 ## **PEGGED-VALUE ASSETS**
 

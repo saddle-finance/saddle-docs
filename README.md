@@ -36,6 +36,7 @@ To get an introduction to the features and ecosystem of Saddle, follow these lin
 | [Glossary](https://docs.saddle.finance/glossary)                               | This Glossary consists of terms and definitions used across Saddle.                                                                                                                           |
 | [Contract Addresses](https://docs.saddle.finance/contracts)                    | The Saddle’s Contract Addresses are listed here.                                                                                                                                              |
 | [Solidity Docs](https://docs.saddle.finance/solidity-docs)                     | Developer documents for Saddle protocol and how to interact with it.                                                                                                                          |
+| [Code Repository](https://github.com/saddle-finance)                           | Saddle's source-code repository on GitHub                                                                                                                                                     |
 
 Cannot find what you are looking for? You can use the search and navigation options available.
 
@@ -45,7 +46,7 @@ Cannot find what you are looking for? You can use the search and navigation opti
 
 Saddle is built by DeFi natives with prior years of developer experience at Web2 companies like Uber, Amazon, and Square. As regular DeFi users ourselves, we’ve seen first-hand how important an active and vibrant community is for a project’s success. We know Web2, but we know Web3 better.
 
-You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb_Mcgee](https://twitter.com/Weeb_Mcgee)).
+You might have interacted with our founder [Sunil](https://www.linkedin.com/in/sunilsrivatsa/) (aka [devops199fan](https://twitter.com/devops199fan)) in the YFI community (he’s a multisig signer), or used tools created by members of our team, like [yieldfarming.info](https://yieldfarming.info) by [John](https://www.linkedin.com/in/jongseunglim/) (aka [Weeb\_Mcgee](https://twitter.com/Weeb\_Mcgee)).
 
 ## **How do I trade on Saddle?**
 
@@ -65,8 +66,8 @@ You can keep up with us on any of these channels.
 | Discord     | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
 | Twitter     | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub      | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
-| Telegram    | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
+| Telegram    | [https://t.me/saddle\_finance](https://t.me/saddle\_finance)           |
 
 ## **Logos & Media Kit**
 
-You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/file/d/1\_Bh51chco4V7LXHLfs5gaN5bXstyjZ-F/view).

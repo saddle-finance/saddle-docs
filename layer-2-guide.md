@@ -20,7 +20,7 @@ Layer 2 is a different network running atop the Ethereum Mainnet (layer 1) and s
 
 Rollups perform transaction execution outside the Ethereum Mainnet (layer 1) and post the transaction data on layer 1. The “rollup” is so-called because the layer 2 solutions roll up transactions and fit them into a single block in layer 1. As transaction data is on layer 1, rollups are secured by layer 1. There are two types of rollups:
 
-\*\*1) Optimistic rollup \*\*assumes transactions are valid by default (hence the name optimistic) and only runs computation, via a fraud proof, in the event of a challenge. Optimistic rollups are scalable because they don't do any computation by default. If someone notices a fraudulent transaction, the rollup will execute a fraud-proof and run the transaction's computation, using the available state data.
+**1) Optimistic rollup** assumes transactions are valid by default (hence the name optimistic) and only runs computation, via a fraud proof, in the event of a challenge. Optimistic rollups are scalable because they don't do any computation by default. If someone notices a fraudulent transaction, the rollup will execute a fraud-proof and run the transaction's computation, using the available state data.
 
 | **Advantages**                                                                    | **Disadvantages**                                                                                                        |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -42,8 +42,12 @@ Major implementations of ZK-rollup: [Loopring](https://loopring.org/#/), [Aztek 
 
 **Note**: The challenge window for fraud and dispute is _**one week**_ for both Optimism and Arbitrum. Your transactions in a bundle under suspicion can be held up for one week before they’re verified, and funds are released. However, the challenge process varies across Optimism and Arbitrum.
 
-- **Arbitrum**: When a [challenge](https://developer.offchainlabs.com/docs/dispute_resolution#dispute-resolution) is submitted, Arbitrum uses an offchain dispute resolution process to isolate a single step within a transaction. The isolated step is then sent to EVM for final verification.
-- **Optimism**: When a [challenge](https://community.optimism.io/docs/protocol/fraud-proofs.html) is submitted, the entire transaction in question is run through the Ethereum EVM.
+* **Arbitrum**: When a [challenge](https://developer.offchainlabs.com/docs/dispute\_resolution#dispute-resolution) is submitted, Arbitrum uses an offchain dispute resolution process to isolate a single step within a transaction. The isolated step is then sent to EVM for final verification.
+* **Optimism**: When a [challenge](https://community.optimism.io/docs/protocol/fraud-proofs.html) is submitted, the entire transaction in question is run through the Ethereum EVM.
+
+{% hint style="info" %}
+Find Saddle's deployed code base [here](https://github.com/saddle-finance/saddle-contract/tree/master/deployments)
+{% endhint %}
 
 ### **Arbitrum: Moving Assets In And Out (Deposit/Withdraw)** <a href="#_toc87951814" id="_toc87951814"></a>
 
@@ -53,14 +57,14 @@ You can transfer assets from Layer 1 Ethereum to Layer 2 Arbitrum through the [A
 
 Follow these guidelines to move crypto assets in Optimism.
 
-- **Deposit Ether** via [The Teleporter](https://portr.xyz) or [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#ether).
-- **Deposit ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#erc-20-tokens).
-- **Withdraw Ether** via [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#ether).
-- **Withdraw ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#erc-20-tokens).
+* **Deposit Ether** via [The Teleporter](https://portr.xyz) or [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#ether).
+* **Deposit ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#erc-20-tokens).
+* **Withdraw Ether** via [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#ether).
+* **Withdraw ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#erc-20-tokens).
 
 **`Note:`**` ``Initially Saddle will launch on Arbitrum and (later) Optimism.`
 
-### \*\*BRIDGES \*\* <a href="#_toc87951816" id="_toc87951816"></a>
+### BRIDGES <a href="#_toc87951816" id="_toc87951816"></a>
 
 Like physical bridges which connect locations enabling movement of people and wealth, in the crypto ecosystem, a bridge is a connection between blockchain networks operating under different conditions. Bridges establish interoperability by enabling transfer of assets and information.
 
@@ -98,16 +102,16 @@ Swapping and LPing are the same as on L1 (check out the [deposit](https://docs.s
 
 ### **Switching from L1 to L2 Network** <a href="#_toc87951822" id="_toc87951822"></a>
 
-- **Step 1:** Head to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools).
-- **Step 2:** Switch the network from **Ethereum to Arbitrum** to LP or trade of Saddle’s L2 Stablecoin pool.
+* **Step 1:** Head to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools).
+* **Step 2:** Switch the network from **Ethereum to Arbitrum** to LP or trade of Saddle’s L2 Stablecoin pool.
 
 ![](.gitbook/assets/0)
 
-- \*\*Step 3: \*\*Confirm the\*\* \*\*network switch
+* **Step 3:** _**Confirm the**_ network switch
 
 ![](<.gitbook/assets/1 (1)>)
 
-- \*\*Step 4 : \*\*Once switched, working with L2 pools is the same as on L1 pools (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides).
+* **Step 4 :** Once switched, working with L2 pools is the same as on L1 pools (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides).
 
 ### **Incentives** <a href="#_toc87951823" id="_toc87951823"></a>
 
