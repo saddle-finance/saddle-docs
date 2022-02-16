@@ -50,7 +50,7 @@ OPENZEPPLIN AUDIT REPORT FOR SADDLE PROTOCOL - 11 DEC 2020
 
 A [Gnosis Safe](https://gnosis-safe.io) multisig secures Saddle’s admin keys. Gnosis is a trusted platform to manage digital assets in Ethereum. Gnosis Safe is a smart contract wallet running on Ethereum, which requires a minimum number of people to approve a transaction before it can occur (M-of-N). This assures that no single person could compromise the funds.
 
-A [3/5 Gnosis Safe multisig](https://etherscan.io/address/0x3F8E527aF4e0c6e763e8f368AC679c44C45626aE) secures Saddle's admin keys. The signers are Mariano Conti, Kain Warwick, DegenSpartan, Klim K, and Damir Bandalo.
+A [3/7 Gnosis Safe multisig](https://etherscan.io/address/0x3F8E527aF4e0c6e763e8f368AC679c44C45626aE) secures Saddle's admin keys. The signers are Mariano Conti, Kain Warwick, DegenSpartan, Klim K, Damir Bandalo, scoopytrooples, and Aurelius.
 
 | **NAME**                                          | **ENS**           | **ADDRESS**                                |
 | ------------------------------------------------- | ----------------- | ------------------------------------------ |

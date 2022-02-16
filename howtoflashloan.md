@@ -32,3 +32,12 @@ We provide a [basic example of a flashloan borrower contract](https://github.com
 - vETH2 pool \(`0xdec2157831D6ABC3Ec328291119cc91B337272b5`\)
 - alETH pool \(`0xa6018520EAACC06C30fF2e1B3ee2c7c22e64196a`\)
 - D4 pool \(`0xC69DDcd4DFeF25D8a793241834d4cc4b3668EAD6`\)
+
+## Do you have any flashloan countermeasures implemented?
+
+For flashloan safety, we have 2 safety measures in place:
+
+- Prevent reentrancy into the same pool. You cant flashloan money out of a pool and use that fund to trade through the same pool.
+- Ensure the returned amount is always higher than borrowed amount. The transaction will revert if the borrower does not pay up by end of the transaction.
+
+Our flash loan implementation is based on [Aave](https://aave.com/)'s [IFlashLoanReceiver.sol](https://github.com/aave/aave-protocol/blob/4b4545fb583fd4f400507b10f3c3114f45b8a037/contracts/flashloan/interfaces/IFlashLoanReceiver.sol).

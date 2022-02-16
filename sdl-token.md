@@ -28,39 +28,39 @@ The max supply of 1 billion SDL has been minted at genesis and will become avail
 ![SDL Token Allocation](<.gitbook/assets/0 (1)>)
 
 {% hint style="info" %}
-Find SDL token vesting code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Vesting.sol)
+Find SDL token vesting code [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/Vesting.sol) and [here](https://github.com/saddle-finance/saddle-contract/blob/master/contracts/RetroactiveVesting.sol)
 {% endhint %}
 
 ### **SDL Community Token Allocation** <a href="#_toc87947030" id="_toc87947030"></a>
 
 The Saddle community tokens (510,000,000 SDL) are further allocated as per the schedule below:
 
-| **Allocation**                                                | **% of Tokens** | **# of Tokens**   | **Vesting Period** |   |
-| ------------------------------------------------------------- | --------------- | ----------------- | ------------------ | - |
-| 1) Past liquidity providers and users, as distributed below:  | 15%             | 150,000,000 SDL   | 2 years            |   |
-| _1.1) Historical LPs_                                         | _10.5%_         | _105,000,000 SDL_ | _2 years_          |   |
-| _1.2) veCRV Holders_                                          | _3_%            | _30,000,000 SDL_  | _2 years_          |   |
-| _1.3) Any address that swapped $100> using Saddle contracts_  | _0.5%_          | _5,000,000 SDL_   | _2 years_          |   |
-| _1.4) Multisig signers_                                       | _0.5%_          | _5,000,000 SDL_   | _2 years_          |   |
-| _1.5) Early depositors_                                       | _0.5%_          | _5,000,000 SDL_   | _2 years_          |   |
-| 2) Liquidity mining                                           | 5%              | 50,000,000 SDL    | No vesting         |   |
-| 3) Community incentives program (bounties4bandits) and grants | 1%              | 10,000,000 SDL    | No vesting         |   |
-| 4) Governance treasury                                        | 30%             | 200,000,000 SDL   | 3 years            |   |
+| **Allocation**                                                | **% of Tokens** | **# of Tokens**   | **Vesting Period** |     |
+| ------------------------------------------------------------- | --------------- | ----------------- | ------------------ | --- |
+| 1) Past liquidity providers and users, as distributed below:  | 15%             | 150,000,000 SDL   | 2 years            |     |
+| _1.1) Historical LPs_                                         | _10.5%_         | _105,000,000 SDL_ | _2 years_          |     |
+| _1.2) veCRV Holders_                                          | _3_%            | _30,000,000 SDL_  | _2 years_          |     |
+| _1.3) Any address that swapped $100> using Saddle contracts_  | _0.5%_          | _5,000,000 SDL_   | _2 years_          |     |
+| _1.4) Multisig signers_                                       | _0.5%_          | _5,000,000 SDL_   | _2 years_          |     |
+| _1.5) Early depositors_                                       | _0.5%_          | _5,000,000 SDL_   | _2 years_          |     |
+| 2) Liquidity mining                                           | 5%              | 50,000,000 SDL    | No vesting         |     |
+| 3) Community incentives program (bounties4bandits) and grants | 1%              | 10,000,000 SDL    | No vesting         |     |
+| 4) Governance treasury                                        | 30%             | 200,000,000 SDL   | 3 years            |     |
 
 15% of SDL (150,000,000 SDL) can be claimed by past liquidity providers and users with 2-year vesting. This is broken down as follows:
 
-* 10.5% pro rata to historical liquidity providers (105,000,000 SDL)
-  * Cut-off date is 11/1/21
-  * Tokens were distributed per block to historical liquidity providers by accounting for provided liquidity amounts in dollars as a percent of total TVL
-  * Rewards were doubled during the one month [guarded launch period](https://docs.saddle.finance/saddle-faq#what-is-saddles-proof-of-governance)
-* 3% split evenly across veCRV holders (30,000,000 SDL) as a token of thanks for the StableSwap maths (using the latest [EPS snapshot](https://github.com/ellipsis-finance/vecrv-airdrop/blob/master/distributions/distribution-2021-10-28.json))
-* 0.5% split evenly across each address that has ever swapped using Saddle contracts (5,000,000 SDL)
-  * Cutoff date is 10/1/21 (any addresses swapping with any Saddle contract before then is eligible)
-  * Addresses swapping less than a total of $100 are excluded to prevent sybils
-* 0.5% split evenly across multisig signers (5,000,000 SDL)
-* 0.5% pro rata to early depositors - we’d like to appreciate and compensate these community members, a few of whom took risks and lost value.
+- 10.5% pro rata to historical liquidity providers (105,000,000 SDL)
+  - Cut-off date is 11/1/21
+  - Tokens were distributed per block to historical liquidity providers by accounting for provided liquidity amounts in dollars as a percent of total TVL
+  - Rewards were doubled during the one month [guarded launch period](https://docs.saddle.finance/saddle-faq#what-is-saddles-proof-of-governance)
+- 3% split evenly across veCRV holders (30,000,000 SDL) as a token of thanks for the StableSwap maths (using the latest [EPS snapshot](https://github.com/ellipsis-finance/vecrv-airdrop/blob/master/distributions/distribution-2021-10-28.json))
+- 0.5% split evenly across each address that has ever swapped using Saddle contracts (5,000,000 SDL)
+  - Cutoff date is 10/1/21 (any addresses swapping with any Saddle contract before then is eligible)
+  - Addresses swapping less than a total of $100 are excluded to prevent sybils
+- 0.5% split evenly across multisig signers (5,000,000 SDL)
+- 0.5% pro rata to early depositors - we’d like to appreciate and compensate these community members, a few of whom took risks and lost value.
 
-The token is initially **non-transferable for a period of between 3 to 12 months**. After 3 months, governance may vote to enable transfers. After 12 months, they may be enabled by anyone. The token and vesting contracts have been audited by [Quantstamp](https://quantstamp.com), read the audit [here](https://github.com/saddle-finance/saddle-audits/blob/master/10-27-2021\_Quantstamp\_Token.pdf).
+The token is initially **non-transferable for a period of between 3 to 12 months**. After 3 months, governance may vote to enable transfers. After 12 months, they may be enabled by anyone. The token and vesting contracts have been audited by [Quantstamp](https://quantstamp.com), read the audit [here](https://github.com/saddle-finance/saddle-audits/blob/master/10-27-2021_Quantstamp_Token.pdf).
 
 We are launching SDL as non-transferrable to allow community members to earn more and deter short-term profit-seekers and mercenaries.
 
@@ -106,4 +106,4 @@ We expect proposals in the next few months to migrate to fully on-chain governan
 
 Sign up for an account on the [Saddle community Discourse](https://www.saddle.community) to participate in protocol governance.
 
-***
+---
