@@ -157,6 +157,16 @@ The community multisig currently owns all pool/metapool, team/investor vesting, 
 
 For a full list of contract addresses, please reference the [Contract Addresses docs](https://docs.saddle.finance/contracts).
 
+### **Does the Saddle protocol use any oracles?**
+
+No, the Saddle protocol does not use any oracles as all computation is a function of the current pool balance/composition.
+
+### **Is the Saddle protocol susceptible to front running?**
+
+The Saddle protocol does not contain any front running mitigations as they are not possible to include in the protocol itself.
+
+We encourage users to use the [Flashbots Protect RPC](https://docs.flashbots.net/flashbots-protect/rpc/quick-start/) to protect themselves from front running.
+
 ### **What institutional investments did Saddle get?**
 
 Refer to the [Our Investors](https://docs.saddle.finance/build-with-saddle#our-investors) section in Build with Saddle. The section contains a list of the institutional investors supporting Saddle.

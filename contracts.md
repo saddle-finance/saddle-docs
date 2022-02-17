@@ -1,5 +1,7 @@
 # Contract Addresses
 
+All Saddle protocol smart contracts are immutable.
+
 ## ETH Mainnet
 
 ### BTC Pool
