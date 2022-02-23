@@ -164,6 +164,14 @@ All Saddle protocol smart contracts are immutable.
 | `SaddleArbUSDPoolV2`        | [0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0](https://arbiscan.io/address/0xfeEa4D1BacB0519E8f952460A70719944fe56Ee0#code) |
 | `SaddleArbUSDPoolV2LPToken` | [0x0a20c2FFa10cD43F67D06170422505b7D6fC0953](https://arbiscan.io/address/0x0a20c2FFa10cD43F67D06170422505b7D6fC0953#code) |
 
+### USDs Metapool
+
+| Contract Name                  | Contract Address                                                                                                          |
+| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| `usds-arbUSDV2MetaPool`        | [0x5dD186f8809147F96D3ffC4508F3C82694E58c9c](https://arbiscan.io/address/0x5dD186f8809147F96D3ffC4508F3C82694E58c9c#code) |
+| `usds-arbUSDV2MetaPoolLPToken` | [0xa815b134294580692482E321dD1A191aC1454192](https://arbiscan.io/address/0xa815b134294580692482E321dD1A191aC1454192#code) |
+| `usds-arbUSDV2MetaPoolDeposit` | [0xDCA5b16A96f984ffb2A3022cfF339eb049126101](https://arbiscan.io/address/0xDCA5b16A96f984ffb2A3022cfF339eb049126101#code) |
+
 ## Optimistic Mainnet
 
 ### OptUSD Pool
