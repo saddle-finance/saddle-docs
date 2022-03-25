@@ -194,3 +194,17 @@ All Saddle protocol smart contracts are immutable.
 | `SaddleOptFRAXMetaPool`        | [0xc55E8C79e5A6c3216D4023769559D06fa9A7732e](https://optimistic.etherscan.io/address/0xc55E8C79e5A6c3216D4023769559D06fa9A7732e#code) |
 | `SaddleOptFRAXMetaPoolLPToken` | [0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A](https://optimistic.etherscan.io/address/0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A#code) |
 | `SaddleOptFRAXMetaPoolDeposit` | [0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17](https://optimistic.etherscan.io/address/0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17#code) |
+
+## Fantom Mainnet
+
+### FtmUSD Pool
+
+| Contract Name             | Contract Address                                                                                                                      |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------ |
+| `AmplificationUtils`      | [0x2b7A5a5923ECa5C00c6572Cf3E8e08384F563F93](https://ftmscan.com/address/0x2b7a5a5923eca5c00c6572cf3e8e08384f563f93#code) |
+| `LPToken`                 | [0xc0409EC303b727Bc1F511d7F8C71FD5Ead96De1c](https://ftmscan.com/address/0xc0409EC303b727Bc1F511d7F8C71FD5Ead96De1c#code) |
+| `SwapFlashLoan`           | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://ftmscan.com/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
+| `SwapUtils`               | [0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e](https://ftmscan.com/address/0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e#code) |
+| `SaddleFtmUSDPool`        | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://ftmscan.com/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
+| `SaddleOptUSDPoolLPToken` | [0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08](https://ftmscan.com/address/0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08#code) |
+| `SDL`                     | [0xa29b548056c3fd0f68bad9d4829ec4e66f22f796](https://ftmscan.com/address/0x2b7a5a5923eca5c00c6572cf3e8e08384f563f93#code) |
