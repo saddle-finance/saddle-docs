@@ -206,5 +206,4 @@ All Saddle protocol smart contracts are immutable.
 | `SwapFlashLoan`           | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://ftmscan.com/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
 | `SwapUtils`               | [0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e](https://ftmscan.com/address/0x4f6A43Ad7cba042606dECaCA730d4CE0A57ac62e#code) |
 | `SaddleFtmUSDPool`        | [0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9](https://ftmscan.com/address/0xBea9F78090bDB9e662d8CB301A00ad09A5b756e9#code) |
-| `SaddleOptUSDPoolLPToken` | [0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08](https://ftmscan.com/address/0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08#code) |
-| `SDL`                     | [0xa29b548056c3fd0f68bad9d4829ec4e66f22f796](https://ftmscan.com/address/0x2b7a5a5923eca5c00c6572cf3e8e08384f563f93#code) |
+| `SaddleFtmUSDPoolLPToken` | [0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08](https://ftmscan.com/address/0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08#code) |
