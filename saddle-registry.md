@@ -47,11 +47,19 @@ This contract holds the funtions to get deployment addresses and related info fo
 | :------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | `Ethereum`   | [0xFb4DE84c4375d7c8577327153dE88f58F69EeC81](https://etherscan.io/address/0xFb4DE84c4375d7c8577327153dE88f58F69EeC81#code) |
 
+### Pool Registry Public Variables:
+
+* `poolsIndexOfPlusOne(address poolAddress)`: Resolves an address input to the current pool vitual price.
+    ```python
+    >>> result = registry_contract.poolsIndexOfPlusOne('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
+    False
+    ```
+
 ### Pool Registry Contract Functions
 
 The Pool Registry can be interacted with the following functions:
 
-* `getPoolDataAtIndex(uint256 index)`: Resolves an index input to the pool registry data.
+* `getPoolDataAtIndex(uint256 index)`: Resolves an index input to the Pool Registry data.
     ```python
     >>> registry_contract = w3.eth.contract(pool_reg_addr, abi=ABI)
     >>> result = registry_contract.functions.getPoolDataAtIndex(0).call()
@@ -88,7 +96,7 @@ The Pool Registry can be interacted with the following functions:
     isRemoved : False
     isGuarded : False
     ```
-    ^ All other function calls will use the same format in returns for PoolData
+    ^ Other function calls will use the same format for returning PoolData
 * `getPoolData(address poolAddress)`: Resolves an address input to the latest pool registry data.
     ```python
     >>> result = registry_contract.functions.getPoolData('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
@@ -126,12 +134,12 @@ The Pool Registry can be interacted with the following functions:
     >>> result = registry_contract.functions.getVirtualPrice('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
     1003246662771594189
     ```
-* `getA(address poolAddress)`: Resolves an address input to the current pool vitual price.
+* `getA(address poolAddress)`: Resolves an address input to the current pool amplification value.
     ```python
     >>> result = registry_contract.functions.getA('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
     400
     ```
-* `getPaused(address poolAddress)`: Resolves an address input to the current pool vitual price.
+* `getPaused(address poolAddress)`: Resolves an address input to a boolean of whether the pool is paused or not.
     ```python
     >>> result = registry_contract.functions.getPaused('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
     False
@@ -159,15 +167,15 @@ The Pool Registry can be interacted with the following functions:
     adminFee 5000000000
     lpToken 0x5f86558387293b6009d7896A61fcc86C17808D62
     ```
-* `getTokens(address poolAddress)`: Resolves an address input to the tokens of the given pool.
+* `getTokens(address poolAddress)`: Resolves an address input to the addresses of tokens in the given pool.
     ```python
     >>> result = registry_contract.functions.getTokens('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
     ['0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
     ```
 * `getUnderlyingTokens(address poolAddress)`: Returns the underlying tokens of the given pool address. Base pools will return an empty array.
     ```python
-    >>> result = registry_contract.functions.getUnderlyingTokens('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    ****
+    >>> result = registry_contract.functions.getUnderlyingTokens('0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314').call()
+    ['0x57Ab1ec28D129707052df4dF418D58a2D46d5f51', '0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
     ```
 * `getPoolsLength()`: Returns number of entries in the registry. Includes removed pools.
     ```python
@@ -181,20 +189,13 @@ The Pool Registry can be interacted with the following functions:
     >>> result = registry_contract.functions.getEligiblePools(USDC_addr,DAI_addr)().call()
     ['0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7', '0x3911F80530595fBd01Ab1516Ab61255d75AEb066']
     ```
-* `getEligiblePools(address from, address to)`: Returns an array of pool addresses that can swap between from and to.
-    ```python
-    >>> USDC_addr = Web3.toChecksumAddress('0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48')
-    >>> DAI_addr = Web3.toChecksumAddress('0x6b175474e89094c44da98b954eedeac495271d0f')
-    >>> result = registry_contract.functions.getEligiblePools(USDC_addr,DAI_addr)().call()
-    ['0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7', '0x3911F80530595fBd01Ab1516Ab61255d75AEb066']
-    ```
-* `getTokenBalances(address poolAddress)`: Returns an array of balances of the tokens in the given pool.
+* `getTokenBalances(address poolAddress)`: Returns an array of the balances of the tokens in the given pool.
     ```python
     >>> result = registry_contract.functions.getTokenBalances('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
     [6123569751818177679494553, 5703267707851, 4917216403671]
     ```
 * `getUnderlyingTokenBalances(address poolAddress)`: Returns an array of balances of the underlying tokens in the given pool.
     ```python
-    >>> result = registry_contract.functions.getUnderlyingTokenBalances('0x57Ab1ec28D129707052df4dF418D58a2D46d5f51').call()
-    ***
+    >>> result = registry_contract.functions.getUnderlyingTokenBalances('0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314').call()
+    [583662682207327154772, 6123569751818177679494553, 5703267707851, 4917216403671]
     ```
