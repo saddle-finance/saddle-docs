@@ -26,7 +26,7 @@ _**Gas fee**:_ The fee payable to Ethereum network to confirm the transactions. 
 Find Saddle's fee calculation code [here](https://github.com/saddle-finance/saddle-contract/blob/38328fba920abd10bfe3ac9fde98e7c9cc50af9a/contracts/Swap.sol#L81)
 {% endhint %}
 
-![](<.gitbook/assets/0 (7).png>)
+![](<.gitbook/assets/0 (1) (1) (7).png>)
 
 ### **Rewards**
 
@@ -48,22 +48,22 @@ Working with Saddle pools is easy. You can lend, borrow, and earn interest & rew
 
 Depositing assets into a pool on Saddle allows users to take part in the protocol as liquidity providers and earn reward incentives. Go to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools)
 
-- **Step 1:** Choose the pool on the top navigation bar
-- **Step 2:** Click on _Deposit_
+* **Step 1:** Choose the pool on the top navigation bar
+* **Step 2:** Click on _Deposit_
 
-![](<.gitbook/assets/1 (7).png>)
+![](<.gitbook/assets/1 (1) (4).png>)
 
-- **Step 3:** Enter the amount(s) you would like to deposit on one or more of the assets listed in the Saddle pool. (_Tip: deposit underweight assets to get an LP token bonus_).
-- **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
+* **Step 3:** Enter the amount(s) you would like to deposit on one or more of the assets listed in the Saddle pool. (_Tip: deposit underweight assets to get an LP token bonus_).
+* **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
-![](<.gitbook/assets/2 (10).png>)
+![](<.gitbook/assets/2 (1) (4).png>)
 
-- **Step 5:** Click _Deposit_ and review the details and confirm the transaction. _(Tip: If you are depositing into a_ [_Metapool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_, you have the **option** of depositing individual assets or depositing LP tokens from the_ [_base pool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_)_
+* **Step 5:** Click _Deposit_ and review the details and confirm the transaction. _(Tip: If you are depositing into a_ [_Metapool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_, you have the **option** of depositing individual assets or depositing LP tokens from the_ [_base pool_](https://docs.saddle.finance/saddle-faq#what-is-a-base-pool-and-metapool)_)_
 
-![](.gitbook/assets/3.png)
+![](<.gitbook/assets/3 (13) (4).png>)
 
-- **Step 6:** After the transaction confirms, stake your LP tokens to earn rewards (details under pool section).
-- **Step 7:** Keep track of your rewards!
+* **Step 6:** After the transaction confirms, stake your LP tokens to earn rewards (details under pool section).
+* **Step 7:** Keep track of your rewards!
 
 {% embed url="https://www.youtube.com/watch?v=RCsBinGAZEg" %}
 
@@ -79,24 +79,24 @@ If at any point you want to withdraw your assets, head out to [https://saddle.ex
 
 If you have staked your LP tokens for rewards (applicable for select Saddle Pools only), you must unstake the tokens first before withdrawing your asset.
 
-- **Step 1:** Go to the rewards dashboard as applicable in your case ([KEEP Rewards](https://dashboard.keep.network/liquidity), [ALCX Rewards](https://app.alchemix.fi/farms), [FRAX Rewards](https://app.frax.finance/staking))
-- **Step 2:** Unstake your LP Tokens
+* **Step 1:** Go to the rewards dashboard as applicable in your case ([KEEP Rewards](https://dashboard.keep.network/liquidity), [ALCX Rewards](https://app.alchemix.fi/farms), [FRAX Rewards](https://app.frax.finance/staking))
+* **Step 2:** Unstake your LP Tokens
 
 **2. Withdraw Assets**
 
 After unstaking your LP Tokens (where applicable), return to [Saddle Pools](https://saddle.exchange/#/pools) and follow the steps outlined below to withdraw your assets.
 
-- **Step 1:** Choose the pool on the top navigation bar
-- **Step 2:** Click on _Withdraw_
+* **Step 1:** Choose the pool on the top navigation bar
+* **Step 2:** Click on _Withdraw_
 
-![](<.gitbook/assets/5 (2) (1).png>)
+![](<.gitbook/assets/12 (1) (8).png>)
 
-- **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool. (_Tip: withdraw overweight assets to get a bonus_).
-- **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
+* **Step 3:** Enter the amount you’d like to withdraw from one or more of the assets listed in the Saddle pool. (_Tip: withdraw overweight assets to get a bonus_).
+* **Step 4:** Click _Advanced Options_ to select options like slippage and gas.
 
-![](<.gitbook/assets/6 (8) (7).png>)
+![](<.gitbook/assets/13 (1) (7).png>)
 
-- **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
+* **Step 5:** Click _Withdraw_ and review the details and confirm the transaction.
 
 {% hint style="info" %}
 Find Saddle's smart contract code [here](https://github.com/saddle-finance/saddle-contract/blob/38328fba920abd10bfe3ac9fde98e7c9cc50af9a/contracts/Swap.sol#L314)
@@ -110,14 +110,14 @@ Saddle supports a [wide range](https://docs.saddle.finance/saddle-faq#what-token
 
 Broadly, there are three types of pools to select from – BTC, ETH, and USD.
 
-![](<.gitbook/assets/7 (5).png>)
+![](<.gitbook/assets/7 (6).png>)
 
 ### **Base Pool & Metapool**
 
 Saddle pools are of two types – base and metapools.
 
-- _**Base pools**_ contain two or more tokens and implement the StableSwap algorithm.
-- _**Metapools**_ contain one token to trade with another underlying Base pool. For example, in the sUSD Pool, we pool the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
+* _**Base pools**_ contain two or more tokens and implement the StableSwap algorithm.
+* _**Metapools**_ contain one token to trade with another underlying Base pool. For example, in the sUSD Pool, we pool the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
 |              |                    |           |                          |                                                                                                                            |                                                                                                  |
 | ------------ | ------------------ | --------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -141,12 +141,12 @@ Find Saddle's deployed code base [here](https://github.com/saddle-finance/saddle
 
 The BTC pool currently supports four wrapped variants of Bitcoin, enabling Bitcoin users to take part in the Ethereum DeFi ecosystem.
 
-- _wBTC_: Wrapped BTC is an ERC20 token backed 1:1 by the actual Bitcoin.
-- _renBTC_: Like wBTC, renBTC is an ERC20 token backed 1:1 by Bitcoin. Ren also decentralizes the custody of the BTC.
-- _tBTC_: Like Ren, tBTC is backed 1:1 by Bitcoin and truly decentralized.
-- _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
+* _wBTC_: Wrapped BTC is an ERC20 token backed 1:1 by the actual Bitcoin.
+* _renBTC_: Like wBTC, renBTC is an ERC20 token backed 1:1 by Bitcoin. Ren also decentralizes the custody of the BTC.
+* _tBTC_: Like Ren, tBTC is backed 1:1 by Bitcoin and truly decentralized.
+* _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
 
-![](.gitbook/assets/8.png)
+![](<.gitbook/assets/2 (4) (1) (6).png>)
 
 **Rewards**
 
@@ -156,17 +156,17 @@ Saddle rewards you in two ways for the BTC pool – trading fees and as KEEP inc
 
 The Keep Network team has committed weekly reward incentives for liquidity providers. After the transaction confirms, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to earn KEEP rewards. Check [KEEP](https://dashboard.keep.network/liquidity) to know the current APY for the deposits.
 
-![](<.gitbook/assets/9 (1).png>)
+![](<.gitbook/assets/4 (2) (7).png>)
 
 ### **BTC Pool V2**
 
 The BTC pool V2 currently supports three wrapped variants of Bitcoin, enabling Bitcoin users to take part in the Ethereum DeFi ecosystem.
 
-- _wBTC_: Wrapped BTC is an ERC20 token backed 1:1 by the actual Bitcoin.
-- _renBTC_: Like wBTC, renBTC is an ERC20 token backed 1:1 by Bitcoin. Ren also decentralizes the custody of the BTC.
-- _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
+* _wBTC_: Wrapped BTC is an ERC20 token backed 1:1 by the actual Bitcoin.
+* _renBTC_: Like wBTC, renBTC is an ERC20 token backed 1:1 by Bitcoin. Ren also decentralizes the custody of the BTC.
+* _sBTC_: sBTC differs from the rest, as Bitcoins does not back it. The value of sBTC is kept stable through an over-collateralization mechanism leveraging Synthetix SNX tokens.
 
-![](<.gitbook/assets/10 (8).png>)
+![](<.gitbook/assets/10 (2) (4).png>)
 
 **Rewards**
 
@@ -176,10 +176,10 @@ Saddle rewards you with trading fees for the BTC Pool V2.
 
 The Saddle tBTC Pool is a metapool. In this pool, we pooled the single token tBTCv2 alongside BTC Pool V2 (wBTC, renBTC, sBTC). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
-- _tBTCv2_: tBTC is backed 1:1 by Bitcoin and truly decentralized.
-- _saddleBTC-V2_: A base pool (BTC Pool V2) on Saddle comprising the pegged assets wBTC, renBTC, and sBTC.
+* _tBTCv2_: tBTC is backed 1:1 by Bitcoin and truly decentralized.
+* _saddleBTC-V2_: A base pool (BTC Pool V2) on Saddle comprising the pegged assets wBTC, renBTC, and sBTC.
 
-![](<.gitbook/assets/11 (2).png>)
+![](<.gitbook/assets/11 (6) (1).png>)
 
 **Rewards**
 
@@ -187,37 +187,37 @@ Saddle rewards you in two ways for the tBTC pool – trading fees and as KEEP in
 
 After the transaction confirms, stake your LP tokens on the [KEEP Liquidity Rewards Dashboard](https://dashboard.keep.network/liquidity) in the Saddle Pool to earn KEEP rewards. Check [KEEP ](https://dashboard.keep.network/liquidity)to know the current APY for the deposits.
 
-![](https://lh5.googleusercontent.com/YLb-mQ8N0Sw-CVM8LlqRAA32zU_YIviHuvjQ8Kq-govkGMtixSItgPfRCi42Wm-KmvPEwe3PiDyeuwBsha_KZ94Hn6etEku7K5ja5PYN91IyMa9CxQobaNQKHwcSkR9qnP5wNsQ)
+![](https://lh5.googleusercontent.com/YLb-mQ8N0Sw-CVM8LlqRAA32zU\_YIviHuvjQ8Kq-govkGMtixSItgPfRCi42Wm-KmvPEwe3PiDyeuwBsha\_KZ94Hn6etEku7K5ja5PYN91IyMa9CxQobaNQKHwcSkR9qnP5wNsQ)
 
 ### **alETH Pool**
 
 The ETH pool on Saddle is of alETH – a synthetic ETH backed asset by Alchemix. alETH is a multi-pool currently supporting three variants of Ethereum, enabling seamless and cheap switch between pegged-value ETH assets (backed or wrapped).
 
-- _WETH_: Wrapped ETH is an ERC20 token backed 1:1 by ETH, allowing trade directly with ALT coins.
-- _alETH_: Like WETH, alETH is an ERC20 token, but backed 4:1 by ETH.
-- _sETH_: sETH is a short position built through the dYdX protocol and can be traded like any ERC20 token. sETH is tied to USD-backed stablecoin DAI.
+* _WETH_: Wrapped ETH is an ERC20 token backed 1:1 by ETH, allowing trade directly with ALT coins.
+* _alETH_: Like WETH, alETH is an ERC20 token, but backed 4:1 by ETH.
+* _sETH_: sETH is a short position built through the dYdX protocol and can be traded like any ERC20 token. sETH is tied to USD-backed stablecoin DAI.
 
-![](<.gitbook/assets/12 (3).png>)
+![](<.gitbook/assets/12 (2) (6).png>)
 
 **Rewards**
 
 Saddle rewards you trading fees, flash loan fees, and ALCX tokens every time you provide liquidity to the alETH pool. After the transaction confirms, stake your LP tokens on the [Alchemix Staking Dashboard](https://app.alchemix.fi/farms) to earn rewards. Check [ALCX](https://app.alchemix.fi/farms) to know the current APY for the deposits.
 
-![](<.gitbook/assets/13 (8) (4).png>)
+![](<.gitbook/assets/10 (4) (4).png>)
 
 ### **Stablecoin Pool V2**
 
 The Stablecoin pool contains three stablecoins, unlocking deep on-chain liquidity between pegged value crypto assets.
 
-- _USDC_: USDC is an ERC20 token pegged 1:1 to the US dollars (USD)
-- _USDT_: USDT, like USDC, is pegged 1:1 to the USD
-- _DAI_: DAI is soft pegged to the USD algorithmically.
+* _USDC_: USDC is an ERC20 token pegged 1:1 to the US dollars (USD)
+* _USDT_: USDT, like USDC, is pegged 1:1 to the USD
+* _DAI_: DAI is soft pegged to the USD algorithmically.
 
 **Note:** Stablecoin Pool (v1) is outdated and V2 is live now. V2 provides a smoother and cheaper way to provide liquidity and swap the stablecoins. V2 also comes with optimized code (lower gas costs), metapool, [flash loan](https://docs.saddle.finance/howtoflashloan) support, and no more withdrawal fee.
 
 Follow [this guide](https://medium.com/saddle/launching-v2-of-the-saddle-3pool-bc82f0bcd700) to migrate your liquidity to V2.
 
-![](<.gitbook/assets/14 (6).png>)
+![](<.gitbook/assets/11 (5) (1) (4).png>)
 
 **Rewards**
 
@@ -229,27 +229,27 @@ The Saddle D4 (decentralized) pool consists entirely of permissionless, decentra
 
 In contrast, the Saddle D4 pool, currently composed of four permissionless stablecoins, ensures users can take part with no restrictions or blacklisting.
 
-- _alUSD_: A yield-backed synthetic stablecoin minted via Alchemix Finance, a DAO-governed synthetic asset platform.
-- _FEI_: A scalable and decentralized stablecoin that leverages protocol-controlled value (PCV) for peg maintenance while maintaining highly liquid secondary markets.
-- _FRAX_: A fractional-algorithmic stablecoin that is partially backed by collateral and partially stabilized algorithmically.
-- _LUSD_: The USD-pegged stablecoin of the Liquity decentralized borrowing protocol.
+* _alUSD_: A yield-backed synthetic stablecoin minted via Alchemix Finance, a DAO-governed synthetic asset platform.
+* _FEI_: A scalable and decentralized stablecoin that leverages protocol-controlled value (PCV) for peg maintenance while maintaining highly liquid secondary markets.
+* _FRAX_: A fractional-algorithmic stablecoin that is partially backed by collateral and partially stabilized algorithmically.
+* _LUSD_: The USD-pegged stablecoin of the Liquity decentralized borrowing protocol.
 
-![](<.gitbook/assets/15 (3).png>)
+![](<.gitbook/assets/12 (4) (1) (6).png>)
 
 **Rewards**
 
-Saddle rewards you in three ways for the D4 decentralized pool – trading fees, flash loan fees, and as four rewards (TRIBE, FXS, LQTY, and ALCX tokens) every time you provide liquidity to the D4 pool. After the transaction confirms, stake your LP tokens on the [Frax Finance](https://app.frax.finance/staking#Saddle_alUSD_FEI_FRAX_LUSD) dashboard to earn rewards. Check [Frax](https://app.frax.finance/staking#Saddle_alUSD_FEI_FRAX_LUSD) to know the current APR for the deposits.
+Saddle rewards you in three ways for the D4 decentralized pool – trading fees, flash loan fees, and as four rewards (TRIBE, FXS, LQTY, and ALCX tokens) every time you provide liquidity to the D4 pool. After the transaction confirms, stake your LP tokens on the [Frax Finance](https://app.frax.finance/staking#Saddle\_alUSD\_FEI\_FRAX\_LUSD) dashboard to earn rewards. Check [Frax](https://app.frax.finance/staking#Saddle\_alUSD\_FEI\_FRAX\_LUSD) to know the current APR for the deposits.
 
-![](<.gitbook/assets/16 (3).png>)
+![](<.gitbook/assets/13 (5) (1) (5).png>)
 
 ### **sUSD Pool**
 
 The Saddle sUSD Pool is a metapool. In this pool, we pooled the single token sUSD alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
-- _sUSD_: A synthetic stablecoin on the Synthetix platform, whose value tracks the US Dollar.
-- _saddleUSD-V2_: A base pool (Stablecoin Pool V2) on Saddle comprising the stablecoins USDT, USDC, and DAI.
+* _sUSD_: A synthetic stablecoin on the Synthetix platform, whose value tracks the US Dollar.
+* _saddleUSD-V2_: A base pool (Stablecoin Pool V2) on Saddle comprising the stablecoins USDT, USDC, and DAI.
 
-![](.gitbook/assets/17.png)
+![](<.gitbook/assets/14 (8) (1) (4).png>)
 
 **Rewards**
 
@@ -259,10 +259,10 @@ Saddle rewards you with trading fees and flash loan fees for the sUSD pool.
 
 The Saddle wCUSD Pool is a metapool. In this pool, we pooled the single token CUSD (Celo Dollars) alongside Stablecoin Pool V2 (DAI, USDC, USDT). Adding the single asset to the metapool, however, does not dilute the liquidity of the underlying base pool.
 
-- _wCUSD_: Wrapped Celo Dollar (wCUSD) is an ERC20 token, representing a 1:1 share of Celo Dollar (CUSD).
-- _saddleUSD-V2_: A base pool (Stablecoin Pool V2) on Saddle comprising the stablecoins USDT, USDC, and DAI.
+* _wCUSD_: Wrapped Celo Dollar (wCUSD) is an ERC20 token, representing a 1:1 share of Celo Dollar (CUSD).
+* _saddleUSD-V2_: A base pool (Stablecoin Pool V2) on Saddle comprising the stablecoins USDT, USDC, and DAI.
 
-![](<.gitbook/assets/18 (2).png>)
+![](<.gitbook/assets/18 (1) (4).png>)
 
 **Rewards**
 
@@ -330,20 +330,20 @@ Stablecoins are at the heart of the Saddle DeFi ecosystem. Whilst all stablecoin
 
 This section provides a reference to the documentation for the various assets used in Saddle Pools.
 
-|                      |                                  |                                                                                  |                                                                                     |                                                    |                                                                                                                                                 |                                                                                                |
-| -------------------- | -------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Asset**            | **Website**                      | **Whitepaper**                                                                   | **Document**                                                                        | **Source Code**                                    | **Audits**                                                                                                                                      | **Contract**                                                                                   |
-| **alETH, alUSD**     | [WB](https://www.alchemix.fi)    | [WP](https://alchemix.fi/c76d1d663f6c8247b86a8fca83d5bd1b.pdf)                   | [DOC](https://alchemix-finance.gitbook.io/alchemix-finance/)                        | [SC](https://github.com/alchemix-finance)          | [AUD](https://alchemix.fi/a208baf6ca7e0d6b0116461f05e27cd9.pdf)                                                                                 | [CON](https://github.com/alchemix-finance/contract-addresses/blob/dev/alchemix-addresses.json) |
-| **DAI**              | [WB](https://makerdao.com)       | [WP](https://makerdao.com/en/whitepaper/)                                        | [DOC](https://docs.makerdao.com)                                                    | [SC](https://github.com/makerdao)                  | [AUD](https://github.com/makerdao/audits)                                                                                                       | [CON](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f)                 |
-| **FEI**              | [WB](https://fei.money)          | [WP](https://docs.fei.money/whitepaper)                                          | [DOC](https://docs.fei.money)                                                       | [SC](https://github.com/fei-protocol)              | [AUD](https://docs.fei.money/audit)                                                                                                             | [CON](https://docs.fei.money/protocol/contract-addresses)                                      |
-| **FRAX**             | [WB](https://frax.finance)       | [WP](https://docs.frax.finance/overview)                                         | [DOC](https://docs.frax.finance)                                                    | [SC](https://github.com/FraxFinance/frax-solidity) | [AUD](https://certik.foundation/vendors/fraxfinance)                                                                                            | [CON](https://docs.frax.finance/smart-contracts/frax)                                          |
-| **LUSD**             | [WB](https://www.liquity.org)    | [WP](https://docsend.com/view/bwiczmy)                                           | [DOC](https://docs.liquity.org)                                                     | [SC](https://github.com/liquity/dev)               | [AUD](https://docs.liquity.org/documentation/resources#security-audits)                                                                         | [CON](https://docs.liquity.org/documentation/resources#contract-addresses)                     |
-| **renBTC**           | [WB](https://renproject.io)      | [WP](https://renproject.io/litepaper.pdf)                                        | [DOC](https://docs.renproject.io/developers)                                        | [SC](https://github.com/renproject)                | [AUD](https://github.com/renproject/ren/wiki/Audits)                                                                                            | [CON](https://renproject.github.io/ren-client-docs/contracts/)                                 |
-| **sBTC, sETH, sUSD** | [WB](https://synthetix.io)       | [WP](https://docs.synthetix.io/litepaper)                                        | [DOC](https://docs.synthetix.io)                                                    | [SC](https://github.com/Synthetixio)               | [AUD](https://docs.synthetix.io/contracts/audits/)                                                                                              | [CON](https://docs.synthetix.io/addresses/)                                                    |
-| **tBTC**             | [WB](https://tbtc.network)       | [WP](https://docs.keep.network/tbtc/index.pdf)                                   | [DOC](https://tbtc.network/developers/)                                             | [SC](https://github.com/keep-network/tbtc)         | [AUD](https://github.com/keep-network/tbtc/tree/a85cc4c6453ab88684c365f41335281c98a828d9#security)                                              | -                                                                                              |
-| **USDC**             | [WB](https://www.centre.io/usdc) | [WP](https://f.hubspotusercontent30.net/hubfs/9304636/PDF/centre-whitepaper.pdf) | [DOC](https://www.centre.io/developer-resources)                                    | [SC](https://github.com/centrehq)                  | -                                                                                                                                               | [CON](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)                   |
-| **USDT**             | [WB](https://tether.to)          | [WP](https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf)          | [DOC](https://tether.to/knowledge-base/)                                            | [SC](https://github.com/shipshapecode/tether)      | [AUD](https://wallet.tether.to/transparency?__cf_chl_jschl_tk__=pmd_b52840356b4c3f57d84b3b0cdf1606bfa5688dab-1628925480-0-gqNtZGzNAeKjcnBszQh6) | [CON](https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7)                 |
-| **wBTC**             | [WB](https://wbtc.network)       | [WP](https://wbtc.network/assets/wrapped-tokens-whitepaper.pdf)                  | [DOC](https://github.com/WrappedBTC/bitcoin-token-smart-contracts/tree/master/docs) | [SC](https://github.com/WrappedBTC)                | [AUD](https://wbtc.network/dashboard/order-book)                                                                                                | [CON](https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599)                 |
-| **WETH**             | [WB](https://weth.io)            | -                                                                                | [DOC](https://openbase.com/js/advanced-weth/documentation)                          | [SC](https://github.com/WETH10)                    | -                                                                                                                                               | [CON](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)                 |
+|                      |                                  |                                                                                  |                                                                                     |                                                    |                                                                                                                                                         |                                                                                                |
+| -------------------- | -------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Asset**            | **Website**                      | **Whitepaper**                                                                   | **Document**                                                                        | **Source Code**                                    | **Audits**                                                                                                                                              | **Contract**                                                                                   |
+| **alETH, alUSD**     | [WB](https://www.alchemix.fi)    | [WP](https://alchemix.fi/c76d1d663f6c8247b86a8fca83d5bd1b.pdf)                   | [DOC](https://alchemix-finance.gitbook.io/alchemix-finance/)                        | [SC](https://github.com/alchemix-finance)          | [AUD](https://alchemix.fi/a208baf6ca7e0d6b0116461f05e27cd9.pdf)                                                                                         | [CON](https://github.com/alchemix-finance/contract-addresses/blob/dev/alchemix-addresses.json) |
+| **DAI**              | [WB](https://makerdao.com)       | [WP](https://makerdao.com/en/whitepaper/)                                        | [DOC](https://docs.makerdao.com)                                                    | [SC](https://github.com/makerdao)                  | [AUD](https://github.com/makerdao/audits)                                                                                                               | [CON](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f)                 |
+| **FEI**              | [WB](https://fei.money)          | [WP](https://docs.fei.money/whitepaper)                                          | [DOC](https://docs.fei.money)                                                       | [SC](https://github.com/fei-protocol)              | [AUD](https://docs.fei.money/audit)                                                                                                                     | [CON](https://docs.fei.money/protocol/contract-addresses)                                      |
+| **FRAX**             | [WB](https://frax.finance)       | [WP](https://docs.frax.finance/overview)                                         | [DOC](https://docs.frax.finance)                                                    | [SC](https://github.com/FraxFinance/frax-solidity) | [AUD](https://certik.foundation/vendors/fraxfinance)                                                                                                    | [CON](https://docs.frax.finance/smart-contracts/frax)                                          |
+| **LUSD**             | [WB](https://www.liquity.org)    | [WP](https://docsend.com/view/bwiczmy)                                           | [DOC](https://docs.liquity.org)                                                     | [SC](https://github.com/liquity/dev)               | [AUD](https://docs.liquity.org/documentation/resources#security-audits)                                                                                 | [CON](https://docs.liquity.org/documentation/resources#contract-addresses)                     |
+| **renBTC**           | [WB](https://renproject.io)      | [WP](https://renproject.io/litepaper.pdf)                                        | [DOC](https://docs.renproject.io/developers)                                        | [SC](https://github.com/renproject)                | [AUD](https://github.com/renproject/ren/wiki/Audits)                                                                                                    | [CON](https://renproject.github.io/ren-client-docs/contracts/)                                 |
+| **sBTC, sETH, sUSD** | [WB](https://synthetix.io)       | [WP](https://docs.synthetix.io/litepaper)                                        | [DOC](https://docs.synthetix.io)                                                    | [SC](https://github.com/Synthetixio)               | [AUD](https://docs.synthetix.io/contracts/audits/)                                                                                                      | [CON](https://docs.synthetix.io/addresses/)                                                    |
+| **tBTC**             | [WB](https://tbtc.network)       | [WP](https://docs.keep.network/tbtc/index.pdf)                                   | [DOC](https://tbtc.network/developers/)                                             | [SC](https://github.com/keep-network/tbtc)         | [AUD](https://github.com/keep-network/tbtc/tree/a85cc4c6453ab88684c365f41335281c98a828d9#security)                                                      | -                                                                                              |
+| **USDC**             | [WB](https://www.centre.io/usdc) | [WP](https://f.hubspotusercontent30.net/hubfs/9304636/PDF/centre-whitepaper.pdf) | [DOC](https://www.centre.io/developer-resources)                                    | [SC](https://github.com/centrehq)                  | -                                                                                                                                                       | [CON](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)                   |
+| **USDT**             | [WB](https://tether.to)          | [WP](https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf)          | [DOC](https://tether.to/knowledge-base/)                                            | [SC](https://github.com/shipshapecode/tether)      | [AUD](https://wallet.tether.to/transparency?\_\_cf\_chl\_jschl\_tk\_\_=pmd\_b52840356b4c3f57d84b3b0cdf1606bfa5688dab-1628925480-0-gqNtZGzNAeKjcnBszQh6) | [CON](https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7)                 |
+| **wBTC**             | [WB](https://wbtc.network)       | [WP](https://wbtc.network/assets/wrapped-tokens-whitepaper.pdf)                  | [DOC](https://github.com/WrappedBTC/bitcoin-token-smart-contracts/tree/master/docs) | [SC](https://github.com/WrappedBTC)                | [AUD](https://wbtc.network/dashboard/order-book)                                                                                                        | [CON](https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599)                 |
+| **WETH**             | [WB](https://weth.io)            | -                                                                                | [DOC](https://openbase.com/js/advanced-weth/documentation)                          | [SC](https://github.com/WETH10)                    | -                                                                                                                                                       | [CON](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)                 |
 
 **Disclaimer:** These are links to external websites. Saddle Finance does not provide or maintain the external websites. We do not guarantee the accuracy, relevance, timeliness, and/or completeness of any information on the external websites.
