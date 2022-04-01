@@ -1,201 +1,110 @@
 # Saddle Registry
 
-The Saddle Registry is used for storage and retrieval of Saddle registries and contracts.
+Saddle Registries provides a single source for integrating with the Saddle ecosystem. The Master Registry's  will maintain a collection of all current registries as well as a history of previous versions. One available registry is the Pool Registry that allows anyone to retrieve pool specific data as well as a history of all pool deployments. Events on the registry contracts will allow for listeners to be notified of any change in the Saddle ecvosystem related to new deployments or updates to existing deployments.<br><br>
 
-## Master Registry
+## Master Registry<br>
 
+This contract holds information on all available Saddle Registries.<br> 
 | Network | Address                                                                                                            |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | `Ethereum`   | [0xc5ad17b98D7fe73B6dD3b0df5b3040457E68C045](https://etherscan.io/address/0xc5ad17b98D7fe73B6dD3b0df5b3040457E68C045#code) |
 
-The Master Registry can be interacted with the following functions:
+<br>
 
-### Master Registry Contract Functions
+### Master Registry Events
 
-The Master Registry can be interacted with the following functions:
+* Retrieve all event of registries that have been added to the Master Registry:
 
-* `resolveNameToLatestAddress`: Resolves a name input to the latest registry address.
-    ```
-        >>> await registry.resolveNameToLatestAddress(formatBytes32String('USDPool'))
-        '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
-    ```
-* `resolveNameAndVersionToAddress`: Allows you to provide both a name and a specific version of the registry address.
-    ```
-        >>> await registry.resolveNameAndVersionToAddress(formatBytes32String('USDPool'), 0)
-        '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
-    ```
-* `resolveNameToAllAddresses`: Returns an array of all addresses held in the registry of a given name.
-    ```
-        >>> await registry.resolveNameToAllAddresses(formatBytes32String('USDPool'))
-        ['0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314', '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81']
-    ```
-* `resolveAddressToRegistryData`: Returns the registry input entry data inlcuding the name, version, and a boolean value of whether the provided address is the latest version.
-    ```
-    >>> const reg_data = await registry.resolveAddressToRegistryData('0xFb4DE84c4375d7c8577327153dE88f58F69EeC81')
-    >>> const name = parseBytes32String(reg_data['name'])
-    >>> const version = reg_data['version'].toNumber()
-    >>> const isLatest = reg_data['isLatest']
-    >>> console.log('name: ', name, ' version: ', version, ' isLatest: ', isLatest)
-    name:  USDPool  version:  1  isLatest:  true
-    ```
+    ``` python
+    from web3 import Web3
+    import json
 
-## Pool Registry
 
-This contract holds the funtions to get deployment addresses and related info for all Saddle Pools
+    # Initialize web3 connection
+    web3 = Web3(Web3.HTTPProvider('<provider>'))  
+    ABI = json.loads('<contract_abi>')
+    master_registry_addr = '0xc5ad17b98D7fe73B6dD3b0df5b3040457E68C045'
+    registry_contract = web3.eth.contract(master_registry_addr, abi=ABI)
+
+    # create the filter and print all entries of this event in the range of blocks provided
+        filter = registry_contract.events.AddRegistry.createFilter(fromBlock=0, toBlock='latest')
+        print(filter.get_all_entries())
+
+    ```
+<br>
+
+## Pool Registry <br>
+
+This contract holds the funtions to get deployment addresses and related info for all Saddle Pools. It allows for listening to events related to registry actions such as removing/adding pools, as well as any updates to existing pools. <br>
 
 | Network | Address                                                                                                            |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | `Ethereum`   | [0xFb4DE84c4375d7c8577327153dE88f58F69EeC81](https://etherscan.io/address/0xFb4DE84c4375d7c8577327153dE88f58F69EeC81#code) |
 
-### Pool Registry Public Variables:
+<br>
 
-* `poolsIndexOfPlusOne(address poolAddress)`: Resolves an address input to the current pool vitual price.
-    ```python
-    >>> result = registry_contract.poolsIndexOfPlusOne('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    False
-    ```
+### Pool Registry Interactions
 
-### Pool Registry Contract Functions
+The Pool Registry's functions allow you to fetch pool data is, as well as listen for pool events:
 
-The Pool Registry can be interacted with the following functions:
+* Getting all available PoolData
 
-* `getPoolDataAtIndex(uint256 index)`: Resolves an index input to the Pool Registry data.
     ```python
-    >>> registry_contract = w3.eth.contract(pool_reg_addr, abi=ABI)
-    >>> result = registry_contract.functions.getPoolDataAtIndex(0).call()
-    >>> PoolData_labels = [
-        {'name':'poolAddress', 'type':'address'},
-        {'name':'lpToken', 'type':'address'},
-        {'name':'typeOfAsset', 'type':'uint8'},
-        {'name':'poolName', 'type':'bytes32'},
-        {'name':'targetAddress', 'type':'address'},
-        {'name':'tokens', 'type':'address'},
-        {'name':'underlyingTokens', 'type':'address'},
-        {'name':'basePoolAddress', 'type':'address'},
-        {'name':'metaSwapDepositAddress', 'type':'address'},
-        {'name':'isSaddleApproved', 'type':'bool'},
-        {'name':'isRemoved', 'type':'bool'},
-        {'name':'isGuarded', 'type':'bool'}
-        ]
-    >>> for i in PoolData_labels:
-        if i['type'] == 'bytes32':
-            print(i['name'], ':', result[PoolData_labels.index(i)].decode('utf-8'))
-        else:
-            print(i['name'], ':', result[PoolData_labels.index(i)])
-    
-    poolAddress : 0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7
-    lpToken : 0x5f86558387293b6009d7896A61fcc86C17808D62
-    typeOfAsset : 2
-    poolName : USDv2
-    targetAddress : 0xc68BF77e33F1DF59D8247dd564da4c8C81519db6
-    tokens : ['0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
-    underlyingTokens : []
-    basePoolAddress : 0x0000000000000000000000000000000000000000
-    metaSwapDepositAddress : 0x0000000000000000000000000000000000000000
-    isSaddleApproved : True
-    isRemoved : False
-    isGuarded : False
+    from web3 import Web3
+    import json
+
+
+    def getPoolData():
+        # Setup Web3 and registry contract
+        w3 = Web3(Web3.HTTPProvider('<provider'))
+        
+        ABI = json.loads(<contract_abi>)
+        pool_reg_addr = '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
+        registry_contract = w3.eth.contract(pool_reg_addr, abi=ABI)
+        
+        # Find the length of the registry
+        registry_length = registry_contract.functions.getPoolsLength().call()
+        
+        # Get PoolData for each pool index
+        for index in range(registry_length-1):
+            pool_data = registry_contract.functions.getPoolDataAtIndex(index).call()
+            
+            PoolData_labels = [
+            {'name':'poolAddress', 'type':'address'},
+            {'name':'lpToken', 'type':'address'},
+            {'name':'typeOfAsset', 'type':'uint8'},
+            {'name':'poolName', 'type':'bytes32'},
+            {'name':'targetAddress', 'type':'address'},
+            {'name':'tokens', 'type':'address'},
+            {'name':'underlyingTokens', 'type':'address'},
+            {'name':'basePoolAddress', 'type':'address'},
+            {'name':'metaSwapDepositAddress', 'type':'address'},
+            {'name':'isSaddleApproved', 'type':'bool'},
+            {'name':'isRemoved', 'type':'bool'},
+            {'name':'isGuarded', 'type':'bool'}
+            ]
+            return_array = []
+            for label in PoolData_labels:
+                if label['type'] == 'bytes32':
+                    return_array.append(((label['name'])+' : '+str((pool_data[PoolData_labels.index(lable)]).decode('utf-8'))))
+                else:
+                    return_array.append((label['name']+' : '+str(pool_data[PoolData_labels.index(label)])))
+            print("\n".join(return_array))
+            print("\n")
     ```
-    ^ Other function calls will use the same format for returning PoolData
-* `getPoolData(address poolAddress)`: Resolves an address input to the latest pool registry data.
+* Get all events that the PoolRegistry has ever produced
     ```python
-    >>> result = registry_contract.functions.getPoolData('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    poolAddress : 0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7
-    lpToken : 0x5f86558387293b6009d7896A61fcc86C17808D62
-    typeOfAsset : 2
-    poolName : USDv2
-    targetAddress : 0xc68BF77e33F1DF59D8247dd564da4c8C81519db6
-    tokens : ['0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
-    underlyingTokens : []
-    basePoolAddress : 0x0000000000000000000000000000000000000000
-    metaSwapDepositAddress : 0x0000000000000000000000000000000000000000
-    isSaddleApproved : True
-    isRemoved : False
-    isGuarded : False
-    ```
-* `getPoolDataByName(bytes32 poolName)`: Resolves a name input to the latest pool registry data.
-    ```python
-    >>> result = registry_contract.functions.getPoolDataByName('USDv2').call()
-    poolAddress : 0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7
-    lpToken : 0x5f86558387293b6009d7896A61fcc86C17808D62
-    typeOfAsset : 2
-    poolName : USDv2
-    targetAddress : 0xc68BF77e33F1DF59D8247dd564da4c8C81519db6
-    tokens : ['0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
-    underlyingTokens : []
-    basePoolAddress : 0x0000000000000000000000000000000000000000
-    metaSwapDepositAddress : 0x0000000000000000000000000000000000000000
-    isSaddleApproved : True
-    isRemoved : False
-    isGuarded : False
-    ```
-* `getVirtualPrice(address poolAddress)`: Resolves an address input to the current pool vitual price.
-    ```python
-    >>> result = registry_contract.functions.getVirtualPrice('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    1003246662771594189
-    ```
-* `getA(address poolAddress)`: Resolves an address input to the current pool amplification value.
-    ```python
-    >>> result = registry_contract.functions.getA('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    400
-    ```
-* `getPaused(address poolAddress)`: Resolves an address input to a boolean of whether the pool is paused or not.
-    ```python
-    >>> result = registry_contract.functions.getPaused('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    False
-    ```
-* `getSwapStorage(address poolAddress)`: Resolves an address input to the SwapStorage struct of a given pool.
-    ```python
-    >>> result = registry_contract.functions.getSwapStorage('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    >>> SwapStorage_labels = [
-        {'name':'initalA', 'type':'uint256'},
-        {'name':'futureA', 'type':'uint256'},
-        {'name':'initialATime', 'type':'uint256'},
-        {'name':'futureATime', 'type':'uint256'},
-        {'name':'swapFee', 'type':'uint256'},
-        {'name':'adminFee', 'type':'uint256'},
-        {'name':'lpToken', 'type':'uint256'}
-        ]
-    >>> for i in SwapStorage_labels:
-            print(i['name'], result[SwapStorage_labels.index(i)])
-    
-    initalA 20000
-    futureA 40000
-    initialATime 1643232168
-    futureATime 1644666450
-    swapFee 4000000
-    adminFee 5000000000
-    lpToken 0x5f86558387293b6009d7896A61fcc86C17808D62
-    ```
-* `getTokens(address poolAddress)`: Resolves an address input to the addresses of tokens in the given pool.
-    ```python
-    >>> result = registry_contract.functions.getTokens('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    ['0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
-    ```
-* `getUnderlyingTokens(address poolAddress)`: Returns the underlying tokens of the given pool address. Base pools will return an empty array.
-    ```python
-    >>> result = registry_contract.functions.getUnderlyingTokens('0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314').call()
-    ['0x57Ab1ec28D129707052df4dF418D58a2D46d5f51', '0x6B175474E89094C44Da98b954EedeAC495271d0F', '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', '0xdAC17F958D2ee523a2206206994597C13D831ec7']
-    ```
-* `getPoolsLength()`: Returns number of entries in the registry. Includes removed pools.
-    ```python
-    >>> result = registry_contract.functions.getPoolsLength().call()
-    13
-    ```
-* `getEligiblePools(address from, address to)`: Returns an array of pool addresses that can swap between from and to.
-    ```python
-    >>> USDC_addr = Web3.toChecksumAddress('0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48')
-    >>> DAI_addr = Web3.toChecksumAddress('0x6b175474e89094c44da98b954eedeac495271d0f')
-    >>> result = registry_contract.functions.getEligiblePools(USDC_addr,DAI_addr)().call()
-    ['0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7', '0x3911F80530595fBd01Ab1516Ab61255d75AEb066']
-    ```
-* `getTokenBalances(address poolAddress)`: Returns an array of the balances of the tokens in the given pool.
-    ```python
-    >>> result = registry_contract.functions.getTokenBalances('0xaCb83E0633d6605c5001e2Ab59EF3C745547C8C7').call()
-    [6123569751818177679494553, 5703267707851, 4917216403671]
-    ```
-* `getUnderlyingTokenBalances(address poolAddress)`: Returns an array of balances of the underlying tokens in the given pool.
-    ```python
-    >>> result = registry_contract.functions.getUnderlyingTokenBalances('0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314').call()
-    [583662682207327154772, 6123569751818177679494553, 5703267707851, 4917216403671]
+    from web3 import Web3
+    import json
+
+
+    # Initialize web3 connection
+    web3 = Web3(Web3.HTTPProvider('<provider>'))  
+    ABI = json.loads('<contract_abi>')
+    pool_registry_addr = '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
+    registry_contract = web3.eth.contract(pool_registry_addr, abi=ABI)
+
+     # create the filter and print all entries of this event in the range of blocks provided
+    filter = registry_contract.events.AddRegistry.createFilter(fromBlock=0, toBlock='latest')
+    print(filter.get_all_entries())
     ```
