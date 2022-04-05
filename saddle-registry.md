@@ -15,21 +15,35 @@ This contract holds information on all available Saddle Registries.<br>
 
 * Retrieve all event of registries that have been added to the Master Registry:
 
-    ``` python
-    from web3 import Web3
-    import json
+    ``` typescript
+    const hre = require("hardhat");
+    const { ethers } = require("@nomiclabs/hardhat-ethers");
+    import registry_abi from "../master_registry_abi.json";
 
+    async function main() {
 
-    # Initialize web3 connection
-    web3 = Web3(Web3.HTTPProvider('<provider>'))  
-    ABI = json.loads('<contract_abi>')
-    master_registry_addr = '0xc5ad17b98D7fe73B6dD3b0df5b3040457E68C045'
-    registry_contract = web3.eth.contract(master_registry_addr, abi=ABI)
+        // Initialize contract
+        const registry = await hre.ethers.getContractAt(registry_abi, "0xc5ad17b98D7fe73B6dD3b0df5b3040457E68C045");
 
-    # create the filter and print all entries of this event in the range of blocks provided
-        filter = registry_contract.events.AddRegistry.createFilter(fromBlock=0, toBlock='latest')
-        print(filter.get_all_entries())
+        // Get all AddRegistry events
+        const provider = hre.ethers.provider;
 
+        // Optionally you can add a 'topics' field to the filter to only search
+        // for certain events
+        const filter = {
+            address: registry.address,
+            fromBlock: 0,
+            toBlock: 'latest',
+        };
+        const filtered_logs = await provider.getLogs(filter);
+
+        // Setup interface for registry
+        const iface = new hre.ethers.utils.Interface(registry_abi)
+        // Parse each log into a readable event
+        for (let i = 0; i < filtered_logs.length; i++) {
+            const decoded = iface.parseLog(filtered_logs[i]);
+            console.log(decoded);
+        }
     ```
 <br>
 
@@ -49,62 +63,61 @@ The Pool Registry's functions allow you to fetch pool data is, as well as listen
 
 * Getting all available PoolData
 
-    ```python
-    from web3 import Web3
-    import json
+    ```typescript
+    const hre = require("hardhat");
+    const { ethers } = require("@nomiclabs/hardhat-ethers");
+    const toNumber = hre.ethers.utils.toNumber
+    import registry_abi from "../registry_abi.json";
 
+    async function main() {
 
-    def getPoolData():
-        # Setup Web3 and registry contract
-        w3 = Web3(Web3.HTTPProvider('<provider'))
-        
-        ABI = json.loads(<contract_abi>)
-        pool_reg_addr = '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
-        registry_contract = w3.eth.contract(pool_reg_addr, abi=ABI)
-        
-        # Find the length of the registry
-        registry_length = registry_contract.functions.getPoolsLength().call()
-        
-        # Get PoolData for each pool index
-        for index in range(registry_length-1):
-            pool_data = registry_contract.functions.getPoolDataAtIndex(index).call()
-            
-            PoolData_labels = [
-            {'name':'poolAddress', 'type':'address'},
-            {'name':'lpToken', 'type':'address'},
-            {'name':'typeOfAsset', 'type':'uint8'},
-            {'name':'poolName', 'type':'bytes32'},
-            {'name':'targetAddress', 'type':'address'},
-            {'name':'tokens', 'type':'address'},
-            {'name':'underlyingTokens', 'type':'address'},
-            {'name':'basePoolAddress', 'type':'address'},
-            {'name':'metaSwapDepositAddress', 'type':'address'},
-            {'name':'isSaddleApproved', 'type':'bool'},
-            {'name':'isRemoved', 'type':'bool'},
-            {'name':'isGuarded', 'type':'bool'}
-            ]
-            return_array = []
-            for label in PoolData_labels:
-                if label['type'] == 'bytes32':
-                    return_array.append(((label['name'])+' : '+str((pool_data[PoolData_labels.index(lable)]).decode('utf-8'))))
-                else:
-                    return_array.append((label['name']+' : '+str(pool_data[PoolData_labels.index(label)])))
-            print("\n".join(return_array))
-            print("\n")
+        // Initialize contract
+        const registry = await hre.ethers.getContractAt(registry_abi['abi'], "0xFb4DE84c4375d7c8577327153dE88f58F69EeC81");
+
+        // Find legth of registry
+        const registryLength = (await registry.getPoolsLength()).toString();
+        console.log(registryLength);
+
+        // Get PoolDataAtIndex for each pool index and append to list
+        let poolDataList = [];
+        for (let i = 0; i < registryLength; i++) {
+            const poolData = await registry.getPoolDataAtIndex(i);
+            poolDataList.push(poolData);
+        }
+        console.log(poolDataList.length);
+
+    }
     ```
 * Get all events that the PoolRegistry has ever produced
-    ```python
-    from web3 import Web3
-    import json
+    ```typescript
+    const hre = require("hardhat");
+    const { ethers } = require("@nomiclabs/hardhat-ethers");
+    import registry_abi from "../registry_abi.json";
 
+    async function main() {
 
-    # Initialize web3 connection
-    web3 = Web3(Web3.HTTPProvider('<provider>'))  
-    ABI = json.loads('<contract_abi>')
-    pool_registry_addr = '0xFb4DE84c4375d7c8577327153dE88f58F69EeC81'
-    registry_contract = web3.eth.contract(pool_registry_addr, abi=ABI)
+        // Initialize contract
+        const registry = await hre.ethers.getContractAt(registry_abi, "0xFb4DE84c4375d7c8577327153dE88f58F69EeC81");
 
-     # create the filter and print all entries of this event in the range of blocks provided
-    filter = registry_contract.events.AddRegistry.createFilter(fromBlock=0, toBlock='latest')
-    print(filter.get_all_entries())
+        // Get all AddRegistry events
+        const provider = hre.ethers.provider;
+        
+        // Optionally you can add a 'topics' field to the filter to only search
+        // for certain events
+        const filter = {
+            address: registry.address,
+            fromBlock: 0,
+            toBlock: 'latest',
+        };
+        const filtered_logs = await provider.getLogs(filter);
+
+        // Setup interface for registry
+        const iface = new hre.ethers.utils.Interface(registry_abi)
+        // Parse each log into a readable event
+        for (let i = 0; i < filtered_logs.length; i++) {
+            const decoded = iface.parseLog(filtered_logs[i]);
+            console.log(decoded);
+        }
+    }
     ```
+    
