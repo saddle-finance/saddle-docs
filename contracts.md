@@ -64,6 +64,14 @@ All Saddle protocol smart contracts are immutable.
 | `SaddleUSDPoolV2LPToken` | [0x5f86558387293b6009d7896A61fcc86C17808D62](https://etherscan.io/address/0x5f86558387293b6009d7896A61fcc86C17808D62#code) |
 | `SwapMigrator`           | [0x9cDeF6e33687F438808766fC133b2E9d1A16AD57](https://etherscan.io/address/0x9cDeF6e33687F438808766fC133b2E9d1A16AD57#code) |
 
+### sUSD Metapool V3
+
+| Contract Name               | Contract Address                                                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleSUSDMetaPool`        | [0x4568727f50c7246ded8C39214Ed6FF3c157f080D](https://etherscan.io/address/0x4568727f50c7246ded8C39214Ed6FF3c157f080D#code) |
+| `SaddleSUSDMetaPoolLPToken` | [0x444F94460a641429CDa4e38E02E51642Cc38276A](https://etherscan.io/address/0x444F94460a641429CDa4e38E02E51642Cc38276A#code) |
+| `SaddleSUSDMetaPoolDeposit` | [0xB98fd1f66884cD5786b37cDE040B9f0cf763866f](https://etherscan.io/address/0xB98fd1f66884cD5786b37cDE040B9f0cf763866f#code) |
+
 ### sUSD Metapool V2
 
 | Contract Name               | Contract Address                                                                                                           |
@@ -87,6 +95,14 @@ All Saddle protocol smart contracts are immutable.
 | `SaddleBTCPoolV2`        | [0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2](https://etherscan.io/address/0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2#code) |
 | `SaddleBTCPoolV2LPToken` | [0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3](https://etherscan.io/address/0xF32E91464ca18fc156aB97a697D6f8ae66Cd21a3#code) |
 
+### tBTCv2 Metapool V3
+
+| Contract Name               | Contract Address                                                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleTBTCMetaPool`        | [0xfa9ED0309Bf79Eb84C847819F0B3CB84F6d351Af](https://etherscan.io/address/0xfa9ED0309Bf79Eb84C847819F0B3CB84F6d351Af#code) |
+| `SaddleTBTCMetaPoolLPToken` | [0xA2E81Eb93F0F9814ae9A3bea2D2A63408f2709C1](https://etherscan.io/address/0xA2E81Eb93F0F9814ae9A3bea2D2A63408f2709C1#code) |
+| `SaddleTBTCMetaPoolDeposit` | [0x4946DE721ce70D4B7aa226aA0Fe869C935769388](https://etherscan.io/address/0x4946DE721ce70D4B7aa226aA0Fe869C935769388#code) |
+
 ### tBTCv2 Metapool V2
 
 | Contract Name               | Contract Address                                                                                                           |
@@ -103,6 +119,14 @@ All Saddle protocol smart contracts are immutable.
 | `SaddleTBTCMetaPool`        | [0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5](https://etherscan.io/address/0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5#code) |
 | `SaddleTBTCMetaPoolLPToken` | [0x122Eca07139EB368245A29FB702c9ff11E9693B7](https://etherscan.io/address/0x122Eca07139EB368245A29FB702c9ff11E9693B7#code) |
 | `SaddleTBTCMetaPoolDeposit` | [0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1](https://etherscan.io/address/0xee1ec4e1C6e39C31dAaf3db2A62A397bdf3fe2f1#code) |
+
+### wCUSD Metapool V3
+
+| Contract Name                | Contract Address                                                                                                           |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `SaddleWCUSDMetaPool`        | [0xB62222B941e9B652BE3632EEa062cb0ff66b1d1c](https://etherscan.io/address/0xB62222B941e9B652BE3632EEa062cb0ff66b1d1c#code) |
+| `SaddleWCUSDMetaPoolLPToken` | [0x0dB8b09c13FE21913faF463274cE8e0a51719f16](https://etherscan.io/address/0x0dB8b09c13FE21913faF463274cE8e0a51719f16#code) |
+| `SaddleWCUSDMetaPoolDeposit` | [0x671D5942F901F5C60e4EbaD1c3bF284A4d28c675](https://etherscan.io/address/0x671D5942F901F5C60e4EbaD1c3bF284A4d28c675#code) |
 
 ### wCUSD Metapool V2
 
