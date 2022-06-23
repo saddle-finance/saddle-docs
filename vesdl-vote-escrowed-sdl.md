@@ -29,7 +29,7 @@ A user is presented with the option to lock up SDL for a period of time, and the
 
 ### Gauge weight voting&#x20;
 
-The weekly gauge weight vote determines how Saddle’s weekly SDL emissions get distributed in the following week. As outlined in SIP-24, 30M tokens of the SDL supply will be emitted over the first 6 months post token unlock. That means 30M SDL / 6 months = 1.25m SDL will be emitted in liquidity mining incentives per week. After 6 months, a new Saddle Improvement Proposal will go to governance to change the weekly emissions rate to a tapering schedule.
+The weekly gauge weight vote determines how Saddle’s weekly SDL emissions get distributed in the following week. As outlined in [SIP-24](https://snapshot.org/#/saddlefinance.eth/proposal/0xe2a3e49dd86ef9f3e778486371b727b5e1ac8a1bc36326f431d5de63c8b287ca), **30M tokens of the SDL supply will be emitted over the first 6 months post token unlock**. That means 30M SDL / 6 months = 1.25m SDL will be emitted in liquidity mining incentives per week. After 6 months, a new Saddle Improvement Proposal will go to governance to change the weekly emissions rate to a tapering schedule.
 
 This means that SDL users will be able to lock up their SDL for veSDL, vote in weekly gauge votes to determine where SDL incentives get emitted the following week, and collectively choose how attractive each pool is for the broader DeFi community.
 
@@ -125,7 +125,9 @@ For the first 6 months following launch of veSDL, a total of 30M SDL in incentiv
 
 Voting is done via Snapshot, so it will be free / gasless!
 
-To vote, simply head to the veSDL page on saddle.exchange, and under the Gauge Vote section, **click the \[Vote] button for the current week. (Or head to** [**Saddle’s Snapshot**](https://snapshot.org/#/saddlefinance.eth) **directly to vote)**.
+To vote, simply head to the veSDL page on saddle.exchange, and under the Gauge Vote section, click the \[Vote] button for the current week. (Or head to [Saddle’s Snapshot](https://snapshot.org/#/saddlefinance.eth) directly to vote).
+
+**First vote (for Week 2) will start on Friday 06/24/2022.**
 
 ![](https://lh3.googleusercontent.com/biKzFSWey8uy9nRRqIejvRCQVIo2aTE0e3iIJt8Advrz-6XOs\_-HjS78UY9Y-upVd1bGAWSgRH-jMCp-\_YpIOjC6rTNxTAlQ85EqOfLPJzglApCFqD7f31dqDUgg85cPrXjmovq8FhiYrW634A)
 
@@ -142,6 +144,14 @@ As a result, those who commit to holding veSDL for a longer period of time have 
 Note that your voting power decays over time, so as your lock duration for SDL decreases, so does your voting power.
 
 ## veSDL FAQ
+
+**When is the first vote? / When does SDL emissions start via the gauges?**&#x20;
+
+The gauge will start SDL reward emissions on 06/23/2022 at 8PM EST.
+
+First vote (for Week 2) will start the following day on 06/24/2022.
+
+During the first week (06/23/2022 - 06/30/2022), \~63.5% of SDL emissions will be allocated proportionally to each Saddle pool based on TVL, on Mainnet only. Pools on alt L1s and L2s will continue to emit rewards via MiniChef and will be added to the gauge system at a later date. The remaining 36.5% of SDL emissions are allocated to the SDL/ETH SushiSwap gauge.
 
 #### What is vote locking, vote escrow, or veSDL?
 
@@ -188,12 +198,6 @@ Yes. For clarification:&#x20;
 Note that voting doesn't remove or deplete your veSDL. You can both vote and get boosties with your full veSDL.
 
 
-
-**When is the first vote? / When does SDL emissions start via the gauges?**&#x20;
-
-The gauge (and first vote) will start SDL reward emissions on 06/23/2022 at 8PM EST.
-
-During the first week (06/23/2022 - 06/30/2022), \~63.5% of SDL emissions will be allocated proportionally to each Saddle pool based on TVL, on Mainnet only. Pools on alt L1s and L2s will continue to emit rewards via MiniChef and will be added to the gauge system at a later date. The remaining 36.5% of SDL emissions are allocated to the SDL/ETH SushiSwap gauge.
 
 #### How do I get veSDL?&#x20;
 
