@@ -160,6 +160,34 @@ All Saddle protocol smart contracts are immutable.
 | `RetroactiveVesting` | [0x5DCA270671935cf3dF78bd8373C22BE250198a03](https://etherscan.io/address/0x5DCA270671935cf3dF78bd8373C22BE250198a03#code) |
 | `MiniChefV2`         | [0x691ef79e40d909C715BE5e9e93738B3fF7D58534](https://etherscan.io/address/0x691ef79e40d909C715BE5e9e93738B3fF7D58534#code) |
 
+### Gauges
+
+| Contract Name                              | Contract Address                                                                                                           |
+| :---------------------------------------   | :------------------------------------------------------------------------------------------------------------------------- |
+| `SLP-gauge`                                | [0xc64f8a9fe7babeca66d3997c9d15558bf4817be3](https://etherscan.io/address/0xc64f8a9fe7babeca66d3997c9d15558bf4817be3#code) |
+| `SushiSwap LP Token`                       | [0x0c6f06b32e6ae0c110861b8607e67da594781961](https://etherscan.io/address/0x0c6f06b32e6ae0c110861b8607e67da594781961#code) |
+| `saddleWCUSD-V3-gauge`                     | [0x3dc88ee38db8c7b6dceb447e4348e51bd87ced93](https://etherscan.io/address/0x3dc88ee38db8c7b6dceb447e4348e51bd87ced93#code) |
+| `Saddle wCUSD/saddleUSD-V2 V3 LP Token`    | [0x0db8b09c13fe21913faf463274ce8e0a51719f16](https://etherscan.io/address/0x0db8b09c13fe21913faf463274ce8e0a51719f16#code) |
+| `saddleUSD-V2-gauge`                       | [0x7b2025bf8c5ee8baad9da8c3e3ee45e96ed8b8ea](https://etherscan.io/address/0x7b2025bf8c5ee8baad9da8c3e3ee45e96ed8b8ea#code) |
+| `saddleSUSD-V3-gauge`                      | [0x2683190e31e8ce47467c98ff1dbc018acdd43c2f](https://etherscan.io/address/0x2683190e31e8ce47467c98ff1dbc018acdd43c2f#code) |
+| `Saddle sUSD/saddleUSD-V2 V3 LP Token`     | [0x444f94460a641429cda4e38e02e51642cc38276a](https://etherscan.io/address/0x444f94460a641429cda4e38e02e51642cc38276a#code) |
+| `saddleUSDCUSDTFrax-gauge`                 | [0x13ba45c2b686c6db7c2e28bd3a9e8edd24b894ed](https://etherscan.io/address/0x13ba45c2b686c6db7c2e28bd3a9e8edd24b894ed#code) |
+| `Saddle USDC/USDT/FRAX LP Token`           | [0x0785addf5f7334adb7ec40cd785ebf39bfd91520](https://etherscan.io/address/0x0785addf5f7334adb7ec40cd785ebf39bfd91520#code) |
+| `saddleTBTC-V3-gauge`                      | [0xb79b4fcf7cb4a1c4064ff5b48f71a331880ab53a](https://etherscan.io/address/0xb79b4fcf7cb4a1c4064ff5b48f71a331880ab53a#code) |
+| `Saddle tBTCv2/saddleWRenSBTC V3 LP Token` | [0xa2e81eb93f0f9814ae9a3bea2d2a63408f2709c1](https://etherscan.io/address/0xa2e81eb93f0f9814ae9a3bea2d2a63408f2709c1#code) |
+| `saddlealETH-gauge`                        | [0x8b701e9b3a1887fe9b0c7936a8233b39408e69f6](https://etherscan.io/address/0x8b701e9b3a1887fe9b0c7936a8233b39408e69f6#code) |
+| `Saddle WETH/alETH/sETH LP Token`          | [0xc9da65931abf0ed1b74ce5ad8c041c4220940368](https://etherscan.io/address/0xc9da65931abf0ed1b74ce5ad8c041c4220940368#code) |
+| `saddleD4-gauge`                           | [0x702c1b8ec3a77009d5898e18da8f8959b6df2093](https://etherscan.io/address/0x702c1b8ec3a77009d5898e18da8f8959b6df2093#code) |
+| `Saddle alUSD/FEI/FRAX/LUSD LP Token`      | [0xd48cf4d7fb0824cc8bae055df3092584d0a1726a](https://etherscan.io/address/0xd48cf4d7fb0824cc8bae055df3092584d0a1726a#code) |
+| `saddleWRenSBTC-gauge`                     | [0x17bde8ebf1e9fda85b9bd1a104266b394e9db33e](https://etherscan.io/address/0x17bde8ebf1e9fda85b9bd1a104266b394e9db33e#code) |
+| `Saddle WBTC/renBTC/sBTC LP Token`         | [0xf32e91464ca18fc156ab97a697d6f8ae66cd21a3](https://etherscan.io/address/0xf32e91464ca18fc156ab97a697d6f8ae66cd21a3#code) |
+
+| Contract Name        | Contract Address                                                                                                           |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `Gauge Minter`       | [0x358fE82370a1B9aDaE2E3ad69D6cF9e503c96018](https://etherscan.io/address/0x358fE82370a1B9aDaE2E3ad69D6cF9e503c96018#code) |
+| `Gauge Helper`       | [0x8020E4134AD6a694AdbE9521a12C751e67CE9861](https://etherscan.io/address/0x8020E4134AD6a694AdbE9521a12C751e67CE9861#code) |
+| `Gauge Controller`   | [0x99Cb6c36816dE2131eF2626bb5dEF7E5cc8b9B14](https://etherscan.io/address/0x99Cb6c36816dE2131eF2626bb5dEF7E5cc8b9B14#code) |
+
 ### Other
 
 | Contract Name             | Contract Address                                                                                                           |
