@@ -142,12 +142,13 @@ A [Gnosis Safe](https://gnosis-safe.io) multisig secures Saddle’s admin keys. 
 | **NAME**                                             | **ENS**           | **ADDRESS**                                |
 | ---------------------------------------------------- | ----------------- | ------------------------------------------ |
 | [Mariano Conti](https://twitter.com/nanexcool)       | -                 | 0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6 |
-| [Kain Warwick](https://twitter.com/kaiynne)          | Kain.eth          | 0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2 |
+| [Weston Nelson](https://twitter.com/westonnelson)    | -                 | 0xD131F1BcDd547e067Af447dD3C36C99d6be9FdEB |
 | [DegenSpartan](https://twitter.com/DegenSpartan)     | degenspartan.eth  | 0x4E60bE84870FE6AE350B563A121042396Abe1eaF |
 | [Klim K](https://twitter.com/milkyklim)              | yfi.milkyklim.eth | 0x0cec743b8ce4ef8802cac0e5df18a180ed8402a7 |
 | [Damir Bandalo](https://twitter.com/damirbandalo)    | -                 | 0xa83838221278f22ee5bAe3E523f34D42b066D67D |
 | [Aurelius](https://twitter.com/AureliusBTC)          | aurelius0x.eth    | 0x0AF91FA049A7e1894F480bFE5bBa20142C6c29a9 |
 | [Scoopy Trooples](https://twitter.com/scupytrooples) | -                 | 0xf872703F1C8f93fA186869Bac83BAC5A0c87C3c8 |
+| [Sam Kazemain](https://twitter.com/samkazemian)      | -                 | 0x17e06ce6914E3969f7BD37D8b2a563890cA1c96e |
 
 This 3/7 multisig has capabilities to pause new deposits and trades in case of technical emergencies. Users will always be able to withdraw their funds regardless of new deposits being paused. The multisig can also change the swap/withdrawal fees and the per pool/account deposit limits.
 
