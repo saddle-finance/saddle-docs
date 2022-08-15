@@ -145,7 +145,7 @@ Note that your voting power decays over time, so as your lock duration for SDL d
 
 ## veSDL FAQ
 
-**When is the first vote? / When does SDL emissions start via the gauges?**&#x20;
+#### **When is the first vote? / When does SDL emissions start via the gauges?**&#x20;
 
 The gauge will start SDL reward emissions on 06/23/2022 at 8PM EST.
 
@@ -197,8 +197,6 @@ Yes. For clarification:&#x20;
 
 Note that voting doesn't remove or deplete your veSDL. You can both vote and get boosties with your full veSDL.
 
-
-
 #### How do I get veSDL?&#x20;
 
 Purchase SDL on SushiSwap if you don’t own any SDL, then visit the veSDL page at saddle.exchange/#/veSDL and lock your SDL to get veSDL. For more details, visit the guide on How to [lock/unlock SDL <> veSDL](vesdl-vote-escrowed-sdl.md#how-to-lock-unlock-sdl-less-than-greater-than-vesdl).
@@ -217,7 +215,7 @@ Visit saddle.exchange/#/veSDL to unlock your veSDL:&#x20;
   * _For example if you have 2 year left on your lock, the penalty is min(.75, 1/2) = 0.5. So the penalty is 50%._&#x20;
   * Penalties are distributed to the remaining lockers pro-rata.
 
-**How do I apply boosties?**&#x20;
+#### **How do I apply boosties?**&#x20;
 
 If you are creating a new lock (i.e. locking SDL into veSDL for the first time), your boosties will be applied automatically.&#x20;
 
