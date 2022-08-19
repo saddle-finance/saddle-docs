@@ -85,6 +85,7 @@ All Saddle protocol smart contracts are immutable.
 | `LiquidityGaugeV5_WCUSDMetaPoolV3`      | [0x3dC88ee38db8C7b6DCEB447E4348e51bd87ced93](https://etherscan.io/address/0x3dC88ee38db8C7b6DCEB447E4348e51bd87ced93#code) |
 | `SushiSwapPairSDLWETH`                  | [0x0C6F06b32E6Ae0C110861b8607e67dA594781961](https://etherscan.io/address/0x0C6F06b32E6Ae0C110861b8607e67dA594781961#code) |
 | `LiquidityGaugeV5_SushiSwapPairSDLWETH` | [0xc64F8A9fe7BabecA66D3997C9d15558BF4817bE3](https://etherscan.io/address/0xc64F8A9fe7BabecA66D3997C9d15558BF4817bE3#code) |
+
 ### Gauge Utilities
 | Contract Name      | Contract Address                                                                                                           |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------- |
