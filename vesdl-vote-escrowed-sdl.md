@@ -23,9 +23,7 @@ veSDL and gauges work together to give users a mechanism to vote for the pool to
 
 Instead of holders making a tradeoff between fixed, potentially higher SDL emissions and being LPs for tokens they like more, vote escrow tokenomics allows SDL holders to lock their SDL for a period of time for veSDL, or “vote escrowed” SDL. The longer they lock, the higher the veSDL:SDL exchange rate to incentivize long-term community participation. Once users have veSDL they can vote in weekly _gauge weight voting_.
 
-![A user is presented with the option to lock up SDL for a period of time, and then vote in weekly gauge weigh votes. Users can also claim trading fees in the form of SDL/FRAX LP tokens.](https://lh4.googleusercontent.com/hh4LVsL4ZsKsG-z-F0Y4Mc3nfRrir-Urro0WSD\_c3We2Nll1ronD6PpkSw33Z1p8omPhkk8xFCJigx2wk1bcpOPIQ4VzE\_py5ERmH6TNiQaCPOXvL3A3MXGUVcVKrMvCa6RY9UiPdRIjBBSMcQ)
-
-A user is presented with the option to lock up SDL for a period of time, and then vote in weekly gauge weigh votes. Users can also claim trading fees in the form of SDL/FRAX LP tokens.
+<figure><img src=".gitbook/assets/SDL and veSDL_short-02(smaller res) (1).jpg" alt=""><figcaption><p>Difference between SDL and veSDL.</p></figcaption></figure>
 
 ### Gauge weight voting&#x20;
 
@@ -41,7 +39,7 @@ By default, all users (those without veSDL) get 1x the reward rate. Those with v
 
 Also note that users’ boosties are recalculated automatically every 2 weeks. Each individual's boost rate is recalculated any time they interact with a gauge or veSDL (i.e. user checkpoint)
 
-Finally, recall that Saddle collects a 0.04% trading fee on most trades. 60% of these trading fees go to LPs, while the other 40% goes to Saddle’s treasury in the form of “admin fees''. Once vote escrow goes live, these admin fees will instead be used to purchase SDL and ETH on the open market, deposited into the SDL/ETH SushiSwap liquidity pool, and then paid out to veSDL holders. This provides organic buy pressure on SDL while also giving dollar-pegged stablecoins back to the community.
+Finally, recall that Saddle collects a 0.04% trading fee on most trades. 50% of the trading fee goes to liquidity providers in the form of whatever tokens they are providing. The other 50% gets divided in two ways: 60% goes to veSDL token holders in the form of a Sushiswap SDL/ETH LP token; the other 40% goes to Saddle's treasury in the form of USDC.
 
 ## Benefits
 
@@ -60,10 +58,6 @@ Once veSDL goes live, all Snapshot voting will be transitioned from SDL held to 
 ### **Bribes**&#x20;
 
 veSDL holders have the potential to receive airdrops from protocols whose tokens are part of Saddle’s liquidity pools in exchange for voting to increase the gauge weight of those pools those protocol’s token is a part of. Users benefit from airdrops in exchange for their votes, protocols benefit from there being added incentives for users to provide liquidity with their token. Everyone wins. Take a look at [pitch.money](https://pitch.money/) for an example.
-
-### **Trading fees**&#x20;
-
-veSDL holders earn their share of Saddle’s trading fees-- 60% of Saddle trading fees go to LPs, in the form of SDL/WETH LP tokens. This ensures that the success of the protocol is the success of the community. The more trading routed through Saddle, the more SDL:WETH LP tokens veSDL holders receive. This has the added benefits of a) providing organic buy pressure on the SDL token, and b) rewarding users in dollar-pegged stable coins.
 
 ## How-to-Guide
 
