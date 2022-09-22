@@ -99,6 +99,7 @@ All Saddle protocol smart contracts are immutable.
 | `MiniChefV2`         | [0x691ef79e40d909C715BE5e9e93738B3fF7D58534](https://etherscan.io/address/0x691ef79e40d909C715BE5e9e93738B3fF7D58534#code) |
 | `RetroactiveVesting` | [0x5DCA270671935cf3dF78bd8373C22BE250198a03](https://etherscan.io/address/0x5DCA270671935cf3dF78bd8373C22BE250198a03#code) |
 | `SDL`                | [0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871](https://etherscan.io/address/0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871#code) |
+| `veSDL`              | [0xD2751CdBED54B87777E805be36670D7aeAe73bb2](https://etherscan.io/address/0xD2751CdBED54B87777E805be36670D7aeAe73bb2#code) |
 | `Vesting`            | [0xf8504e92428d65E56e495684A38f679C1B1DC30b](https://etherscan.io/address/0xf8504e92428d65E56e495684A38f679C1B1DC30b#code) |
 
 ### Virtual Swaps
