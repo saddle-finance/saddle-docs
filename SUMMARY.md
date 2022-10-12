@@ -3,6 +3,7 @@
 * [About Saddle](README.md)
 * [Automated Market Makers](automated-market-makers.md)
 * [Saddle Pools](saddle-pools.md)
+* [Community Pools](community-pools.md)
 * [Layer 2 Guide](layer-2-guide.md)
 * [SDL Token](sdl-token.md)
 * [veSDL (vote escrowed) SDL](vesdl-vote-escrowed-sdl.md)
