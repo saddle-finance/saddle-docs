@@ -28,7 +28,7 @@ You can access Saddle farming dashboard from the URL: [https://zapper.fi/farm](h
 
 **Go to Zapper.fi/farm 🡪 search for Saddle tokens**
 
-![](<.gitbook/assets/1 (1) (1) (1) (1).png>)
+![](<.gitbook/assets/1 (1) (1).png>)
 
 **Choose Saddle tokens 🡪 Stake or Unstake**
 
@@ -50,7 +50,7 @@ Stake, track, and unstake the KEEP LP (liquidity pool) tokens you can get on Sad
 
 You can access the Saddle pool information from the URL: [https://dashboard.keep.network/liquidity](https://dashboard.keep.network/liquidity)
 
-![](<.gitbook/assets/4 (2) (1) (1) (2) (3).png>)
+![](<.gitbook/assets/4 (2).png>)
 
 ### **ALCX REWARDS**
 
@@ -58,7 +58,7 @@ Stake, track, and unstake the ALCX LP (liquidity pool) tokens you can get on Sad
 
 You can access the Saddle pool information from the URL: [https://app.alchemix.fi/farms](https://app.alchemix.fi/farms)
 
-![](<.gitbook/assets/5 (3) (1) (1) (1) (1).png>)
+![](<.gitbook/assets/5 (3) (1).png>)
 
 ### **FRAX REWARDS**
 
@@ -66,4 +66,4 @@ Stake, track, and unstake the four LP tokens (ALCX, FXS, LQTY, and TRIBE) you ca
 
 You can access the Saddle pool information from the URL: [https://app.frax.finance/staking](https://app.frax.finance/staking)
 
-![](<.gitbook/assets/13 (5) (1) (1) (1) (2).png>)
+![](<.gitbook/assets/6 (9).png>)
