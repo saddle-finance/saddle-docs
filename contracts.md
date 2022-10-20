@@ -141,6 +141,9 @@ All Saddle protocol smart contracts are immutable.
 | `FRAXUSDTMetaPool`        | [0xf8504e92428d65E56e495684A38f679C1B1DC30b](https://arbiscan.io/address/0xf8504e92428d65E56e495684A38f679C1B1DC30b#code) |
 | `FRAXUSDTMetaPoolDeposit` | [0xc8DFCFC329E19fDAF43a338aD6038dBA02a5079B](https://arbiscan.io/address/0xc8DFCFC329E19fDAF43a338aD6038dBA02a5079B#code) |
 | `FRAXUSDTMetaPoolLPToken` | [0x166680852ae9Dec3d63374c5eBf89E974448BFE9](https://arbiscan.io/address/0x166680852ae9Dec3d63374c5eBf89E974448BFE9#code) |
+| `FRAXUSXMetaPool`         | [0xb2a2764D0DCAB445E24f4b813bE3f6ef8AE5f84D](https://arbiscan.io/address/0xb2a2764D0DCAB445E24f4b813bE3f6ef8AE5f84D#code) |
+| `FRAXUSXMetaPoolDeposit`  | [0x18d2469A9788FAFD0df277a0044Da5ea637a3760](https://arbiscan.io/address/0x18d2469A9788FAFD0df277a0044Da5ea637a3760#code) |
+| `FRAXUSXMetaPoolLPToken`  | [0x721DaC7d5ACc8Aa62946fd583C1F999e1570b97D](https://arbiscan.io/address/0x721DaC7d5ACc8Aa62946fd583C1F999e1570b97D#code) |
 
 ### Token
 | Contract Name | Contract Address                                                                                                                  |
@@ -220,6 +223,9 @@ All Saddle protocol smart contracts are immutable.
 | `FRAXUSDTMetaPool`        | [0xa9a84238098Dc3d1529228E6c74dBE7EbdF117a5](https://optimistic.etherscan.io/address/0xa9a84238098Dc3d1529228E6c74dBE7EbdF117a5#code) |
 | `FRAXUSDTMetaPoolDeposit` | [0x3F1d224557afA4365155ea77cE4BC32D5Dae2174](https://optimistic.etherscan.io/address/0x3F1d224557afA4365155ea77cE4BC32D5Dae2174#code) |
 | `FRAXUSDTMetaPoolLPToken` | [0xb63d7B0D835ca6eFf89ab774498ed6dD0D71e93e](https://optimistic.etherscan.io/address/0xb63d7B0D835ca6eFf89ab774498ed6dD0D71e93e#code) |
+| `FRAXUSXMetaPool`         | [0xe184F7E575a5Beb8f2409E8e2218Cd770ddDa2A6](https://optimistic.etherscan.io/address/0xe184F7E575a5Beb8f2409E8e2218Cd770ddDa2A6#code) |
+| `FRAXUSXMetaPoolDeposit`  | [0xB10Ac31a6e613c6fcB5522c19f4bdBCFFa94f89d](https://optimistic.etherscan.io/address/0xB10Ac31a6e613c6fcB5522c19f4bdBCFFa94f89d#code) |
+| `FRAXUSXMetaPoolLPToken`  | [0xf349fB2b5eD45864e1d9ad34a483Eb37aC6e0034](https://optimistic.etherscan.io/address/0xf349fB2b5eD45864e1d9ad34a483Eb37aC6e0034#code) |
 | `FRAXMetaPool`            | [0xc55E8C79e5A6c3216D4023769559D06fa9A7732e](https://optimistic.etherscan.io/address/0xc55E8C79e5A6c3216D4023769559D06fa9A7732e#code) |
 | `FRAXMetaPoolDeposit`     | [0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17](https://optimistic.etherscan.io/address/0x88Cc4aA0dd6Cf126b00C012dDa9f6F4fd9388b17#code) |
 | `FRAXMetaPoolLPToken`     | [0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A](https://optimistic.etherscan.io/address/0xfF5fa61Eb9b5cDD63bdFa16EF029d5313457925A#code) |
