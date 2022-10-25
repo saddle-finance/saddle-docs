@@ -148,7 +148,7 @@ All Saddle protocol smart contracts are immutable.
 ### Token
 | Contract Name | Contract Address                                                                                                                  |
 | :------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
-| `MiniChefV2`  | [0x2069043d7556B1207a505eb459D18d908DF29b55](https://https://arbiscan.io/address/0x2069043d7556B1207a505eb459D18d908DF29b55#code) |
+| `MiniChefV2`  | [0x2069043d7556B1207a505eb459D18d908DF29b55](https://arbiscan.io/address/0x2069043d7556B1207a505eb459D18d908DF29b55#code) |
 | `SDL`         | [0x75c9bc761d88f70156daf83aa010e84680baf131](https://arbiscan.io/address/0x75c9bc761d88f70156daf83aa010e84680baf131#code)         |
 
 ### Other
@@ -178,7 +178,7 @@ All Saddle protocol smart contracts are immutable.
 ### Token
 | Contract Name | Contract Address                                                                                                               |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------- |
-| `MiniChefV2`  | [0x0232e0b6df048c8CC4037c52Bc90cf943c9C8cC6](https://https://evm.evmos.org/address/0x0232e0b6df048c8CC4037c52Bc90cf943c9C8cC6) |
+| `MiniChefV2`  | [0x0232e0b6df048c8CC4037c52Bc90cf943c9C8cC6](https://evm.evmos.org/address/0x0232e0b6df048c8CC4037c52Bc90cf943c9C8cC6) |
 | `SDL`         | [0x3344e55C6DDE2A01F4ED893f97bAC1f99EC24f8B](https://evm.evmos.org/address/0x3344e55C6DDE2A01F4ED893f97bAC1f99EC24f8B)         |
 
 ### Other
