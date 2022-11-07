@@ -111,19 +111,48 @@ Note that the amount of veSDL needed to maintain maximum boost changes depending
 
 ![](<.gitbook/assets/image (4).png>)
 
-### How to vote in gauge for allocating SDL rewards&#x20;
+## Understanding gauge voting&#x20;
 
 As a veSDL holder, you have the power to vote on which Saddle pools will emit SDL incentives (and how much incentives) on a weekly basis.
 
-For the first 6 months following launch of veSDL, a total of 30M SDL in incentives will be emitted. Your vote will help determine which pools those incentives are emitted to, and thus which pool LPs will receive more SDL for their contributions to pool liquidity. (Note that in the first week, SDL incentives will be distributed proportionally to each pool based on TVL on Mainnet. Pools on alt L1s and L2s will continue to emit rewards via MiniChef and will be added to the gauge system at a later date)
+For the first 6 months following launch of veSDL, a total of 30M SDL in incentives will be emitted. Your vote will help determine which pools those incentives are emitted to, and thus which pool LPs will receive more SDL for their contributions to pool liquidity. (Note that in the first week, SDL incentives will be distributed proportionally to each pool based on TVL on Mainnet. Pools on alt L1s and L2s will continue to emit rewards via MiniChef and will be added to the gauge system at a later date).
 
-Voting is done via Snapshot, so it will be free / gasless!
+Saddle previously used Snapshot for gauge voting; while this had the benefit of being gasless, it also meant that users had to cast new votes every week. On-chain voting is no longer gasless, but enables users to set their votes once and not update them again until their preferences change.
 
-To vote, simply head to the veSDL page on saddle.exchange, and under the Gauge Vote section, click the \[Vote] button for the current week. (Or head to [Saddle’s Snapshot](https://snapshot.org/#/saddlefinance.eth) directly to vote).
+### How to vote on-chain
 
-**First vote (for Week 2) will start on Friday 06/24/2022.**
+* Navigate to saddle.exchange/#/vesdl 
 
-![](https://lh3.googleusercontent.com/biKzFSWey8uy9nRRqIejvRCQVIo2aTE0e3iIJt8Advrz-6XOs\_-HjS78UY9Y-upVd1bGAWSgRH-jMCp-\_YpIOjC6rTNxTAlQ85EqOfLPJzglApCFqD7f31dqDUgg85cPrXjmovq8FhiYrW634A)
+<figure><img src=".gitbook/assets/IMG_1101.jpg" alt=""></figure>
+
+* Find the voting section in the bottom left corner, below the pie chart. 
+
+<figure><img src=".gitbook/assets/IMG_1108.jpg" alt=""></figure>
+
+* Note that you are shown your veSDL balance, which is your total voting power.
+
+<figure><img src=".gitbook/assets/IMG_1109.jpg" alt=""></figure>
+
+* Choose a gauge that you would like to vote for from the dropdown list. 
+
+<figure><img src=".gitbook/assets/IMG_1110.jpg" alt=""></figure>
+
+
+* Input the percent of your total voting power that you would like to allocate to this gauge (eg if your voting power is 100 veSDL, 80% will allocate 80 veSDL).
+
+<figure><img src=".gitbook/assets/IMG_1111.jpg" alt=""></figure>
+
+
+* Finally, click “Vote for this gauge” to initiate a transaction through your wallet.
+
+<figure><img src=".gitbook/assets/IMG_1112.jpg" alt=""></figure>
+
+
+### Notable limitations of this system
+* Users cannot vote for the same gauge in a 10 day period. This also means that users cannot remove their vote for a gauge in those 10 days (note that removing your vote is equivalent to voting with 0% and this mechanism is in place to prevent abuse of the voting system).
+* Users cannot vote in the same week their veSDL lock is expiring.
+* Users cannot vote beyond 100%. They must reduce their existing votes first.
+* Users can only vote with percentages (eg 5%, 10%).
 
 
 
@@ -136,6 +165,14 @@ The elements that influence your voting power are the amount of tokens locked an
 As a result, those who commit to holding veSDL for a longer period of time have more voting power (and boosties).&#x20;
 
 Note that your voting power decays over time, so as your lock duration for SDL decreases, so does your voting power.
+
+### What to do when you’ve used 100% of your voting power
+
+Reduce or reset an existing vote to free up veSDL.
+
+*Note: a user may manually reset a weight by voting for 0% on the respective gauge.*
+
+
 
 ## veSDL FAQ
 
