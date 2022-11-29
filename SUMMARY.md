@@ -44,7 +44,7 @@
   * [Meta](solidity-docs/meta/README.md)
     * [MetaSwap](solidity-docs/meta/MetaSwap.md)
     * [MetaSwapDeposit](solidity-docs/meta/MetaSwapDeposit.md)
-    * [MetaSwapUtils](solidity-docs/meta/MetaSwap.md)
+    * [MetaSwapUtils](solidity-docs/meta/MetaSwapUtils.md)
   * [Guarded](solidity-docs/guarded/README.md)
     * [SwapGuarded](solidity-docs/guarded/SwapGuarded.md)
     * [SwapUtilsGuarded](solidity-docs/guarded/SwapUtilsGuarded.md)
