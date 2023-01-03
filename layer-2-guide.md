@@ -4,12 +4,6 @@ description: Layer 2 is a different network running atop the Ethereum Mainnet (L
 
 # Layer 2 Guide
 
-Saddle is launching on L2 starting with an incentivized stablecoin pool. The first Saddle pool on Arbitrum is a stablecoin pool composed of USDC, USDT, nUSD, and MIM launched in collaboration with [Synapse Protocol](https://twitter.com/synapseprotocol).
-
-This pool will be incentivized with 4,958,678 SDL tokens (\~0.5% of total supply) over \~6 months. Read more about pool incentives in the [tokenomics section](sdl-token.md). Incentives distribution will start on 11/18/21 12:00AM UTC.
-
-**`Note:`**` ``Initially Saddle will launch on Arbitrum and (later) Optimism.`
-
 ### **ETHEREUM LAYER 2 SOLUTIONS** <a href="#_toc87951811" id="_toc87951811"></a>
 
 Ethereum network is a popular destination for most decentralized apps (dApps). The popularity has led to enormous activity of Ethereum, which results in high gas fees and slow transaction speed. [Layer 2 networks](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/) are a solution for Ethereum scaling challenges.
@@ -20,15 +14,15 @@ Layer 2 is a different network running atop the Ethereum Mainnet (layer 1) and s
 
 Rollups perform transaction execution outside the Ethereum Mainnet (layer 1) and post the transaction data on layer 1. The “rollup” is so-called because the layer 2 solutions roll up transactions and fit them into a single block in layer 1. As transaction data is on layer 1, rollups are secured by layer 1. There are two types of rollups:
 
-**1) Optimistic rollup** assumes transactions are valid by default (hence the name optimistic) and only runs computation, via a fraud proof, in the event of a challenge. Optimistic rollups are scalable because they don't do any computation by default. If someone notices a fraudulent transaction, the rollup will execute a fraud-proof and run the transaction's computation, using the available state data.
+**1) Optimistic rollups** assume transactions are valid by default (hence the name optimistic) and only runs computation, via a fraud proof, in the event of a challenge. Optimistic rollups are scalable because they don't do any computation by default. If someone notices a fraudulent transaction, the rollup will execute a fraud-proof and run the transaction's computation, using the available state data.
 
 | **Advantages**                                                                    | **Disadvantages**                                                                                                        |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | <ul><li>Low gas fees</li><li>Scalable</li><li>Smart contract compatible</li></ul> | <ul><li>Long wait times for on-chain transaction because of potential fraud challenges (may take up to a week)</li></ul> |
 
-Major implementations of optimistic rollup: [Optimism](https://optimism.io), [Arbitrum](https://arbitrum.io), [Boba](https://boba.network), [Fuel Network](https://fuel.sh).
+Major implementations of optimistic rollups: [Optimism](https://optimism.io), [Arbitrum](https://arbitrum.io), [Boba](https://boba.network), [Fuel Network](https://fuel.sh).
 
-**2) Zero-knowledge rollup** runs computation off-chain and submits a validity proof to the chain. Also known as ZK rollups, these scaling solutions “roll up” many transactions off-chain and generate a cryptographic proof known as SNARK (validity proof) for the whole bundle. The validity proof is posted on layer 1, and the proof can be quickly verified, and invalid batches are rejected straightaway.
+**2) Zero-knowledge rollups** runs computation off-chain and submits a validity proof to the chain. Also known as ZK rollups or ZKRUs, these scaling solutions “roll up” many transactions off-chain and generate a cryptographic proof known as SNARK (validity proof) for the whole bundle. The validity proof is posted on layer 1, and the proof can be quickly verified, and invalid batches are rejected straightaway.
 
 | **Advantages**                                                                                 | **Disadvantages**                                                                           |
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -42,8 +36,8 @@ Major implementations of ZK-rollup: [Loopring](https://loopring.org/#/), [Aztek 
 
 **Note**: The challenge window for fraud and dispute is _**one week**_ for both Optimism and Arbitrum. Your transactions in a bundle under suspicion can be held up for one week before they’re verified, and funds are released. However, the challenge process varies across Optimism and Arbitrum.
 
-- **Arbitrum**: When a [challenge](https://developer.offchainlabs.com/docs/dispute_resolution#dispute-resolution) is submitted, Arbitrum uses an offchain dispute resolution process to isolate a single step within a transaction. The isolated step is then sent to EVM for final verification.
-- **Optimism**: When a [challenge](https://community.optimism.io/docs/protocol/fraud-proofs.html) is submitted, the entire transaction in question is run through the Ethereum EVM.
+* **Arbitrum**: When a [challenge](https://developer.offchainlabs.com/docs/dispute\_resolution#dispute-resolution) is submitted, Arbitrum uses an offchain dispute resolution process to isolate a single step within a transaction. The isolated step is then sent to EVM for final verification.
+* **Optimism**: When a [challenge](https://community.optimism.io/docs/protocol/fraud-proofs.html) is submitted, the entire transaction in question is run through the Ethereum EVM.
 
 {% hint style="info" %}
 Find Saddle's deployed code base [here](https://github.com/saddle-finance/saddle-contract/tree/master/deployments)
@@ -57,12 +51,8 @@ You can transfer assets from Layer 1 Ethereum to Layer 2 Arbitrum through the [A
 
 Follow these guidelines to move crypto assets in Optimism.
 
-- **Deposit Ether** via [The Teleporter](https://portr.xyz) or [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#ether).
-- **Deposit ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/deposit.html#erc-20-tokens).
-- **Withdraw Ether** via [The Optimism Gateway](https://gateway.optimism.io). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#ether).
-- **Withdraw ERC-20 tokens** via [The Optimism Gateway](https://gateway.optimism.io) or [3rd Party Bridges](https://www.optimism.io/apps/bridges). Follow this guide [here](https://community.optimism.io/docs/users/withdrawal.html#erc-20-tokens).
-
-**`Note:`**` ``Initially Saddle will launch on Arbitrum and (later) Optimism.`
+* **Deposit or Withdraw Ether** via the [Official Optimism Bridge](https://app.optimism.io/bridge/deposit).
+* **Deposit or Withdraw ERC-20 tokens** via [The Optimism Gateway](https://app.optimism.io/bridge/deposit) or [3rd Party Bridges](https://www.optimism.io/apps/bridges).
 
 ### BRIDGES <a href="#_toc87951816" id="_toc87951816"></a>
 
@@ -98,27 +88,23 @@ Check out the guide [here](https://docs.connext.network) to get started.
 
 ### **WORKING WITH SADDLE L2 POOLS** <a href="#_toc87951821" id="_toc87951821"></a>
 
-Swapping and LPing are the same as on L1 (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides), but ensure you have **successfully switched the network**.
+Swapping and LP'ing are the same as on L1 (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides), but ensure you have **successfully switched the network**.
 
 ### **Switching from L1 to L2 Network** <a href="#_toc87951822" id="_toc87951822"></a>
 
-- **Step 1:** Head to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools).
-- **Step 2:** Switch the network from **Ethereum to Arbitrum** to LP or trade of Saddle’s L2 Stablecoin pool.
+* **Step 1:** Head to [https://saddle.exchange/#/pools](https://saddle.exchange/#/pools).
+* **Step 2:** Switch the network from **Ethereum to Arbitrum** to LP or trade using Saddle’s L2 Stablecoin pools.
 
 ![](.gitbook/assets/0)
 
-- **Step 3:** _**Confirm the**_ network switch
+* **Step 3:** _**Confirm the**_ network switch
 
 ![](<.gitbook/assets/1 (1)>)
 
-- **Step 4 :** Once switched, working with L2 pools is the same as on L1 pools (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides).
+* **Step 4 :** Once switched, working with L2 pools is the same as on L1 pools (check out the [deposit](https://docs.saddle.finance/saddle-pools#deposit) and [withdraw](https://docs.saddle.finance/saddle-pools#withdraw) guides).
 
 ### **Incentives** <a href="#_toc87951823" id="_toc87951823"></a>
 
 Depositing assets into a pool on Saddle allows users to take part in the protocol as liquidity providers and earn reward incentives.
-
-The Saddle stablecoin pool on Arbitrum will initially be incentivized with 4,958,678 SDL tokens over \~6 months. Additional incentives may be added alla governance / community vote.
-
-Incentives distribution will start on 11/18/21 12:00AM UTC, in order to give users who wish to participate a fair window to move their liquidity.
 
 Read more about pool incentives in the [tokenomics section](sdl-token.md).

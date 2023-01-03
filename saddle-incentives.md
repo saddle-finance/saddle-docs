@@ -55,13 +55,13 @@ In Saddle both APY and APR are available as rewards to the liquidity providers. 
 
 The _typical_ process to take part in the reward program is to stake the LP tokens. Refer to the pool specific sections to know more about the reward program provided by our partners.
 
-![](<.gitbook/assets/1 (6).png>)
+![](<.gitbook/assets/1 (6) (1) (1) (3) (1).png>)
 
 ## **BTC Pool**
 
 Saddle rewards you in two ways for the BTC pool – trading fees and as KEEP incentives when you provide liquidity to the BTC pool and stake the LP tokens respectively.
 
-![](<.gitbook/assets/2 (4) (1).png>)
+![](<.gitbook/assets/2 (4) (1) (1) (1) (3) (1).png>)
 
 ### **Trading Fees**
 
@@ -81,7 +81,7 @@ Once you provide liquidity to the BTC pool, you will receive KEEP tokens represe
 * **Step 3:** Scroll down and select **TBTC V2 + SADDLE** pool
 * **Step 4:** Enter the amount of KEEP tokens to stake and click DEPOSIT
 
-![](<.gitbook/assets/Screen Shot 2021-11-16 at 2.45.34 PM.png>)
+![](<.gitbook/assets/Screen Shot 2021-11-16 at 2.45.34 PM (1).png>)
 
 * **Step 5:** Start earning incentives
 
@@ -142,7 +142,7 @@ The KEEP incentives will have to be moved from BTC Pool (v1) to the tBTC metapoo
 
 Saddle rewards you trading fees, flash loan fees , and alETH LP tokens every time you provide liquidity to the alETH pool and stake the LP tokens respectively.
 
-![](<.gitbook/assets/7 (8) (5).png>)
+![](<.gitbook/assets/12 (2) (1) (1) (3) (6).png>)
 
 ### **Trading Fees**
 
@@ -163,7 +163,7 @@ Once you provide liquidity to the alETH pool, you will receive alETH Saddle LP t
 
 * **Step 3:** Once the wallet is connected, click on **alETH Saddle LP Pool**
 
-![](<.gitbook/assets/9 (5).png>)
+![](<.gitbook/assets/5 (3) (1) (1) (1).png>)
 
 * **Step 4:** Enter the amount of LP token you wish to stake and click approve
 
@@ -191,7 +191,7 @@ The Stablecoin V2 pool also supports flash loans, which will generate additional
 
 Saddle rewards you in three ways for the D4 decentralized pool – trading fees, flash loan fees , and four incentives (TRIBE, FXS, LQTY, and ALCX tokens) every time you provide liquidity to the D4 pool.
 
-![](<.gitbook/assets/12 (8).png>)
+![](<.gitbook/assets/12 (4) (1) (1) (1) (3) (7).png>)
 
 ### **Trading Fees**
 
