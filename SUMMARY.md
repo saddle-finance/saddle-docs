@@ -7,6 +7,7 @@
 * [Layer 2 Guide](layer-2-guide.md)
 * [SDL Token](sdl-token.md)
 * [veSDL (vote escrowed) SDL](vesdl-vote-escrowed-sdl.md)
+* [Cross Chain Gauges](cross-chain-gauges.md)
 * [Governance (SIPs)](governance.md)
 * [Saddle Incentives](saddle-incentives.md)
 * [Saddle Protocol Stats](saddle-protocol-stats.md)
