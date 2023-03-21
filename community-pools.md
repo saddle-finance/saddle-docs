@@ -92,7 +92,7 @@ Read more about these different types of pools [here](https://docs.saddle.financ
 
 ### What chains are Community Pools available on?
 
-Community Pools are launching first on Ethereum Mainnet.&#x20;
+Community Pools are available to deploy on Ethereum Mainnet, Arbitrum, and Optimism.&#x20;
 
 It’s Saddle’s goal to support Community Pools on every chain where the Saddle dApp is available.
 
