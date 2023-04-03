@@ -142,7 +142,7 @@ The innovation into AMMs mathematical formula continued to find a solution to th
 
 First introduced by [Curve](https://curve.fi/whitepaper), the Stableswap is a hybrid algorithm. The Stableswap hybrid combines both Constant Product and Constant Sum models, and the following chart shows the Stableswap algorithm in relation to constant product and constant sum invariants.
 
-![](.gitbook/assets/4.png)
+![](<.gitbook/assets/4 (1).png>)
 
 * **Constant Sum:** When the liquidity pool portfolio is balanced, the algorithm functions as a Constant Sum formula; **x + y = k**. You can observe the StableSwap _**blue line**_ staying close to the Constant Sum _**red line**_, and the price is stable.
 * **Constant Product:** As the liquidity pool portfolio becomes imbalanced, the StableSwap algorithm functions as a Constant Product formula; **x \* y = k**. You can observe the StableSwap _**blue line**_ now resembling the Constant Product _**purple line**_, and the price becoming expensive.

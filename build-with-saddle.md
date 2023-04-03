@@ -27,13 +27,13 @@ We have just a few asks in return – kindly give us credits on your social chan
 
 ### **Logo & Media Kit**
 
-Drop a note in our [Discord](https://discord.gg/saddle) if you want a copy of Saddle's logo, guidelines, and brand assets.
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/drive/folders/13rTY6x24crioqOgyGCE6zJo0197AMVtD?usp=share\_link).
 
 ### **Get in Touch**
 
 Want to work on something together?
 
-* Join our [Discord](https://discord.gg/hX8RZFBW9R) and send a DM to the admin, or
+* Join our [Discord](https://discord.com/invite/saddle) and write a post in #partnership-intake-forum, or
 * Tweet or DM to us on [Twitter](https://twitter.com/saddlefinance)
 
 ## **FEATURED PROJECTS**

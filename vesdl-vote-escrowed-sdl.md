@@ -23,7 +23,7 @@ veSDL and gauges work together to give users a mechanism to vote for the pool to
 
 Instead of holders making a tradeoff between fixed, potentially higher SDL emissions and being LPs for tokens they like more, vote escrow tokenomics allows SDL holders to lock their SDL for a period of time for veSDL, or “vote escrowed” SDL. The longer they lock, the higher the veSDL:SDL exchange rate to incentivize long-term community participation. Once users have veSDL they can vote in weekly _gauge weight voting_.
 
-<figure><img src=".gitbook/assets/SDL and veSDL_short-02(smaller res).jpg" alt=""><figcaption><p>Difference between SDL and veSDL.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/SDL and veSDL_short-02(smaller res) (1).jpg" alt=""><figcaption><p>Difference between SDL and veSDL.</p></figcaption></figure>
 
 ### Gauge weight voting&#x20;
 

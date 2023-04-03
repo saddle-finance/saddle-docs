@@ -70,4 +70,4 @@ You can keep up with us on any of these channels.
 
 ## **Logos & Media Kit**
 
-You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/drive/folders/1FCHdi7dkXIf9S1ZgVk1YaIn-pzvZeVDb).
+You can download Saddle's logo, guidelines, and brand assets from [here](https://drive.google.com/drive/folders/13rTY6x24crioqOgyGCE6zJo0197AMVtD?usp=share\_link).
