@@ -2,12 +2,10 @@
 
 ## Definitions
 
-* **SDL token** - transferable, used for incentives via emission&#x20;
-* **Vote escrow SDL (veSDL)** - non-transferable, locked up by depositing SDL into the voting escrow contract, period from 1 week to 4 years&#x20;
-* **Gauge** - the smart contract controlling how much SDL incentives are emitted to each pool; veSDL holders can vote which pool to allocate SDL incentives to on a weekly basis&#x20;
-* **User checkpoint** - a user checkpoint in the veSDL mechanism is any time when you interact with veSDL: locking SDL (depositing into a gauge), unlocking SDL (withdrawing from a gauge) or claiming rewards.
-
-
+- **SDL token** - transferable, used for incentives via emission&#x20;
+- **Vote escrow SDL (veSDL)** - non-transferable, locked up by depositing SDL into the voting escrow contract, period from 1 week to 4 years&#x20;
+- **Gauge** - the smart contract controlling how much SDL incentives are emitted to each pool; veSDL holders can vote which pool to allocate SDL incentives to on a weekly basis&#x20;
+- **User checkpoint** - a user checkpoint in the veSDL mechanism is any time when you interact with veSDL: locking SDL (depositing into a gauge), unlocking SDL (withdrawing from a gauge) or claiming rewards.
 
 ## Summary&#x20;
 
@@ -69,23 +67,23 @@ In order to maximize your SDL rewards for LPing (up to 2.5x!), you’ll need som
 
 1. Input into SDL Lock section how much SDL you want to lock
 2. Input into calendar how long you want to lock up your SDL for&#x20;
-   * Minimum is 1 week (1 SDL locked for 1 week = 0.0048 veSDL)&#x20;
-   * Maximum is 4 years (1 SDL locked for 4 years = 1 veSDL)
+   - Minimum is 1 week (1 SDL locked for 1 week = 0.0048 veSDL)&#x20;
+   - Maximum is 4 years (1 SDL locked for 4 years = 1 veSDL)
 3. Click \[Create Lock] button, approve + execute transaction in your wallet&#x20;
-   * If you already have some SDL locked, the UI will show \[Adjust Lock] button instead.&#x20;
-   * In this case, you can add more SDL which will have the same unlock as your existing lock&#x20;
-   * You can also increase the unlock time without adding more SDL
-   * Depending on how much additional SDL you want to lock into veSDL, the UI will show how much additional veSDL you will receive.&#x20;
-   * Note it is not possible to lock SDL for a shorter duration than your current veSDL lock duration
+   - If you already have some SDL locked, the UI will show \[Adjust Lock] button instead.&#x20;
+   - In this case, you can add more SDL which will have the same unlock as your existing lock&#x20;
+   - You can also increase the unlock time without adding more SDL
+   - Depending on how much additional SDL you want to lock into veSDL, the UI will show how much additional veSDL you will receive.&#x20;
+   - Note it is not possible to lock SDL for a shorter duration than your current veSDL lock duration
 
-![](https://lh5.googleusercontent.com/Qc-DM7uFwIKqEW69u2oGy2Wvxk\_9vnxyB2CmEmKQwW1hjrAxRn8AbvOwzGvxEC4ydkBhBzNRcQL3yhATMcFPZKTbW2NIQMLS5tGVpU8mjMQ09kUpLYXIZwT\_w63kWSflm3cKy8HmycrN2VKEiA)
+![](https://lh5.googleusercontent.com/Qc-DM7uFwIKqEW69u2oGy2Wvxk_9vnxyB2CmEmKQwW1hjrAxRn8AbvOwzGvxEC4ydkBhBzNRcQL3yhATMcFPZKTbW2NIQMLS5tGVpU8mjMQ09kUpLYXIZwT_w63kWSflm3cKy8HmycrN2VKEiA)
 
 #### To unlock veSDL back into SDL:&#x20;
 
 1. Go to veSDL Unlock section and click \[Unlock] button, approve + execute transaction in your wallet&#x20;
-   * Note that unlocking veSDL before lockup expiry date will have a penalty. The amount is prorated linearly; so the closer you get to your unlock date, the smaller the penalty for unlocking early.
+   - Note that unlocking veSDL before lockup expiry date will have a penalty. The amount is prorated linearly; so the closer you get to your unlock date, the smaller the penalty for unlocking early.
 
-![](https://lh3.googleusercontent.com/HcPbhXTgF99TsbPF1sgMqEzHUHsm\_ecK2KmfU7C\_304ep3Da2oFt1Lz6pkSnByukH3elGwvR0Q2FUPbzcRVnSXgsgoOzRlFb8VtadUoIpjzK9xPph-mwjnXvM209FFTtL0dIbIsYaBCdGXjMag)
+![](https://lh3.googleusercontent.com/HcPbhXTgF99TsbPF1sgMqEzHUHsm_ecK2KmfU7C_304ep3Da2oFt1Lz6pkSnByukH3elGwvR0Q2FUPbzcRVnSXgsgoOzRlFb8VtadUoIpjzK9xPph-mwjnXvM209FFTtL0dIbIsYaBCdGXjMag)
 
 ### How to calculate how much veSDL you need to max out reward boosts (boosties)&#x20;
 
@@ -123,9 +121,7 @@ To vote, simply head to the veSDL page on saddle.exchange, and under the Gauge V
 
 **First vote (for Week 2) will start on Friday 06/24/2022.**
 
-![](https://lh3.googleusercontent.com/biKzFSWey8uy9nRRqIejvRCQVIo2aTE0e3iIJt8Advrz-6XOs\_-HjS78UY9Y-upVd1bGAWSgRH-jMCp-\_YpIOjC6rTNxTAlQ85EqOfLPJzglApCFqD7f31dqDUgg85cPrXjmovq8FhiYrW634A)
-
-
+![](https://lh3.googleusercontent.com/biKzFSWey8uy9nRRqIejvRCQVIo2aTE0e3iIJt8Advrz-6XOs_-HjS78UY9Y-upVd1bGAWSgRH-jMCp-_YpIOjC6rTNxTAlQ85EqOfLPJzglApCFqD7f31dqDUgg85cPrXjmovq8FhiYrW634A)
 
 ### Understanding your voting power (i.e. how much veSDL you’re actually holding) based on lock time
 
@@ -155,14 +151,14 @@ If you lock those SDL tokens you received – for a period that goes from 1 to 4
 
 You can use veSDL to:&#x20;
 
-* Boost your rewards in different SDL pools;&#x20;
-* Get voting rights on which pool receives SDL emissions;&#x20;
-* Vote on Snapshot on Saddle governance proposals.&#x20;
+- Boost your rewards in different SDL pools;&#x20;
+- Get voting rights on which pool receives SDL emissions;&#x20;
+- Vote on Snapshot on Saddle governance proposals.&#x20;
 
 Moreover:&#x20;
 
-* The longer the locking period, the greater the voting power of the hodler;&#x20;
-* veSDL cannot be transferred – the only way you have to get veSDL is by locking SDL
+- The longer the locking period, the greater the voting power of the hodler;&#x20;
+- veSDL cannot be transferred – the only way you have to get veSDL is by locking SDL
 
 #### What is the vote locking boost (boosties)?&#x20;
 
@@ -184,10 +180,10 @@ Depending on how much veSDL you hold, boosties are automatically applied to ever
 
 Yes. For clarification:&#x20;
 
-* Voting with veSDL -> determines which pool receives SDL reward emissions&#x20;
-  * When use you use your veSDL to vote for a pool/gauge, you are determining which pool is receiving SDL reward allocations&#x20;
-* Holding veSDL -> your LP in Saddle pools get boosted rewards&#x20;
-  * Independently, based on how much veSDL you hold, your LP in Saddle pools will get boosted rewards automatically&#x20;
+- Voting with veSDL -> determines which pool receives SDL reward emissions&#x20;
+  - When use you use your veSDL to vote for a pool/gauge, you are determining which pool is receiving SDL reward allocations&#x20;
+- Holding veSDL -> your LP in Saddle pools get boosted rewards&#x20;
+  - Independently, based on how much veSDL you hold, your LP in Saddle pools will get boosted rewards automatically&#x20;
 
 Note that voting doesn't remove or deplete your veSDL. You can both vote and get boosties with your full veSDL.
 
@@ -203,11 +199,11 @@ No, veSDL is non-transferrable. See previous FAQ for how to get veSDL.
 
 Visit saddle.exchange/#/veSDL to unlock your veSDL:&#x20;
 
-* Option 1: waiting until your vote lock expires and unlocking penalty-free&#x20;
-* Option 2: unlock SDL whenever you want at the cost of paying a penalty.&#x20;
-  * The penalty is calculated by taking the minimum between .75 and (time left until unlock) / 4 years.&#x20;
-  * _For example if you have 2 year left on your lock, the penalty is min(.75, 1/2) = 0.5. So the penalty is 50%._&#x20;
-  * Penalties are distributed to the remaining lockers pro-rata.
+- Option 1: waiting until your vote lock expires and unlocking penalty-free&#x20;
+- Option 2: unlock SDL whenever you want at the cost of paying a penalty.&#x20;
+  - The penalty is calculated by taking the minimum between .75 and (time left until unlock) / 4 years.&#x20;
+  - _For example if you have 2 year left on your lock, the penalty is min(.75, 1/2) = 0.5. So the penalty is 50%._&#x20;
+  - Penalties are distributed to the remaining lockers pro-rata.
 
 #### **How do I apply boosties?**&#x20;
 
@@ -215,10 +211,10 @@ If you are creating a new lock (i.e. locking SDL into veSDL for the first time),
 
 If you are adding to your lock (i.e. locking more SDL when you already hold veSDL), you’ll need a checkpoint action (i.e. any interaction with the gauge system counts; so claiming or depositing or withdrawing) in order to update your boost.&#x20;
 
-* When you lock more SDL, it will not apply the boost on existing gauges automatically.&#x20;
-* When you stake or withdraw LP tokens to/from a gauge it will apply the latest boost based on your veSDL and LP deposit size.&#x20;
-* When you claim rewards, your boost value is based on prior veSDL balance when you last interacted with the gauge, but with current total LP supply in the gauge. Then it’ll update your boost based on current veSDL for future calls.&#x20;
-* If you lock more SDL and don’t claim, you will maintain the initial boost. However, by the time you claim, the total reward rate may have been reduced (rate reduction is possible every 2 weeks). Claiming will use the latest reward rate with prior boost value. Thus you may receive less overall compared to claiming every 2 weeks.
+- When you lock more SDL, it will not apply the boost on existing gauges automatically.&#x20;
+- When you stake or withdraw LP tokens to/from a gauge it will apply the latest boost based on your veSDL and LP deposit size.&#x20;
+- When you claim rewards, your boost value is based on prior veSDL balance when you last interacted with the gauge, but with current total LP supply in the gauge. Then it’ll update your boost based on current veSDL for future calls.&#x20;
+- If you lock more SDL and don’t claim, you will maintain the initial boost. However, by the time you claim, the total reward rate may have been reduced (rate reduction is possible every 2 weeks). Claiming will use the latest reward rate with prior boost value. Thus you may receive less overall compared to claiming every 2 weeks.
 
 [Click here](vesdl-vote-escrowed-sdl.md#how-to-guide) for a guide on how locking and boosting your SDL rewards works.
 

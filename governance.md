@@ -6,10 +6,10 @@ description: SIP stands for Saddle Improvement Proposal.
 
 ### Important links:
 
-* [Saddle Improvement Proposals GitHub](https://github.com/saddle-finance/SIPS)
-* [Saddle Improvement Proposals](https://sips.saddle.community) (overview)
-* [Discourse](https://www.saddle.community) (saddle.community)
-* [Snapshot](https://snapshot.org/#/saddlefinance.eth)
+- [Saddle Improvement Proposals GitHub](https://github.com/saddle-finance/SIPS)
+- [Saddle Improvement Proposals](https://sips.saddle.community) (overview)
+- [Discourse](https://www.saddle.community) (saddle.community)
+- [Snapshot](https://snapshot.org/#/saddlefinance.eth)
 
 ## Proposal Process
 
@@ -31,15 +31,15 @@ If the initial reactions are positive and encouraging, start formalizing your id
 
 Go to [Discourse](https://www.saddle.community), look for the [Proposals](https://www.saddle.community/c/proposals/6) category, and post your proposal there (rec copying the formatting from a prev passing proposal, or using [this template](https://github.com/saddle-finance/SIPS/blob/master/sip-X.md)).
 
-![](https://lh3.googleusercontent.com/ZjKjKwrLsW36QT2\_bYZTbruEWpONi6vEU6kK-398u\_2rD6kVsfsGb-GjIzbwc3KgWb0FP8sSKqZxGs\_HbMaD19ofrZdmfVnck5pIU7hrvC7azEsyjx7l665iaMLl5kaQV7fm6h5F)
+![](https://lh3.googleusercontent.com/ZjKjKwrLsW36QT2_bYZTbruEWpONi6vEU6kK-398u_2rD6kVsfsGb-GjIzbwc3KgWb0FP8sSKqZxGs_HbMaD19ofrZdmfVnck5pIU7hrvC7azEsyjx7l665iaMLl5kaQV7fm6h5F)
 
 Here’s are a few handy tools to help draft your post:
 
-* Tips on posting proposals on Discourse: [Link](https://www.saddle.community/t/about-the-proposals-category/15)
-* Template for your post: [Link](https://github.com/saddle-finance/SIPS/blob/master/sip-X.md)
-* Before you click the submit button, check if your post has:
-  * **Sections:** Simple Summary, Abstract, Motivation, Specification
-  * **Poll:** Include a 72h poll (using the most appropriate poll type, typically Y/N or multiple choice)
+- Tips on posting proposals on Discourse: [Link](https://www.saddle.community/t/about-the-proposals-category/15)
+- Template for your post: [Link](https://github.com/saddle-finance/SIPS/blob/master/sip-X.md)
+- Before you click the submit button, check if your post has:
+  - **Sections:** Simple Summary, Abstract, Motivation, Specification
+  - **Poll:** Include a 72h poll (using the most appropriate poll type, typically Y/N or multiple choice)
 
 All set! Last step is to ping a Saddle Core Contributor in Discord to blast your shiny new proposal on all the socials to maximize engagement.
 
@@ -47,19 +47,19 @@ All set! Last step is to ping a Saddle Core Contributor in Discord to blast your
 
 If the Discourse poll passes after 72 hours, the SIP editor will step in to formalize the SIP. The voting process comprises:
 
-* Creating a vote on [Snapshot](https://snapshot.org/#/saddlefinance.eth) (by SIP editor)
-* Creating a specific discussion channel on [Discord](https://discord.gg/saddle) (by Saddle core contributor or gov mod)
-* Announcing the vote on all socials (by Saddle core contributor)
-* 72-hour voting period _for SDL holders_
+- Creating a vote on [Snapshot](https://snapshot.org/#/saddlefinance.eth) (by SIP editor)
+- Creating a specific discussion channel on [Discord](https://discord.gg/saddle) (by Saddle core contributor or gov mod)
+- Announcing the vote on all socials (by Saddle core contributor)
+- 72-hour voting period _for SDL holders_
 
 **Stage 4: Fork SIP**
 
 Once the Snapshot voting is finished and passes successfully, the SIP editor will fork the SIPs repo and create a pull request (PR):
 
-* The PR will have a copy of your proposal
-* With the metadata filled out, notably _discussions-to_ which will link to the Discourse post
-* The proposal will be named in the format: _sip-draft\_title\_abbrev.md_
-* Read [SIP-0](https://github.com/saddle-finance/SIPS/blob/master/SIPS/sip-0.md) for additional information (e.g., workflow, attaching images/diagrams, SIP editor responsibilities).
+- The PR will have a copy of your proposal
+- With the metadata filled out, notably _discussions-to_ which will link to the Discourse post
+- The proposal will be named in the format: _sip-draft_title_abbrev.md_
+- Read [SIP-0](https://github.com/saddle-finance/SIPS/blob/master/SIPS/sip-0.md) for additional information (e.g., workflow, attaching images/diagrams, SIP editor responsibilities).
 
 #### Stage 5: Execution
 
@@ -73,12 +73,12 @@ The stakeholders for the governance process can be both internal and external. V
 
 Broadly, the [SIP editor](https://github.com/saddle-finance/SIPS/blob/master/SIPS/sip-0.md#sip-editors)’s powers and responsibilities are:
 
-* Checks the incoming proposals for quality
-* Validate technical correctness
-* Check language and grammar, and other editorial aspects
-* Work with the SIP authors for revision, where required
-* Create vote on Snapshot
-* Formalize and document passed SIPs on GitHub
+- Checks the incoming proposals for quality
+- Validate technical correctness
+- Check language and grammar, and other editorial aspects
+- Work with the SIP authors for revision, where required
+- Create vote on Snapshot
+- Formalize and document passed SIPs on GitHub
 
 The editors don’t pass on judgement on SIPs, rather act as an administrative check-and-balance role.
 
@@ -88,10 +88,10 @@ The editors don’t pass on judgement on SIPs, rather act as an administrative c
 
 Core contributor powers and responsibilities:
 
-* Provide feedback on proposals
-* Advise on how best to create a passing proposal
-* Create channels and shepherd discussions in Discord and Discourse
-* Post announcements of voting start on social channels (Discord, TG, Twitter)
+- Provide feedback on proposals
+- Advise on how best to create a passing proposal
+- Create channels and shepherd discussions in Discord and Discourse
+- Post announcements of voting start on social channels (Discord, TG, Twitter)
 
 **Who:** Anyone with a `Saddle Team` role in Discord
 
@@ -99,9 +99,9 @@ Core contributor powers and responsibilities:
 
 Gov mod powers and responsibilities:
 
-* Moderating messages in communities and deleting inappropriate messages
-* Invite, ban, or suspend people who violate the community rules
-* Create channels and shepherd discussions in Discord and Discourse
-* Create vote on Snapshot
+- Moderating messages in communities and deleting inappropriate messages
+- Invite, ban, or suspend people who violate the community rules
+- Create channels and shepherd discussions in Discord and Discourse
+- Create vote on Snapshot
 
 **Who:** No one as of now. Community members interested in contributing as a gov mod should ping `zim#2649` on Discord.

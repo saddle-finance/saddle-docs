@@ -10,11 +10,11 @@ We conduct our own internal security audit of the smart contract code we’ve wr
 
 As for now, we have passed security auditing on all Saddle smart contracts, from the following auditors, with no issues.
 
-| **AUDITOR**                             | **PROTOCOL AUDIT**                                                                               | **VIRTUAL SWAP AUDIT**                                                                                        | **TOKEN AUDIT**                                                                                         |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [Certik](https://certik.io)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020\_Certik.pdf)     | N/A                                                                                                           | N/A                                                                                                     |
-| [Quantstamp](https://quantstamp.com)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020\_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021\_Quantstamp\_VirtualSwap.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-27-2021\_Quantstamp\_Token.pdf) |
-| [OpenZepplin](https://openzeppelin.com) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                  | N/A                                                                                                           | N/A                                                                                                     |
+| **AUDITOR**                             | **PROTOCOL AUDIT**                                                                              | **VIRTUAL SWAP AUDIT**                                                                                      | **TOKEN AUDIT**                                                                                       |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Certik](https://certik.io)             | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-29-2020_Certik.pdf)     | N/A                                                                                                         | N/A                                                                                                   |
+| [Quantstamp](https://quantstamp.com)    | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/12-09-2020_Quantstamp.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/03-31-2021_Quantstamp_VirtualSwap.pdf) | [PASSED](https://github.com/saddle-finance/saddle-audits/blob/master/10-27-2021_Quantstamp_Token.pdf) |
+| [OpenZepplin](https://openzeppelin.com) | [PASSED](https://blog.openzeppelin.com/saddle-contracts-audit/)                                 | N/A                                                                                                         | N/A                                                                                                   |
 
 _**Disclaimer**:_ Security audits don’t eliminate all risks. Using Saddle as an exchange for a user should be significantly less risky, but please bear in mind there are still risks. Refer to the risks section for more details.
 
@@ -73,22 +73,7 @@ _Note: This bounty does not cover any front-end/visual bugs, or any server-side 
 
 ### **Reporting Process**
 
-Report bugs and issues for Saddle protocol by sending an e-mail to [security@saddle.finance](mailto:security@saddle.finance), or reaching-out to a Saddle team member directly via Discord. Please include the following details in your message:
-
-* **Subject:** A summary of the the vulnerability
-* **Description**: Provide detailed information in the email body - overview of the issue, steps to reproduce, and any other details needed to help identify or resolve the problem
-* **Attachments**: Supporting documents, screenshots, videos, logs, etc...
-* **Your wallet address**: Please specify your preferred network and wallet address
-
-### **Report Via Other Channels**
-
-You may also report via any one of these channels:
-
-| **REPORT HERE**                 | **LINK**                                                                       |
-| ------------------------------- | ------------------------------------------------------------------------------ |
-| **Discord \[#support channel]** | [**https://discord.gg/hX8RZFBW9R**](https://discord.gg/hX8RZFBW9R)             |
-| **Telegram**                    | [**https://t.me/saddle\_finance**](https://t.me/saddle\_finance)               |
-| **Immunefi Bug Bounty**         | [**https://immunefi.com/bounty/saddle/**](https://immunefi.com/bounty/saddle/) |
+Please report any bugs and issues for the Saddle protocol through the [Immunefi Saddle bug bounty program](https://immunefi.com/bounty/saddle/). Reports through any other channels will not be considered.
 
 ### **Immunefi Terms & Conditions**
 
