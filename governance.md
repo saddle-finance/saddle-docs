@@ -23,7 +23,7 @@ The chart below shows a high-level view of the Saddle governance process:
 
 #### Stage 1: Gauge Interest
 
-If you have an idea for improving the Saddle protocol, the first stage is to test the waters. Go to Saddle on [Discord](https://discord.gg/saddle) and look for the Governance > [#discussion](https://discord.com/channels/780508954916290610/909713556491108352) channel. Share your idea and listen to what the community has to say.
+If you have an idea for improving the Saddle protocol, the first stage is to test the waters. Go to Saddle on [Discord](https://discord.gg/qEtPn5pBvk) and look for the Governance > [#discussion](https://discord.com/channels/780508954916290610/909713556491108352) channel. Share your idea and listen to what the community has to say.
 
 If the initial reactions are positive and encouraging, start formalizing your idea into a post for polling on Discourse.
 
@@ -48,7 +48,7 @@ All set! Last step is to ping a Saddle Core Contributor in Discord to blast your
 If the Discourse poll passes after 72 hours, the SIP editor will step in to formalize the SIP. The voting process comprises:
 
 - Creating a vote on [Snapshot](https://snapshot.org/#/saddlefinance.eth) (by SIP editor)
-- Creating a specific discussion channel on [Discord](https://discord.gg/saddle) (by Saddle core contributor or gov mod)
+- Creating a specific discussion channel on [Discord](https://discord.gg/qEtPn5pBvk) (by Saddle core contributor or gov mod)
 - Announcing the vote on all socials (by Saddle core contributor)
 - 72-hour voting period _for SDL holders_
 

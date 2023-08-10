@@ -155,7 +155,7 @@ It is not possible for Saddle or anyone to destroy or remove a Community Pool on
 
 Saddle is to be used at your own risk. Admins have no special keys and cannot recover funds if sent improperly. However, a wide variety of resources are still available to help you use Saddle Community Pools. If you have questions, please make sure to reach out in the following channels.
 
-- \#support forum on Saddle’s Discord: [https://discord.com/invite/saddle](https://discord.com/invite/saddle).
+- \#support forum on Saddle’s Discord: [https://discord.gg/qEtPn5pBvk](https://discord.gg/qEtPn5pBvk).
 - Chatbot on [Saddle](https://saddle.exchange/#/).&#x20;
 - Saddle’s Telegram chat: [https://t.me/saddle_finance](https://t.me/saddle_finance).
 

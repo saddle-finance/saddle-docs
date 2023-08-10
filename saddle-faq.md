@@ -8,7 +8,7 @@ description: >-
 
 ## **GENERAL**
 
-Frequently asked questions and answers regarding Saddle Finance. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding Saddle Finance. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **What is Saddle?**
 
@@ -217,7 +217,7 @@ We implemented this guarded launch to establish a more controlled environment th
 | **FOLLOW FOR LATEST SADDLE UPDATES** |                                                                        |
 | ------------------------------------ | ---------------------------------------------------------------------- |
 | Saddle Blog                          | [https://blog.saddle.finance/](https://blog.saddle.finance)            |
-| Discord                              | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
+| Discord                              | [https://discord.gg/qEtPn5pBvk](https://discord.gg/qEtPn5pBvk)         |
 | Twitter                              | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub                               | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
 | Telegram                             | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
@@ -228,7 +228,7 @@ Our goal is to provide you with the safest Saddle protocol. We encourage the com
 
 | REPORT HERE                    | LINK                                                                       |
 | ------------------------------ | -------------------------------------------------------------------------- |
-| Discord (**#support** channel) | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)             |
+| Discord (**#support** channel) | [https://discord.gg/qEtPn5pBvk](https://discord.gg/qEtPn5pBvk)             |
 | Telegram                       | [https://t.me/saddle_finance](https://t.me/saddle_finance)                 |
 | Email                          | [security@saddle.finance](mailto:security@saddle.finance)                  |
 | Immunify Bug Bounty            | [https://immunefi.com/bounty/saddle/](https://immunefi.com/bounty/saddle/) |
@@ -237,7 +237,7 @@ The [Terms and Conditions](https://immunefi.com/bounty/saddle/) cover your parti
 
 ## **SADDLE TOKEN (SDL)**
 
-Frequently asked questions and answers regarding Saddle governance token. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding Saddle governance token. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **What is** SDL token used for?
 
@@ -298,7 +298,7 @@ As of time of writing, **SDL is only claimable on mainnet.** The claim UI on Arb
 
 ## **PEGGED VALUE ASSETS**
 
-Frequently asked questions and answers regarding Saddle pegged value assets and tokens. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding Saddle pegged value assets and tokens. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **What are Pegged Value Crypto Assets (Pegged Assets) ?**
 
@@ -376,7 +376,7 @@ Absolutely yes. Our mission is to unlock deep on-chain liquidity between pegged 
 
 **Follow us**, if you haven’t already, for the latest updates on new assets and pools.
 
-| [**BLOG**](https://blog.saddle.finance) | [**DISCORD**](https://discord.gg/hX8RZFBW9R) | [**TWITTER**](https://twitter.com/saddlefinance) | [**GITHUB**](https://github.com/saddle-finance) | [**TELEGRAM**](https://t.me/saddle_finance) |
+| [**BLOG**](https://blog.saddle.finance) | [**DISCORD**](https://discord.gg/qEtPn5pBvk) | [**TWITTER**](https://twitter.com/saddlefinance) | [**GITHUB**](https://github.com/saddle-finance) | [**TELEGRAM**](https://t.me/saddle_finance) |
 | --------------------------------------- | -------------------------------------------- | ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- |
 
 **Collaborate with us** if you are working on an exciting DeFi project. Check out the [Build with Saddle](https://docs.saddle.finance/build-with-saddle) section for details.
@@ -393,7 +393,7 @@ Check out the [asset specific risk](https://docs.saddle.finance/asset-specific-r
 
 ## **LIQUIDITY POOLS & SWAPS**
 
-Frequently asked questions and answers regarding Saddle Liquidity Pools and Saddle Swaps. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding Saddle Liquidity Pools and Saddle Swaps. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **What is a Decentralized Exchange (DEX)?**
 
@@ -520,7 +520,7 @@ The Saddle’s Contract Addresses are listed [here](https://docs.saddle.finance/
 
 ## **WORKING WITH SADDLE POOLS**
 
-Frequently asked questions and answers regarding working with Saddle pools, fees, and technical details. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding working with Saddle pools, fees, and technical details. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **Can I** withdraw from a paused Saddle pool?
 
@@ -648,7 +648,7 @@ For real-time view on the trading fees over a period, you can check out the stat
 
 ## **SADDLE REWARDS & INCENTIVES**
 
-Frequently asked questions and answers regarding Saddle rewards and incentives. Still have questions? [Join our Discord](https://discord.gg/hX8RZFBW9R).
+Frequently asked questions and answers regarding Saddle rewards and incentives. Still have questions? [Join our Discord](https://discord.gg/qEtPn5pBvk).
 
 ### **What is Yield Farming?**
 

@@ -33,7 +33,7 @@ You can download Saddle's logo, guidelines, and brand assets from [here](https:/
 
 Want to work on something together?
 
-- Join our [Discord](https://discord.com/invite/saddle) and write a post in #partnership-intake-forum, or
+- Join our [Discord](https://discord.gg/qEtPn5pBvk) and write a post in #partnership-intake-forum, or
 - Tweet or DM to us on [Twitter](https://twitter.com/saddlefinance)
 
 ## **FEATURED PROJECTS**

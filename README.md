@@ -63,7 +63,7 @@ You can keep up with us on any of these channels.
 | Channel     | Link                                                                   |
 | ----------- | ---------------------------------------------------------------------- |
 | Saddle Blog | [https://blog.saddle.finance/](https://blog.saddle.finance)            |
-| Discord     | [https://discord.gg/hX8RZFBW9R](https://discord.gg/hX8RZFBW9R)         |
+| Discord     | [https://discord.gg/hX8RZFBW9R](https://discord.gg/qEtPn5pBvk)         |
 | Twitter     | [https://twitter.com/saddlefinance](https://twitter.com/saddlefinance) |
 | GitHub      | [https://github.com/saddle-finance](https://github.com/saddle-finance) |
 | Telegram    | [https://t.me/saddle_finance](https://t.me/saddle_finance)             |
